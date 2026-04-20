@@ -1,0 +1,658 @@
+[
+  {
+    "question_number": "3-1",
+    "raw": "The range of X is\n "
+  },
+  {
+    "question_number": "3-2",
+    "raw": "The range of X is 0,1,2,...,50\n "
+  },
+  {
+    "question_number": "3-3",
+    "raw": "The range of X is 0,1,2,...,99999"
+  },
+  {
+    "question_number": "3-4",
+    "raw": "The range of X is {0, 1, 2, 3, 4, 5}"
+  },
+  {
+    "question_number": "3-5",
+    "raw": "The range of X is {1, 2, …, 491}. Because 490 parts are conforming, a nonconforming part must be selected in 491\nselections.\n "
+  },
+  {
+    "question_number": "3-6",
+    "raw": "The range of X is 0,1,2,...,100 . Although the range actually obtained from lots typically might not exceed 10%."
+  },
+  {
+    "question_number": "3-7",
+    "raw": "The range of X is conveniently modeled as all nonnegative integers. That is, the range of X is {0, 1, 2, …}"
+  },
+  {
+    "question_number": "3-8",
+    "raw": "The range of X is conveniently modeled as all nonnegative integers. That is, the range of X is {0, 1, 2, …}"
+  },
+  {
+    "question_number": "3-9",
+    "raw": "The range of X is {0, 1, 2, …, 15}"
+  },
+  {
+    "question_number": "3-10",
+    "raw": "The possible totals for two orders are 1/8 + 1/8 = 1/4, 1/8 + 1/4 = 3/8, 1/8 + 3/8 = 1/2, 1/4 + 1/4 = 1/2,\n1/4 + 3/8 = 5/8, 3/8 + 3/8 = 6/8.\nTherefore the range of X is\n 1\n4\n,\n3\n8\n,\n1\n2\n,\n5\n8\n,\n6\n8\n"
+  },
+  {
+    "question_number": "3-11",
+    "raw": "The range of X is {0, 1, 2, …, 10,000}"
+  },
+  {
+    "question_number": "3-12",
+    "raw": "The range of X is {100, 101, …, 150}"
+  },
+  {
+    "question_number": "3-13",
+    "raw": "The range of X is {0, 1, 2, …, 40000)"
+  },
+  {
+    "question_number": "3-14",
+    "raw": "The range of X is {0, 1, 2, ..., 16}."
+  },
+  {
+    "question_number": "3-15",
+    "raw": "The range of X is {1, 2, ..., 100}.\nf (0) = P(X = 0) =1/ 6+1/ 6 =1/ 3\nX\nf (1.5) = P(X =1.5) =1/ 3\nX\nf (2) =1/ 6\nX\nf (3) =1/ 6\nX\na) P(X = 1.5) = 1/3\nb) P(0.5< X < 2.7) = P(X = 1.5) +P(X = 2) = 1/3 + 1/6 = 1/2\nc) P(X > 3) = 0\nP(0  X  2) = P(X = 0) + P(X =1.5) =1/3+1/3 = 2/3\nd)\ne) P(X = 0 or X = 2) = 1/3 + 1/6 = 1/2"
+  },
+  {
+    "question_number": "3-17",
+    "raw": "All probabilities are greater than or equal to zero and sum to one.\na) P(X  2)=1/8 + 2/8 + 2/8 + 2/8 + 1/8 = 1\nb) P(X > - 2) = 2/8 + 2/8 + 2/8 + 1/8 = 7/8\nc) P(-1  X  1) = 2/8 + 2/8 + 2/8 =6/8 = 3/4\n\nd) P(X  -1 or X=2) = 1/8 + 2/8 +1/8 = 4/8 =1/2"
+  },
+  {
+    "question_number": "3-18",
+    "raw": "All probabilities are greater than or equal to zero and sum to one.\na) P(X 1)=P(X=1)=0.5714\nb) P(X>1)= 1-P(X=1)=1-0.5714=0.4286\nc) P(2<X<6)=P(X=3)=0.1429\nd) P(X1 or X>1)= P(X=1)+ P(X=2)+P(X=3)=1"
+  },
+  {
+    "question_number": "3-19",
+    "raw": "Probabilities are nonnegative and sum to one.\na) P(X = 4) = 9/25\nb) P(X  1) = 1/25 + 3/25 = 4/25\nc) P(2  X < 4) = 5/25 + 7/25 = 12/25\nd) P(X > −10) = 1"
+  },
+  {
+    "question_number": "3-20",
+    "raw": "Probabilities are nonnegative and sum to one.\na) P(X = 2) = 3/4(1/4)2 = 3/64\nb) P(X  2) = 3/4[1+1/4+(1/4)2] = 63/64\nc) P(X > 2) = 1 − P(X  2) = 1/64\nd) P(X  1) = 1 − P(X  0) = 1 − (3/4) = 1/4\na) P(X≥2)=P(X=2)+P(X=2.25)=0.2+0.1=0.3\nb) P(X<1.65)=P(X=1.25)+P(X=1.5)=0.2+0.4=0.6\nc) P(X=1.5)=f(1.5)=0.4\nd) P(X<1.3 or X>2.1)=P(X=1.25)+P(X=2.25)=0.2+0.1=0.3"
+  },
+  {
+    "question_number": "3-22",
+    "raw": "X = the number of patients in the sample who are admitted\nRange of X = {0,1,2}\nA = the event that the first patient is admitted\nB = the event that the second patient is admitted\nA and B are independent events due to the selection with replacement.\nP(A)=P(B)=1277/5292=0.2413\nP(X=0) = P(A'B') = (1−0.2413)(1−0.2413) = 0.576\nP(X=1) = P(A  B')+P(A'B) = 0.2413(1−0.2413)+ (1−0.2413)(0.2413) = 0.366\nP(X=2) = (AB) = 0.2413×0.2413 = 0.058\nx P(X=x)\n0 0.576\n1 0.366\n2 0.058"
+  },
+  {
+    "question_number": "3-23",
+    "raw": "X = number of successful surgeries.\nP(X=0)=0.1(0.33)=0.033\nP(X=1)=0.9(0.33)+0.1(0.67)=0.364\nP(X=2)=0.9(0.67)=0.603"
+  },
+  {
+    "question_number": "3-24",
+    "raw": "P(X = 0) = 0.023 = 8 x 10-6\nP(X = 1) = 3[0.98(0.02)(0.02)]=0.0012\nP(X = 2) = 3[0.98(0.98)(0.02)]=0.0576\nP(X = 3) = 0.983 = 0.9412"
+  },
+  {
+    "question_number": "3-25",
+    "raw": "X = number of wafers that pass\nP(X=0) = (0.2)3 = 0.008\nP(X=1) = 3(0.2)2(0.8) = 0.096\nP(X=2) = 3(0.2)(0.8)2 = 0.384\nP(X=3) = (0.8)3 = 0.512"
+  },
+  {
+    "question_number": "3-26",
+    "raw": "X: the number of computers that vote for a left roll when a right roll is appropriate.\np=0.0001.\nP(X=0)=(1-p)4=0.99994=0.9996\n\nP(X=1)=4*(1-p)3p=4*0.999930.0001=0.0003999\nP(X=2)=C 2(1-p)2p2=5.999*10-8\n4\nP(X=3)=C 3(1-p)1p3=3.9996*10-12\n4\nP(X=4)=C 0(1-p)0p4=1*10-16\n4"
+  },
+  {
+    "question_number": "3-27",
+    "raw": "P(X = 50 million) = 0.5, P(X = 25 million) = 0.3, P(X = 10 million) = 0.2"
+  },
+  {
+    "question_number": "3-28",
+    "raw": "P(X = 10 million) = 0.3, P(X = 5 million) = 0.6, P(X = 1 million) = 0.1"
+  },
+  {
+    "question_number": "3-29",
+    "raw": "P(X = 15 million) = 0.6, P(X = 5 million) = 0.3, P(X = -0.5 million) = 0.1"
+  },
+  {
+    "question_number": "3-30",
+    "raw": "X = number of components that meet specifications\nP(X=0) = (0.05)(0.02) = 0.001\nP(X=1) = (0.05)(0.98) + (0.95)(0.02) = 0.068\nP(X=2) = (0.95)(0.98) = 0.931"
+  },
+  {
+    "question_number": "3-31",
+    "raw": "X = number of components that meet specifications\nP(X=0) = (0.05)(0.02)(0.01) = 0.00001\nP(X=1) = (0.95)(0.02)(0.01) + (0.05)(0.98)(0.01)+(0.05)(0.02)(0.99) = 0.00167\nP(X=2) = (0.95)(0.98)(0.01) + (0.95)(0.02)(0.99) + (0.05)(0.98)(0.99) = 0.07663\nP(X=3) = (0.95)(0.98)(0.99) = 0.92169"
+  },
+  {
+    "question_number": "3-32",
+    "raw": "X = final temperature\nP(X=266) = 48/200 = 0.24\nP(X=271) = 60/200 = 0.30\nP(X=274) = 92/200 = 0.46\nf ( x ) =\n 0\n0\n0\n.\n.\n.\n2\n3\n4\n4\n0\n6\n,\n,\n,\nx\nx\nx\n=\n=\n=\n2\n2\n2\n6\n7\n7\n6\n1\n4"
+  },
+  {
+    "question_number": "3-33",
+    "raw": "X = waiting time (hours)\nP(X=1) = 19/500 = 0.038\nP(X=2) = 51/500 = 0.102\nP(X=3) = 86/500 = 0.172\nP(X=4) = 102/500 = 0.204\nP(X=5) = 87/500 = 0.174\nP(X=6) = 62/500 = 0.124\nP(X=7) = 40/500 = 0.08\nP(X=8) = 18/500 = 0.036\nP(X=9) = 14/500 = 0.028\nP(X=10) = 11/500 = 0.022\nP(X=15) = 10/500 = 0.020\n\n0.038, x =1\n\n0.102, x = 2\n\n0.172, x = 3\n\n0.204, x = 4\n\n\n0.174, x = 5\n\nf (x) = 0.124, x = 6\n\n\n0.080, x = 7\n\n0.036, x = 8\n\n0.028, x = 9\n\n0.022, x =10\n\n0.020, x =15\n"
+  },
+  {
+    "question_number": "3-34",
+    "raw": "X = days until change\nP(X=1.5) = 0.05\nP(X=3) = 0.25\nP(X=4.5) = 0.35\nP(X=5) = 0.20\nP(X=7) = 0.15\nf ( x ) =\n 0\n0\n0\n0\n0\n.\n.\n.\n.\n.\n0\n2\n3\n2\n1\n5\n5\n5\n0\n5\n,\n,\n,\n,\n,\nx\nx\nx\nx\nx\n=\n=\n=\n=\n=\n1\n3\n4\n5\n7\n. 5\n. 5"
+  },
+  {
+    "question_number": "3-35",
+    "raw": "X = Non-failed well depth\nP(X=255) = (1515+1343)/7726 = 0.370\nP(X=218) = 26/7726 = 0.003\nP(X=317) = 3290/7726 = 0 .426\nP(X=231) = 349/7726 = 0.045\nP(X=267) = (280+887)/7726 = 0.151\nP(X=217) = 36/7726 = 0.005\nf ( x ) =\n 0\n0\n0\n0\n0\n0\n.\n.\n.\n.\n.\n.\n0\n0\n0\n3\n1\n4\n0\n0\n4\n7\n5\n2\n5\n3\n5\n0\n1\n6\n,\n,\n,\n,\n,\n,\nx\nx\nx\nx\nx\nx\n=\n=\n=\n=\n=\n=\n2\n2\n2\n2\n2\n3\n1\n1\n3\n5\n6\n1\n7\n8\n1\n5\n7\n7"
+  },
+  {
+    "question_number": "3-36",
+    "raw": "X = the number of wafers selected\nX ϵ {1, 2, ...}\nP(X=1) = 0.10\nP(X=2) = (1−0.10)(0.10) = 0.09\nP(X=3) = (1−0.10)2(0.10) = 0.081\nP(X=4) = (1−0.10)3(0.10) = 0.0729\nIn general, P(X=x) = (0.10) (1−0.10) x-1 for x = 1, 2, 3,…"
+  },
+  {
+    "question_number": "3-37",
+    "raw": "X = the number of failed devices\nRange of X = {0,1,2}\nA = the event that the first device fails\nB = the event that the second device fails\nP(X=0) = P(A'B') = (0.8)(0.9) = 0.72\nP(X=1) = P(AB') + P(A'B) = (1−0.8)(0.9)+(0.8)(1-0.9) = 0.26\nP(X=2) = P(AB) = (1−0.8)(1−0.9) = 0.02\nx P(X=x)\n0 0.72\n1 0.26\n2 0.02\nF ( x ) =\n\n1\n2\n5\n0\n/\n/\n/\n1\n,\n3\n3\n6\n0\n1 .\n2\n\n5\nx\n\n3\n\nx\n\nx\n\n\nx\n0\n\nx\n1\n\n.\n3\n5\n2\n\nwhere\nf\nf\nf\nf\nX\nX\nX\nX\n(\n(\n(\n(\n0\n1\n2\n3\n)\n. 5\n)\n)\n=\n)\n=\n=\nP\n=\n1\n1\n(\nP\n/\n/\nX\n6\n6\n( X\n= 0\n=\n)\n1\n=\n. 5\n1\n)\n/\n=\n6\n1\n+\n/\n1\n3\n/ 6 = 1 / 3\nF ( x ) =\n\n1\n3\n5\n7\n0\n/\n/\n/\n/\n1\n,\n8\n8\n8\n8\n−\n−\n2\n0\n1\n1\nx\n\n\n\n\n2\n\nx\n\nx\nx\nx\n− 2\n\n\n\n\nx\n−\n0\n1\n2\n1\n\nwhere\nf\nf\nf\nf\nf\nX\nX\nX\nX\nX\n(\n(\n(\n(\n(\n−\n−\n0\n1\n2\n2\n1\n)\n)\n)\n)\n)\n=\n=\n=\n=\n=\n2\n2\n1\n1\n2\n/\n/\n/\n/\n/\n8\n8\n8\n8\n8\na) P(X  1.25) = 7/8\nb) P(X  2.2) = 1\nc) P(-1.1 < X  1) = 7/8 − 1/8 = 3/4\nd) P(X > 0) = 1 − P(X  0) = 1 − 5/8 = 3/8\n 0 x 1 \n \n 4 7 1 x  2\nF(x) =  \n6 7 2  x  3\n \n \n 1 3  x \na) P(X < 1.5) = 4/7\nb) P(X  3) = 1\nc) P(X > 2) = 1 – P(X  2) = 1 – 6/7 = 1/7\nd) P(1 < X  2) = P(X  2) – P(X  1) = 6/7 – 4/7 = 2/7\n\n\n 0, x  0 \n \n1/25 0 x 1\n \n  4/25 1 x  2 \nF(x) =  \n9/25 2 x 3\n \n16/25 3 x  4\n \n1 4 x \n \n 0, x  0 \n \n3/4 0 x 1\n \n 15/16 1 x  2 \nF(x) =  \n63/64 2 x 3\n \n ... ... \n \n1 x   \n \nIn general, F(x) = (4k-1) / 4k for k – 1 ≤ x < k\nF ( x ) =\n\n0\n0\n0\n0\n1\n0\n.\n.\n.\n.\n2\n6\n7\n9\nx \n1 . 2 5 \n1 . 5 \n1 . 7 5\n2  x\n2\n1 . 2 5\nx \nx  1\n x \n 2 .\n. 2 5 \n1\n.\n2\n. 5\n7 5\n2\n5\nx\n\nProbability a patient from hospital 1 is admitted is 1277/5292 = 0.2413\nHere X is the number of patents admitted in the sample.\nRange of X = {0,1,2}\nP(X=0) = (1 − 0.2413)(1 − 0.2413) = 0.576\nP(X=1) = 0.2413(1 − 0.2413)+ (1 − 0.2413)(0.2413) = 0.366\nP(X=2) = 0.2413×0.2413 = 0.058\nThe cumulative distribution function of X is\nF ( x ) =\n\n0\n0\n.\n.\n0\n5\n9\n1\n7\n4\n6\n2\n0\n1\nx\n\n\nx\n\nx\nx\n\n0\n\n\n2\n1\n2\n\n 0, x  0 \n \n0.008, 0  x 1\n \n \nF(x) = 0.104, 1 x  2\n \n0.488, 2  x  3\n \n 1, 3  x \n \n\nf (0) = 0.23 = 0.008\nf (1) = 3(0.2)(0.2)(0.8) = 0.096\nf (2) = 3(0.2)(0.8)(0.8) = 0.384\nf (3) = (0.8)3 = 0.512\n 0, x  0 \n \n0.9996, 0  x 1\n \n \nF(x) =  0.9999, 1 x  3\n \n0.99999, 3 x  4\n \n 1, 4  x \nf\nf\nf\nf\nf\n(\n(\n(\n(\n(\n0\n1\n2\n3\n4\n)\n)\n)\n)\n)\n=\n=\n=\n=\n=\n0\n4\n5\n3\n1\n.\n(\n.\n.\n0\n9\n0\n9\n9\n−\n9\n.\n9\n9\n1\n9\n9\n9\n9\n6\n9\n9\n(\n6\n9\n1\n4\n9\n0\n( 1\n=\n3\n−\n0\n)\n8\n−\n0\n(\n)\n1\n.\n0\n2\n9\n.\n)\n9\n0\n9\n0\n6\n0 1 ) = 0 . 0 0 0 3 9 9\nF ( x ) =\n\n0\n0\n0\n.\n.\n1\n,\n2\n5\n,\n,\n,\n1\n2\n0\n5\nx\n\n\n5 0\n\nx\nx\n\n1\n\n\n0\nx\n2\n5\n5\n0\n\nwhere P(X = 50 million) = 0.5, P(X = 25 million) = 0.3, P(X = 10 million) = 0.2\nF ( x ) =\n\n0\n0\n0\n.\n.\n1\n,\n1\n7\n,\n,\n, 5\n1 \n\n1\nx\n0\n\nx\nx\n\n1\n\n\nx\n1\n5\n0\n\nwhere P(X = 10 million) = 0.3, P(X = 5 million) = 0.6, P(X = 1 million) = 0.1"
+  },
+  {
+    "question_number": "3-49",
+    "raw": "The sum of the probabilities is 1 and all probabilities are greater than or equal to zero;\nf(1) = 0.5, f(3) = 0.5\na) P(X  3) = 1\nb) P(X  2) = 0.5\nc) P(1  X  2) = P(X=1) = 0.5\nd) P(X>2) = 1 − P(X2) = 0.5"
+  },
+  {
+    "question_number": "3-50",
+    "raw": "The sum of the probabilities is 1 and all probabilities are greater than or equal to zero;\nf(1) = 0.7, f(4) = 0.2, f(7) = 0.1\na) P(X  4) = 0.9\nb) P(X > 7) = 0\nc) P(X  5) = 0.9\n\nd) P(X>4) = 0.1\ne) P(X2) = 0.7"
+  },
+  {
+    "question_number": "3-51",
+    "raw": "The sum of the probabilities is 1 and all probabilities are greater than or equal to zero;\nf(-10) = 0.25, f(30) = 0.5, f(50) = 0.25\na) P(X50) = 1\nb) P(X40) = 0.75\nc) P(40  X  60) = P(X=50)=0.25\nd) P(X<0) = 0.25\ne) P(0X<10) = 0\nf) P(−10<X<10) = 0"
+  },
+  {
+    "question_number": "3-52",
+    "raw": "The sum of the probabilities is 1 and all probabilities are greater than or equal to zero;\nf(1/8) = 0.2, f(1/4) = 0.7, f(3/8) = 0.1\na) P(X1/18) = 0\nb) P(X1/4) = 0.9\nc) P(X5/16) = 0.9\nd) P(X>1/4) = 0.1\ne) P(X1/2) = 1\nF ( x ) =\n\n0\n0\n0\n. 2\n. 5\n1\n,\n4\n4\n,\n,\n,\n2\n2\n6\n7\n6\n1\nx\n2\n\n\n7\n\n4\nx\nx\n2\n\n6\n\n\n6\nx\n2\n2\n7\n7\n1\n4\n\nwhere P(X = 266 K) = 0.24, P(X = 271 K) = 0.30, P(X = 274 K) = 0.46\n 0, x 1 \n \n0.038, 1 x  2\n \n0.140, 2  x  3 \n \n0.312, 3  x  4\n \n0.516, 4  x  5\n \n \n0.690, 5  x  6\n \nF(x) =\n \n0.814, 6  x  7\n \n0.894, 7  x  8 \n \n0.930, 8  x  9\n \n0.958, 9  x 10 \n \n0.980, 10  x 15\n \n \n1 15  x\n \nwhere P(X=1) = 0.038, P(X=2) = 0.102, P(X=3) = 0.172, P(X=4) = 0.204, P(X=5) = 0.174, P(X=6) = 0.124, P(X=7) =\n0.08, P(X=8) = 0.036, P(X=9) = 0.028, P(X=10) = 0.022, P(X=15) = 0.020\n\n 0, x 1.5 \n \n0.05, 1.5  x  3\n \n0.30, 3 x  4.5\nF(x) =  \n0.65, 4.5  x  5\n \n0.85, 5  x  7 \n \n1 7  x\n \nwhere P(X=1.5) = 0.05, P(X= 3) = 0.25, P(X=4.5) = 0.35, P(X=5) = 0.20, P(X=7) = 0.15\nF ( x ) =\n\n0\n00\n0\n0\n1\n.\n..\n.\n.\n,\n0\n0\n00\n4\n5\n,\n0\n05\n2\n7\n5\n83\n3\n4\n,\n,,\n,\n,\n2\n22\n2\n2\n3\n1\n13\n5\n6\n1\n7\n81\n5\n7\n7\nx\n\n\n\n\n\n 2\nx\nxx\nx\nx\nx\n1\n\n\n\n\n7\n2\n22\n2\n3\n1\n35\n6\n1\n8\n15\n7\n7\n\nwhere P(X=255) = 0.370, P(X=218) = 0.003, P(X=317) = 0.426, P(X=231) = 0.045, P(X=267) = 0.151,\nP(X=217) = 0.005"
+  },
+  {
+    "question_number": "3-57",
+    "raw": "Mean and Variance\n=\n=\nE\n0 (\n(\n0\nX\n. 2\n)\n)\n=\n+\n0\n1 (\nf\n0\n(\n.\n0\n2\n)\n)\n+\n+\n1\n2\nf\n( 0\n( 1\n. 2\n)\n)\n+\n+\n2\n3\nf\n(\n(\n0\n2\n. 2\n)\n)\n+\n+\n3\n4\nf\n(\n(\n0\n3\n.\n)\n2\n+\n) =\n4\n2\nf ( 4 ) \n( ) =\n=\n0\n0\n2\n( 0 .\n(\n2\n0\n)\n)\n+\n+\n1\n1\n( 0\n2\n. 2\n(\n)\n1\n+\n) +\n4 (\n2\n0\n2\n. 2 )\n(\n+\n2 )\n9\n+\n( 0\n3\n. 2\n2\n) +\n( 3\n1\n)\n6\n+\n( 0\n4\n. 2\n2\n) −\n( 4\n2\n)\n2\n−\n= 2\n2  V X f f f f f\n3- 58. Mean and Variance for random variable in exercise 3-14\n= E(X ) = 0 f (0) +1.5 f (1.5) + 2 f (2) + 3 f (3)\n= 0(1/3) +1.5(1/3) + 2(1/6) + 3(1/6) =1.333\nV(X) = 02 f (0) +1.52 f (1) + 22 f (2) + 32 f (3) −2\n= 0(1/3) + 2.25(1/3) + 4(1/6) + 9(1/6) −1.3332 =1.139"
+  },
+  {
+    "question_number": "3-59",
+    "raw": "Determine E(X) and V(X) for random variable in exercise 3-15\n= E(X ) = −2 f (−2) −1f (−1) + 0 f (0) +1f (1) + 2 f (2)\n.\n= −2(1/8) −1(2/8) + 0(2/8) +1(2/8) + 2(1/8) = 0\nV(X) = −22 f (−2) −12 f (−1) + 02 f (0) +12 f (1) + 22 f (2) −2\n= 4(1/8) +1(2/8) + 0(2/8) +1(2/8) + 4(1/8) − 02 =1.5"
+  },
+  {
+    "question_number": "3-60",
+    "raw": "Determine E(X) and V(X) for random variable in exercise 3-16\n\n= E(X) =1f (1)+ 2 f (2)+3f (3)\n=1(0.5714286)+ 2(0.2857143) +3(0.1428571)\n=1.571429\nV(X) =12 f (1)+22 f (2)+32 f (3)+42 f (4)−2 = 0.0531\n= E(X) = 0 f (0) +1f (1) + 2 f (2) + 3 f (3) + 4 f (4)\n= 0(0.04) +1(0.12) + 2(0.2) + 3(0.28) + 4(0.36) = 2.8\nV(X) = 02 f (0)+12 f (1)+ 22 f (2)+32 f (3)+ 42 f (4)−2\n= 0(0.04)+1(0.12)+ 4(0.2)+9(0.28)+16(0.36)−2.82 =1.36\nE ( X ) =\n3\n4\nx\n\n= 0\nx\n 1\n4\n\nx\n=\n3\n4\nx\n\n= 1\nx\n 1\n4\n\nx\n=\n1\n3\nThe result uses a formula for the sum of an infinite series. The formula can be derived from the fact that the series to\nsum is the derivative of\nh ( a ) = x\n\n= 1\na x =\n1\na\n− a\nwith respect to a.\nFor the variance, another formula can be derived from the second derivative of h(a) with respect to a. Calculate from\nthis formula\nE ( X 2 ) =\n3\n4\nx\n\n= 0\nx 2\n 1\n4\n\nx\n=\n3\n4\nx\n\n= 1\nx 2\n 1\n4\n\nx\n=\n5\n9\nThen V ( X ) = E ( X 2 ) −  E ( X )  2 =\n5\n9\n−\n1\n9\n=\n4\n9\nE\n0\n1\n(\n( 0\n. 5\nX\n7\n. 0\n)\n3 3 )\n0 f\n1\n(\n(\n0\n0\n)\n. 3 6\n1\n4\nf\n)\n( 1 )\n2 ( 0\n2\n. 6\nf\n0\n( 2\n3\n)\n)\n =\n=\n=\n=\n+\n+\n+\n+\nV (\n0\n0\nX\n(\n.\n0\n3\n)\n.\n1\n0\n1\n3\n1\n0\n3\n2\n)\nf (\n1\n0\n(\n)\n0 . 3\n1\n6\n2\n4\nf\n)\n( 1 )\n4 ( 0\n2\n.\n2\n6\nf\n0\n(\n3\n2\n)\n)\n1 . 5\n2\n7 2\n\n=\n=\n=\n+\n+\n+\n+\n−\n−\n= E(X) = 0 f (0)+1f (1)+ 2 f (2)+3f (3)\n= 0(810−6)+1(0.0012)+ 2(0.0576) +3(0.9412)\n= 2.940008\nV(X ) = 02 f (0)+12 f (1) + 22 f (2) +32 f (3) −2\n= 0.05876096"
+  },
+  {
+    "question_number": "3-65",
+    "raw": "Determine x where range is [0, 1, 2, 3, x] and the mean is 6.\n= E(X) = 6 = 0 f (0)+1f (1)+ 2 f (2) +3 f (3)+ xf (x)\n6 = 0(0.2)+1(0.2)+ 2(0.2) +3(0.2)+ x(0.2)\n6 =1.2+ 0.2x\n4.8 = 0.2x\nx = 24"
+  },
+  {
+    "question_number": "3-66",
+    "raw": "(a) F(0)=0.17\nNickel Charge: X CDF\n0 0.17\n2 0.17+0.35=0.52\n3 0.17+0.35+0.33=0.85\n4 0.17+0.35+0.33+0.15=1\n(b)E(X) = 0(0.17)+2(0.35)+3(0.33)+4(0.15) = 2.29\nV(X) =\ni\n4\n1\nf ( x\ni\n) ( x\ni\n) 2  \n=\n− = 1.5259"
+  },
+  {
+    "question_number": "3-67",
+    "raw": "X = number of computers that vote for a left roll when a right roll is appropriate.\nµ = E(X) = 0f(0) + 1f(1) + 2f(2) + 3f(3) + 4f(4)\n= 0 + 0.0003999 + 2(5.999x10-8) + 3(3.9996x10-12) + 4(1)10-16 = 0.0004\nV(X)=\ni\n5\n1\nf ( x\ni\n) ( x\ni\n) 2  \n=\n− = 0.0004"
+  },
+  {
+    "question_number": "3-68",
+    "raw": "µ = E(X) = 350(0.06) + 450(0.1) + 550(0.47) + 650(0.37) = 565\nV(X)= i\n4\n= 1\nf ( x\ni\n) ( x − ) 2  = 6875\nσ= V ( X ) =82.92"
+  },
+  {
+    "question_number": "3-69",
+    "raw": "(a)\nTransaction Frequency Selects: X f(X)\nNew order 43 23 0.43\nPayment 44 4.2 0.44\nOrder status 4 11.4 0.04\nDelivery 5 130 0.05\nStock level 4 0 0.04\nTotal 100\nE(X) = µ = 23(0.43) + 4.2(0.44) + 11.4(0.04) + 130(0.05) + 0(0.04) =18.694\n5\nV(X) =  f (x )(x −)2 = 735.964 = V(X) = 27.1287\ni\ni=1\n(b)\nTransaction Frequency All operation: X f(X)\n\nNew order 43 23+11+12=46 0.43\nPayment 44 4.2+3+1+0.6=8.8 0.44\nOrder status 4 11.4+0.6=12 0.04\nDelivery 5 130+120+10=260 0.05\nStock level 4 0+1=1 0.04\ntotal 100\nµ = E(X) = 46*0.43+8.8*0.44+12*0.04+260*0.05+1*0.04=37.172\n5\nV(X) =  f (x )(x −)2 =2947.996 = V(X) = 54.2955\ni\ni=1"
+  },
+  {
+    "question_number": "3-70",
+    "raw": "µ = E(X) = 266(0.24) + 271(0.30) + 274(0.46) = 271.18\n5\nV(X) =  f (x )(x −)2 = 10.11\ni\ni=1"
+  },
+  {
+    "question_number": "3-71",
+    "raw": "µ = E(X) = 1(0.038) + 2(0.102) + 3(0.172) + 4(0.204) + 5(0.174) + 6(0.124) + 7(0.08) + 8(0.036) + 9(0.028)\n+ 10(0.022) +15(0.020)\n= 4.808 hours\nV(X) =\ni\n5\n= 1\nf ( x\ni\n) ( x − ) 2  = 6.147"
+  },
+  {
+    "question_number": "3-72",
+    "raw": "µ = E(X) = 1.5(0.05) + 3(0.25) + 4.5(0.35) + 5(0.20) + 7(0.15) = 4.45\nV(X) = i\n5\n= 1\nf ( x\ni\n) ( x − ) 2  = 1.9975\nX = the depth of a non-failed well\nx f(x) xf(x) (x-µ)2f(x)\n1.011131245\n217 0.0047=36/7726 19.5831\n0.733626715\n218 0.0034=26/7726 13.71039\n10.43476573\n231 0.0452=349/7726 116.7045\n94.32953663\n255 0.3699=(1515+1343)/7726 266.2591\n40.32992493\n267 0.1510=887/7726 33.21378\n134.9896454\n317 0.4258=3290/7726 526.7684\nµ = E(X) = 255(0.370) + 218(0.003) + 317(0.426) + 231(0.045) + 267(0.151) + 217(0.005) = 281.83\n5\nV(X) =  f (x )(x −)2 = 976.24\ni\ni=1\nf (x) = 0.1(0.9)x−1\n  1\n0.1(0.9)x−1x = 0.1 x(0.9)x−1 = 0.1 =10\nMean =\n(1− 0.9)2\nx=1 x=1\n     q  1\nxqx−1 = qx =   = q = 0.9\nNote that   where\nq q  1−q \n(\n1−q\n)2\nx=1 x=1\nFor the variance, consider\n\n 2  2  q  2\nx(x −1)qx−2 = qx =   =\n \nq2 q2  1−q  ( 1−q )3\nx=1 x=1\n  2\nx2qx−2 −xqx−2 =\n( )3\n1−q\nx=1 x=1\n  2q  2q 1 1+q\nx2qx−1 −xqx−1 = x2qx−1 = + =\n( )3 ( )3 ( )2 ( )3\n1−q 1−q 1−q 1−q\nx=1 x=1 x=1\n 1+ 0.9\nE(X2) = 0.1 x2(0.9)x−1 = 0.1 =190\n(1− 0.9)2\nx=1\nV(X) = E(X2) – [E(X)]2 = 190 – 100 = 90"
+  },
+  {
+    "question_number": "3-75",
+    "raw": "Let X denote the number of failed devices. Here X ϵ {0,1,2}\nP(X = 0) = 0.8(0.9) = 0.72\nP(X = 1) = 0.8(0.1) + 0.2(0.9) = 0.26\nP(X = 2) = 0.2(0.1) = 0.02\nE(X) = 0(0.72) + 1(0.26) + 2(0.02) = 0.30"
+  },
+  {
+    "question_number": "3-76",
+    "raw": "E(X) = (0 + 99)/2 = 49.5, V(X) = [(99 – 0 + 1)2 – 1]/12 = 833.25"
+  },
+  {
+    "question_number": "3-77",
+    "raw": "E(X) = (3 + 1)/2 = 2, V(X) = [(3 – 1 + 1)2 – 1 ]/12 = 0.667"
+  },
+  {
+    "question_number": "3-78",
+    "raw": "X=(1/100)Y, Y = 15, 16, 17, 18, 19.\nE(X) = (1/100) E(Y) =\n1\n1\n0 0\n 1 5 +\n2\n1 9 \n= 0 . 1 7\nmm\nV ( X ) =\n\n1\n1\n0 0\n 2  ( 1 9 − 1 5\n1\n+\n2\n1 ) 2 − 1 \n= 0 . 0 0 0 2\nmm2\nE ( X ) = 2\n 1\n4\n\n+ 3\n 1\n4\n\n+ 4\n 1\n4\n\n+ 5\n 1\n4\n\n= 3 . 5\nV ( X ) =\n(\n2\n) 2\n 1\n4\n\n+\n(\n3\n) 2\n 1\n4\n\n+\n(\n4\n) 2\n 1\n4\n\n+\n(\n5\n) 2\n 1\n4\n\n−\n(\n3 . 5\n) 2\n=\n5\n4\n= 1 . 2 5"
+  },
+  {
+    "question_number": "3-80",
+    "raw": "X = 590 + 0.1Y, Y = 0, 1, 2, ..., 9\n 0+9\nE(X) = 590+ 0.1  = 590.45 mm\n 2 \nV ( X ) = ( 0 . 1 ) 2\n ( 9 − 0\n1\n+\n2\n1 ) 2 − 1 \n= 0 . 0 8 2 5 mm2"
+  },
+  {
+    "question_number": "3-81",
+    "raw": "a = 675, b = 700\na) µ = E(X) = (a + b)/2 = 687.5\nV(X) = [(b – a + 1)2 – 1]/12 = 56.25\nb) a = 75, b = 100\n\nµ = E(X) = (a + b)/2 = 87.5\nV(X) = [(b – a + 1)2 – 1]/12= 56.25\nThe range of values is the same, so the mean shifts by the difference in the two minimums (or maximums) whereas the\nvariance does not change."
+  },
+  {
+    "question_number": "3-82",
+    "raw": "X is a discrete random variable because it denotes the number of fields out of 28 that are in error.\nHowever, X is not uniform because P(X = 0) ≠ P(X = 1)."
+  },
+  {
+    "question_number": "3-83",
+    "raw": "The range of Y is 0, 5, 10, ..., 45, E(X) = (0 + 9)/2 = 4.5\nE(Y) = 0(1/10)+5(1/10)+...+45(1/10)\n= 5[0(0.1) +1(0.1)+ ... +9(0.1)]\n= 5E(X)\n= 5(4.5)\n= 22.5\nV(X) = 8.25, V(Y) = 52(8.25) = 206.25,  = 14.36\nY\nE ( c X ) = \nx\nc x f ( x ) = c \nx\nx f ( x ) = c E ( X )\n,\nV ( c X ) = \nx\n( c x − c ) 2 f ( x ) = c 2 \nx\n( x − ) 2 f ( x ) = c V ( X )  "
+  },
+  {
+    "question_number": "3-85",
+    "raw": "E(X) = (9+5)/2 = 7, V(X) = [(9-5+1)2-1]/12 = 2, σ = 1.414\n3×108\n𝑓(𝑥 ) = = 0.3\n𝑖\n109"
+  },
+  {
+    "question_number": "3-87",
+    "raw": "A = the event that your number is called\nP(A) = 1000/(107) = 0.0001\nNo. The range of X is {0, 1, 2,…, 28} so X is a discrete random variable, but not uniform. For example,\nP(X=0) = 0.99528 is not equal to P(X=1) = 28(0.99527)(0.005).\nNo. The range of X is {0, 1, 2,…, 10} so X is a discrete random variable, but not uniform. For example,\nP(X=0) is not equal to P(X=1).\nNo. X is a discrete random variable but not uniform. For example, the probability that a patient is selected\nfrom hospital 1 (= 3820/16814) is different than the probability a patient is selected from hospital 2 (=\n5163/16814).\nHospital\n1 2 3 4 Total\nTotal 5292 6991 5640 4329 22,252\nLWBS 195 270 246 242 953\nAdmitted 1277 1558 666 984 4485\nNot\nadmitted 3820 5163 4728 3103 16,814"
+  },
+  {
+    "question_number": "3-91",
+    "raw": "A binomial distribution is based on independent trials with two outcomes and a constant probability of success on each\ntrial.\n\na) reasonable\nb) independence assumption not reasonable\nc) The probability that the second component fails depends on the failure time of the first component. The binomial\ndistribution is not reasonable.\nd) not independent trials with constant probability\ne) probability of a correct answer not constant\nf) reasonable\ng) probability of finding a defect not constant\nh) if the fills are independent with a constant probability of an underfill, then the binomial distribution for\nthe number packages underfilled is reasonable\ni) because of the bursts, each trial (that consists of sending a bit) is not independent\nj) not independent trials with constant probability"
+  },
+  {
+    "question_number": "3-92",
+    "raw": "(a) P(X≤3) = 0.411\n(b) P(X>10) = 1 – 0.9994 = 0.0006\n(c) P(X=6) = 0.1091\n(d) P(6 ≤X ≤11) = 0.9999 – 0.8042 = 0.1957"
+  },
+  {
+    "question_number": "3-93",
+    "raw": "(a) P(X≤2) = 0.9298\n(b) P(X>8) = 0\n(c) P(X=4) = 0.0112\n(d) P(5≤X≤7) = 1 - 0.9984 = 0.0016"
+  },
+  {
+    "question_number": "3-94",
+    "raw": "a)\nP ( X = 5 ) =\n 1\n5\n0 \n0 . 5 5 ( 0 . 5 ) 5 = 0 . 2 4 6 1\nb)\nP ( X  2 ) =\n 1\n0\n0 \n0 . 5 0 0 . 5 1 0 +\n 1\n1\n0 \n0 . 5 1 0 . 5 9 +\n 1\n2\n0 \n0 . 5 2 0 . 5 8\n= 0 . 5 1 0 + 1 0 ( 0 . 5 ) 1 0 + 4 5 ( 0 . 5 ) 1 0 = 0 . 0 5 4 7\nc)\nP ( X  9 ) =\n 1\n9\n0 \n0 . 5 9 ( 0 . 5 ) 1 +\n 1\n1\n0\n0\n\n0 . 5 1 0 ( 0 . 5 ) 0 = 0 . 0 1 0 7\nd)\nP ( 3  X  5 ) =\n 1\n3\n0 \n0 . 5 3 0 . 5 7 +\n 1\n4\n0 \n0 . 5 4 0 . 5 6\n= 1 2 0 ( 0 . 5 ) 1 0 + 2 1 0 ( 0 . 5 ) 1 0 = 0 . 3 2 2 3\n10\nP(X = 5) =  0.015( 0.99 )5 = 2.4010−8"
+  },
+  {
+    "question_number": "3-95",
+    "raw": "a)  \n5\n \n\n10 10 10\nb)P(X  2) = \n0.010(\n0.99\n)10\n+ \n0.011(\n0.99\n)9\n+ \n0.012(\n0.99\n)8\n     \n0 1 2\n     \n= 0.9999\n10 10\nc)P(X  9) =  0.019( 0.99 )1 +  0.0110( 0.99 )0 = 9.9110−18\n   \n9 10\n   \n10 10\nd)P(3  X  5) =  0.013( 0.99 )7 +  0.014(0.99)6 =1.13810−4\n   \n3 4\n   \na)\nP ( X = 5 ) = 0 . 9 9 9 9\n, x= 5 is most likely, also\nE ( X ) = n p = 1 0 ( 0 . 5 ) = 5\n0.25\n0.20\n0.15\n0.10\n0.05\n0.00\n0 5 10\nx\nb) Values x= 0 and x=10 are the least likely, the extreme values\nBinomal (10, 0.01)\n0.9\n0.8\n0.7\n0.6\nx\n0.5\nf\no\nb 0.4\no\nr\np 0.3\n0.2\n0.1\n0.0\n0 1 2 3 4 5 6 7 8 9 10\nx\nP(X = 0) = 0.904, P(X = 1) = 0.091, P(X = 2) = 0.004, P(X = 3) = 0. P(X = 4) = 0 and so forth.\nDistribution is skewed with E(X) = np =10(0.01) = 0.1\na) The most-likely value of X is 0.\nb) The least-likely value of X is 10."
+  },
+  {
+    "question_number": "3-98",
+    "raw": "n=3 and p=0.5\n)x(f\n\n3\n 1  1\nf (0) =   =\n 2 8\n 0 x  0 \n2\n   1  1  3\n0.125 0  x 1\nf (1) = 3   =\n \n   2 2 8\nF(x) =  0.5 1 x  2 where\n2\n   1   3 3\n0.875 2  x  3 f (2) = 3    =\n \n 4  4 8\n 1 3  x \n \n3\n 1  1\nf (3) =   =\n 4 8"
+  },
+  {
+    "question_number": "3-99",
+    "raw": "The binomial distribution has n = 3 and p = 0.25\nF ( x ) =\n\n0\n0\n0\n.\n.\n.\n4\n8\n9\n0\n2\n4\n8\n1\n1\n3\n4\n9\n8\n4\n0\n1\n2\nx\n\n\n\n3\n\nx\nx\nx\n\n0\n\n\n\nx\n1\n2\n3\n\nwhere\nf\nf\n(\n(\n1\n2\nf\nf\n)\n)\n(\n(\n0\n=\n=\n3\n)\n)\n3\n3\n=\n\n\n=\n\n1\n4\n1\n4\n\n3\n4\n\n\n1\n4\n\n\n2\n\n3\n3\n4\n3\n\n3\n4\n=\n=\n2\n\n2\n6\n=\n=\n1\n6\n7\n4\n4\n2\n6\n6\n7\n4\n9\n4"
+  },
+  {
+    "question_number": "3-100",
+    "raw": "Let X denote the number of defective circuits.\nThen, X has a binomial distribution with n = 40 and p = 0.01\nP(X = 0) =\n(\n40 0\n)\n0 . 0 1 0 0 . 9 9 4 0 = 0 . 6 6 9 0\n."
+  },
+  {
+    "question_number": "3-101",
+    "raw": "Let X denote the number of times the line is occupied.\nThen, X has a binomial distribution with n = 10 and p = 0.4\na) P ( X = 3 ) =\n 1 0\n3\n\n0 .4\n3\n( 0 .6 )\n7\n= 0 .2 1 5\nb) Let Z denote the number of time the line is NOT occupied.\nThen Z has a binomial distribution with n =10 and p = 0.6.\nP ( Z  1 ) = 1 − P ( Z = 0 ) = 1 −\n(\n10 0\n)\n0 . 6 0 0 . 4 1 0 = 0 . 9 9 9 9\nc)\nE ( X ) = 1 0 ( 0 . 4 ) = 4"
+  },
+  {
+    "question_number": "3-102",
+    "raw": "Let X denote the number of questions answered correctly.\nThen, X is binomial with n = 25 and p = 0.25.\n25 25\na)P(X  20) = \n0.2521(\n0.75\n)4\n+\n0.2522(\n0.75\n)3\n   \n21 22\n   \n25 25 25\n+ 0.2523( 0.75 )2 + 0.2524( 0.75 )1 + 0.2525( 0.75 )0 = 9.67710−10\n     \n23 24 25\n     \n25 25 25\nb)P(X  5) = \n0.250(\n0.75\n)25\n+\n0.251(\n0.75\n)24\n+\n0.252(\n0.75\n)23\n     \n0 1 2\n     \n25 25\n+\n0.253(\n0.75\n)22\n+\n0.254(\n0.75\n)21\n= 0.2137\n   \n3 4\n   "
+  },
+  {
+    "question_number": "3-103",
+    "raw": "Let X denote the number of mornings the light is green.\n( )\na) P(X =1) = 5 0.210.84 = 0.410\n1\n( )\nb) P(X = 4) = 20 0.240.816 = 0.218\n4\nc) P(X  4) =1− P(X  4) =1− 0.630 = 0.370"
+  },
+  {
+    "question_number": "3-104",
+    "raw": "X = number of samples mutated\nX has a binomial distribution with p=0.01, n=15\n15\n(a) P(X=0) =  p0(1− p)15 = 0.86\n \n0\n \n(b) P(X≤1)=P(X=0)+P(X=1)= 0.99\n(c) P(X>7)=P(X=8)+P(X=9)+…+P(X=15)= 0"
+  },
+  {
+    "question_number": "3-105",
+    "raw": "(a) n = 20, p = 0.6122,\nP(X≥1) = 1 - P(X=0) = 1\n(b)P(X≥3) = 1 - P(X<3)= 0.999997\n(c) µ = E(X) = np = 20(0.6122) = 12.244\nV(X) = np(1 - p) = 4.748\n =\nV ( X ) =2.179"
+  },
+  {
+    "question_number": "3-106",
+    "raw": "The binomial distribution has n = 20 and p = 0.13\n(a) P(X = 3) =\n 2\n3\n0 \np 3 ( 1 − p ) 1 7 =0.235\n(b) P(X ≥ 3) = 1 - P(X<3)=0.492\n(c) µ = E(X) = np = 20(0.13) = 2.6\nV(X) = np(1 - p) = 2.262\n = V ( X ) = 1.504"
+  },
+  {
+    "question_number": "3-107",
+    "raw": "(a) Binomial distribution, p =104/369 = 4.59394E-06, n = 1E09\n1E09\n(b) P(X=0) =\n p0(1− p)1E09\n= 0\n \n0\n \n(c) µ = E(X) = np =1E09(0.45939E-06) = 4593.9\nV(X) = np(1 - p) = 4593.9"
+  },
+  {
+    "question_number": "3-108",
+    "raw": "E(X) = 20(0.01) = 0.2\nV(X) = 20(0.01) (0.99) = 0.198\n +3 =0.2+3 0.198 =1.53\nX X\na ) X is binomial with n = 20 and p = 0.01\n\nP(X 1.53) = P(X  2) =1− P(X 1)\n( ) ( ) \n=1− 20 0.0100.9920 + 20 0.0110.9919 = 0.0169\n0 1\nb) X is binomial with n = 20 and p = 0.04\nP(X  1) = 1− P(X  1)\n( ) ( ) \n= 1− 20 0.0400.9620 + 20 0.0410.9619 = 0.1897\n0 1\nc) Let Y denote the number of times X exceeds 1 in the next five samples.\nThen, Y is binomial with n = 5 and p = 0.190 from part b.\n( ) \nP(Y 1) =1− P(Y = 0) =1− 5 0.19000.8105 = 0.651\n0\nThe probability is 0.651 that at least one sample from the next five will contain more than one defective"
+  },
+  {
+    "question_number": "3-109",
+    "raw": "Let X denote the passengers with tickets that do not show up for the flight.\nThen, X has a binomial distribution with n = 125 and p = 0.1\na\nb\n)\n)\nP\nP\n(\n(\nX\nX\n\n\n5\n5\n)\n=\n)\n=\n1\n=\n=\n1\n−\n0\n1\n−\n.\n−\n\n9\nP\n\n+\n9\nP\n1\n(\n2\n0\n\n6\n(\nX\n5\n1\n1\nX\n2\n3\n\n\n0\n5\n\n.\n\n4\n1\n0\n5\n)\n0\n.\n)\n(\n1\n=\n0\n3\n. 9\n( 0\n0\n) 1\n. 9\n. 9\n2 5\n) 1\n8 8\n+\n2 2\n6\n\n+\n1 2\n1\n 1\n5\n2\n4\n\n5\n0 .\n\n1\n0\n1\n.\n(\n1\n0\n4\n.\n(\n9\n0\n)\n.\n1\n9\n2 4\n) 1\n+\n2 1\n 1 2\n2\n5 \n0 . 1 2 ( 0 . 9 ) 1 2 3\n"
+  },
+  {
+    "question_number": "3-110",
+    "raw": "Let X denote the number of defective components among those stocked.\na\nb\nc\n)\n)\n)\nP\nP\nP\n(\n(\n(\nX\nX\nX\n=\n\n\n0\n2\n5\n)\n)\n)\n=\n=\n=\n(\n(\n0\n10\n10\n.\n0\n0\n9\n0\n2\n8\n)\n)\n0\n0\n1\n.\n.\n0\n0\n2\n2\n0\n0\n0\n0\n.\n.\n9\n9\n8\n8\n1\n1\n0\n0\n0\n2\n=\n+\n0\n(\n11\n.\n0\n1\n2\n3\n)\n0\n3\n. 0 2 1 0 . 9 8 1 0 1 +\n(\n12 0 2\n)\n0 . 0 2 2 0 . 9 8 1 0 0 = 0 . 6 6 6"
+  },
+  {
+    "question_number": "3-111",
+    "raw": "P(length of stay ≤ 4) = 0.516\na) Let N denote the number of people (out of five) that wait less than or equal to 4 hours.\n𝑃(𝑁 = 1) = ( 5 )(0.516)1(0.484)4 = 0.142\n1\nb) Let N denote the number of people (out of five) that wait more than 4 hours.\n𝑃(𝑁 = 2) = ( 5 )(0.484)2(0.516)3 = 0.322\n2\nc) Let N denote the number of people (out of five) that wait more than 4 hours.\n5\n𝑃(𝑁 ≥ 1) = 1 − 𝑃(𝑁 = 0) = 1 − ( )(0.516)5(0.484)0 = 0.963\n0"
+  },
+  {
+    "question_number": "3-112",
+    "raw": "Probability a person leaves without being seen (LWBS) = 195/5292 = 0.037\n𝑃(𝑋 = 1) = ( 4 )(0.037)1(0.963)3 = 0.132\na)\n1\n𝑃(𝑋 ≥ 2) = 1 − 𝑃(𝑋 ≤ 1) = 1 − [𝑃(𝑋 = 0) + 𝑃(𝑋 = 1)]\nb)\n4 4\n= 1 − ( ) (0.037)0(0.963)4 − ( )(0.037)1(0.963)3 = 0.008\n0 1\n𝑃(𝑋 ≥ 1) = 1 − 𝑃(𝑋 = 0) = 1 − 0.86 = 0.14\nc)"
+  },
+  {
+    "question_number": "3-113",
+    "raw": "𝑃(𝑐ℎ𝑎𝑛𝑔𝑒 < 4 𝑑𝑎𝑦𝑠) = 0.3. Let X = number of the 10 changes made in less than 4 days.\n\n𝑃(𝑋 = 7) = ( 10 )(0.3)7(0.7)3 = 0.009\na)\n7\n𝑃(𝑋 ≤ 2) = 𝑃(𝑋 = 0) + 𝑃(𝑋 = 1) + 𝑃(𝑋 = 2)\nb)\n= ( 10 )(0.3)0(0.7)10 + ( 10 )(0.3)1(0.7)9 + ( 10 )(0.3)2(0.7)8\n0 1 2\n= 0.028 + 0.121 + 0.233 = 0.382\n𝑃(𝑋 ≥ 1) = 1 − 𝑃(𝑋 = 0) = 1 − ( 10 )(0.3)0(0.7)10 = 1 − 0.028 = 0.972\nc)\n0\n(𝑋) = 𝑛𝑝 = 10(0.3) = 3\nd) E"
+  },
+  {
+    "question_number": "3-114",
+    "raw": "𝑃(𝑟𝑒𝑎𝑐𝑡𝑖𝑜𝑛 < 272𝐾) = 0.54\n𝑃(𝑋 = 12) = ( 20 )(0.54)12(0.46)8 = 0.155\na)\n12\n𝑃(𝑋 ≥ 19) = 𝑃(𝑋 = 19) + 𝑃(𝑋 = 20)\nb)\n20 20\n= ( )(0.54)19(0.46)1 + ( )(0.54)20(0.46)0 = 0.00008\n19 20\n𝑃(𝑋 ≥ 18) = 𝑃(𝑋 = 18) + 𝑃(𝑋 = 19) + 𝑃(𝑋 = 20)\nc)\n20\n= ( )(0.54)18(0.46)2 + 0.00008 = 0.00069\n18\n𝐸(𝑋) = 𝑛𝑝 = 20(0.54) = 10.8\nd)\nLet X = the number of visitors that provide contact data. Then X is a binomial random variable with p =\n0.01 and n = 1000.\na)\nP ( X = 0 ) =\n 1 0\n0\n0 0 \n0 . 0 1 0 ( 1 − 0 . 0 1 ) 1 0 0 0  0\nb)\nP ( X = 1 0 ) =\n 1 0\n1\n0\n0\n0 \n0 . 0 1 1 0 ( 1 − 0 . 0 1 ) 1 0 0 0 − 1 0  0 . 1 2 6\nc) P ( X  3 ) = 1 − [ P ( X = 0 ) + P ( X = 1 ) + P ( X = 2 ) + P ( X = 3 ) ]\nP ( X  3 ) = 1 −\n\n0 + 0 . 0 0 0 4 + 0 . 0 0 2 2 + 0 . 0 0 7 4\n\n 0 . 9 9\nLet X = the number of device failures. Then X is a binomial random variable with p = 0.05 and n = 2.\nTherefore the probability mass function is\nP ( X = x ) =\n 2\nx\n\n0 . 0 5 x ( 0 . 9 5 ) 2 − x\nP ( X = 0 ) = 0 . 9 5 2 = 0 . 9 0 2 5\nP(X =1) = 2(0.05)0.95 = 0.095\nP(X = 2) = 0.052 = 0.0025\nThe binomial distribution does not apply to the number of failures in the example because the\nprobability of failure is not the same for both devices.\nLet X = the number of cameras failing. Then X is a binomial random variable with probability of failing p\n= 0.2 and n is to be determined.\nWe need to find the smallest n such that P(X 1)  0.95\nEquivalently, 1− P(X = 0)  0.95or P(X = 0)  0.05\n0.8n  0.05, n ln(0.8) ≤ ln(0.05), n=ln(0.05)/ln(0.8) = 13.4\nTherefore, the smallest sample size n that satisfies the condition is 14.\n\nLet X = the number of patients who are LWBS from hospital 4. Then X is a binomial random variable with\np = 242/4329 and n is to be calculated.\nWe need to find the smallest n such that P(X 1)  0.90\nEquivalently, 1− P(X = 0)  0.90 or P(X = 0)  0.1\nn\n 242 \n1−   0.1, nln(0.944) ≤ ln(0.1), n = ln(0.1)/ln(0.944) = 39.95\n 4329\nTherefore, the smallest sample size that satisfies the condition is n = 40.\na)\nP ( X = 1 ) = ( 1 − 0 . 5 ) 0 0 . 5 = 0 . 5\nb)\nP ( X = 4 ) = ( 1 − 0 . 5 ) 3 0 . 5 = 0 . 5 4 = 0 . 0 6 2 5\nc)\nP ( X = 8 ) = ( 1 − 0 . 5 ) 7 0 . 5 = 0 . 5 8 = 0 . 0 0 3 9\nd)\nP ( X  2 ) = P ( X = 1 ) + P ( X = 2 ) = ( 1 − 0 . 5 ) 0 0 . 5 + ( 1 − 0 . 5 ) 1 0 . 5\n= 0 . 5 + 0 . 5 2 = 0 . 7 5\ne)\nP ( X  2 ) = 1 − P ( X  2 ) = 1 − 0 . 7 5 = 0 . 2 5"
+  },
+  {
+    "question_number": "3-120",
+    "raw": "E(X) = 2.5 = 1/p so that p = 0.4\na)\nP ( X = 1 ) = ( 1 − 0 . 4 ) 0 0 . 4 = 0 . 4\nb)\nP ( X = 4 ) = ( 1 − 0 . 4 ) 3 0 . 4 = 0 . 0 8 6 4\nc)\nP ( X = 5 ) = ( 1 − 0 . 5 ) 4 0 . 5 = 0 . 0 5 1 8 4\nd)\nP ( X  3 ) = P ( X = 1 ) + P ( X = 2 ) + P ( X = 3 )\n= ( 1 − 0 . 4 ) 0 0 . 4 + ( 1 − 0 . 4 ) 1 0 . 4 + ( 1 − 0 . 4 ) 2 0 . 4 = 0 . 7 8 4 0\ne)\nP ( X  3 ) = 1 − P ( X  3 ) = 1 − 0 . 7 8 4 0 = 0 . 2 1 6 0"
+  },
+  {
+    "question_number": "3-121",
+    "raw": "Let X denote the number of trials to obtain the first success.\na) E(X) = 1/0.2 = 5\nb) Because of the lack of memory property, the expected value is still 5."
+  },
+  {
+    "question_number": "3-122",
+    "raw": "a) E(X) = 4/0.2 = 20\n19\n (0.80)160.24 = 0.0436\nb) P(X = 20) =  \n3\n \n18\n (0.80)150.24 = 0.0459\nc) P(X = 19) =  \n3\n \n20\n (0.80)170.24 = 0.0411\nd) P(X = 21) =  \n3\n \ne) The most likely value for X should be near  = 20. By trying several cases, the most likely value is x = 19."
+  },
+  {
+    "question_number": "3-123",
+    "raw": "Let X denote the number of trials to obtain the first successful alignment.\nThen X is a geometric random variable with p = 0.8\nP(X = 4) = (1−0.8)30.8 = 0.230.8 = 0.0064\na)\nP(X  4) = P(X =1) + P(X = 2) + P(X = 3) + P(X = 4)\nb)\n\n= (1−0.8)00.8+ (1−0.8)10.8+ (1−0.8)20.8+ (1−0.8)30.8\n= 0.8+ 0.2(0.8) + 0.22(0.8) + 0.230.8 = 0.9984\nP(X  4) =1− P(X  3) =1−[P(X =1) + P(X = 2) + P(X = 3)]\nc)\n=1−[(1−0.8)00.8+ (1− 0.8)10.8+ (1− 0.8)20.8]\n=1−[0.8+ 0.2(0.8) + 0.22(0.8)] =1− 0.992 = 0.008\nX = the number of people tested to detect two with the gene, X ϵ {2, 3, 4, ...}. Then X has a negative\nbinomial distribution with p = 0.1 and r = 2. We have to find P(X >= 4).\nx −1\na) P(X ≥ 4) =1−[P(X = 2)+P(X = 3)] where P(X = x) =  (1−0.1)x−20.12\n \n2−1\n \n=1−[0.01+0.018] = 0.972\nb)\nE [ X ] =\nr\np\n=\n0\n2\n. 1\n= 2 0"
+  },
+  {
+    "question_number": "3-125",
+    "raw": "Let X denote the number of calls needed to obtain a connection.\nThen, X is a geometric random variable with p = 0.02.\na)\nP ( X = 1 0 ) = ( 1 − 0 . 0 2 ) 9 0 . 0 2 = 0 . 9 8 9 0 . 0 2 = 0 . 0 1 6 7\nb) P ( X  5 ) = 1 − P ( X  4 ) = 1 − [ P ( X = 1 ) + P ( X = 2 ) + P ( X = 3 ) + P ( X = 4 ) + P ( X = 5 ) ]\n= 1 − 0 . 0 9 6 1 =\n=\n0\n1\n. 9\n−\n0\n[\n3\n0\n9\n. 0 2 + 0 . 9 8 ( 0 . 0 2 ) + 0 . 9 8 2 ( 0 . 0 2 ) + 0 . 9 8 3 ( 0 . 0 2 ) + 0 . 9 8 3 ( 0 . 0 2 ) + 0 . 9 8 4 ( 0 . 0 2 ) ]\nMay also use the fact that P(X > 5) is the probability of no connections in 5 trials. That is,\nP ( X  5 ) =\n 5\n0\n\n0 . 0 2 0 0 . 9 8 5 = 0 . 9 0 3 9\nc) E(X) = 1/0.02 = 50"
+  },
+  {
+    "question_number": "3-126",
+    "raw": "X = number of opponents until the player is defeated.\np=0.8, the probability of the opponent defeating the player.\n(a) f(x) = (1 – p)x – 1p = 0.8(x – 1)(0.2)\n(b) P(X>2) = 1 – P(X = 1) – P(X = 2) = 0.64\n(c) µ = E(X) = 1/p = 5\n(d) P(X ≥ 4) = 1 - P(X = 1) - P(X = 2) - P(X = 3) = 0.512\n(e) The probability that a player contests four or more opponents is obtained in part (d), which is p = 0.512.\no\nLet Y represent the number of game plays until a player contests four or more opponents.\nThen, f(y) = (1 - p )y-1p\no o.\nµ = E(Y) = 1/p = 1.95\nY o"
+  },
+  {
+    "question_number": "3-127",
+    "raw": "p = 0.13\n(a) P(X = 1) = (1 - 0.13)1-1(0.13) = 0.13\n(b) P(X = 3) = (1 - 0.13)3-1(0.13) = 0.098\n(c) µ = E(X) = 1/p = 7.69 ≈ 8"
+  },
+  {
+    "question_number": "3-128",
+    "raw": "X = number of attempts before the hacker selects a user password.\n(a) p = 9900/366 = 0.0000045\nµ = E(X) = 1/p = 219877\nV(X) = (1 - p)/p2 = 4.938E1010\nV(X)\nσ= = 222,222\n(b) p = 100/363 = 0.00214\nµ = E(X) = 1/p = 467\n\nV(X)= (1 - p)/p2 = 217892.39\n = V(X) = 466.78\nBased on the answers to (a) and (b) above, it is clearly more secure to use a 6 character password."
+  },
+  {
+    "question_number": "3-129",
+    "raw": "p = 0.005 and r = 8\nP(X = 8) = 0.0058 = 3.91E10−19\na)\n1\nb) = E(X ) = = 200 days\n0.005\nc) Mean number of days until all 8 computers fail. Now we use p=3.91x10-19\n1\n= E(Y) = = 2.56x1018 days or 7.01 x1015 years\n3.91x10−91"
+  },
+  {
+    "question_number": "3-130",
+    "raw": "Let Y denote the number of samples needed to exceed 1 in Exercise 3-66.\nThen Y has a geometric distribution with p = 0.0169.\na) P(Y = 10) = (1 − 0.0169)9(0.0169) = 0.0145\nb) Y is a geometric random variable with p = 0.1897 from Exercise 3-66.\nP(Y = 10) = (1 − 0.1897)9(0.1897) = 0.0286\nc) E(Y) = 1/0.1897 = 5.27"
+  },
+  {
+    "question_number": "3-131",
+    "raw": "Let X denote the number of transactions until all computers have failed.\nThen, X is negative binomial random variable with p = 10-8 and r = 3.\na) E(X) = 3 x 108\nb) V(X) = [3(1−10-80]/(10-16) = 3.0 x 1016"
+  },
+  {
+    "question_number": "3-132",
+    "raw": "(a) p6 = 0.6, p = 0.918\n(b) 0.6p2 = 0.4, p = 0.816"
+  },
+  {
+    "question_number": "3-133",
+    "raw": "Negative binomial random variable f(x; p, r) =\n x\nr\n−\n−\n1\n1\n\n( 1 − p ) x − r p r\nWhen r = 1, this reduces to f(x) = (1−p)x-1p, which is the pdf of a geometric random variable.\nAlso, E(X) = r/p and V(X) = [r(1−p)]/p2 reduce to E(X) = 1/p and V(X) = (1−p)/p2, respectively."
+  },
+  {
+    "question_number": "3-134",
+    "raw": "𝑃(𝑟𝑒𝑎𝑐𝑡𝑖𝑜𝑛 < 272𝐾) = 0.54\n𝑃(𝑋 = 10) = 0.4690.541 = 0.0005\na)\n1 1\n𝜇 = 𝐸(𝑋) = = = 1.85\nb)\n𝑝 0.54\n𝑃(𝑋 ≤ 3) = 𝑃(𝑋 = 3) + 𝑃(𝑋 = 2) + 𝑃(𝑋 = 1)\nc)\n= 0.4620.541 + 0.4610.541 + 0.4600.541 = 0.903\n𝑟 2\n𝜇 = 𝐸(𝑋) = = = 3.70\nd)\n𝑝 0.54"
+  },
+  {
+    "question_number": "3-135",
+    "raw": "a) Probability that color printer will be discounted = 1/10 = 0.01\n1 1\n𝜇 = 𝐸(𝑋) = = = 10\ndays\n𝑝 0.10\n𝑃(𝑋 = 10) = 0.990.1 = 0.039\nb)\n𝑃(𝑋 = 10) = 0.990.1 = 0.039\nc) Lack of memory property implies the answer equals\n𝑃(𝑋 ≤ 3) = 𝑃(𝑋 = 3) + 𝑃(𝑋 = 2) + 𝑃(𝑋 = 1) = 0.920.1 + 0.910.1 + 0.1 = 0.271\nd)\n𝑃(𝐿𝑊𝐵𝑆) = 0.037\n𝑃(𝑋 = 5) = 0.96340.0371 = 0.032\na)\n𝑃(𝑋 = 5) + 𝑃(𝑋 = 6) = 0.96340.0371 + 0.96350.0371 = 0.062\nb)\n\n𝑃(𝑋 ≤ 4) = 𝑃(𝑋 = 4) + 𝑃(𝑋 = 3) + 𝑃(𝑋 = 2) + 𝑃(𝑋 = 1)\nc)\n= 0.96330.0371 + 0.96320.0371 + 0.96310.0371 + 0.037 = 0.140\n𝑟 3\n𝜇 = 𝐸(𝑋) = = = 81.08\nd)\n𝑝 0.037\nX = the number of cameras tested to detect two failures, X ϵ {2, 3, 4, ...}. Then X has a negative binomial\ndistribution with p = 0.2 and r = 2.\nY = the number of cameras tested to detect three failures, Y ϵ {3, 4, 5, ...}. Then Y has a negative binomial\ndistribution with p = 0.2 and r = 3.\nNote that the events are described in terms of the number of failures, so p = 1-0.8 =0.2.\n10−1\nP(X =10) =  (1−0.2)10−20.22 = 0.0604\na)\n \n2−1\n \nb) P(X  4) = P(X = 2)+P(X = 3)+ P(X = 4) = 0.04+0.064+0.0768 = 0.1808where\nP ( X = 2 ) =\n 2\n2\n−\n−\n1\n1\n\n( 1 − 0 . 2 ) 2 − 2 0 . 2 2 = 0 . 0 4\nP ( X = 3 ) =\n 3\n2\n−\n−\n1\n1\n\n( 1 − 0 . 2 ) 3 − 2 0 . 2 2 = 0 . 0 6 4\nP ( X = 4 ) =\n 4\n2\n−\n−\n1\n1\n\n( 1 − 0 . 2 ) 4 − 2 0 . 2 2 = 0 . 0 7 6 8\nc) E [ Y ] =\nr\np\n=\n0\n3\n. 2\n= 1 5\nX = the number of defective bulbs in an array of 30 LED bulbs. Here X is a binomial random variable with\np = 0.001 and n = 30\na) P ( X  2 ) = 1 − [ P ( X = 0 ) + P ( X = 1 ) ]\nP ( X  2 ) = 1 −\n  3\n0\n0 \n0 . 0 0 1 0 ( 1 − 0 . 0 0 1 ) 3 0 +\n 3\n1\n0 \n0 . 0 0 1 1 ( 1 − 0 . 0 0 1 ) 2 9\n\n= 0 . 0 0 0 4\nb) Let Y = number of automotive lights tested to obtain one light with two or more defective bulbs among\nthirty LED bulbs. Here Y is distributed with negative binomial with success probability p = 0.0004 and r =\n1.\nr 1\nE[Y] = = = 2500\np 0.0004\nX = the number of patients selected from hospital 4 in order to admit 2. Then X has a negative binomial\ndistribution with p = 0.23 and r =2.\nY = the number of patients selected from hospital 4 in order to admit 10. Then Y has a negative binomial\ndistribution with p = 0.23 and r =10.\n984\n= = 0.2273\na)\n4329\nb) P(X  4) = P(X = 4)+ P(X = 3)+ P(X = 2)\n4−1\nP(X = 4) =  (1−0.23)4−20.232 = 0.094\n \n2−1\n \n\n3−1\nP(X = 3) =  (1−0.23)3−20.232 = 0.062\n \n2−1\n \n2−1\nP(X = 2) =  (1−0.23)2−20.232 = 0.031\n \n2−1\n \nP(X  4) = 0.094+0.062+0.031= 0.185\nr 10\nc) E[Y] = =  43.99\np 0.227"
+  },
+  {
+    "question_number": "3-140",
+    "raw": "Let X denote the number of customers who visit the website to obtain the first order.\na) Yes, since the customers behave independently and the probability of a success (i.e., obtaining an order)\nis the same for all customers.\nb) A = the event that a customer views five or fewer pages\nB = the event that the customer orders\nP ( B ) = P ( B  A ) + P ( B  A ' ) = P ( B | A ) P ( A ) + P ( B | A ' ) P ( A ' )\nP ( B ) = 0 . 0 1 ( 1 − 0 . 2 5 ) + 0 . 1 ( 0 . 2 5 ) = 0 . 0 3 2 5\nThen X has a geometric distribution with p = 0.0325\nP(X = 10) = 0.0325 (1 - 0.0325)9 = 0.024"
+  },
+  {
+    "question_number": "3-141",
+    "raw": "X has a hypergeometric distribution with N = 100, n = 4, K = 20\na)\nP ( X = 1 ) =\n(\n2 0\n1\n(\n14\n)\n0\n(\n0\n83 0\n)\n)\n=\n2\n3\n0\n9\n( 8\n2\n2\n1\n1\n2\n6\n2\n0\n5\n)\n= 0 . 4 1 9 1\nb)\nP ( X = 6 ) = 0\n, the sample size is only 4\nc)\nP ( X = 4 ) =\n(\n2 0\n4(\n14\n)\n0\n(\n0\n80 0\n)\n)\n=\n3\n4\n9\n8\n2\n4\n1\n5\n2\n( 1\n2\n)\n5\n= 0 . 0 0 1 2 3 6\nd)\nE ( X ) = n p = n\nK\nN\n= 4\n\n1\n2\n0\n0\n0\n\n= 0 . 8\nV ( X ) = n p ( 1 − p )\n N\nN\n−\n−\nn\n1\n\n= 4 ( 0 . 2 ) ( 0 . 8 )\n 9\n9\n6\n9\n\n= 0 . 6 2 0 6\n( )( )\n4 16 (4161514) / 6\nP(X =1) = 1 3 = = 0.4623"
+  },
+  {
+    "question_number": "3-142",
+    "raw": "a) ( )\n20 (20191817) / 24\n4\nb)\nP ( X = 4 ) =\n(\n44(\n)\n24\n(\n0\n10 6\n)\n)\n=\n( 2 0  1 9  1\n1\n8  1 7 ) / 2 4\n= 0 . 0 0 0 2 1\nc)\n\nP(X  2) = P(X = 0) + P(X =1) + P(X = 2)\n( )( ) ( )( ) ( )( )\n4 16 4 16 4 16\n= 0 4 + 1 3 + 2 2\n( ) ( ) ( )\n20 20 20\n4 4 4\n16151413 4161514 61615\n + + \n=  24 6 2  = 0.9866\n20191817\n \n 24 \nd) E(X) = 4(4/20) = 0.8\nV(X) = 4(0.2)(0.8)(16/19) = 0.539"
+  },
+  {
+    "question_number": "3-143",
+    "raw": "Here N = 10, n = 3, K= 4"
+  },
+  {
+    "question_number": "3-144",
+    "raw": "(a) f(x) =\n 2\nx\n4   1\n3\n2\n− x\n\n/\n 3\n3\n6 \n(b) µ = E(X) = np = 3*24/36=2\nV(X) = np(1-p)(N-n)/(N-1) = 2(1 - 24/36)(36 - 3)/(36 - 1) = 0.629\n(c) P(X≤2) =1 - P(X=3) = 0.717"
+  },
+  {
+    "question_number": "3-145",
+    "raw": "Let X denote the number of men who carry the marker on the male chromosome for an increased risk for high blood\npressure. Here N = 800, K = 240\na) n = 10\nP ( X = 1 ) =\n(\n21 4\n(\n0\n81\n) (\n0 0\n0\n59 6\n)\n0\n)\n=\n(\n1\n2! 42 0 !\n3 9 !\n8\n1 0\n) (\n0 0\n! 7 9\n5 6\n9 !5\n!0\n!\n05 !1\n!\n)\n= 0 . 1 2 0 1\nb) n = 10\nP(X 1) =1− P(X 1) =1−[P(X = 0) + P(X =1)]\n( )( ) ( )( )\n240 560 240! 560!\nP(X = 0) = 0 10 = 0!240! 10!550! = 0.0276\n( )\n800 800!\n10 10!790!\nP(X 1) =1− P(X 1) =1−[0.0276 + 0.1201] = 0.8523"
+  },
+  {
+    "question_number": "3-146",
+    "raw": "Let X denote the number of cards in the sample that are defective.\na)\n)x(P\n0\n0\n0\n0\n0\n0\n.5\n.4\n.3\n.2\n.1\n.0\n0 1\nx\n2 3\n\nP(X 1) =1− P(X = 0)\n( )( )\n20 120 120!\nP(X = 0) = 0\n(\n2\n)\n0 = 20!100! = 0.0356\n140 140!\n20 20!120!\nP(X 1) =1− 0.0356 = 0.9644\nb)\nP(X 1) =1− P(X = 0)\n( )( )\n5 135 135! 135!120!\nP(X = 0) = 0 20 = 20!115! = = 0.4571\n( )\n140 140! 115!140!\n20 20!120!\nP(X 1) =1− 0.4571= 0.5429"
+  },
+  {
+    "question_number": "3-147",
+    "raw": "N = 300\n(a) K = 243, n = 3, P(X = 1)=0.087\n(b) P(X ≥ 1) = 0.9934\n(c) K = 26 + 13 = 39, P(X = 1)=0.297\n(d) K = 300 - 18 = 282\nP(X ≥ 1) = 0.9998"
+  },
+  {
+    "question_number": "3-148",
+    "raw": "Let X denote the count of the numbers in the state's sample that match those in the player's sample.\nThen, X has a hypergeometric distribution with N = 40, n = 6, and K = 6.\na)\nP ( X = 6 ) =\n(\n66(\n) (\n4 0\n6\n30 4\n)\n)\n=\n\n6\n4\n! 3\n0 !\n4 !\n − 1\n= 2 . 6 1  1 0 − 7\nb)\nP ( X = 5 ) =\n(\n65(\n) (\n4 0\n6\n31 4\n)\n)\n=\n6 (\n46\n3\n0\n)\n4\n= 5 . 3 1  1 0 − 5\nc)\nP ( X = 4 ) =\n(\n64(\n) (\n4 0\n6\n32 4\n)\n)\n= 0 . 0 0 2 1 9\nd) Let Y denote the number of weeks needed to match all six numbers.\nThen, Y has a geometric distribution with p =\n3 , 8 3\n1\n8 , 3 8 0\nand\nE(Y) = 1/p =\n3 , 8 3 8 , 3 8 0\nweeks. This is more than 738 centuries!"
+  },
+  {
+    "question_number": "3-149",
+    "raw": "Let X denote the number of blades in the sample that are dull.\na)\nP(X 1) =1− P(X = 0)\n( )( )\n10 38 38! 38!43!\nP(X = 0) = 0 5 = 5!33! = = 0.2931\n( )\n48 48! 48!33!\n5 5!43!\nP(X 1) =1− P(X = 0) = 0.7069\nb) Let Y denote the number of days needed to replace the assembly.\n0.29312(0.7069) = 0.0607\nP(Y = 3) =\n( )( )\n2 46 46! 46!43!\nP(X = 0) = 0 5 = 5!41! = = 0.8005\nc) On the first day, ( )\n48 48! 48!41!\n5 5!43!\n\n( )( )\n6 42 42! 42!43!\nP(X = 0) = 0 5 = 5!37! = = 0.4968\nOn the second day, ( )\n48 48! 48!37!\n5 5!43!\nOn the third day, P(X = 0) = 0.2931 from part a). Therefore,\nP(Y = 3) = 0.8005(0.4968)(1-0.2931) = 0.2811.\na) For the first exercise, the finite population correction is 96/99.\nFor the second exercise, the finite population correction is 16/19.\nBecause the finite population correction for the first exercise is closer to one, the binomial approximation to the\ndistribution of X should be better in that exercise.\nb) Assuming X has a binomial distribution with n = 4 and p = 0.2\nP\nP\n(\n(\nX\nX\n=\n=\n1\n4\n)\n)\n=\n=\n(\n(\n41\n44\n)\n0)\n0\n. 2\n. 2\n1 0\n4 0\n. 8\n. 8\n3\n0\n=\n=\n0\n0\n. 4\n. 0\n0\n0\n9\n1\n6\n6\nThe results from the binomial approximation are close to the probabilities obtained from the hypergeometric distribution.\nc) Assume X has a binomial distribution with n = 4 and p = 0.2. Consequently, P(X = 1) and P(X = 4) are the same as\ncomputed in part (b) of this exercise. This binomial approximation is not as close to the true answer from the\nhypergeometric distribution as the results obtained in part (b).\nd) X is approximately binomially distributed with n = 20 and p = 20/140 = 1/7.\nP ( X  1 ) = 1 − P ( X = 0 ) = ( 20 0 ) ( 17 ) 0 ( 67 ) 2 0 = 1 − 0 . 0 4 5 8 = 0 . 9 5 4 2\nThe finite population correction is 120/139 = 0.8633\nX is approximately binomially distributed with n = 20 and p = 5/140 =1/28\nP ( X  1 ) = 1 − P ( X = 0 ) = ( 20 0 ) ( 12\n8\n) 0 ( 22 78 ) 2 0 = 1 − 0 . 4 8 3 2 = 0 . 5 1 6 8\nThe finite population correction is 120/139 = 0.8633\n242 953−242\n( )( )\n𝑃(𝑋 = 4) = 4 0 = 0.0041"
+  },
+  {
+    "question_number": "3-151",
+    "raw": "a)\n953\n( )\n4\n242 953−242\n( )( )\n𝑃(𝑋 = 0) = 0 4 = 0.3091\nb)\n953\n( )\n4\nc) Probability that all visits are from hospital 1\n195 953−195\n( )( )\n𝑃(𝑋 = 4) = 4 0 = 0.0017\n953\n( )\n4\nProbability that all visits are from hospital 2\n270 953−270\n( )( )\n𝑃(𝑋 = 4) = 4 0 = 0.0063\n953\n( )\n4\nProbability that all visits are from hospital 3\n246 953−246\n( )( )\n𝑃(𝑋 = 4) = 4 0 = 0.0044\n953\n( )\n4\nProbability that all visits are from hospital 4\n242 953−242\n( )( )\n𝑃(𝑋 = 4) = 4 0 = 0.0041\n953\n( )\n4\n\nProbability that all visits are from the same hospital\n= .0017 + .0063 + .0044 + .0041 = 0.0165\n3290 7726−3290\n( )( )\n𝑃(𝑋 = 2) = 2 4−2 = 0.359"
+  },
+  {
+    "question_number": "3-152",
+    "raw": "a)\n7726\n( )\n4\n3290 7726−3290\n( )( )\n𝑃(𝑋 ≥ 1) = 1 − 𝑃(𝑋 = 0) = 1 − 0 4−0 = 1 − 0.109 = 0.891\nb)\n7726\n( )\n4\n3290\n𝜇 = 𝐸(𝑋) = 𝑛𝑝 = 4( ) = 1.703\nc)\n7726\na) Let X denote the number of wafers in the sample with high contamination. Here X has a hypergeometric\n1 1\ndistribution with N = 940, K = 358, and n = 10 when the sample size is 10.\nP ( X\n1\n= 4 ) =\n 3 5\n4\n8  \n\n9\n9\n1\n4\n4\n1\n0\n0\n0\n0\n−\n\n−\n3\n4\n5 8 \n= 0 . 2 5\nb) Let X denote the number of wafers in the sample with high contamination and from the center of the sputtering tool.\n2\nHere X has a hypergeometric distribution with N = 940, K = 112, and n = 10 when the sample size is 10.\n2\nP ( X\n2\n 1 ) = 1 − P ( X\n2\n= 0 ) = 1 −\n 1 1\n0\n2  \n\n9\n9\n1\n4\n1\n4\n0\n0\n0\n0\n−\n−\n\n1\n0\n1 2 \n= 1 − 0 . 2 8 = 0 . 7 2\nc) Let X denote the number of wafers in the sample with high contamination or from the edge of the sputtering tool.\n3\nHere X has a hypergeometric distribution with N = 940, K = 426, and n = 10 when the sample size is 10.\n3\nP ( X\n3\n= 3 ) =\n 4 2\n3\n6  \n\n9\n9\n1\n4\n4\n1\n0\n0\n0\n0\n−\n\n−\n4\n3\n2 6 \n= 0 . 1 6\nwhere 68 + 112 + 246 = 426\nd) Let X denote the number of wafers in the sample with high contamination. Here X has a hypergeometric\n4 4\ndistribution with N = 940 and K = 358.\nFind the minimum n that satisfies the condition\nP ( X\n4\n 1 )  0 . 9\n358940−358\n  \n  \n0 n −0\n  \nP(X 1) =1−P(X = 0) =1−  0.9\n4 4 940\n \n \nn\n \nThrough trial of values for n, the minimum n is 5.\nLet X denote the number of patients in the sample that adhere. Here X has a hypergeometric distribution with N = 500,\nK = 50 and n = 20 when the sample size is 20.\n\n50500−50\n  \n  \n2 20− 2\n  \nP(X = 2) = = 0.291\na)\n500\n \n \n20\n \nP(X  2) = P(X = 0)+ P(X =1)\nb)\n50500−50 50500−50\n     \n     \n0 20−0 1 20−1\n     \n= + = 0.116+0.270 = 0.386\n500 500\n   \n   \n20 20\n   \n   \nP(X  2) =1− P(X = 0)+P(X =1)+P(X = 2) =1− 0.116+0.270+0.291 = 0.323\nc)\nd)\nE\n\nX\n\n= n p = n\nK\nN\n= 2 0\n5\n5\n0\n0\n0\n= 2\nV a r ( X ) = n p ( 1 − p )\n N\nN\n−\n−\nn\n1\n\n= 2 0 ( 0 . 1 ) ( 0 . 9 )\n 4\n4\n8\n9\n0\n9\n\n= 1 . 7 3\nLet X = the number of sites with lesions in the sample. Here X has hypergeometric distribution with N = 50, K = 5 and\nn = 8 when the sample size is 8.\na)\nP ( X  1 ) = 1 − P ( X = 0 ) = 1 −\n 5\n0\n \n\n5\n5\n8\n8\n0\n0\n−\n−\n\n0\n5 \n= 0 . 5 9 9\nb)\nP ( X  2 ) = 1 − [ P ( X = 0 ) + P ( X = 1 ) ] = 1 −\n 5\n0\n \n\n5\n5\n8\n8\n0\n0\n−\n−\n\n0\n5 \n−\n 5\n1\n \n\n5\n5\n0\n8\n0\n8\n−\n−\n\n1\n5 \n= 0 . 1 7 6\nc) We need to find the minimum n that satisfies the condition\nP ( X  1 )  0 . 9 0\nEquivalently,\n1 − P ( X = 0 )  0 . 9 0\nor\nP ( X = 0 )  0 . 1 0\n550−5\n  \n  \n0 n −0\n  \n 0.10\n50\n \n \nn\n \n550−5 550−5\n     \n     \n0 18−0 0 17 −0\n     \n 0.1\nFrom trials of n values .\n50 50\n   \n   \n18 17\n   \nThe smallest sample size that satisfies the condition is n = 18\n\nLet X = the number of major customers that accept the plan in the sample. Here X has hypergeometric distribution with\nN = 50, K = 15, and n = 10 when the sample size is 10.\n1550−15\n  \n  \n2 10−2\n  \nP(X = 2) = = 0.241\na)\n50\n \n \n10\n \n1550−15\n  \n  \n0 10−0\n  \nP(X 1) =1−P(X = 0) =1− = 0.982\nb)\n50\n \n \n10\n \nP(X 1)  0.95\nc) We need to find the minimum K that satisfies the condition\n1− P(X = 0)  0.95 P(X = 0)  0.05\nEquivalently, and . This requires\n K\n0\n \n\n5\n1\n5\n1\n0\n0\n0\n0\n−\n−\n\nK\n0\n\n 0 . 0 5\nWe have\n 4\n0\n \n\n5\n1\n5\n1\n0\n0\n0\n0\n−\n−\n\n4\n0\n\n 0 . 0 5 \n 3\n0\n \n\n5\n1\n5\n1\n0\n0\n0\n0\n−\n−\n\n3\n0\n\n.\nThe minimum number of major customers that would need to accept the plan to meet the given objective is 4."
+  },
+  {
+    "question_number": "3-157",
+    "raw": "a) P ( X = 0 ) =\ne\n− 4\n0\n4\n!\n0\n= e\n− 4\n= 0 .0 1 8 3\nb) P ( X  2 ) = P ( X = 0 ) + P ( X = 1 ) + P ( X = 2 )\n=\n=\ne\n0\n−\n.2\n4\n3\n+\n8 1\ne\n− 4\n1\n4\n!\n1\n+\ne\n− 4\n2\n4\n!\n2\n−4 4\ne 4\nc) P(X = 4) = = 0.1954\n4!\n−4 8\ne 4\nd) P(X=8) = = 0.0298\n8!\n−0.4"
+  },
+  {
+    "question_number": "3-158",
+    "raw": "a) P(X = 0) = e = 0.6703\n−0.4 −0.4 2\ne (0.4) e (0.4)\n−0.4\nb) P(X2) =e + + =0.9921\n1! 2!\n−0.4 4\ne (0.4)\nc) P(X= 4) = = 0.000715\n4!\n−0.4 8\ne (0.4)\n−8\nd) P(X=8) = =1.0910\n8!\n\n−"
+  },
+  {
+    "question_number": "3-159",
+    "raw": "P(X = 0) = e = 0.05. Therefore,  = −ln(0.05) = 2.996.\nConsequently, E(X) = V(X) = 2.996."
+  },
+  {
+    "question_number": "3-160",
+    "raw": "a) Let X denote the number of calls in one hour. Then, X is a Poisson random variable with  = 10.\n−10 5\ne 10\nP(X =5) = = 0.0378.\n5!\n−10 −10 2 −10 3\ne 10 e 10 e 10\nb) P(X3) = e −10 + + + = 0.0103\n1! 2! 3!\nc) Let Y denote the number of calls in two hours. Then, Y is a Poisson random variable with\n−20 15\ne 20\nE(Y) = 20. P(Y=15) = = 0.0516\n15!\nd) Let W denote the number of calls in 30 minutes. Then W is a Poisson random variable with\n−5 5\ne 5\nE(W) = 5. P(W=5) = = 0.1755\n5!"
+  },
+  {
+    "question_number": "3-161",
+    "raw": "λ=1, Poisson distribution. f(x) = e- λ λx/x!\na) P(X ≥ 2) = 0.264\nb) In order that P(X ≥ 1) = 1 - P(X=0) = 1-e- λ exceeds 0.95, we need λ = 3.\nTherefore 3(16) = 48 cubic light years of space must be studied."
+  },
+  {
+    "question_number": "3-162",
+    "raw": "a)  = 14.4, P(X = 0) = 6E10-7\nb)  = 14.4/5 = 2.88, P(X = 0) = 0.056\nc)  = 14.4(7)(28.35)/225 = 12.7, P(X ≥ 1) = 0.999997\nd) P(X ≥ 28.8) = 1 - P(X ≤ 28) = 0.00046. Unusual."
+  },
+  {
+    "question_number": "3-163",
+    "raw": "a) λ = 0.61 and P(X ≥ 1) = 0.4566\nb)  = 0.61(5) = 3.05, P(X = 0) = 0.047\na) Let X denote the number of flaws in one square meter of cloth. Then, X is a Poisson random variable with\n = 0.1.\nP ( X = 2 ) =\ne − 0 .1 (\n2\n0\n!\n. 1 ) 2\n= 0 . 0 0 4 5\nb) Let Y denote the number of flaws in 10 square meters of cloth. Then, Y is a Poisson random variable with E(Y) = 1.\nP ( Y = 1 ) =\ne −\n1\n1 1\n!\n1\n= e − 1 = 0 . 3 6 7 9\nc) Let W denote the number of flaws in 20 square meters of cloth. Then, W is a Poisson random variable with E(W) = 2.\nP ( W = 0 ) = e − 2 = 0 . 1 3 5 3\nd)\nP ( Y  2 ) = 1 − P ( Y  1 ) = 1 − P ( Y = 0 ) − P ( Y = 1 ) = 1 − e − 1 − e − 1 = 0 . 2 6 4 2\nE(X) = 0.2"
+  },
+  {
+    "question_number": "3-165",
+    "raw": "a) errors per test area\nb) P ( X  2 ) = e − 0 .2 +\ne − 0 .2\n1\n0\n!\n. 2\n+\ne − 0 .2 (\n2\n0\n!\n. 2 ) 2\n= 0 . 9 9 8 9\n99.89% of test areas"
+  },
+  {
+    "question_number": "3-166",
+    "raw": "a) Let X denote the number of cracks in 5 miles of highway.\nThen, X is a Poisson random variable with E(X) = 10.\nP(X = 0) = e−10 = 4.5410−5\nb) Let Y denote the number of cracks in a half mile of highway. Then, Y is a Poisson random variable with E(Y) = 1.\nP(Y 1) =1− P(Y = 0) =1− e−1 = 0.6321\n\nc) The assumptions of a Poisson process require that the probability of an event is constant for all intervals. If the\nprobability of a count depends on traffic load and the load varies, then the assumptions of a Poisson process are not\nvalid. Separate Poisson random variables might be appropriate for the heavily and lightly loaded sections of the\nhighway."
+  },
+  {
+    "question_number": "3-167",
+    "raw": "a) Let X denote the number of flaws in 10 square feet of plastic panel.\nThen, X is a Poisson random variable with E(X) = 0.5.\nP(X = 0) = e−0.5 = 0.6065\nb) Let Y denote the number of cars with no flaws,\n10\nP(Y =10) =  (0.6065)10(0.3935)0 = 0.0067\n \n10\n \nc) Let W denote the number of cars with surface flaws. Because the number of flaws has a Poisson distribution, the\noccurrences of surface flaws in cars are independent events with constant probability. From part (a), the probability a\ncar contains surface flaws is 1 − 0.6065 = 0.3935. Consequently, W has a binomial distribution with n = 10 and p =\n0.3935\nP\nP\nP\n(\n(\n(\nW\nW\nW\n=\n=\n\n0\n1\n1\n)\n)\n)\n=\n=\n=\n\n\n0\n1 0\n0\n1 0\n1\n. 0 0\n\n\n6\n( 0\n( 0\n7\n. 3\n. 3\n+\n9\n9\n0\n0 3 5 )\n1 3 5 ) (\n. 0 4 3\n(\n0\n7\n0 .\n. 6\n=\n6 0\n0\n0\n6\n6 5\n. 0\n5\n)\n5\n)\n9\n0\n1 0\n=\n4\n=\n0\n0\n. 0\n. 0\n4\n0\n3\n6\n7\n7"
+  },
+  {
+    "question_number": "3-168",
+    "raw": "a) Let X denote the failures in 8 hours. Then, X has a Poisson distribution with E(X) = 0.16.\nP ( X = 0 ) = e − 0 .1 6 = 0 . 8 5 2 1\nb) Let Y denote the number of failure in 24 hours. Then, Y has a Poisson distribution with E(Y) = 0.48.\nP ( Y  1 ) = 1 − P ( Y = 0 ) = 1 − e − 4 8 = 0 . 3 8 1 2\n𝑒−0.250.250 𝑒−0.250.251\n𝑃(𝑋 ≥ 2) = 1 − [𝑃(𝑋 = 0) + 𝑃(𝑋 = 1)] = 1 − [ + ] = 0.026"
+  },
+  {
+    "question_number": "3-169",
+    "raw": "a)\n0! 1!\n𝜆 = 0.25(5) = 1.25 per five days\nb)\n𝑃(𝑋 = 0) = 𝑒−1.25 = 0.287\n𝑃(𝑋 ≤ 2) = 𝑃(𝑋 = 0) + 𝑃(𝑋 = 1) + 𝑃(𝑋 = 2)\nc)\n𝑒−1.251.25 𝑒−1.251.252\n= 𝑒−1.25 + + = 0.868\n1! 2!\n𝑃(𝑋 = 0) = 𝑒−1.5 = 0.223"
+  },
+  {
+    "question_number": "3-170",
+    "raw": "a)\nb)\n𝐸(𝑋) = 1.5(10) = 15 per 10 minutes\n𝑃(𝑋 ≤ 2) = 𝑃(𝑋 = 0) + 𝑃(𝑋 = 1) + 𝑃(𝑋 = 2)\n𝑒−1515 𝑒−15152\n= 𝑒−15 + + = 0.000039\n1! 2!\nc) No, if a Poisson distribution is assumed, the intervals need not be consecutive."
+  },
+  {
+    "question_number": "3-171",
+    "raw": "a) Let X denote the number of cabs that pass your workplace in 10 minutes.\n10 5\nT = 5 =\nThen, X is a Poisson random variable with\n60 6\ne−5/6(5/6)0\nP(X = 0) = = 0.435\n0!\nb) Let Y denote the number of cabs that pass your workplace in 20 minutes.\n20 5\nT = 5 =\nThen, Y is a Poisson random variable with\n60 3\n\ne−5/3(5/3)0\nP(Y 1) =1−P(Y = 0) =1− = 0.811\n0!\n* *\nc) Let be the mean number of cabs per hour and T = 1/6 hour. Find that satisfies the following condition:\ne−*/6(* /6)0\nP(X = 0) = = 0.1\n0!\n*\ne−*/6\n= 0.1\nand\n− = ln(0.1)\n6\n* = 1 3 . 8 1 6 "
+  },
+  {
+    "question_number": "3-172",
+    "raw": "a) Let X denote the number of orders that arrive in 5 minutes.\n5\nT =12 =1\nThen, X is a Poisson random variable with .\n60\nP ( X = 0 ) =\ne − 1\n0\n( 1\n!\n) 0\n= 0 . 3 6 8\nb)\nP ( X  3 ) = 1 −\n\nP ( X = 0 ) + P ( X = 1 ) + P ( X = 2 )\n\nP ( X  3 ) = 1 −\n e − 1\n0\n( 1\n!\n) 0\n+\ne − 1\n1\n( 1\n!\n) 1\n+\ne − 1\n2\n( 1\n!\n) 2 \n= 0 . 0 8 0\nc) Let Y denote the number of orders arriving in the length of time T (in hours) that satisfies the condition. The mean of\nthe random variable Y is 12T and T satisfies the following condition:\nP ( Y = 0 ) =\ne − 1 2 T (\n0\n1\n!\n2 T ) 0\n= 0 . 0 0 1\ne − 1 2 T = 0 . 0 0 1\nand\n− 1 2 T = l n ( 0 . 0 0 1 )\nTherefore, T = 0.57565 hours = 34.54 minutes."
+  },
+  {
+    "question_number": "3-173",
+    "raw": "a) Let X denote the number of visits in a day.\nThen, X is a Poisson random variable with\nT = 1 . 8 \nP ( X  5 ) = 1 − n\n5\n= 0\nP ( X = n ) = 1 − n\n5\n= 0\ne − 1 .8 (\nn\n1\n!\n. 8 ) n\n= 0 . 0 1 0\nb) Let Y denote the number of visits in a week.\nThen, Y is a Poisson random variable with\nT = 1 . 8 ( 7 ) = 1 2 . 6 \n.\nP ( X  5 ) = n\n4\n= 0\nP ( X = n ) = n\n4\n= 0\ne − 1 2 .6 ( 1\nn !\n2 . 6 ) n\n= 0 . 0 0 5\nc) Let Z denote the number of visits in T days that satisfies the given condition.\nThe mean of the random variable Z is 1.8T.\ne−1.8T (1.8T)0\nP(Z 1) =1−P(Z = 0) =1− = 0.99\n0!\ne−1.8T = 0.01 −1.8T = ln(0.01) T = 2.56\nand . As a result, days.\n\nd) With T=1, determine such that\nP ( X  5 ) = 1 − n\n5\n= 0\nP ( X = n ) = 1 − n\n5\n= 0\ne −\nn !\nn\n= 0 . 1\n\n= 3.15\nSolving the equation gives"
+  },
+  {
+    "question_number": "3-174",
+    "raw": "a) Let X denote the number of inclusions in cast iron with a volume of cubic millimeter.\n= 2.5\nThen, X is a Poisson random variable with and T = 1\n\ne−2.5(2.5)0\nP(X 1) =1−P(X = 0) =1− = 0.918\n0!\nb) Let Y denote the number of inclusions in cast iron with a volume of 5.0 cubic millimeters.\nT = 2.5(5) =12.5\nThen, Y is a Poisson random variable with\n4 4 e−12.5(12.5)n\nP(Y  5) =1−P(X = n) =1− = 0.995\nn!\nn=0 n=0\nc) Let Z denote the number of inclusions in a volume of V cubic millimeters that satisfies the condition\nP(Z 1) = 0.99\nThe mean of the random variable Z is 2.5V.\ne−2.5V (2.5V)0\nP(Z 1) =1−P(Z = 0) =1− = 0.99.\n0!\nAs a result, V=1.84 cubic millimeters.\nd) With T = 1, determine  that satisfies\nP ( X  1 ) = 1 − P ( Z = 0 ) = 1 −\n− (\n0 !\n) 0\n= 0 . 9 5\n  e\nAs a result,\n= 3 . 0 0 \ninclusions per cubic millimeter.\nSupplemental Exercises\nE ( X ) =\n1\n8\n 1\n3\n\n+\n1\n4\n 1\n3\n\n+\n3\n8\n 1\n3\n\n=\n1\n4\n,\nV ( X ) =\n 1\n8\n\n2\n 1\n3\n\n+\n 1\n4\n\n2\n 1\n3\n\n+\n 3\n8\n\n2\n 1\n3\n\n−\n 1\n4\n\n2\n= 0 . 0 1 0 4"
+  },
+  {
+    "question_number": "3-176",
+    "raw": "a)\nP ( X = 1 ) =\n 1 0\n1\n0 0 \n0 . 0 0 1 1 ( 0 . 9 9 9 ) 9 9 9 = 0 . 3 6 8 1\nb\nc\nd\n)\n)\n)\nP\nP\nE\nV\n(\n(\n(\nX\nX\nX\n( X\n\n\n)\n)\n=\n1\n2\n=\n)\n)\n1\n1\n=\n=\n=\n0\n0\n0\n1\n0\n\n0\n0\n−\n1\n.\n(\n0\n0\n9\n0\n(\nP\n0\n0\n1\n.\n0\n0\n.\n(\n0\n9\n0\nX\n\n8\n0 1\n0\n0\n)\n1\n=\n.\n)\n0\n=\n(\n0\n0\n0\n)\n1\n1\n. 9\n=\n0\n9\n(\n1\n0\n9\n.\n)\n−\n9\n=\n\n9\n1\n9\n0\n0\n)\n.\n0\n1\n9\n0\n0\n0\n0\n9\n0\n9\n\n+\n0 .\n\n0\n1\n0\n0\n1\n0\n1\n0\n0\n( 0\n\n.\n0\n9\n.\n9\n0\n9\n0\n)\n1\n9\n1\n9\n(\n9\n0\n=\n. 9\n0\n9\n.\n9\n6\n)\n3\n9 9\n1\n9\n9\n+\n 1 0\n2\n0 0 \n0 . 0 0 1 2 0 . 9 9 9 9 9 8"
+  },
+  {
+    "question_number": "3-177",
+    "raw": "a) n = 50, p = 5/50 = 0.1, because E(X) = 5 = np\n50 50 50\nP(X  2) = \n0.10(\n0.9\n)50\n+ \n0.11(\n0.9\n)49\n+ \n0.12(\n0.9\n)48\n= 0.112\nb)      \n0 1 2\n     \n50 50\nP(X  49) =  0.149( 0.9 )1 +  0.150( 0.9 )0 = 4.5110−48\nc)    \n49 50\n   "
+  },
+  {
+    "question_number": "3-178",
+    "raw": "a) Binomial distribution with p = 0.01, n = 12\n12 12\n p0(1− p)12  p1(1− p)14\nb) P(X > 1) = 1 - P(X ≤ 1)= 1 -   -  = 0.0062\n0 1\n   \nc) µ = E(X) = np =12(0.01) = 0.12\nV(X)\nV(X) = np(1 - p) = 0.1188 σ = = 0.3447\n(0.5)12 = 0.000244"
+  },
+  {
+    "question_number": "3-179",
+    "raw": "a)\nC6 (0.5)6(0.5)6\nb) = 0.2256\n12\nC12(0.5)5(0.5)7 + C12(0.5)6(0.5)6 = 0.4189\nc)\n5 6"
+  },
+  {
+    "question_number": "3-180",
+    "raw": "a) Binomial distribution with n =100, p = 0.01\nb) P(X ≥ 1) = 0.634\nc) P(X ≥ 2)= 0.264\nd) µ = E(X) = np =100(0.01) = 1\nV(X) = np(1 - p) = 0.99 and\nσ=\nV ( X )\n= 0.995\ne) Let p = P(X≥2)= 0.264,\nd\nY = number of messages that require two or more packets be resent.\nY is binomial distributed with n = 10, p = p (1/10) = 0.0264\nm d\nP(Y ≥ 1) = 0.235"
+  },
+  {
+    "question_number": "3-181",
+    "raw": "Let X denote the number of mornings needed to obtain a green light.\nThen X is a geometric random variable with p = 0.20.\na) P(X = 4) = (1-0.2)30.2 = 0.1024\nb) By independence, (0.8)10 = 0.1074. (Also, P(X > 10) = 0.1074)"
+  },
+  {
+    "question_number": "3-182",
+    "raw": "Let X denote the number of attempts needed to obtain a calibration that conforms to specifications.\nThen, X is a geometric random variable with p = 0.6.\nP(X  3) = P(X=1) + P(X=2) + P(X=3) = 0.6 + 0.4(0.6) + 0.42(0.6) = 0.936."
+  },
+  {
+    "question_number": "3-183",
+    "raw": "Let X denote the number of fills needed to detect three underweight packages.\nThen, X is a negative binomial random variable with p = 0.001 and r = 3.\na) E(X) = 3/0.001 = 3000\nb) V(X) = [3(0.999)/0.0012] = 2997000. Therefore,  = 1731.18\nX"
+  },
+  {
+    "question_number": "3-184",
+    "raw": "Geometric random variable with p = 0.1\na) f(x) = (1-p)x-1p = 0.9(x-1)0.1\nb) P(X=5) = 0.94(0.1) = 0.0656\nc) µ = E(X) = 1/p=10\nd) P(X ≤ 10) = 0.651"
+  },
+  {
+    "question_number": "3-185",
+    "raw": "a) E(X) = 6(0.5) = 3\nP(X = 0) = 0.0498\nb) P(X ≥ 3) = 0.5768\nc) P(X ≤ x) ≥ 0.9, and by trial x = 5\nd) σ2 = λ = 6. Not appropriate."
+  },
+  {
+    "question_number": "3-186",
+    "raw": "Let X denote the number of totes in the sample that do not conform to purity requirements. Then, X has a\nhypergeometric distribution with N = 15, n = 3, and K = 2.\n\n213\n  \n  \n0 3 13!12!\n  \nP(X 1) =1− P(X = 0) =1− =1− = 0.3714\n15 10!15!\n \n \n3\n "
+  },
+  {
+    "question_number": "3-187",
+    "raw": "Let X denote the number of calls that are answered in 30 seconds or less.\nThen, X is a binomial random variable with p = 0.75.\n10\n (0.75)9(0.25)1 = 0.1877\na) P(X = 9) =  \n9\n \nb) P(X  16) = P(X = 16) +P(X = 17) + P(X = 18) + P(X = 19) + P(X = 20)\n=\n 2\n1\n0\n6\n+\n\n(\n\n0\n2\n1\n. 7\n0\n9\n5\n\n)\n( 0\n1 6\n. 7\n( 0\n5\n.\n)\n2\n1\n5\n9\n)\n( 0\n4\n.\n+\n2 5\n\n)\n2\n1\n1\n0\n7\n+\n\n(\n\n0\n2\n2\n.\n0\n0\n7 5\n\n(\n)\n0\n1 7\n. 7\n( 0\n5\n.\n)\n2\n2\n5\n0 (\n)\n0\n3\n.\n+\n2 5\n\n)\n2\n1\n0\n0\n8\n=\n\n(\n0\n0\n.\n.\n4\n7\n1\n5\n4\n) 1\n8\n8 ( 0 . 2 5 ) 2\nc) E(X) = 20(0.75) = 15"
+  },
+  {
+    "question_number": "3-188",
+    "raw": "Let Y denote the number of calls needed to obtain an answer in less than 30 seconds.\na)\nP ( Y = 4 ) = ( 1 − 0 . 7 5 ) 3 0 . 7 5 = 0 . 2 5 3 0 . 7 5 = 0 . 0 1 1 7\nb) E(Y) = 1/p = 1/0.75 = 4/3"
+  },
+  {
+    "question_number": "3-189",
+    "raw": "Let W denote the number of calls needed to obtain two answers in less than 30 seconds.\nThen, W has a negative binomial distribution with p = 0.75.\na) P(W = 6) =\n 5\n1\n\n( 0 . 2 5 )\n4\n( 0 .7 5 )\n2\n= 0 . 0 1 1 0\nb) E(W) = r/p = 2/0.75 = 8/3"
+  },
+  {
+    "question_number": "3-190",
+    "raw": "a) Let X denote the number of messages sent in one hour.\nP ( X = 5 ) =\ne − 5\n5\n5\n!\n5\n= 0 . 1 7 5 5\nb) Let Y denote the number of messages sent in 1.5 hours.\nThen, Y is a Poisson random variable with E(Y) = 7.5.\nP ( Y = 1 0 ) =\ne − 7 .5 (\n1\n7\n0\n.\n!\n5 ) 1 0\n= 0 . 0 8 5 8\nc) Let W denote the number of messages sent in one-half hour.\nThen, W is a Poisson random variable with E(W) = 2.5\nP ( W  2 ) = P ( W = 0 ) + P ( W = 1 ) = 0 . 2 8 7 3"
+  },
+  {
+    "question_number": "3-191",
+    "raw": "X is a negative binomial with r=4 and p=0.0001\nE(X) = r / p = 4/0.0001 = 40000\nrequests"
+  },
+  {
+    "question_number": "3-192",
+    "raw": "X  Poisson with E(X) = 0.01(100) = 1\ne−1(1)1 e−1(1)2 e−1(1)3\nP(Y  3) = e−1 + + + = 0.9810\n1! 2! 3!"
+  },
+  {
+    "question_number": "3-193",
+    "raw": "Let X denote the number of individuals that recover in one week. Assume the individuals are independent.\nThen, X is a binomial random variable with n = 20 and p = 0.1.\nP(X  4) = 1 − P(X  3) = 1 − 0.8670 = 0.1330."
+  },
+  {
+    "question_number": "3-194",
+    "raw": "a) P(X = 1) = 0, P(X = 2) = 0.0025, P(X = 3) = 0.01, P(X = 4) = 0.03, P(X = 5) = 0.065\nP(X = 6) = 0.13, P(X = 7) = 0.18, P(X = 8) = 0.2225, P(X = 9) = 0.2, P(X = 10) = 0.16\n\nb) P(X = 1) = 0.0025, P(X=1.5) = 0.01, P(X = 2) = 0.03, P(X = 2.5) = 0.065, P(X = 3) = 0.13\nP(X = 3.5) = 0.18, P(X = 4) = 0.2225, P(X = 4.5) = 0.2, P(X = 5) = 0.16"
+  },
+  {
+    "question_number": "3-195",
+    "raw": "Let X denote the number of assemblies needed to obtain 5 defectives.\nThen, X is a negative binomial random variable with p = 0.01 and r=5.\na) E(X) = r/p = 500\nb) V(X) = 5(0.99)/0.012 = 49500 and  = 222.49"
+  },
+  {
+    "question_number": "3-196",
+    "raw": "Here n assemblies are checked. Let X denote the number of defective assemblies.\nIf P(X  1)  0.95, then P(X = 0)  0.05. Now,\nn\nP(X = 0) =     (0.01)0(0.99)n = 99n and 0.99n  0.05. Therefore,\n0\n \nn(ln( 0.99))  ln(0.05)\nln(0.05)\nn  = 298.07\nln(0.95)\nTherefore, n = 299"
+  },
+  {
+    "question_number": "3-197",
+    "raw": "Require f(1) + f(2) + f(3) + f(4) = 1. Therefore, c(1+2+3+4) = 1. Therefore, c = 0.1."
+  },
+  {
+    "question_number": "3-198",
+    "raw": "Let X denote the number of products that fail during the warranty period. Assume the units are\nindependent. Then, X is a binomial random variable with n = 500 and p = 0.02.\na) P(X = 0) =\n 5 0\n0\n0 \n( 0 . 0 2 ) 0 ( 0 . 9 8 ) 5 0 0 = 4.1 x 10-5\nb) E(X) = 500(0.02) = 10\nc) P(X >2) = 1 − P(X  2) = 0.9995\nf\nX\n( 0 ) = ( 0 . 1 ) ( 0 . 7 ) + ( 0 . 3 ) ( 0 . 3 ) = 0 . 1 6\nf\nX\n( 1 ) = ( 0 . 1 ) ( 0 . 7 ) + ( 0 . 4 ) ( 0 . 3 ) = 0 . 1 9\nf\nX\n( 2 ) = ( 0 . 2 ) ( 0 . 7 ) + ( 0 . 2 ) ( 0 . 3 ) = 0 . 2 0\nf\nX\n( 3 ) = ( 0 . 4 ) ( 0 . 7 ) + ( 0 . 1 ) ( 0 . 3 ) = 0 . 3 1\nf\nX\n( 4 ) = ( 0 . 2 ) ( 0 . 7 ) + ( 0 ) ( 0 . 3 ) = 0 . 1 4"
+  },
+  {
+    "question_number": "3-200",
+    "raw": "a) P(X  3) = 0.2 + 0.4 = 0.6\nb) P(X > 2.5) = 0.4 + 0.3 + 0.1 = 0.8\nc) P(2.7 < X < 5.1) = 0.4 + 0.3 = 0.7\nd) E(X) = 2(0.2) + 3(0.4) + 5(0.3) + 8(0.1) = 3.9\ne) V(X) = 22(0.2) + 32(0.4) + 52(0.3) + 82(0.1) − (3.9)2 = 3.09\nx 2 5.7 6.5 8.5\nf(x) 0.2 0.3 0.3 0.2"
+  },
+  {
+    "question_number": "3-202",
+    "raw": "Let X and Y denote the number of bolts in the sample from supplier 1 and 2, respectively.\nThen, X is a hypergeometric random variable with N = 100, n = 4, and K = 30.\nAlso, Y is a hypergeometric random variable with N = 100, n = 4, and K = 70.\na) P(X = 4 or Y=4) = P(X = 4) + P(Y = 4)\n\n3070 3070\n     \n     \n4 0 0 4\n     \n= +\n100 100\n   \n   \n4 4\n   \n= 0.2408\n3070 3070\n   +   \n     \n3 1 1 3\n     \n= = 0.4913\nb) P[(X = 3 and Y = 1) or (Y = 3 and X = 1)]=\n100\n \n \n4\n "
+  },
+  {
+    "question_number": "3-203",
+    "raw": "Let X denote the number of errors in a sector. Then, X is a Poisson random variable with E(X) = 0.32768.\na) P(X > 1) = 1 − P(X  1) = 1 − e–0.32768 − e–0.32768(0.32768) = 0.0433\nb) Let Y denote the number of sectors until an error is found.\nThen, Y is a geometric random variable and P = P(X  1) = 1 − P(X = 0) = 1 − e–0.32768 = 0.2794\nE(Y) = 1/p = 3.58"
+  },
+  {
+    "question_number": "3-204",
+    "raw": "Let X denote the number of orders placed in a week in a city of 800,000 people.\nThen X is a Poisson random variable with E(X) = 0.25(8) = 2.\na) P(X  3) = 1 − P(X  2) = 1 − [e-2 + e-2(2) + (e-222)/2!] = 1 − 0.6767 = 0.3233.\nb) Let Y denote the number of orders in 2 weeks. Then, Y is a Poisson random variable with E(Y) = 4, and\nP(Y > 2) =1- P(Y  2) = e-4 + (e-441)/1!+ (e-442)/2! =1 - [0.01832 + 0.07326 + 0.1465] = 0.7619."
+  },
+  {
+    "question_number": "3-205",
+    "raw": "a) Hypergeometric random variable with N = 500, n = 5, and K = 125\nf\nX\n( 0 ) =\n 1 2\n0\n\n5\n5\n\n0\n5\n 3\n0\n7\n5\n\n5 \n=\n6\n2\n.\n.\n0\n5\n1\n5\n6\n2\n4\n4\nE\nE\n1\n1\n0\n1\n= 0 . 2 3 5 7\nf\nX\n( 1 ) =\n 1 2\n1\n\n5\n5\n \n \n \n \n0\n5\n3\n0\n7\n4\n\n5 \n=\n1 2 5\n2\n( 8\n. 5\n. 1\n5\n0\n2\n8\n5\n5\nE\n5\n1\nE\n1\n8 )\n= 0 . 3 9 7 1\n125375\n  \n  \n 2  3  7750(8718875)\nf (2) = = = 0.2647\nX 500 2.5524E11\n \n \n5\n \n125375\n  \n  \n 3  2  317750(70125)\nf (3) = = = 0.0873\nX 500 2.5524E11\n \n \n5\n \n125375\n  \n  \n 4  1  9691375(375)\nf (4) = = = 0.01424\nX 500 2.5524E11\n \n \n5\n \n\n125375\n  \n  \n 5  0  2.3453E8\nf (5) = = = 0.00092\nX 500 2.5524E11\n \n \n5\n \nb)\nx 0 1 2 3 4 5\nf(x) 0.0546 0.1866 0.2837 0.2528 0.1463 0.0574\n5 6 7 8 9 10\n0.0574 0.0155 0.0028 0.0003 0.0000 0.0000"
+  },
+  {
+    "question_number": "3-206",
+    "raw": "Let X denote the number of totes in the sample that exceed the moisture content.\nThen X is a binomial random variable with n = 30. We are to determine p.\nIf P(X  1) = 0.9, then P(X = 0) = 0.1. Then\n 3\n0\n0 \n( p ) 0 ( 1 − p ) 3 0 = 0 . 1\n, and 30[ln(1−p)] = ln(0.1),\nand p = 0.0739"
+  },
+  {
+    "question_number": "3-207",
+    "raw": "Let T denote an interval of time in hours and let X denote the number of messages that arrive in time t.\nThen, X is a Poisson random variable with E(X) = 10T.\nThen, P(X=0) = 0.9 and e-10T = 0.9, resulting in T = 0.0105 hours = 37.8 seconds"
+  },
+  {
+    "question_number": "3-208",
+    "raw": "a) Let X denote the number of flaws in 50 panels.\nThen, X is a Poisson random variable with E(X) = 50(0.02) = 1.\nP(X = 0) = e-1 = 0.3679\nb) Let Y denote the number of flaws in one panel.\nP(Y  1) = 1 − P(Y = 0) = 1 − e-0.02 = 0.0198\nLet W denote the number of panels that need to be inspected before a flaw is found.\nThen W is a geometric random variable with p = 0.0198.\nE(W) = 1/0.0198 = 50.51 panels.\nc) P ( Y  1 ) = 1 − P ( Y = 0 ) = 1 − e − 0 .0 2 = 0 . 0 1 9 8\nLet V denote the number of panels with 1 or more flaws.\nThen V is a binomial random variable with n = 50 and p = 0.0198\nP ( V  2 ) =\n 5\n0\n0 \n0 . 0 1 9 8 0 ( . 9 8 0 2 ) 5 0 +\n 5\n1\n0 \n0 . 0 1 9 8 1 ( 0 . 9 8 0 2 ) 4 9\n50\n+  0.01982(0.9802)48 = 0.9234\n \n2\n "
+  },
+  {
+    "question_number": "3-209",
+    "raw": "a) Let X denote the number of cacti per 10,000 square meters.\n10,000\n280 = 2.8\nThen, X is a Poisson random variable with E(X) =\n106\ne−2.8(2.8)0\nb) The unit is 10,000 square meters and T = 1. P(X = 0) = = 0.061\n0!\nc) Let Y denote the number of cacti in a region of area T (in units of 10,000 square meters).\nThe mean of the random variable Y is 2.8T and\n \nP(Y  2) =1− P(Y = 0)+P(Y =1) = 0.9\n\ne−2.8T (2.8T)0 e−2.8T (2.8T)1\n+ = 0.1\n0! 1!\nThis can be solved in computer software to obtain2.8T =3.8897\nTherefore, T = 3.8897/2.8 = 1.39 (10,000 square meters) = 13,900 square meters.\nX = the number of sites with lesions in the sample\nThen X has hypergeometric distribution with N = 50 and n = 8.\nWe need to find the minimum K that meets the condition P(X 1)  0.95\nEquivalently, 1− P(X = 0)  0.95 and P(X = 0)  0.05 Therefore,\n K\n0\n \n\n5\n5\n0\n8\n0\n8\n−\n−\n\nK\n0\n\n 0 . 0 5\nFrom trials of values for K, we have\n 1\n0\n5  \n\n5\n5\n8\n0\n8\n0\n−\n−\n\n1\n0\n5 \n 0 . 0 5 \n 1\n0\n4  \n\n5\n5\n8\n0\n8\n0\n−\n−\n\n1\n0\n4 \n.\nSo, the minimum number of sites with lesions that satisfies the given condition is 15.\nWe also need to find the minimum K that meets the condition P ( X  1 )  0 . 9 9\nEquivalently, 1 − P ( X = 0 )  0 . 9 9 and P ( X = 0 )  0 . 0 1 Therefore,\n K\n0\n \n\n5\n5\n0\n8\n0\n8\n−\n−\n\nK\n0\n\n 0 . 0 1\nFrom trials of values for K, we have\n 2\n0\n1  \n\n5\n5\n8\n0\n8\n0\n−\n−\n\n2\n0\n1 \n 0 . 0 1 \n 2\n0\n0  \n\n5\n5\n8\n0\n8\n0\n−\n−\n\n2\n0\n0 \n.\nSo, the minimum number of sites with lesions that satisfies the given condition is 21.\nMind Expanding Exercises"
+  },
+  {
+    "question_number": "3-211",
+    "raw": "The binomial distribution\nn!\nP(X = x) = px(1-p)n-x\n( )\nr! n − r !\nThe probability of the event can be expressed as p = /n and the probability mass function can be written as\n\nn!\nP(X = x) = [/n]x[1 – (/n)]n-x\n( )\nx! n − x !\nn(n −1)(n − 2)(n −3)......(n − x +1) λ x\nP(X = x) (1 – (/n))n-x\nn x x!\nNow we can re-express as:\n[1 – (/n)]n-x = [1 – (/n)]n[1 – (/n)]-x\nIn the limit as n → \nn  ( n − 1 )  ( n − 2 )  (\nn\nn\nx\n− 3 ) . . . . . .  ( n − x + 1 )\n 1\nAs n →  the limit of [1 – (/n)]-x  1\nAlso, we know that as n → \n( )  1 - λ n n = e −\nThus,\nx\nλ\nP(X = x) =\nx!\ne\n− λ\nThe distribution of the probability associated with this process is known as the Poisson distribution and we\ncan express the probability mass function as\nf(x) =\ne − \nx\n\n!\nx"
+  },
+  {
+    "question_number": "3-212",
+    "raw": "Show that\ni\n= 1\n( 1 − p )\ni − 1\np = 1 using an infinite sum.\nTo begin, i\n\n= 1\n( 1 − p ) i − 1 p = p i\n\n= 1\n( 1 − p ) i − 1 ,\nFrom the results for an infinite sum this equals\np i\n\n= 1\n( 1 − p ) i − 1 =\n1 − ( 1\np\n− p )\n=\np\np\n= 1\n\nE\nV\n(\n(\nX\nX\n)\n)\n=\n=\n=\n=\n=\n=\n=\n[ ( a + ( a + 1\nb a − 1 \n  i − i\n\ni = 1 i = 1\n2 2  ( b − a +\n\n2 \n( b + a )\n2\nb\n   i − b + a\n2\ni = a\nb + a − 1\nb ( b + 1 ) ( 2 b\n6\n2 ( b − a + 1 )\n1 2\n)\n\n2\n+\n(\nb\n=\n+\n−\n.\nb\n+\n1\n1\n. .\n−\na\n\n)\n+\na\n)\nb\ni\n=\n−\nb\n\na\n(\n]\n+\n(\ni\na\n( b\n1 )\nb −\n2 −\n−\n− a\n\n=\na\n( b\n1 ) a\n6\n+\nb\n+\n+\n( 2\n1\n( b\n1 )\na\na\n)\n+\n2\n=\n )\ni\n−\n1\n\nb\n= a\nb\n1\n)\n(\ni\n+\n)\n−\nb\n+\na\n−\n( a −\n2\n+ a ) (\n( b −\n− 1\n( b +\nb −\n1\nb\n2\na\na\n)\n)\na\na\n−\n+\n\n+\n\n( b\na +\n1 ) ( b\n4\nb ( b\n1\n−\n1 )\n+\n+\na\n\na\n1 )\n(\n+\nb\n)\n−\n2\n2\n1\n−\n\n(\n)\na\na\n−\n+\n1\n1\n)\n)\na \n+\n( b − a + 1\n4\n) ( b + a ) 2"
+  },
+  {
+    "question_number": "3-214",
+    "raw": "Let X denote a geometric random variable with parameter p. Let q = 1 – p.\nE\n=\n=\n(\np\np\nX\n\n\n) =\nd\nd q\n1\n2 p\nx\nx\n\n\n=\n\n=\n1\n1\n=\nx\nq\n( 1\nx\n1\np\n−\n=\np\np\n)\n\nx −\nd\nd\n1\nq\np\n\n=\n1\nq\n−\np x\nq\n\n=\n\n1\nx\n=\nq\np\nx −\n\n1\n1\n=\n( 1\np\n−\n(\nx\nq\n1\n\n= 1\n)\n−\nd\n−\nq\nd\nq\nq\n) 2\nq\n( −\nx\n1 ) \n \n( )\nV(X) = (x − 1)2(1− p)x−1 p =  px2 −2x + 1 (1− p)x−1\np p\nx=1 x=1\n  \n= p x2qx−1 − 2 xqx−1 + 1 qx−1\np\nx=1 x=1 x=1\n\n= p x2qx−1 − 2 + 1\np2 p2\nx=1\n\n= p x2qx−1 − 1\np2\nx=1\n= p d q + 2q2 +3q3 +... − 1\n \ndq p2\n= p d q(1+ 2q +3q2 +...) − 1\n \ndq p2\n= p d  q  − 1 = 2pq(1− q)−3 + p(1− q)−2 − 1\ndq  (1−q)2  p2 p2\n \n2(1− p)+ p −1 (1− p) q\n= = =\np2 p2 p2\n\nLet X = number of passengers with a reserved seat who arrive for the flight,\nn = number of seat reservations, p = probability that a ticketed passenger arrives for the flight.\na) In this part we determine n such that P(X  120)  0.9. By testing several values for n, the minimum value is n =\n131.\nb) In this part we determine n such that P(X > 120)  0.10 which is equivalent to\n1 – P(X  120)  0.10 or 0.90  P(X  120).\nBy testing several values for n, the solution is n = 123.\nc) One possible answer follows. If the airline is most concerned with losing customers due to over-booking, they should\nonly sell 123 tickets for this flight. The probability of over-booking is then at most 10%. If the airline is most\nconcerned with having a full flight, they should sell 131 tickets for this flight. The chance the flight is full is then at\nleast 90%. These calculations assume customers arrive independently and groups of people that arrive (or do not arrive)\ntogether for travel make the analysis more complicated."
+  },
+  {
+    "question_number": "3-216",
+    "raw": "Let X denote the number of nonconforming products in the sample.\nThen, X is approximately binomial with p = 0.01 and n is to be determined.\nIf\nP ( X  1 )  0 . 9 0\n, then\nP ( X = 0 )  0 . 1 0\n.\nNow, P(X = 0) =\n(\nn0\n)\np 0 ( 1 − p ) n = ( 1 − p ) n\n. Consequently,\n( 1 − p ) n  0 . 1 0\n, and\nn \nl\nl\nn\nn\n( 1\n0\n−\n. 1 0\np )\n= 2 2 9 . 1 1\n. Therefore, n = 230 is required."
+  },
+  {
+    "question_number": "3-217",
+    "raw": "If the lot size is small, 10% of the lot might be insufficient to detect nonconforming product. For example, if the lot size\nis 10, then a sample of size one has a probability of only 0.2 of detecting a nonconforming product in a lot that is 20%\nnonconforming.\nIf the lot size is large, 10% of the lot might be a larger sample size than is practical or necessary. For example, if the\nlot size is 5000, then a sample of 500 is required. Furthermore, the binomial approximation to the hypergeometric\ndistribution can be used to show the following. If 5% of the lot of size 5000 is nonconforming, then the probability of\nzero nonconforming products in the sample is approximately 7E-12. Using a sample of 100, the same probability is still\nonly 0.0059. The sample of size 500 might be much larger than is needed.\nLet X denote the number of acceptable components. Then, X has a binomial distribution with p = 0.98 and n is to be\ndetermined such that\nP ( X  1 0 0 )  0 . 9 5\nn P ( X  1 0 0 )\n102 0.666\n103 0.848\n104 0.942\n105 0.981\nTherefore, 105 components are needed."
+  },
+  {
+    "question_number": "3-219",
+    "raw": "Let X denote the number of rolls produced.\nRevenue at each demand\n0 1000 2000 3000\n0  x1000 0.05x 0.3x 0.3x 0.3x\nmean profit = 0.05x(0.3) + 0.3x(0.7) - 0.1x\n1000x2000 0.05x 0.3(1000) + 0.3x 0.3x\n0.05(x-1000)\nmean profit = 0.05x(0.3) + [0.3(1000) + 0.05(x-1000)](0.2) + 0.3x(0.5) - 0.1x\n2000 x3000 0.05x 0.3(1000) + 0.3(2000) + 0.3x\n0.05(x-1000) 0.05(x-2000)\n\nmean profit = 0.05x(0.3) + [0.3(1000)+0.05(x-1000)](0.2) + [0.3(2000) + 0.05(x-2000)](0.3) + 0.3x(0.2) - 0.1x\n3000  x 0.05x 0.3(1000) + 0.3(2000) + 0.3(3000)+\n0.05(x-1000) 0.05(x-2000) 0.05(x-3000)\nmean profit = 0.05x(0.3) + [0.3(1000)+0.05(x-1000)](0.2) + [0.3(2000)+0.05(x-2000)]0.3 + [0.3(3000)+0.05(x-\n3000)]0.2 - 0.1x\nProfit Max. profit\n0  x1000 0.125 x $ 125 at x = 1000\n1000x2000 0.075 x + 50 $ 200 at x = 2000\n2000 x3000 200 $200 at x = 3000\n3000  x -0.05 x + 350 $200 at x = 3000\nThe bakery can produce anywhere from 2000 to 3000 and earn the same profit."
+  }
+]

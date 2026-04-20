@@ -1,0 +1,5 @@
+# Ignore all generated Python scripts
+*.py
+
+# Keep the directory
+!.gitignore

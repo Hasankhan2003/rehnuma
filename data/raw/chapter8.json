@@ -1,0 +1,450 @@
+[
+  {
+    "question_number": "8-2",
+    "raw": "a) A z = 2.33 would result in a 98% two-sided confidence interval.\n\nb) A z = 1.29 would result in a 80% two-sided confidence interval.\n\nc) A z = 1.15 would result in a 75% two-sided confidence interval.\n"
+  },
+  {
+    "question_number": "8-3",
+    "raw": "a) A z = 1.29 would result in a 90% one-sided confidence interval.\n\nb) A z = 1.65 would result in a 95% one-sided confidence interval.\n\nc) A z = 2.33 would result in a 99% one-sided confidence interval.\n"
+  },
+  {
+    "question_number": "8-4",
+    "raw": "a) 95% CI for\n, n = 1 0 , = 2 0 x = 1 0 0 0 , z = 1 . 9 6  \n1 0 0 0 − 1 . 9 6\n−\n( 2 0 /\n9\n/\n8\n1\n7\n0\n.\n)\n6\n\n\n\n\n\n\n1\n1\n0\n0\n+\n0\n1\n0\n2 .\n+\n4\n/\n1 . 9 6 ( 2 0 / 1 0 )\n  \n\n\nx z n x z n\nb) .95% CI for\n, n = 2 5 , = 2 0 x = 1 0 0 0 , z = 1 . 9 6  \nx − z/ n   x + z/ n\n1000 −1.96(20/ 25)  1000 +1.96(20/ 25)\n992.2  1007.8\n, n =10, = 20 x =1000, z = 2.58\nc) 99% CI for\nx − z/ n   x + z/ n\n1000 − 2.58(20/ 10)  1000 + 2.58(20/ 10)\n983.7  1016.3\n, n = 25, = 20 x =1000, z = 2.58\nd) 99% CI for\n\nx − z/ n   x + z/ n\n1000 − 2.58(20/ 25)  1000 + 2.58(20/ 25)\n989.7  1010.3\ne) When n is larger, the CI is narrower. The higher the confidence level, the wider the CI."
+  },
+  {
+    "question_number": "8-5",
+    "raw": "a) Sample mean from the first confidence interval = 38.02 + (61.98-38.02)/2 = 50\nSample mean from the second confidence interval = 39.95 + (60.05-39.95)/2 = 50\nb) The 95% CI is (38.02, 61.98) and the 90% CI is (39.95, 60.05). The higher the confidence\nlevel, the wider the CI."
+  },
+  {
+    "question_number": "8-6",
+    "raw": "a) Sample mean from the first confidence interval =37.53 + (49.87-37.53)/2 = 43.7\nSample mean from the second confidence interval =35.59 + (51.81-35.59)/2 = 43.7\nb) The 99% CI is (35.59, 51.81) and the 95% CI is (37.53, 49.87). The higher the confidence\nlevel, the wider the CI."
+  },
+  {
+    "question_number": "8-7",
+    "raw": "a) Find n for the length of the 95% CI to be 40. Z = 1.96\na/2\n1\n3\nn\n/ 2\n9\n=\nle\n. 2\n\nn\n=\n3\ng t h\n2 0\n9 . 2\n2 0\n=\n\nn\n2\n( 1\n=\n. 9\n3\n6\n. 8\n) (\n4\n2 0 ) / n = 2 0\nTherefore, n = 4.\nb) Find n for the length of the 99% CI to be 40. Z = 2.58\na/2\n1\n5\nn\n/ 2\n1\n=\nle\n. 6\n\nn\n=\n5\ng t h\n2 0\n1 . 6\n2 0\n=\n\nn\n2\n(\n=\n2 . 5\n6\n8\n. 6\n)\n6\n( 2 0 ) / n = 2 0\nTherefore, n = 7."
+  },
+  {
+    "question_number": "8-8",
+    "raw": "Interval (1):\n3 1 2 4 . 9   3 2 1 5 . 7 \nand Interval (2):\n3 1 1 0 . 5   3 2 3 0 . 1 \nInterval (1): half-length =90.8/2=45.4 and Interval (2): half-length =119.6/2=59.8\na) x\n1\n= 3 1 2 4 . 9 + 4 5 . 4 = 3 1 7 0 . 3\nx = 3110.5+59.8 = 3170.3 The sample means are the same.\n2\n3124.9   3215.7\nb) Interval (1): was calculated with 95% confidence because it has a smaller half-\nlength, and therefore a smaller confidence interval. The 99% confidence level widens the interval."
+  },
+  {
+    "question_number": "8-9",
+    "raw": "a) The 99% CI on the mean calcium concentration would be wider.\nb) No, that is not the correct interpretation of a confidence interval. The probability that  is between 0.49\nand 0.82 is either 0 or 1.\nc) Yes, this is the correct interpretation of a confidence interval. The upper and lower limits of the\nconfidence limits are random variables."
+  },
+  {
+    "question_number": "8-10",
+    "raw": "95% Two-sided CI on the breaking strength of yarn: where x = 98,  = 2 , n=9 and z = 1.96\n0.025\nx − z / n  x + z / n\n0.025 0.025\n98 −1.96(2)/ 9  98 +1.96(2)/ 9\n96.7  99.3"
+  },
+  {
+    "question_number": "8-11",
+    "raw": "95% Two-sided CI on the true mean yield: where x = 90.480,  = 3 , n=5 and z = 1.96\n0.025\nx − z / n  x + z / n\n0.025 0.025\n90.480 −1.96(3)/ 5  90.480 +1.96(3)/ 5\n87.85 93.11"
+  },
+  {
+    "question_number": "8-12",
+    "raw": "99% Two-sided CI on the diameter cable harness holes: where x =1.5045 ,  = 0.01 , n=10 and\nz = 2.58\n0.005\n1 . 5 0 4 5 − 2 . 5\n−\n8 ( 0\n0 .0\n. 0\n0 5\n1 )\n1\n/\n. 4\n/\n9\n1\n6\n0\n3\n\n\n\n\n\n\n1\n1\n.\n.\n+\n5\n5\n0\n1\n4\n2\n0\n5\n7\n.0 0\n+\n5\n2\n/\n. 5 8 ( 0 . 0 1 ) / 1 0\n  \n\n\nx z n x z n"
+  },
+  {
+    "question_number": "8-13",
+    "raw": "a) 99% Two-sided CI on the true mean piston ring diameter\nFor  = 0.01, z = z = 2.58 , and x = 74.036,  = 0.001, n=15\n/2 0.005\nx − z\n0 .0 0 5\n \nn\n\n   x + z\n0 .0 0 5\n \nn\n\n7 4 .0 3 6 − 2 .5 8\n 0 .0\n1\n0\n5\n1 \n   7 4 .0 3 6 + 2 .5 8\n 0 .0\n1\n0\n5\n1 \n74.0353    74.0367\nb) 99% One-sided CI on the true mean piston ring diameter\nFor  = 0.01, z = z =2.33 and x = 74.036,  = 0.001, n=15\n 0.01\n\n\n 7 4 . 0 3 6 − 2\nx\n. 3\n−\n3\nz\n\n0\n0\n.0\n.\n1\n0\n1\n0\n5\n1\nn\n\n\n\n74.0354 \nThe lower bound of the one-sided confidence interval is greater than the lower bound of the two-sided\ninterval even though the level of significance is the same. This is because for a one-sided confidence\ninterval the probability in the left tail () is greater than the probability in the left tail of the two-sided\nconfidence interval ()."
+  },
+  {
+    "question_number": "8-14",
+    "raw": "a) 95% Two-sided CI on the true mean life of a 75-watt light bulb\nFor  = 0.05, z = z = 1.96, and x = 1014,  =25, n=20\n/2 0.025\n     \nx − z     x + z  \n   \n0.025 0.025\n n   n \n 25   25 \n1014 −1.96   1014 +1.96 \n   \n 20   20 \n1003  1025\nb) 95% one-sided CI on the true mean piston ring diameter\n\nFor  = 0.05, z = z =1.65 and  x = 1014,  =25, n=20\n 0.05\n\nx − z \n0.05\nn\n 25 \n1014−1.65  \n 20 \n1005\nThe lower bound of the one-sided confidence interval is greater than the lower bound of the two-sided\ninterval even though the level of significance is the same. This is because for a one-sided confidence\ninterval the probability in the left tail () is greater than the probability in the left tail of the two-sided\nconfidence interval ()."
+  },
+  {
+    "question_number": "8-15",
+    "raw": "a) 95% two sided CI on the mean compressive strength\nz = z = 1.96, and x = 3250, 2 = 1000, n=12\n/2 0.025\nx − z\n0 .0 2 5\n \nn\n\n   x + z\n0 .0 2 5\n \nn\n\n3 2 5 0 − 1 . 9 6\n\n3\n3\n2\n1\n3\n.\n1\n6\n2\n2\n2\n. 1\n\n1\n\n\n\n\n3\n3\n2\n2\n5\n6\n0\n7 .\n+\n8\n1\n9\n. 9 6\n 3 1 .\n1\n6\n2\n2 \n\n\nb) 99% Two-sided CI on the true mean compressive strength\nz = z = 2.58\n/2 0.005\nx − z\n\nn\n\n  x + z\n\nn\n  \n\n0 .0 0 5 0 .0 0 5\n3 2 5 0 − 2 . 5 8\n 3\n3\n1\n2\n. 6\n1 2\n2\n2\n6 .\n\n4\n\n\n\n\n3\n3\n2\n2\n5\n7\n0\n3 .\n+\n6\n2 . 5 8\n 3 1 .\n1\n6\n2\n2 \n\n\nThe 99% CI is wider than the 95% CI"
+  },
+  {
+    "question_number": "8-16",
+    "raw": "95% Confident that the error of estimating the true mean life of a 75-watt light bulb is less than 5\nhours.\nFor  = 0.05, z = z = 1.96 , and  =25 , E=5\n/2 0.025\n2 2\n z  1.96(25)\nn =  a/2  =   = 96.04\n E   5 \nRound up to the next integer. Therefore, n = 97"
+  },
+  {
+    "question_number": "8-17",
+    "raw": "Set the width to 6 hours with  = 25, z = 1.96 solve for n.\n0.025\n1/2 width = (1.96)(25)/ n = 3\n49 = 3 n\n2\n49\nn =   = 266.78\n 3 \nTherefore, n = 267"
+  },
+  {
+    "question_number": "8-18",
+    "raw": "99% confidence that the error of estimating the true compressive strength is less than 15 psi\nFor  = 0.01, z = z = 2.58 , and  =31.62 , E=15\n/2 0.005\n2 2\n z   2.58(31.62)\nn =  a/2  =   = 29.6  30\n E   15 \nTherefore, n = 30"
+  },
+  {
+    "question_number": "8-19",
+    "raw": "To decrease the length of the CI by one half, the sample size must be increased by 4 times (22).\nz / n = 0.5l\n/2\nNow, to decrease by half, divide both sides by 2.\n(z / n)/ 2 = (l / 2)/ 2\n/2\n(z / 2 n) = l / 4\n/2\n(z / 22n) = l / 4\n/2\nTherefore, the sample size must be increased by 22 = 4"
+  },
+  {
+    "question_number": "8-20",
+    "raw": "If n is doubled in Eq 8-7:\nx − z\n\nn\n\n  x + z\n\nn\n  \n\n  / 2 / 2\nz\nn\n=\nz\nn\n=\nz\nn\n=\n z\nn\n    \n    /\n2\n2\n1 . 4 1\n/\n4\n2\n1 . 4 1\n/\n4\n2\n1 .\n1\n4 1 4\n/ 2\nThe interval is reduced by 0.293 or 29.3%\nIf n is increased by a factor of 4\nz\nn\n=\nz\nn\n=\nz\nn\n=\n z\nn\n    \n    /\n4\n2\n2\n/ 2\n2\n/ 2\n1\n2\n/ 2\nThe interval is reduced by 0.5."
+  },
+  {
+    "question_number": "8-21",
+    "raw": "a) 99% two sided CI on the mean temperature\nz = z = 2.57, and\n/2 0.005\nx = 13.77,  = 0.5, n=11\nx − z\n\nn\n\n  x + z\n\nn\n  \n\n0 .0 0 5 0 .0 0 5\n1 3 . 7 7 − 2 . 5 7\n\n1 3\n0 .\n1\n. 3\n5\n1\n8\n\n3\n\n\n\n\n1\n1\n3\n4\n.\n.\n7\n1\n7\n5 7\n+ 2 . 5 7\n 0 .\n1\n5\n1\n\n\n\nb) 95% lower-confidence bound on the mean temperature\nFor  = 0.05, z = z =1.65 and x = 13.77,  = 0.5, n =11\n 0.05\n\nx − z \n0.05\nn\n 0.5 \n13.77−1.65  \n \n 11\n13.521\nc) 95% confidence that the error of estimating the mean temperature for wheat grown is less than 2 degrees\nCelsius.\nFor  = 0.05, z = z = 1.96, and  = 0.5, E = 2\n/2 0.025\n\n2 2\n z  1.96(0.5)\nn =  a/2  =   = 0.2401\n E   2 \nRound up to the next integer. Therefore n = 1.\nd) Set the width to 1.5 degrees Celsius with  = 0.5, z = 1.96 solve for n.\n0.025\n1/2 width = (1.96)(0.5)/ n = 0.75\n0.98 = 0.75 n\n2\n0.98\nn =   =1.707\n0.75\nTherefore, n = 2.\n, n = 5 = 0.66 x =18.56, z =1.96"
+  },
+  {
+    "question_number": "8-22",
+    "raw": "a) 95% CI for\n3 . 3 7 2 − 1 . 9 6 (\n−\n0 . 6 6 /\n/\n2 .\n5\n7\n)\n9\n\n\n\n\n\n\n3\n3\n.\n.\n+\n3\n9\n7\n5\n2 +\n/\n1 . 9 6 ( 0 . 6 6 / 5 )\n  \n\n\nx z n x z n\nb) Width is 2 z / n = 0 . 5 5  , therefore 𝑛 = [2𝑧𝜎/0.55]2 = [2(1.96)(0.66)/0.55]2 = 22.13\nRound up to n = 23."
+  },
+  {
+    "question_number": "8-23",
+    "raw": "a) 99% CI for\n, n = 1 2 = 2 . 2 5 x = 2 8 . 0 , z = 2 . 5 7 6  \n2 8 . 0 − 2 . 5 7 6 ( 2\n−\n. 2 5 /\n2\n/\n6\n1\n.\n2\n3\n)\n3\n\n\n\n\n\n\n2\n2\n8\n9\n+\n.\n.\n0\n6 7\n+\n/\n2 . 5 7 6 ( 2 . 2 5 / 1 2 )\n  \n\n\nx z n x z n\nb) Width is 2 z / n = 1 . 2 5 \nTherefore z = 1.25n1/2/(2) = 1.25(121/2)/[2(2.25)] = 0.9623\nTherefore P(-0.9623 < Z < 0.9623) = 0.664 = 1 –  so that the confidence is 66.4%\nSection 8-2"
+  },
+  {
+    "question_number": "8-24",
+    "raw": "t\n0 .0 2 5 ,1 5\n= 2 . 1 3 1 t\n0 .0 5 ,1 0\n= 1 . 8 1 2 t\n0 .1 0 , 2 0\n= 1 . 3 2 5\nt = 2.787 t = 3.385\n0.005,25 0.001,30"
+  },
+  {
+    "question_number": "8-25",
+    "raw": "a) t = 2.179 b) t = 2.064 c) t = 3.012\n0.025,12 0.025,24 0.005,13\nd) t = 4.073\n0.0005,15"
+  },
+  {
+    "question_number": "8-26",
+    "raw": "a) t =1.761 b) t = 2.539 c) t = 3.467\n0.05,14 0.01,19 0.001,24"
+  },
+  {
+    "question_number": "8-27",
+    "raw": "a) Mean sum 251.848\n= = =25.1848\nN 10\nVariance =(stDev)2 =1.6052 =2.5760\n\nb) 95% confidence interval on mean\nn =10 x = 25.1848 s =1.605 t = 2.262\n0.025,9\n s   s \nx −t    x +t  \n0.025,9 0.025,9\n n   n \n1.605 1.605\n25.1848−2.262   25.1848+ 2.262 \n 10   10 \n24.037  26.333"
+  },
+  {
+    "question_number": "8-28",
+    "raw": "SE Mean\n=\ns t D\nN\ne v\n=\n6 . 1\nN\n1\n= 1 . 5 8 , therefore N = 15\nsum 751.40\nMean= = = 50.0933\nN 15\nVariance = (stDev)2 = 6.112 = 37.3321\nb) 95% confidence interval on mean\nn = 1 5 x = 5 0 . 0 9 3 3 s = 6 . 1 1 t\n0 .0 2 5 ,1 4\n= 2 . 1 4 5\n5 0 . 0 9 3 3\n−\n− 2\n0\n.\n.0\n1\n2\n4\n5 ,1\n5\n4\n\n4\n\n6\n6\n. 1\n1\n. 7\n1\n5\n0\n\n\n9\n\n\n\n\n\n\n5\n5\n0\n3\n+\n.\n.\n0\n4\n0\n9\n7\n.0\n3\n7\n2 5\n3\n,1 4\n+\n\n2 . 1 4\n\n5\n 6 . 1\n1\n1\n5\n\n\n\n\nx t\ns\nn\nx t\ns\nn"
+  },
+  {
+    "question_number": "8-29",
+    "raw": "95% confidence interval on mean tire life\nn = 1 6 x = 6 0 ,1 3 9 . 7 s = 3 6 4 5 . 9 4 t\n0 .0 2 5 ,1 5\n= 2 . 1 3 1\n6 0 1 3 9 . 7 − 2 .\n−\n1 3 1\n0 .0\n\n2\n3\n5\n5 ,1\n6\n8\n5\n4\n1\n\n5\n1\n9\n. 9\n6\n7 .\n4\n3\n\n\n3\n\n\n\n\n\n\n6\n6\n0\n2\n+\n1\n0\n3\n8\n0 .0\n9\n2\n2\n.\n.\n5\n7\n0\n,1\n7\n5\n+\n\n2 . 1 3\n\n1\n 3 6 4 5\n1\n.\n6\n9 4 \n\n\n\nx t\ns\nn\nx t\ns\nn"
+  },
+  {
+    "question_number": "8-30",
+    "raw": "99% lower confidence bound on mean Izod impact strength\nn = 20 x =1.25 s = 0.25 t = 2.539\n0.01,19\n s \nx − t    \n \n0.01,19\n n \n 0.25\n1.25 − 2.539   \n \n 20 \n1.108  "
+  },
+  {
+    "question_number": "8-31",
+    "raw": "x = 1.10 s = 0.015 n = 25\n95% confidence interval on the mean volume of syrup dispensed\nFor  = 0.05 and n = 25, t = t = 2.064\n/2,n-1 0.025,24\n\n s   s \nx −t     x + t  \n   \n0.025,24 0.025,24\n n   n \n 0.015  0.015\n1.10 − 2.064   1.10 + 2.064 \n   \n 25   25 \n1.094  1.106"
+  },
+  {
+    "question_number": "8-32",
+    "raw": "95% confidence interval on mean peak power\nn = 7 x = 315 s =16 t = 2.447\n0.025,6\n3 1 5\n−\n− 2\n0 .0\n. 4\n2 5\n4\n3\n, 6\n7\n0\n\n\n0\n1\n. 2\n6\n7\n0\n\n\n2\n\n\n\n\n\n\n3\n3\n1\n2\n+\n5\n9 .\n0\n+\n7\n.0 2 5\n2 .\n9 8\n,\n4\n6\n\n4 7\n 3\n\n1\n7\n5 \n\n\n\nx t\ns\nn\nx t\ns\nn"
+  },
+  {
+    "question_number": "8-33",
+    "raw": "99% upper confidence interval on mean SBP\nn = 1 4 x = 1 1 8 . 3 s = 9 . 9 t\n0 .0 1 ,1 3\n= 2 . 6 5 0\n\n\n\n1\n1\n1\n2\n+\n8\n5\n.\n.\n3\n3\n0 .0\n+\n1\n0\n2\n5 ,1\n2\n3\n.\n\n6 5 0\n\n\n9 .\n1\n9\n4\n\n\n\n\nx t\ns\nn"
+  },
+  {
+    "question_number": "8-34",
+    "raw": "90% CI on the mean frequency of a beam subjected to loads\nx = 2 3 1 . 6 7 , s = 1 . 5 3 , n = 5 , t\n/ 2 ,n -1\n= t\n.0 5 , 4\n= 2 . 1 3 2\n\n s   s \nx − t     x + t  \n   \n0.05,4 0.05,4\n n   n \n1.53 1.53\n231.67 − 2.132    231.67 − 2.132 \n   \n 5   5 \n230.2   233.1\nBy examining the normal probability plot, it appears that the data are normally distributed."
+  },
+  {
+    "question_number": "8-35",
+    "raw": "The data appear to be normally distributed based on the normal probability plot below.\n95% confidence interval on mean annual rainfall\nn = 2 0 x = 4 8 5 . 8 s = 9 0 . 3 4 t\n0 .0 2 5 ,1 9\n= 2 . 0 9 3\n99\n95\n90\n80\n70\n60\n50\n40\n30\n20\n10\n5\n1\n226 231 236\nData\n s   s \nx −t     x + t  \n   \n0.025,19 0.025,19\n n   n \n90.34 90.34\n485.8 − 2.093    485.8 + 2.093 \n   \n 20   20 \n443.520   528.080"
+  },
+  {
+    "question_number": "8-36",
+    "raw": "The data appear to be normally distributed based on the normal probability plot below.\ntnecreP\nNormal Probability Plot for frequencies\nML Estimates - 95% CI\nML Estimates\nMean 231.67\nStDev 1.36944\nRainfall\ntnecreP\nProbability Plot of Rainfall\nNormal - 95% CI\n99\nMean 485.9\nStDev 90.30\n95 N 20\nAD 0.288\n90\nP-Value 0.581\n80\n70\n60\n50\n40\n30\n20\n10\n5\n1\n200 300 400 500 600 700 800\n\n95% confidence interval on mean solar energy consumed\nn = 1 6 x = 6 5 . 5 8 s = 4 . 2 2 5 t\n0 .0 2 5 ,1 5\n= 2 . 1 3 1\n6 5 . 5 8 −\n−\n2 . 1\n0 .0\n3\n2\n1\n5 ,1\n\n5\n4\n6\n\n.\n3\n2\n1\n.\n2\n6\n3\n5\n2\n\n\n9\n\n\n\n\n\n\n6\n6\n5\n7\n+\n.\n.\n5\n8\n0\n8\n3\n.0 2\n+\n1\n5 ,1\n2\n5\n.\n\n1 3 1\n\n\n4 . 2\n1\n2\n6\n5 \n\n\n\nx t\ns\nn\nx t\ns\nn"
+  },
+  {
+    "question_number": "8-37",
+    "raw": "99% confidence interval on mean current required\nAssume that the data are a random sample from a normal distribution.\nn = 1 0 x = 3 1 7 . 2 s = 1 5 . 7 t\n0 .0 0 5 , 9\n= 3 . 2 5 0\nSolar\n s   s \nx −t     x + t  \n   \n0.005,9 0.005,9\n n   n \n15.7  15.7 \n317.2 −3.250    317.2 + 3.250 \n   \n 10   10 \n301.06   333.34"
+  },
+  {
+    "question_number": "8-38",
+    "raw": "a) The data appear to be normally distributed based on the normal probability plot below.\ntnecreP\nProbability Plot of Solar\nNormal - 95% CI\n99\nMean 65.58\nStDev 4.225\n95 N 16\nAD 0.386\n90\nP-Value 0.349\n80\n70\n60\n50\n40\n30\n20\n10\n5\n1\n50 55 60 65 70 75 80\n\nb) 99% CI on the mean level of polyunsaturated fatty acid.\nFor  = 0.01, t = t = 4.032\n/2,n-1 0.005,5\nx − t\n0 .0 0 5 , 5\n s\nn\n\n  x + t\n0 .0 0 5 , 5\n s\nn\n\n\n1 6 . 9 8 − 4 . 0 3 2\n 0\n1\n.\n6\n3 1\n6\n. 4\n9\n5\n\n5\n\n\n\n\n1\n1\n6\n7\n.\n.\n9\n5\n8\n0 5\n+ 4 . 0 3 2\n 0 . 3 1\n6\n9 \nNormal Probability Plot for 8-25\nML Estimates - 95% CI\n99\n95\n90\n80\n70\nt\nn\n60\ne\nc 50\nr\ne 40\nP\n30\n20\n10\n5\n1\n16 17 18\nData\n\n\nThe 99% confidence for the mean polyunsaturated fat is (16.455, 17.505). There is high confidence that the\ntrue mean is in this interval"
+  },
+  {
+    "question_number": "8-39",
+    "raw": "a) The data appear to be normally distributed based on examination of the normal probability plot below.\nNormal Probability Plot for Strength\nML Estimates - 95% CI\n99 ML Estimates\nMean 2259.92\n95\nStDev 34.0550\n90\n80\n70\nt\nn 60\ne\nc 50\nr\ne 40\nP\n30\n20\n10\n5\n1\n2150 2250 2350\nData\nb) 95% two-sided confidence interval on mean comprehensive strength\n\nn =12 x = 2259.9 s = 35.6 t = 2.201\n0.025,11\n s   s \nx −t     x + t  \n   \n0.025,11 0.025,11\n n   n \n35.6 35.6\n2259.9 − 2.201    2259.9 + 2.201 \n 12   12 \n2237.3   2282.5\nc) 95% lower-confidence bound on mean strength\n\n\n\n2 2 5 9 . 9\nx\n−\n−\n1\nt\n.\n0\n7\n.0\n9\n5 ,1\n6\n1\n\n2\n\n3\n2\n5\n1\n4\ns\nn\n. 6\n2\n1 .\n\n\n4\n\n\n\na) According to the normal probability plot, there does not seem to be a severe deviation from normality for\nthis data.\nNormal Probability Plot for 8-27\nML Estimates - 95% CI\n99\n95\n90\n80\n70\nt\nn 60\ne\nc 50\nr\ne 40\nP\n30\n20\n10\n5\n1\n8.15 8.20 8.25 8.30\nData\nb) 95% two-sided confidence interval on mean rod diameter\nFor  = 0.05 and n = 15, t = t = 2.145\n/2,n-1 0.025,14\n s   s \nx −t     x +t  \n   \n0.025,14 0.025,14\n n   n \n 0.025  0.025\n8.23− 2.145    8.23+ 2.145 \n 15   15 \n8.216    8.244\nc) 95% upper confidence bound on mean rod diameter t = 1.761\n0.05,14\n\n s \n x + t  \n \n0.025,14\n n \n 0.025\n 8.23+1.761 \n \n 15 \n 8.241"
+  },
+  {
+    "question_number": "8-41",
+    "raw": "a) The data appear to be normally distributed based on examination of the normal probability plot below.\nb) 95% confidence interval on mean speed-up\nn = 1 3 x = 4 . 3 1 3 s = 0 . 4 3 2 8 t\n0 .0 2 5 ,1 2\n= 2 . 1 7 9\n4 . 3 1 3 − 2\n−\n. 1 7\n0 .0\n9\n2\n\n5 ,1\n0\n2\n.\n\n4 3\n1\n4\n2\n3\n. 0\n8\n5\n\n\n1\n\n\n\n\n\n\n4\n4\n.\n.\n+\n3\n5\n1\n7\n0\n3\n5\n.0 2\n+\n5 ,1\n2\n2\n.\n\n1 7 9\n\n\n0 . 4 3\n1\n2\n3\n8 \n\n\n\nx t\ns\nn\nx t\ns\nn\nc) 95% lower confidence bound on mean speed-up\nn = 1 3 x = 4 . 3 1 3 s = 0 . 4 3 2 8 t\n0 .0 5 ,1 2\n= 1 . 7 8 2\nSpeed\n s \nx − t    \n \n0.05,12\n n \n 0.4328\n4.313−1.782   \n \n 13 \n4.099  "
+  },
+  {
+    "question_number": "8-42",
+    "raw": "95% lower bound confidence for the mean wall thickness given x = 4.05 , s = 0.08 , n = 25\nt = t = 1.711\n,n-1 0.05,24\ntnecreP\nProbability Plot of Speed\nNormal - 95% CI\n99\nMean 4.313\nStDev 0.4328\n95 N 13\nAD 0.233\n90\nP-Value 0.745\n80\n70\n60\n50\n40\n30\n20\n10\n5\n1\n3.0 3.5 4.0 4.5 5.0 5.5 6.0\n\n s \nx −t    \n \n0.05,24\n n \n 0.08\n4.05 −1.711   \n \n 25 \n4.023  \nThere is high confidence that the true mean wall thickness is greater than 4.023 mm."
+  },
+  {
+    "question_number": "8-43",
+    "raw": "a) The data appear to be normally distributed.\nb) 99% two-sided confidence interval on mean percentage enrichment\nx = 2.9017 s = 0.0993\nFor  = 0.01 and n = 12, t = t = 3.106,\n/2,n-1 0.005,11\n2 . 9 0 2 − 3\n−\n. 1 0\n0 .0\n6\n0\n\n5 ,1\n0\n1\n.\n\n0 9\n1\n2\n9\n2\n. 8\n3\n1\n\n\n3\n\n\n\n\n\n\n2\n2\n.\n.\n+\n9\n9\n0\n9\n0\n2\n1\n.0 0\n+\n5 ,1\n3\n1\n.\n\n1 0 6\n\n\n0 . 0 9\n1\n9\n2\n3 \n\n\n\nx t\ns\nn\nx t\ns\nn"
+  },
+  {
+    "question_number": "8-44",
+    "raw": "a) The following normal probability plot is used to evaluate the distribution.\nThere is no obvious deviation from normality.\nb) 95% CI for , n = 5 x = 1 8 . 5 6  , s = 1.604, t = 2.776\n0.025,4\nx −ts/ n   x + ts/ n\n3.372 − 2.776(1.604/ 5)   3.372 + 2.776(1.604/ 5)\n1.38   5.36"
+  },
+  {
+    "question_number": "8-45",
+    "raw": "a) 95% CI for , n =12,x = 2.082,s = 0.1564 , t = 2.201\n0.025, 11\nx −ts/ n   x + ts/ n\n2.082 − 2.210(0.1564/ 12)   2.082 + 2.210(0.1564/ 12)\n1.98   2.18\nb) The lower bound of 95% confidence interval is greater than the historical average of 1.95. Therefore,\nthere is evidence that this clinic performs more CAT scans than usual.\n\nA one-sided confidence interval would be more appropriate to answer this question. The one-sided interval\nfollows.\nt = 1.7959\n0.05, 11\nx −ts/ n  \n2.082 −1.7959(0.1564/ 12)  \n2.00  \nand the same conclusion is provided by this interval.\nSection 8-3"
+  },
+  {
+    "question_number": "8-46",
+    "raw": "2 =18.31 2 = 27.49 2 = 26.22\n0.05,10 0.025,15 0.01,12\n20\n.9 5 , 2 0\n= 1 0 . 8 5  20\n.9 9 ,1 8\n= 7 . 0 1  2 = 5.14\n0.995,16\n20\n.0 0 5 , 2 5\n= 4 6 . 9 3 "
+  },
+  {
+    "question_number": "8-47",
+    "raw": "a) 95% upper CI and df = 24 21\n− , d f\n= \n\n20\n.9 5 , 2 4\n=  13.85\nb) 99% lower CI and df = 9 2\n, d f\n= \n\n20\n.0 1 , 9\n=  21.67\nc) 90% CI and df = 19\n2\n/ 2 ,\n= 20\n.0 5 ,1 9\n= 3 0 . 1 4  \n d f\nand 21\n− / 2 ,\n= 20\n.9 5 ,1 9\n= 1 0 . 1 2  \n d f"
+  },
+  {
+    "question_number": "8-48",
+    "raw": "99% lower confidence bound for 2\nFor  = 0.01 and n = 15, 2\n, n − 1\n= \n\n20\n.0 1 ,1 4\n=  29.14\n1\n0\n4\n. 0\n( 0\n2\n0\n.\n9\n0\n0\n. 1\n0\n0\n4\n3\n8\n0\n)\n7\n2\n5\n2\n2\n\n\n\n"
+  },
+  {
+    "question_number": "8-49",
+    "raw": "99% lower confidence bound for  from the previous exercise is\n\n\n0\n0\n.\n.\n0\n0\n0\n0\n0\n5\n0\n5\n3\n4\n0\n5\n7\n\n5  2\nOne may take the square root of the variance bound to obtain the confidence bound for the standard\ndeviation."
+  },
+  {
+    "question_number": "8-50",
+    "raw": "95% two sided confidence interval for \nn =10 s = 4.8\n2 = 2 =19.02 2 = 2 = 2.70\nand\n/2,n−1 0.025,9 1−/2,n−1 0.975,9\n9(4.8)2 9(4.8)2\n2 \n19.02 2.70\n10.90 2  76.80\n3.30  8.76"
+  },
+  {
+    "question_number": "8-51",
+    "raw": "95% confidence interval for  given n = 51, s = 0.37\nFirst find the confidence interval for 2\n\nFor  = 0.05 and n = 51,  2 =  2 = 71.42 and 2 =  2 = 32.36\n/2,n−1 0.025,50 1−/2,n−1 0.975,50\n50(0.37)2 50(0.37)2\n2 \n71.42 32.36\n0.096  2  0.2115\nTake the square root of the endpoints of this interval to obtain\n0.31 <  < 0.46"
+  },
+  {
+    "question_number": "8-52",
+    "raw": "95% confidence interval for \nn =17 s = 0.09\n2 = 2 = 28.85 and 2 = 2 = 6.91\n/2,n−1 0.025,16 1−/2,n−1 0.975,16\n1 6 (\n2\n0\n8\n0\n. 0\n. 8\n. 0\n0 .\n9\n5\n0\n0\n)\n4\n6\n2\n5\n7\n\n\n\n2\n2\n\n\n\n0\n1\n0\n. 1\n6\n. 0\n3\n( 0\n6\n1\n7\n. 0\n. 9\n8 8\n9\n1\n) 2\n\n\n"
+  },
+  {
+    "question_number": "8-53",
+    "raw": "The data appear to be normally distributed based on examination of the normal probability plot below.\nMean Temp\n95% confidence interval for \nn = 8 s = 0.9463\n2 = 2 =16.01 2 = 2 =1.69\nand\n/2,n−1 0.025,7 1−/2,n−1 0.975,7\n7(0.9463)2 7(0.9463)2\n2 \n16.01 1.69\n0.392 2  3.709\n0.626 1.926"
+  },
+  {
+    "question_number": "8-54",
+    "raw": "95% confidence interval for \ntnecreP\nProbability Plot of Mean Temp\nNormal - 95% CI\n99\nMean 21.41\nStDev 0.9463\n95 N 8\nAD 0.352\n90\nP-Value 0.367\n80\n70\n60\n50\n40\n30\n20\n10\n5\n1\n17 18 19 20 21 22 23 24 25\n\nn = 41 s =15.99\n2 = 2 = 59.34 and 2 = 2 = 24.43\n/2,n−1 0.025,40 1−/2,n−1 0.975,40\n40(15.99)2 40(15.99)2\n2 \n59.34 24.43\n172.35 2  418.633\n13.13  20.46\nThe data do not appear to be normally distributed based on examination of the normal probability plot\nbelow. Therefore, the 95% confidence interval for σ is invalid."
+  },
+  {
+    "question_number": "8-55",
+    "raw": "95% confidence interval for \nn = 1 5 s = 0 . 0 0 8 3 1\n2\n/ 2 , − 1\n= 20\n.0 2 5 ,1 4\n= 2 6 . 1 2  \n n\nand 21\n− , − 1\n= 20\n.9 5 ,1 4\n= 6 . 5 3  \n n\n2\n2\n\n\n\n1\n0\n0\n4\n.\n.\n0\n0\n( 0\n0\n1\n.\n6\n0\n2\n0\n.\n1\n2\n0\n5\n4\n8\n3\n8\n3 1 ) 2\nTimeOfTumor\n\n\n\nThe data do not appear to be normally distributed based on an examination of the normal probability plot\nbelow. Therefore, the 95% confidence interval for σ is not valid.\ntnecreP\nProbability Plot of TimeOfTumor\nNormal - 95% CI\n99\nMean 88.78\nStDev 15.99\n95 N 41\nAD 1.631\n90\nP-Value <0.005\n80\n70\n60\n50\n40\n30\n20\n10\n5\n1\n40 60 80 100 120 140"
+  },
+  {
+    "question_number": "8-56",
+    "raw": "a) 99% two-sided confidence interval on 2\nn = 1 0 s = 1 . 9 1 3 20\n.0 0 5 , 9\n= 2 3 . 5 9  and 20\n.9 9 5 ,9\n= 1 . 7 3 \n9 ( 1\n2\n.\n3\n9\n.\n1\n1\n5\n.\n3\n9\n3\n)\n9\n2\n6\n\n\n2\n2\n\n\n9\n1\n(\n9\n1\n.\n.\n1\n0\n9\n.\n3\n7\n1\n8\n3\n3 ) 2\n\n\nb) 99% lower confidence bound for 2\nFor  = 0.01 and n = 10, 2\n, n − 1\n= \n\n20\n.0 1 , 9\n=  21.67\n9\n1\n( 1\n2\n. 5 1\n.\n1\n9\n9\n.\n1\n6\n9\n3\n7\n) 2\n2\n2 \n \n\nc) 90% lower confidence bound for 2\nFor  = 0.1 and n = 10, 2\n, n − 1\n= \n\n20\n.1 , 9\n=  14.68\n\n\n\n9\n2\n1\n( 1\n1\n. 2\n. 4\n.\n4\n4\n9\n9\n.\n3\n8\n1\n6\n6\n\n3\n8\n)\n\n2\n\n2\n2\nGauge Cap\nd) The lower confidence bound of the 99% two-sided interval is less than the one-sided interval. The lower\nconfidence bound for 2 is in part (c) is greater because the confidence is lower."
+  },
+  {
+    "question_number": "8-57",
+    "raw": "95% two sided confidence interval for , n = 39 s = 0.6295\n2 =2 = 55.896 2 = 2 = 22.878\nand\n/2,n−1 0.025,38 1−/2,n−1 0.975,38\ntnecreP\nProbability Plot of Gauge Cap\nNormal - 95% CI\n99\nMean 3.472\nStDev 0.008307\n95 N 15\nAD 0.878\n90\nP-Value 0.018\n80\n70\n60\n50\n40\n30\n20\n10\n5\n1\n3.44 3.45 3.46 3.47 3.48 3.49 3.50\n\n(n −1)s2 (n −1)s2\n2 \n2 2\n/2,n−1 1−/2,n−1\n38(0.6295)2 38(0.6295)2\n2 \n55.896 22.878\n0.265 2  0.658\n0.514  0.811"
+  },
+  {
+    "question_number": "8-58",
+    "raw": "a) 95% two sided confidence interval for , n =12 s = 0.1564\n2 =2 = 21.920 and 2 =2 = 3.816\n/2,n−1 0.025,11 1−/2,n−1 0.975,11\n(n −1)s2 (n −1)s2\n2 \n2 2\n/2,n−1 1−/2,n−1\n1 1 ( 0\n2\n.\n1\n1\n.\n5 6 4\n9 2 0\n0 . 0\n0 . 1\n)\n1\n1\n2\n2\n1\n\n\n\n2\n2\n\n\n\n0\n1\n0\n. 2\n1\n.\n(\n0\n6\n0\n3\n7\n5\n.\n.\n0\n1\n8\n5\n1\n6\n6\n4 ) 2\n\n\n\nb) A normal probability plot can be used to check the normality assumption.\nThe following plot does not indicate serious departures from a normal distribution.\nProbability Plot of Scans\nNormal - 95% CI\n99\nMean 2.082\nStDev 0.1564\n95 N 12\nAD 0.406\n90\nP-Value 0.296\n80\n70\nt\nn 60\ne\nc 50\nr\ne 40\nP\n30\n20\n10\n5\n1\n1.50 1.75 2.00 2.25 2.50 2.75\nScans\nSection 8-4"
+  },
+  {
+    "question_number": "8-59",
+    "raw": "a) 95% Confidence Interval on the fraction defective produced with this tool.\n13\npˆ = = 0.04333 n = 300 z =1.96\n300 /2\n\npˆ(1− pˆ) pˆ(1− pˆ)\npˆ − z  p  pˆ + z\n/2 /2\nn n\n0.04333(0.95667) 0.04333(0.95667)\n0.04333−1.96  p  0.04333+1.96\n300 300\n0.02029  p  0.06637\nb) 95% upper confidence bound z = z =1.65\n 0.05\npˆ(1− pˆ)\np  pˆ + z\n/2\nn\n0.04333(0.95667)\np  0.04333+1.650\n300\np  0.06273"
+  },
+  {
+    "question_number": "8-60",
+    "raw": "a) 95% Confidence Interval on the proportion of such tears that will heal.\nˆp = 0 . 6 7 6 n = 3 7\n/ 2\n= 1 . 9 6\n\nz\n0 . 6 7 6 − 1\nˆp\n. 9\n−\n6\nz\n0\n/\n.\n2\n6 7 6\nˆp\n(\n3\n(\n0\n7\n0\n1\n.\n.\n−\nn\n3\n5\n2\n2\nˆp\n4\n4\n)\n)\n5\n\n\n\np\np\np\n\n\n\nˆp\n0\n0\n.\n.\n+\n6\n8\n7\n2\nz\n6\n7\n+\n/ 2\n1 . 9\nˆp\n6\n( 1 −\nn\n0 .\nˆp\n6 7\n)\n6\n3\n( 0\n7\n. 3 2 4 )\n \nb) 95% lower confidence bound on the proportion of such tears that will heal.\n0 . 6 7 6 − 1\nˆp\n. 6\n−\n4\nz\n0 . 6 7\nˆp\n6\n3\n( 1\n(\n7\n0\n0\n−\nn\n.\n.\n3\n5\nˆp\n3\n4\n)\n)\n9\n\n\n\np\np\np\n"
+  },
+  {
+    "question_number": "8-61",
+    "raw": "a) 95% confidence interval for the proportion of college graduates in Ohio that voted for George Bush.\n412\npˆ = = 0.536 n = 768 z =1.96\n768 /2\npˆ(1− pˆ) pˆ(1− pˆ)\npˆ − z  p  pˆ + z\n/2 /2\nn n\n0.536(0.464) 0.536(0.464)\n0.536 −1.96  p  0.536 +1.96\n768 768\n0.501 p  0.571\nb) 95% lower confidence bound on the proportion of college graduates in Ohio that voted for George Bush.\n\npˆ(1− pˆ)\npˆ − z  p\n\nn\n0.536(0.464)\n0.536 −1.64  p\n768\n0.506  p"
+  },
+  {
+    "question_number": "8-62",
+    "raw": "a) 95% Confidence Interval on the death rate from lung cancer.\n823\npˆ = = 0.823 n =1000 z =1.96\n1000 /2\n0 . 8 2 3 − 1\nˆp\n. 9\n−\n6\nz\n0\n/\n.\n2\n8 2\n1\n3\nˆp\n(\n0\n(\n0\n0\n0\n1 −\nn\n. 1\n0\n. 7\n7\n9\nˆp\n7\n9\n)\n)\n3\n\n\n\np\np\np\n\n\n\nˆp\n0\n0\n.\n.\n+\n8\n8\n2\n4\nz\n3\n6\n+\n7\n/ 2\n1 . 9\nˆp\n6\n( 1 −\nn\n0 . 8\nˆp\n2\n)\n1\n3\n0\n( 0\n0\n.\n0\n1 7 7 )\n \nb) E = 0.03,  = 0.05, z = z = 1.96 and\n/2 0.025\np = 0.823 as the initial estimate of p,\nn =\n z\nE\n/ 2\n\n2\nˆp ( 1 − ˆp ) =\n 1\n0\n.\n.\n9\n0\n6\n3\n\n2\n0 . 8 2 3 ( 1 − 0 . 8 2 3 ) = 6 2 1 . 7 9  ,\nn  622.\nc) E = 0.03,  = 0.05, z = z = 1.96 at least 95% confident\n/2 0.025\nn =\n z\nE\n/ 2\n\n2\n( 0 . 2 5 ) =\n 1\n0\n.\n.\n9\n0\n6\n3\n\n2\n( 0 . 2 5 ) = 1 0 6 7 . 1 1  ,\nn  1068."
+  },
+  {
+    "question_number": "8-63",
+    "raw": "a) 95% Confidence Interval on the proportion of rats that are under-weight.\nˆp =\n1\n3\n2\n0\n= 0 . 4 n = 3 0\n/ 2\n= 1 . 9 6\n\nz\npˆ(1− pˆ) pˆ(1− pˆ)\npˆ − z  p  pˆ + z\n/2 /2\nn n\n0.4(0.6) 0.4(0.6)\n0.4 −1.96  p  0.4 +1.96\n30 30\n0.225  p  0.575\nb) E = 0.02,  = 0.05, z = z = 1.96 and p = 0.4as the initial estimate of p,\n/2 0.025\n2 2\n z  1.96 \nn =  /2  pˆ(1− pˆ) =   0.4(1− 0.4) = 2304.96,\n E   0.02\nn  2305.\nc) E = 0.02,  = 0.05, z = z = 1.96 at least 95% confident\n/2 0.025\n\n2 2\n z  1.96 \nn =  /2  (0.25) =   (0.25) = 2401.\n E   0.02"
+  },
+  {
+    "question_number": "8-64",
+    "raw": "a) 95% Confidence Interval on the true proportion of helmets showing damage\n18\npˆ = = 0.36 n = 50 z =1.96\n50 /2\npˆ(1− pˆ) pˆ(1− pˆ)\npˆ − z  p  pˆ + z\n/2 /2\nn n\n0.36(0.64) 0.36(0.64)\n0.36 −1.96  p  0.36 +1.96\n50 50\n0.227  p  0.493\nb)\nn =\n z\nE\n/ 2\n\n2\np ( 1 − p ) =\n 1\n0\n.\n.\n9\n0\n6\n2\n\n2\n0 . 3 6 ( 1 − 0 . 3 6 ) = 2 2 1 2 . 7 6 \nn  2 2 1 3\nc) n =\n z\nE\n/ 2\n\n2\np ( 1 − p ) =\n 1\n0\n.\n.\n9\n0\n6\n2\n\n2\n0 . 5 ( 1 − 0 . 5 ) = 2 4 0 1 "
+  },
+  {
+    "question_number": "8-65",
+    "raw": "The worst case would be for p = 0.5, thus with E = 0.05 and  = 0.01, z = z = 2.58 we obtain a\n/2 0.005\nsample size of:\nn =\n z\nE\n/ 2\n\n2\np ( 1 − p ) =\n 2\n0\n.\n.\n5\n0\n8\n5\n\n2\n0 . 5 ( 1 − 0 . 5 ) = 6 6 5 . 6 4  , n  666"
+  },
+  {
+    "question_number": "8-66",
+    "raw": "E = 0.017,  = 0.01, z = z = 2.58\n/2 0.005\nn =\n z\nE\n/ 2\n\n2\np ( 1 − p ) =\n\n0\n2\n.\n.\n0\n5\n1\n8\n7\n\n2\n0 . 5 ( 1 − 0 . 5 ) = 5 7 5 8 . 1 3  , n  5759\n466"
+  },
+  {
+    "question_number": "8-67",
+    "raw": "a) pˆ = = 0.932 n =500 z =1.96\n/2\n500\npˆ(1− pˆ) pˆ(1− pˆ)\npˆ − z  p  pˆ + z\n/2 /2\nn n\n0.932(0.068) 0.932(0.068)\n0.932 −1.96  p  0.932 +1.96\n500 500\n0.910  p  0.945\nb) E = 0.01,  = 0.05, z = z = 1.96 and p = 0.932 as the initial estimate of p,\n/2 0.025\n2 2\n z  1.96 \nn =  /2  pˆ(1− pˆ) =   0.932(1− 0.932) = 2439.48,\n E   0.01\n\nn  2440\nc) E = 0.01,  = 0.05, z = z = 1.96\n/2 0.025\nHere we assume the proportion value that generates the greatest variance; namely p = 0.5.\n2 2\n z  1.96 \nn =  /2  (0.25) =   (0.25) = 9623.05,\n E   0.01\nn  9624\n180"
+  },
+  {
+    "question_number": "8-68",
+    "raw": "a) pˆ = = 0.9 n = 200 z =1.96\n/2\n200\n0\nˆp\n. 9\n−\n−\nz\n1 .\n/\n9\n2\n6\nˆp\n0\n(\n.\n1\n9\n2\n0\n−\nn\n(\n0\n0\n.\n0\n8\nˆp\n. 1\n5\n)\n)\n8\n\n\n\np\np\np\n\n\n\nˆp\n0\n0\n.\n.\n+\n9\n9 4\n+\nz\n1\n1\n/\n.\n2\n9 6\nˆp (\n0\n1\n.\n−\nn\n9\n2\n(\n0\n0\nˆp\n0\n.\n)\n1 )\n \nb) No, the claim of 93% is within the confidence interval for the true proportion of germinated seeds"
+  },
+  {
+    "question_number": "8-69",
+    "raw": "ˆp =\n3\n1\n0\n3\n0\n= 0 . 0 4 3 3 n = 3 0 0\n/ 2\n= 1 . 9 6\n\nz\nThe AC confidence interval follows.\n\nˆp +\nz 2\n2 n\n/ 2\n− z\n/ 2\nˆp ( 1 −\nn\nˆp )\n+\nz\n4\n2\nn\n/\n2\n2\n\n/\n\n1 +\nz 2\n0\nn\n. 0\n/ 2\n2\n\n5\n\n\np\np\n\n\n\n0\nˆp\n. 0\n+\n7 3\nz 2\n2 n\n/ 2\n+ z\n/ 2\nˆp ( 1 −\nn\nˆp )\n+\nz\n4\n2\nn\n/\n2\n2\n\n/\n\n1 +\nz 2\nn\n/ 2\n\n     \n \nThe traditional confidence interval follows.\n0 . 0 4 3 3 3 − 1 . 9 6\nˆp\n0 .\n−\n0 4\nz\n3 3\n/ 2\n3\n3\n(\n0\n0\n0\nˆp\n. 9\n( 1\n5\n0\n−\nn\n6\n.\n6\n0\nˆp\n7\n2\n)\n)\n0\n\n\n\np\np\np\n\n\n\nˆp\n0\n0\n.\n.\n+\n0\n0\n4\n6\nz\n3\n6\n3\n/ 2\n3 +\nˆp\n1\n( 1\n. 9\n−\nn\n6\nˆp\n0\n)\n. 0 4 3 3 3\n3\n(\n0\n0\n0\n. 9 5 6 6 7 )\n \nThe AC confidence interval is similar to the original one."
+  },
+  {
+    "question_number": "8-70",
+    "raw": "The AC confidence interval follows.\n25\npˆ = = 0.6757\nn =37 z =1.96\n/2\n37\n z2 pˆ(1− pˆ) z2   z2   z2 pˆ(1− pˆ) z2   z2 \n/2 /2 /2 /2 /2 /2\npˆ + − z + / 1+  p  pˆ + + z + / 1+\n   \n2n /2 n 4n2 n 2n /2 n 4n2 n\n       \n   \n0.514 p  0.804\nThe traditional confidence interval follows.\n\npˆ(1− pˆ) pˆ(1− pˆ)\npˆ − z  p  pˆ + z\n/2 /2\nn n\n0.676(0.324) 0.676(0.324)\n0.676 −1.96  p  0.676 +1.96\n37 37\n0.5245  p  0.827\nThe AC confidence interval is shifted to lower values."
+  },
+  {
+    "question_number": "8-71",
+    "raw": "The AC confidence interval follows.\n466\npˆ = = 0.932\nn = 500 z =1.96\n/2\n500\n z2 pˆ(1− pˆ) z2   z2   z2 pˆ(1− pˆ) z2   z2 \n/2 /2 /2 /2 /2 /2\npˆ + − z +  / 1+  p  pˆ + + z +  / 1+\n   \n2n /2 n 4n2 n 2n /2 n 4n2 n\n       \n   \n0.906  p  0.951\nThe traditional confidence interval follows.\n0 . 9 3 2 − 1\nˆp\n. 9\n−\n6\nz\n0\n/\n.\n2\n9 3 2\n5\nˆp\n(\n0\n(\n0\n1\n0\n.\n0\n−\nn\n0\n.\n6\n9\nˆp\n8\n1\n)\n)\n0\n\n\n\np\np\np\n\n\n\nˆp\n0\n0\n.\n.\n+\n9\n9\n3\n4\nz\n2\n5\n/\n+\n2\n1 . 9\nˆp\n6\n( 1 −\nn\n0 .\nˆp\n9\n)\n3 2\n5\n(\n0\n0\n0\n. 0 6 8 )\n \nThe AC confidence interval is similar to the original one."
+  },
+  {
+    "question_number": "8-72",
+    "raw": "The AC confidence interval follows.\nˆp =\n1\n2\n8\n0\n0\n0\n= 0 . 9 n = 2 0 0\n/ 2\n= 1 . 9 6\n\nz\n\nˆp +\nz 2\n2 n\n/ 2\n− z\n/ 2\nˆp ( 1 −\nn\nˆp )\n+\nz\n4\n2\nn\n/\n2\n2\n\n/\n\n1 +\nz 2\n0\nn\n. 8\n/ 2\n5\n\n1\n\n\np\np\n\n\n\n0\nˆp\n. 9\n+\n3 4\nz 2\n2 n\n/ 2\n+ z\n/ 2\nˆp ( 1 −\nn\nˆp )\n+\nz\n4\n2\nn\n/\n2\n2\n\n/\n\n1 +\nz 2\nn\n/ 2\n\n     \n \nThe traditional confidence interval follows.\npˆ(1− pˆ) pˆ(1− pˆ)\npˆ − z  p  pˆ + z\n/2 /2\nn n\n0.9(0.1) 0.9(0.1)\n0.9 −1.96  p  0.9 +1.96\n200 200\n0.858  p  0.941\nThe AC confidence interval is slightly narrower than the original one.\nSection 8-6"
+  },
+  {
+    "question_number": "8-73",
+    "raw": "95% prediction interval on the life of the next tire given x = 60139.7 s = 3645.94 n = 16\nfor =0.05 t = t = 2.131\n/2,n-1 0.025,15\n\n1 1\nx −t s 1+  x  x + t s 1+\n0.025,15 n+1 0.025,15\nn n\n1 1\n60139.7 − 2.131(3645.94) 1+  x  60139.7 + 2.131(3645.94) 1+\nn+1\n16 16\n52131.1 x  68148.3\nn+1\nThe prediction interval is considerably wider than the 95% confidence interval (58,197.3    62,082.07).\nThis is expected because the prediction interval includes the variability in the parameter estimates as well\nas the variability in a future observation."
+  },
+  {
+    "question_number": "8-74",
+    "raw": "99% prediction interval on the Izod impact data\nn = 20 x =1.25 s = 0.25\nt\n0 .0 0 5 ,1 9\n= 2 . 8 6 1\n1 . 2 5 − 2 .\nx\n8 6\n−\n1\nt\n(\n0\n0\n.0\n.\n0\n2\n5 ,1\n5\n9\n)\ns\n1\n1\n+\n0 .\n+\n5\n1\n2\n1\n1\nn\n0\n7\n\n\n\nx\nx\nx\nn\nn\nn\n+\n+\n+\n1\n1\n1\n\n\n\nx\n1\n1\n.\n.\n+\n2\n9\n5\n8\nt\n3\n0\n+\n.0 0\n2\n5 ,1\n. 8\n9\ns\n6 1 (\n1\n0\n+\n. 2\n1\nn\n5 ) 1 +\n2\n1\n0\nThe lower bound of the 99% prediction interval is considerably lower than the 99% confidence interval\n(1.108    ). This is expected because the prediction interval needs to include the variability in the\nparameter estimates as well as the variability in a future observation."
+  },
+  {
+    "question_number": "8-75",
+    "raw": "95% prediction Interval on the volume of syrup of the next beverage dispensed\nx = 1.10 s = 0.015 n = 25 t = t = 2.064\n/2,n-1 0.025,24\n1 . 1 0 − 2 . 0\nx\n6 4\n−\n(\nt\n0\n0\n.\n.0\n0\n2\n1\n5 ,\n5\n2 4\n)\ns\n1\n1\n+\n1 .\n+\n0\n1\n2\n6\n1\nn\n5\n8\n\n\n\nx\nx\nx\nn\nn\nn\n+\n+\n+\n1\n1\n1\n\n\n\nx\n1\n1\n.\n.\n+\n1\n1\n0\n3\nt\n0\n−\n.0 2\n2\n5 ,\n.\n2\n0\n4\n6\ns\n4 (\n1\n0\n+\n. 0\n1\nn\n1 5 ) 1 +\n2\n1\n5\nThe prediction interval is wider than the confidence interval:\n1 . 0 9 4   1 . 1 0 6 "
+  },
+  {
+    "question_number": "8-76",
+    "raw": "90% prediction interval the value of the natural frequency of the next beam of this type that will be tested.\ngiven x = 231.67, s =1.53 For  = 0.10 and n = 5, t = t = 2.132\n/2,n-1 0.05,4\n1 1\nx −t s 1+  x  x + t s 1+\n0.05,4 n+1 0.05,4\nn n\n1 1\n231.67 − 2.132(1.53) 1+  x  231.67 − 2.132(1.53) 1+\nn+1\n5 5\n228.1 x  235.2\nn+1\nThe 90% prediction interval is wider than the 90% CI."
+  },
+  {
+    "question_number": "8-77",
+    "raw": "95% Prediction Interval on the volume of syrup of the next beverage dispensed\nn = 20 x = 485.8 s = 90.34 t = t = 2.093\n/2,n-1 0.025,19\n1 1\nx −t s 1+  x  x + t s 1+\n0.025,19 n+1 0.025,19\nn n\n1 1\n485.8− 2.093(90.34) 1+  x  485.8− 2.093(90.34) 1+\nn+1\n20 20\n292.049  x  679.551\nn+1\nThe 95% prediction interval is wider than the 95% confidence interval."
+  },
+  {
+    "question_number": "8-78",
+    "raw": "99% prediction interval on the polyunsaturated fat\nn = 6 x =16.98 s = 0.319 t = 4.032\n0.005,5\n1 6 . 9 8 − 4 . 0\nx\n3\n−\n2 (\nt\n0\n0 .0\n. 3\n0 5\n1\n, 5\n9\ns\n)\n1\n1\n1 5\n+\n+\n. 5\n1\nn\n1\n6\n9\n\n\n\nx\nx\nx\nn\nn\nn\n+\n+\n+\n1\n1\n1\n\n\n\nx\n1\n1\n6\n8\n+\n.\n.\n9\n3\nt\n8\n7\n0 .0\n+\n0 5 ,\n4\n5\ns\n. 0 3\n1\n2\n+\n( 0\n1\nn\n. 3 1 9 ) 1 +\n1\n6\nThe prediction interval is much wider than the confidence interval\n1 6 . 4 5 5   1 7 . 5 0 5 \n."
+  },
+  {
+    "question_number": "8-79",
+    "raw": "Given x = 317.2 s = 15.7 n = 10 for =0.05 t = t = 3.250\n/2,n-1 0.005,9\n3 1 7 . 2 − 3 . 2\nx\n5\n−\n0\nt\n( 1\n0 .0\n5\n0\n.\n5\n7\n, 9\n)\ns\n1\n1\n2\n+\n6\n+\n1\n3\n1\nn\n1\n0\n. 7\n\n\n\nx\nx\nx\nn\nn\nn\n+\n+\n+\n1\n1\n1\n\n\n\nx\n3\n3\n1\n7\n+\n7\n0\nt\n.\n.\n0\n2\n7\n.0 0\n−\n5 ,\n3\n9\ns\n. 2 5\n1\n0\n+\n( 1\n1\nn\n5 . 7 ) 1 +\n1\n1\n0\nThe prediction interval is wider."
+  },
+  {
+    "question_number": "8-80",
+    "raw": "95% prediction interval on the next rod diameter tested\nn = 1 5 x = 8 . 2 3 s = 0 . 0 2 5 t\n0 .0 2 5 ,1 4\n= 2 . 1 4 5\n1 1\nx −t s 1+  x  x + t s 1+\n0.025,14 n+1 0.025,14\nn n\n1 1\n8.23− 2.145(0.025) 1+  x  8.23− 2.145(0.025) 1+\nn+1\n15 15\n8.17  x  8.29\nn+1\n95% two-sided confidence interval on mean rod diameter is 8.216    8.244"
+  },
+  {
+    "question_number": "8-81",
+    "raw": "90% prediction interval on the next specimen of concrete tested\ngiven x = 2260 s = 35.57 n = 12 for  = 0.05 and n = 12, t = t = 1.796\n/2,n-1 0.05,11\n\n1 1\nx −t s 1+  x  x + t s 1+\n0.05,11 n+1 0.05,11\nn n\n1 1\n2260 −1.796(35.57) 1+  x  2260 +1.796(35.57) 1+\nn+1\n12 12\n2193.5  x  2326.5\nn+1"
+  },
+  {
+    "question_number": "8-82",
+    "raw": "90% prediction interval on wall thickness on the next bottle tested.\nGiven x = 4.05 s = 0.08 n = 25 for t = t = 1.711\n/2,n-1 0.05,24\n4 . 0 5 − 1 . 7\nx\n1\n−\n1 (\nt\n0\n0 .0\n. 0\n5 ,\n8\n2 4\n)\ns\n1\n1\n+\n+\n3\n2\n.\n1\n9\n1\nn\n5\n1\n\n\n\nx\nx\nx\nn\nn\nn\n+\n+\n+\n1\n1\n1\n\n\n\nx\n4\n4\n.\n.\n+\n0\n1\n5\n9\nt\n0\n−\n.0 5\n1\n, 2\n.\n4\n7\ns\n1 1\n1\n( 0\n+\n. 0\n1\nn\n8 ) 1 +\n2\n1\n5"
+  },
+  {
+    "question_number": "8-83",
+    "raw": "90% prediction interval for enrichment data given x = 2.9 s = 0.099 n = 12 for  = 0.10\nand n = 12, t = t = 1.796\n/2,n-1 0.05,11\n2 . 9 − 1 . 7 9\nx\n6\n−\n( 0\nt\n.\n0\n0\n.0\n9\n5 ,1\n9\n2\n)\ns\n1\n1\n+\n+\n2\n1\n.\n1\n7\n1\nn\n2\n1\n\n\n\nx\nx\nx\nn\nn\nn\n+\n+\n+\n1\n1\n1\n\n\n\nx\n2\n3\n.\n.\n+\n9\n0 9\nt\n+\n0 .0\n1\n5\n.\n,1\n7\n2\n9\ns\n6 (\n1\n0\n+\n. 0 9\n1\nn\n9 ) 1 +\n1\n1\n2\nThe 90% confidence interval is\n2 . 9 − 1 . 7 9 6\n−\n( 0 .\n0\n0\n.0\n9\n5 ,1\n9\n2\n)\n2\n1\n.\n1\n8\n1\n2\n5\n\n\n\n\n\n\n2\n2\n.\n.\n+\n9\n9 5\n−\n0 .0\n1\n5\n.\n,1\n7\n2\n9 6 ( 0\n1\n. 0 9 9 )\n1\n1\n2\n\n\n\nx t s\nn\nx t s\nn\nThe prediction interval is wider than the CI on the population mean with the same confidence.\nThe 99% confidence interval is\n1 1\nx − t s   x + t s\n0.005,12 0.005,12\nn n\n1 1\n2.9 − 3.106(0.099)   2.9 + 3.106(0.099)\n12 12\n2.81  2.99\nThe prediction interval is even wider than the CI on the population mean with greater confidence."
+  },
+  {
+    "question_number": "8-84",
+    "raw": "To obtain a one sided prediction interval, use t instead of t\n,n-1 /2,n-1\nBecause we want a 95% one sided prediction interval,\nt = t = 1.711 and x = 4.05 s = 0.08 n = 25\n/2,n-1 0.05,24\n\n1\nx −t s 1+  x\n0.05,24 n+1\nn\n1\n4.05 −1.711(0.08) 1+  x\nn+1\n25\n3.91 x\nn+1\nThe prediction interval bound is lower than the confidence interval bound of 4.023 mm"
+  },
+  {
+    "question_number": "8-85",
+    "raw": "95% tolerance interval on the life of the tires that has a 95% CL\nGiven x = 60139.7 s = 3645.94 n = 16 we find k=2.903\n6 0 1 3 9 . 7 − 2 . 9 0 3\n(\n(\n4\n3\n9\n6\n5\n4\nx\n5\n5\n−\n.\n5\n9\n.\nk\n4\n5\ns\n)\n4\n,\n,\n,\nx\n6\n7\n0\n0\n+\n1\n7\nk\n3\n2\ns\n9\n3\n.\n.\n7\n8 6\n+\n)\n2 . 9 0 3\n(\n3 6 4 5 . 9 4\n)\n95% confidence interval (58,197.3    62,082.07) is narrower than the 95% tolerance interval."
+  },
+  {
+    "question_number": "8-86",
+    "raw": "99% tolerance interval on the Izod impact strength PVC pipe that has a 90% CL\nGivenx=1.25, s=0.25 and n=20 we find k=3.368\n1 . 2 5 − 3 . 3 6 8\n(\nx\n(\n0\n0\n−\n.\n. 4\n2\nk\n5\n0\ns\n)\n8\n,\n,\n,\nx\n1\n2\n+\n. 2\n. 0\n5\n9\nk\n+\n2\ns\n)\n3 . 3 6 8\n(\n0 . 2 5\n)\nThe 99% tolerance interval is much wider than the 99% confidence interval on the population mean (1.090\n   1.410)."
+  },
+  {
+    "question_number": "8-87",
+    "raw": "95% tolerance interval on the syrup volume that has 90% confidence level\nx = 1.10 s = 0.015 n = 25 and k=2.474\n1 . 1 0 − 2 . 4 7 4\n(\n0\nx\n.\n(\n−\n0\n1\n1\n.\nk\n5\n0\ns\n)\n6\n,\n,\n,\nx\n1\n1\n.\n.\n+\n1\n1\n0\n4\nk\n)\n+\ns\n2 . 4 7 4\n(\n0 . 0 1 5\n)"
+  },
+  {
+    "question_number": "8-88",
+    "raw": "99% tolerance interval on the polyunsaturated fatty acid in this type of margarine that has a\nconfidence level of 95%x = 16.98 s = 0.319 n=6 and k = 5.775\nx − ks, x + ks\n( ) ( )\n16.98 − 5.775 0.319 ,16.98 + 5.775 0.319\n(15.14,18.82)\nThe 99% tolerance interval is much wider than the 99% confidence interval on the population mean (16.46\n   17.51)."
+  },
+  {
+    "question_number": "8-89",
+    "raw": "95% tolerance interval on the rainfall that has a confidence level of 95%\nn = 20 x = 485.8 s = 90.34 k = 2.752\n\nx − ks, x + ks\n( ) ( )\n485.8 − 2.752 90.34 , 485.8 + 2.752 90.34\n(237.184, 734.416)\nThe 95% tolerance interval is much wider than the 95% confidence interval on the population mean (\n443.52   528.08\n)."
+  },
+  {
+    "question_number": "8-90",
+    "raw": "95% tolerance interval on the diameter of the rods in exercise 8-27 that has a 90% confidence level\nx = 8.23 s = 0.0.25 n=15 and k=2.713\nx − ks, x + ks\n( ) ( )\n8.23− 2.713 0.025 , 8.23+ 2.713 0.025\n(8.16, 8.30)\nThe 95% tolerance interval is wider than the 95% confidence interval on the population mean\n(8.216    8.244)."
+  },
+  {
+    "question_number": "8-91",
+    "raw": "99% tolerance interval on the brightness of television tubes that has a 95% CL\nGiven\nx = 317.2 s = 15.7 n = 10 we find k = 4.433\n3 1 7 . 2 − 4 . 4 3\n(\n3\n2\nx\n(\n4\n1\n−\n5\n7 .\nk\n. 7\n6\ns\n)\n0\n,\n,\n,\nx\n3\n3\n1\n8\n+\n7\n6\nk\n.\n.\n2\n8\ns\n+\n0 )\n4 . 4 3 3\n(\n1 5 . 7\n)\nThe 99% tolerance interval is much wider than the 95% confidence interval on the population mean\n3 0 1 . 0 6   3 3 3 . 3 4 "
+  },
+  {
+    "question_number": "8-92",
+    "raw": "90% tolerance interval on the comprehensive strength of concrete that has a 90% CL\nGiven x = 2260 s = 35.57 n = 12 we find k=2.404\n2 2 6 0 − 2 . 4 0 4\n(\n(\n2\n3\nx\n1\n5\n−\n.\n7\n5\n4\nk\n7\n.\ns\n)\n5\n,\n,\n,\nx\n2\n2\n2\n3\n+\n6\n4\nk\n0\n5\ns\n.\n+\n5 )\n2 . 4 0 4\n(\n3 5 . 5 7\n)\nThe 90% tolerance interval is much wider than the 95% confidence interval on the population mean\n2 2 3 7 . 3   2 2 8 2 . 5 "
+  },
+  {
+    "question_number": "8-93",
+    "raw": "99% tolerance interval on rod enrichment data that have a 95% CL\nGiven x = 2.9 s = 0.099 n = 12 we find k=4.150\nx − ks, x + ks\n( ) ( )\n2.9 − 4.150 0.099 , 2.9 + 4.150 0.099\n(2.49, 3.31)\nThe 99% tolerance interval is much wider than the 95% CI on the population mean (2.84    2.96)"
+  },
+  {
+    "question_number": "8-94",
+    "raw": "a) 90% tolerance interval on wall thickness measurements that have a 90% CL\nGiven x = 4.05 s = 0.08 n = 25 we find k=2.077\n\nx − ks, x + ks\n( ) ( )\n4.05 − 2.077 0.08 , 4.05 + 2.077 0.08\n(3.88, 4.22)\nThe lower bound of the 90% tolerance interval is much lower than the lower bound on the 95% confidence\ninterval on the population mean (4.023    )\nb) 90% lower tolerance bound on bottle wall thickness that has confidence level 90%.\ngiven x = 4.05 s = 0.08 n = 25 and k = 1.702\n( )\nx −ks= 4.05−1.702 0.08 =3.91\nThe lower tolerance bound is of interest if we want the wall thickness to be greater than a certain value so\nthat a bottle will not break.\nSupplemental Exercises"
+  },
+  {
+    "question_number": "8-95",
+    "raw": "Where   \n1\n+\n2\n= . Let = 0 . 0 5 \nInterval for\n1\n=\n2\n= / 2 = 0 . 0 2 5   \nThe confidence level for x 1 . 9 6 / n x 1 . 9 6 / n    −   + is determined by the by the value of z\n0\nwhich is 1.96.\nFrom Table III, we find (1.96) = P(Z<1.96) = 0.975 and the confidence level is 95%.\nInterval for\n1\n= 0 . 0 1 ,\n2\n= 0 . 0 4  \nThe confidence interval is x 2 . 3 3 / n x 1 . 7 5 / n    −   + , the confidence level is the same\nbecause\n= 0 . 0 5 \n. The symmetric interval does not affect the level of significance; however, it does\naffect the width. The symmetric interval is narrower."
+  },
+  {
+    "question_number": "8-96",
+    "raw": " = 50  unknown\na) n = 16 x = 5 2 s = 1.5\nt\no\n=\n5\n8\n2\n/\n− 5\n1\n0\n6\n= 1\nThe P-value for t = 1, degrees of freedom = 15, is between 0.1 and 0.25. Thus, we conclude that the results\n0\nare not very unusual.\nb) n = 30\n52 −50\nt = =1.37\no\n8/ 30\nThe P-value for t = 1.37, degrees of freedom = 29, is between 0.05 and 0.1. Thus, we conclude that the\n0\nresults are somewhat unusual.\nc) n = 100 (with n > 30, the standard normal table can be used for this problem)\n52 −50\nz = = 2.5\no\n8 / 100\nThe P-value for z = 2.5, is 0.00621. Thus we conclude that the results are very unusual.\n0\nd) For constant values of x and s, increasing only the sample size, we see that the standard error of X\ndecreases and consequently a sample mean value of 52 when the true mean is 50 is more unusual for the\nlarger sample sizes."
+  },
+  {
+    "question_number": "8-97",
+    "raw": "= 50, 2 = 5\na) For n =16 find P(s2  7.44) or P(s2  2.56)\n 15(7.44)  ( )\nP(S2  7.44) = P2   = 0.05  P 2  22.32  0.10\n\n15 52\n\n15\nUsing computer software P(S2  7.44) = 0.0997\n 15(2.56)  ( )\nP(S2  2.56) = P2   = 0.05  P 2  7.68  0.10\n15 15\n 5 \nUsing computer software P(S2  2.56)= 0.064\nn = 30 b) For find\nP ( S 2  7 . 4 4 ) or P ( S 2  2 . 5 6 )\n( 2  7 . 4 4 ) =\n\n22\n9\n\n2 9 ( 7\n5\n. 4 4 ) \n= 0 . 0 2 5 \n(\n22\n9\n 4 3 . 1 5\n)\n 0 . 0 5   P S P P\nUsing computer software P ( S 2  7 . 4 4 ) = 0.044\n( 2  2 . 5 6 ) =\n\n22\n9\n\n2 9 ( 2\n5\n. 5 6 ) \n= 0 . 0 1 \n(\n22\n9\n 1 4 . 8 5\n)\n 0 . 0 2 5   P S P P\nUsing computer software P ( S 2  2 . 5 6 ) = 0.014.\nc) For n = 7 1 P ( s 2  7 . 4 4 ) or P ( s 2  2 . 5 6 )\n( 2  7 . 4 4 ) =\n\n27\n0\n\n7 0 ( 7\n5\n. 4 4 ) \n= 0 . 0 0 5 \n(\n27\n0\n 1 0 4 . 1 6\n)\n 0 . 0 1   P S P P\nUsing computer software P ( S 2  7 . 4 4 ) =0.0051\n( 2  2 . 5 6 ) =\n\n27\n0\n\n7 0 ( 2\n5\n. 5 6 ) \n=\n(\n27\n0\n 3 5 . 8 4\n)\n 0 . 0 0 5   P S P P\nUsing computer software P ( S 2  2 . 5 6 ) < 0.001\nd) The probabilities decrease as n increases. As n increases, the sample variance should approach the\npopulation variance; therefore, the likelihood of obtaining a sample variance much larger than the\npopulation variance decreases.\ne) The probabilities decrease as n increases. As n increases, the sample variance should approach the\npopulation variance; therefore, the likelihood of obtaining a sample variance much smaller than the\npopulation variance decreases."
+  },
+  {
+    "question_number": "8-98",
+    "raw": "a) The data appear to follow a normal distribution based on the normal probability plot because the data fall\nalong a straight line.\nb) It is important to check for normality of the distribution underlying the sample data because the\nconfidence intervals to be constructed have the assumption of normality (especially since the sample size is\nless than 30 and the central limit theorem does not apply).\nc) No, with 95% confidence, we cannot infer that the true mean if14.05 because this value is not contained\nwithin the given 95% confidence interval.\n\nd) As with part b, to construct a confidence interval on the variance, the normality assumption must hold\nfor the results to be reliable.\ne) Yes, it is reasonable to infer that the variance could be 0.35 since the 95% confidence interval on the\nvariance contains this value.\nf) i) & ii) No, doctors and children would represent two completely different populations not represented by\nthe population of Canadian Olympic hockey players. Because neither doctors nor children were the target\nof this study or part of the sample taken, the results should not be extended to these groups."
+  },
+  {
+    "question_number": "8-99",
+    "raw": "a) The probability plot shows that the data appear to be normally distributed.\n\nb) 99% lower confidence bound on the mean x = 25.12, s = 8.42, n = 9 t = 2.896\n0.01,8\n\n\n\n2 5 . 1 2\nx\n−\n−\n2 .\nt\n8\n0 .0\n9\n1\n6\n,8\n\n\n8\n1\n.\n6\ns\nn\n4 2\n9\n. 9\n\n\n9\n\n\n\nThe lower bound on the 99% confidence interval shows that the mean comprehensive strength is greater\nthan 16.99 Megapascals with high confidence.\nc) 98% two-sided confidence interval on the mean\nx\n= 2 5 . 1 2 , s = 8 . 4 2 , n = 9 t\n0 .0 1 ,8\n= 2 . 8 9 6\n2 5 . 1 2 −\n−\n2 . 8\n0\n9\n.0 1\n6\n,8\n\n\n8\n1\n.\n6\n4\n9\n.\n2\n9\n\n\n9\n\n\n\n\n\n\n2\n3\n5\n3\n+\n.\n.\n1\n2\n0\n2\n5\n.0 1\n+\n,8\n\n2 . 8 9 6\n\n 8 . 4\n9\n2 \n\n\n\nx t\ns\nn\nx t\ns\nn\nThe 98% two-sided confidence interval shows that the mean comprehensive strength is greater than 16.99\nMegapascals and less than 33.25 Megapascals with high confidence.\nThe lower bound of the 99% one sided CI is the same as the lower bound of the 98% two-sided CI because\nthe value of  for the one-sided example is one-half the value for the two-sided example.\nd) 99% one-sided upper bound on the confidence interval on 2 comprehensive strength\ns = 8 . 4 2 , s 2 = 7 0 . 9 0 20\n.9 9 ,8\n= 1 . 6 5 \n8(8.42)2\n2 \n1.65\n2  343.74\nThe upper bound on the 99% confidence interval on the variance shows that the variance of the\ncomprehensive strength is less than 343.74 Megapascals2 with high confidence.\ne) 98% two-sided confidence interval on 2 of comprehensive strength\ns = 8.42, s2 = 70.90 2 = 20.09 2 =1.65\n0.01,9 0.99,8\n\n8(8.42)2 8(8.42)2\n2 \n20.09 1.65\n28.23 2  343.74\nThe 98% two-sided confidence-interval on the variance shows that the variance of the comprehensive\nstrength is less than 343.74 Megapascals2 and greater than 28.23 Megapascals2 with high confidence.\nThe upper bound of the 99% one-sided CI is the same as the upper bound of the 98% two-sided CI because\nthe value of  for the one-sided example is one-half the value for the two-sided example.\n\nf) 98% two-sided confidence interval on the mean x = 23, s = 6.31, n = 9 t = 2.896\n0.01,8\n2 3 −\n−\n2 . 8\n0 .0\n9\n1\n6\n,8\n\n\n6\n1\n.\n6\n3\n9\n.\n1\n9\n\n\n1\n\n\n\n\n\n\n2\n2\n3\n9\n+\n+\n. 0\n0\n2\n9\n.0 1 ,8\n. 8 9\n\n6\n 6 .\n\n3\n9\n1 \n\n\n\nx t\ns\nn\nx t\ns\nn\n98% two-sided confidence interval on 2 comprehensive strength\ns = 6 . 3 1 , s 2 = 3 9 . 8 20\n.0 1 , 9\n= 2 0 . 0 9  20\n.9 9 ,8\n= 1 . 6 5 \n8 (\n2\n3\n0\n1\n9\n.\n5\n.\n0\n.\n8\n9\n8\n)\n5\n\n\n2\n2\n\n\n8\n1\n(\n1\n9\n3\n2\n.\n9\n6\n. 9\n.\n5\n8\n7\n)\n\n\nFixing the mistake decreased the values of the sample mean and the sample standard deviation. Because the\nsample standard deviation was decreased, the widths of the confidence intervals were also decreased.\ng) A 98% two-sided confidence interval on the mean\nx\n= 2 5 , s = 8 . 4 1 , n = 9 t\n0 .0 1 ,8\n= 2 . 8 9 6\n2 5 −\n−\n2 . 8\n0 .0\n9\n1\n6\n,8\n\n\n8\n1\n.\n6\n4\n9\n.\n1\n8\n\n\n8\n\n\n\n\n\n\n2\n3\n5\n3\n+\n.\n+\n1\n0 .0\n2\n2\n1 ,8\n. 8\n\n9 6\n 8\n\n. 4\n9\n1 \n\n\n\nx t\ns\nn\nx t\ns\nn\n98% two-sided confidence interval on 2 of comprehensive strength\ns = 8.41, s2 = 70.73 2 = 20.09 2 =1.65\n0.01,9 0.99,8\n8(8.41)2 8(8.41)2\n2 \n20.09 1.65\n28.16 2  342.94\nFixing the mistake did not affect the sample mean or the sample standard deviation. They are very close to\nthe original values. The widths of the confidence intervals are also very similar.\nh) When a mistaken value is near the sample mean, the mistake does not affect the sample mean, standard\ndeviation or confidence intervals greatly. However, when the mistake is not near the sample mean, the\n\nvalue can greatly affect the sample mean, standard deviation and confidence intervals. The farther from the\nmean, the greater is the effect.\nWith  = 8, the 95% confidence interval on the mean has length of at most 5; the error is then E = 2.5.\n2 2\n z  1.96\na)n =  0.025  82 =   64 = 39.34 = 40\n 2.5   2.5 \n2 2\n z  1.96\nb)n =  0.025  62 =   36 = 22.13 = 23\n 2.5   2.5 \nAs the standard deviation decreases, with all other values held constant, the sample size necessary to\nmaintain the acceptable level of confidence, and the width of the interval, decreases.\nx =15.33 s = 0.62 n = 20 k = 2.564\na) 95% Tolerance Interval of hemoglobin values with 90% confidence\n1 5 . 3 3 − 2 . 5 6 4\n( 1\nx\n(\n0\n3\n−\n. 6\n. 7\nk\n2\n4\ns\n)\n,\n,\n,\nx\n1 5\n1\n+\n.\n6\n3\nk\n3\n. 9\ns\n2\n+\n)\n2 . 5 6 4\n(\n0 . 6 2\n)\nb) 99% Tolerance Interval of hemoglobin values with 90% confidence\nk = 3 . 3 6 8\n1 5 . 3 3 − 3 . 3 6 8\nx\n(\n( 1\n0\n−\n.\n3\n6\n.\nk\n2\n2\ns\n)\n4\n,\n,\n,\nx\n1\n1\n5\n7\n+\n.\n.\n3\n4\nk\n3\n2\ns\n+\n)\n3 . 3 6 8\n(\n0 . 6 2\n)"
+  },
+  {
+    "question_number": "8-102",
+    "raw": "95% prediction interval for the next sample of concrete that will be tested.\nGiven x = 25.12 s = 8.42 n = 9 for  = 0.05 and n = 9, t = t = 2.306\n/2,n-1 0.025,8\n2 5 . 1 2 − 2\nx\n. 3\n−\n0 6\nt\n0\n(\n.0\n8\n2\n.\n5\n4\n,8\n2\ns\n)\n1\n1\n4\n+\n+\n. 6\n1\nn\n1\n9\n5\n\n\n\nx\nx\nx\nn\nn\nn\n+\n+\n+\n1\n1\n1\n\n\n\nx\n2\n4\n5\n5\n+\n.\n.\n1\n5\nt\n0\n2\n9\n.0 2\n+\n5 ,8\n2\ns\n. 3 0\n1\n6\n+\n( 8\n1\nn\n. 4 2 ) 1 +\n1\n9"
+  },
+  {
+    "question_number": "8-103",
+    "raw": "a) The data appear to be normally distributed.\n\n\nx = 203.20, s = 7.5, n =10 b) 95% confidence interval on the mean\nt\n0 .0 2 5 , 9\n= 2 . 2 6 2\n2 0 3 . 2 −\n−\n2 .\n0\n2\n.0\n6\n2 5\n2\n, 9\n\n1\n\n7\n9\n. 5\n1\n7\n0\n0\n. 8\n\n\n4\n\n\n\n\n\n\n2\n2\n0\n0\n−\n3\n8\n.\n.\n0\n2\n5\n.0\n6\n2\n+\n5 , 9\n2\n\n. 2 6 2\n\n\n7 . 5\n1\n0\n0\n\n\n\n\nx t\ns\nn\nx t\ns\nn\nc) 95% prediction interval on a future sample\n2 0 3 . 2 − 2 . 2 6\n−\n2 (\n0\n7\n.0 2\n. 5\n5\n0\n, 9\n) 1\n1\n1\n8\n+\n+\n5\n1\n.\n1\n4\n1\n0\n1\n\n\n\n\n\n\n2\n2\n0\n2\n−\n3\n0\n.\n.\n0\n2\n9\n.0\n9\n2\n+\n5 , 9\n2 . 2 6\n1\n2\n+\n( 7\n1\n. 5 0 ) 1 +\n1\n1\n0\n\n\n\nx t s\nn\nx t s\nn\nd) 95% tolerance interval on foam height with 99% confidence\nk = 4 . 2 6 5\n2 0 3 . 2 − 4 . 2\n(\n6\n1\nx\n5\n7\n−\n(\n7\n1 .\nk\n. 5\n2\ns ,\n)\n,\n1 ,\nx\n2\n2\n0\n3\n+\n3\n5\nk\n. 2\n. 1\ns\n9\n+\n)\n4 . 2 6 5\n(\n7 . 5\n)\n99\n95\n90\n80\n70\n60\n50\n40\n30\n20\n10\n5\n1\n178 188 198 208 218 228\nData\ne) The 95% CI on the population mean is the narrowest interval. For the CI, 95% of such intervals contain\nthe population mean. For the prediction interval, 95% of such intervals will cover a future data value. This\ninterval is wider than the CI on the mean. The tolerance interval is the widest interval of all. For the\ntolerance interval, 99% of such intervals will include 95% of the true distribution of foam height.\na) Normal probability plot for the coefficient of restitution.\nb) 99% CI on the true mean coefficient of restitution\nx = 0.624, s = 0.013, n = 40 t = t = 2.7079\na/2, n-1 0.005, 39\ntnecreP\nNormal Probability Plot for foam height\nML Estimates - 95% CI\nML Estimates\nMean 203.2\nStDev 7.11056\n\ns s\nx −t   x + t\n0.005,39 0.005,39\nn n\n0.013 0.013\n0.624 − 2.7079   0.624 + 2.7079\n40 40\n0.618   0.630\nc) 99% prediction interval on the coefficient of restitution for the next baseball that will be tested.\n1 1\nx −t s 1+  x  x + t s 1+\n0.005,39 n+1 0.005,39\nn n\n1 1\n0.624 − 2.7079(0.013) 1+  x  0.624 + 2.7079(0.013) 1+\nn+1\n40 40\n0.588  x  0.660\nn+1\nd) 99% tolerance interval on the coefficient of restitution with a 95% level of confidence\n( 0 . 6 2 4 − 3 . 2 1 3 (\n(\n0\n(\nx\n0\n.\n−\n0\n. 5\n1\nk\n3\n8\ns\n)\n2\n,\n,\n,\nx\n0\n0\n.\n.\n+\n6\n6\n2\n6\nk\n4\n6\ns )\n+\n)\n3 . 2 1 3 ( 0 . 0 1 3 ) )\ne) The confidence interval in part (b) is for the population mean and we may interpret this to imply that\n99% of such intervals will cover the true population mean. For the prediction interval, 99% of such\nintervals will cover a future baseball’s coefficient of restitution. For the tolerance interval, 95% of such\nintervals will cover 99% of the true distribution."
+  },
+  {
+    "question_number": "8-105",
+    "raw": "95% Confidence Interval on the proportion of baseballs with a coefficient of restitution that exceeds 0.635.\nˆp =\n4\n8\n0\n= 0 . 2 n = 4 0 = 1 . 6 5\n\nz\n0 . 2\nˆp\n−\n−\n1\nz\n. 6 5\nˆp\n0\n( 1\n. 2\n0\n−\nn\n(\n4\n. 0\n0\n0\n9\n.\nˆp\n8\n5\n)\n)\n6\n\n\n\np\np\np\n"
+  },
+  {
+    "question_number": "8-106",
+    "raw": "a) The normal probability shows that the data are mostly follow the straight line, however, there are some\npoints that deviate from the line near the middle.\n\nb) 95% CI on the mean dissolved oxygen concentration\nx = 3.265, s = 2.127, n = 20 t = t = 2.093\na/2, n-1 0.025, 19\n3 . 2 6 5 −\n−\n2 . 0\n0 .0\n9\n2\n3\n5 ,1\n2\n2\n9\n. 1\n2\n. 2\n2\n0\n7\n7\n0\n\n\n\n\n\n\n3\n4\n.\n.\n+\n2\n2\n6\n6\n0\n5\n0\n.0\n+\n2 5 ,1\n2\n9\n. 0 9 3\n2 . 1\n2\n2\n0\n7\n\n\n\nx t\ns\nn\nx t\ns\nn\nc) 95% prediction interval on the oxygen concentration for the next stream in the system that will be tested\n3 . 2 6 5 − 2 . 0\nx\n9 3\n−\n( 2\nt\n0\n.\n.0\n1\n2\n2\n5 ,1\n7\n9\n)\ns\n−\n1\n1\n+\n1 .\n+\n2\n1\n2\n9\n1\nn\n0\n7\n\n\n\nx\nx\nx\nn\nn\nn\n+\n+\n+\n1\n1\n1\n\n\n\nx\n3\n7\n.\n.\n+\n2\n8\n6\n2\nt\n0\n5\n7\n.0\n+\n2 5 ,1\n2\n9\n.\ns\n0 9\n1\n3 (\n+\n2 .\n1\nn\n1 2 7 ) 1 +\n2\n1\n0\nd) 95% tolerance interval on the values of the dissolved oxygen concentration with a 99% level of\nconfidence\n( 3 . 2 6 5 − 3 . 1 6 8 (\n(\n(\n2\n−\nx\n.\n3\n1\n−\n.\n2\n4\nk\n7\n7\ns\n)\n3\n,\n,\n,\nx\n3\n1\n.\n0\n+\n2\n.\n6\n0\nk\n5\n0\ns )\n+\n3 )\n3 . 1 6 8 ( 2 . 1 2 7 ) )\n99\n95\n90\n80\n70\n60\n50\n40\n30\n20\n10\n5\n1\n0 5 10\nData\ne) The confidence interval in part (b) is for the population mean and we may interpret this to imply that\n95% of such intervals will cover the true population mean. For the prediction interval, 95% of such\nintervals will cover a future oxygen concentration. For the tolerance interval, 99% of such intervals will\ncover 95% of the true distribution"
+  },
+  {
+    "question_number": "8-107",
+    "raw": "a) The data appear normally distributed. The data points appear to fall along the normal probability line.\ntnecreP\nNormal Probability Plot for 8-81\nML Estimates - 95% CI\n\nb) 99% CI on the mean tar content\nx = 1.529, s = 0.0566, n = 30 t = t = 2.756\na/2, n-1 0.005, 29\n1 . 5 2 9 − 2\n−\n. 7 5\n0 .0\n6\n0 5\n0\n, 2 9\n. 0\n1\n5\n3\n. 5\n6\n0\n0\n6\n1\n\n\n\n\n\n\n1\n1\n.\n.\n+\n5\n5\n2\n5\n9\n7\n0 .0\n+\n0 5 ,\n2\n2 9\n. 7 5 6\n0 . 0 5\n3\n6\n0\n6\n\n\n\nx t\ns\nn\nx t\ns\nn\nc) 99% prediction interval on the tar content for the next sample that will be tested..\n1 . 5 2 9 − 2 . 7 5\nx\n6 (\n−\n0\nt\n. 0\n0 .0\n5\n0\n6\n5 ,1\n6\n9\n)\ns\n1\n1\n+\n1 .\n+\n3\n3\n1\n7\n1\nn\n0\n0\n\n\n\nx\nx\nx\nn\nn\nn\n+\n+\n+\n1\n1\n1\n\n\n\nx\n1\n1\n.\n.\n+\n5\n6\n2\n8\nt\n9\n8\n0 .0\n+\n0 5 ,1\n2\n9\n.\ns\n7 5\n1\n6 (\n+\n0 .\n1\nn\n0 5 6 6 ) 1 +\n3\n1\n0\nd) 99% tolerance interval on the values of the tar content with a 95% level of confidence\n( 1 . 5 2 9 − 3 . 3 5 0 ( 0\n( x\n. 0\n( 1\n−\n5 6\n. 3\nk\n6\n3\ns\n)\n9\n,\n,\n,\nx\n1\n1\n.\n.\n+\n5\n7\n2\n1\nk\n9\n9\ns\n)\n)\n+ 3 . 3 5 0 ( 0 . 0 5 6 6 ) )\nNormal Probability Plot for tar content\nML Estimates - 95% CI\n99 ML Estimates\nMean 1.529\n95\nStDev 0.0556117\n90\n80\n70\nt\nn 60\ne\nc 50\ne r 40\nP 30\n20\n10\n5\n1\n1.4 1.5 1.6 1.7\nData\ne) The confidence interval in part (b) is for the population mean and we may interpret this to imply that\n95% of such intervals will cover the true population mean. For the prediction interval, 95% of such\nintervals will cover a future observed tar content. For the tolerance interval, 99% of such intervals will\ncover 95% of the true distribution."
+  },
+  {
+    "question_number": "8-108",
+    "raw": "a) 95% Confidence Interval on the population proportion\nn=1200 x=8 pˆ = 0.0067 z =z =1.96\n/2 0.025\n\npˆ(1− pˆ) pˆ(1− pˆ)\npˆ − z  p  pˆ + z\na/2 a/2\nn n\n0.0067(1− 0.0067) 0.0067(1− 0.0067)\n0.0067 −1.96  p  0.0067 +1.96\n1200 1200\n0.0021 p  0.0113\nb) No, there is not sufficient evidence to support the claim that the fraction of defective units produced is\none percent or less at  = 0.05. This is because the upper limit of the control limit is greater than 0.01."
+  },
+  {
+    "question_number": "8-109",
+    "raw": "99% Confidence Interval on the population proportion\nn=1600 x=8 pˆ = 0.005 z =z =2.58\n/2 0.005\n0 . 0 0 5 − 2 . 5 8\nˆp −\n0 .\nz\n0\na\n0\n/\n5\n2\n( 1\n1\n0\n6\n.\nˆp\n−\n0\n0\n(\n0\n0\n0\n1\n0\n.\n−\nn\n0\n4\n0\n5\nˆp\n5\n0\n)\n)\n5\n\n\n\np\np\np\n\n\n\nˆp\n0\n0\n.\n.\n+\n0\n0\n0\n0\nz\n5\n9\na\n5\n/\n+\n2\n4\n2\n9\n. 5\nˆp\n8\n( 1 −\nn\n0 .\nˆp\n0\n)\n0 5 (\n1\n1\n6\n−\n0 0\n0 . 0 0 5 )\nb) E = 0.008,  = 0.01, z = z = 2.58\n/2 0.005\nn =\n z\nE\n/ 2\n\n2\np ( 1 − p ) =\n\n0\n2\n.\n.\n0\n5\n0\n8\n8\n\n2\n0 . 0 0 5 ( 1 − 0 . 0 0 5 ) = 5 1 7 . 4 3  , n  518\nc) E = 0.008,  = 0.01, z = z = 2.58\n/2 0.005\nn =\n z\nE\n/ 2\n\n2\np ( 1 − p ) =\n\n0\n2\n.\n.\n0\n5\n0\n8\n8\n\n2\n0 . 5 ( 1 − 0 . 5 ) = 2 6 0 0 1 . 5 6  , n  26002\nd) A bound on the true population proportion reduces the required sample size by a substantial amount. A\nsample size of 518 is much smaller than a sample size of over 26,000."
+  },
+  {
+    "question_number": "8-110",
+    "raw": "ˆp =\n1\n4\n1\n8\n7\n4\n= 0 . 2 4 2\na) 90% confidence interval;\n/ 2\n= 1 . 6 4 5\n\nz\npˆ(1− pˆ) pˆ(1− pˆ)\npˆ − z  p  pˆ + z\n/2 /2\nn n\n0.210  p  0.274\nWith 90% confidence, the true proportion of new engineering graduates who were planning to continue\nstudying for an advanced degree is between 0.210 and 0.274.\nb) 95% confidence interval; z =1.96\n/2\npˆ(1− pˆ) pˆ(1− pˆ)\npˆ − z  p  pˆ + z\n/2 /2\nn n\n0.204  p  0.280\nWith 95% confidence, the true proportion of new engineering graduates who were planning to continue\nstudying for an advanced degree lies between 0.204 and 0.280.\n\nc) Comparison of parts (a) and (b):\nThe 95% confidence interval is wider than the 90% confidence interval. Higher confidence produces wider\nintervals, all other values held constant.\nd) Yes, since both intervals contain the value 0.25, thus there in not enough evidence to conclude that the\ntrue proportion differs from 0.25.\na) The data appear to follow a normal distribution based on the normal probability plot. The data fall along\na straight line.\nb) It is important to check for normality of the distribution underlying the sample data because the\nconfidence intervals have the assumption of normality (especially since the sample size is less than 30 and\nthe central limit theorem does not apply).\nc) 95% confidence interval for the mean\nn = 1 1 x = 2 2 . 7 3 s = 6 . 3 3 t\n0 .0 2 5 ,1 0\n= 2 . 2 2 8\n2 2 . 7 3 −\n−\n2\n0\n.\n.0\n2\n2\n2\n5 ,1\n8\n0\n\n1\n\n6\n8\n. 3\n1\n. 4\n3\n1\n7\n\n\n8\n\n\n\n\n\n\n2\n2\n2\n6\n+\n.\n.\n7\n9\n0\n3\n8\n.0 2\n+\n2\n5 ,1\n2\n0\n.\n\n2 2 8\n\n\n6 . 3\n1\n3\n1\n\n\n\n\nx t\ns\nn\nx t\ns\nn\nd) As with part b, to construct a confidence interval on the variance, the normality assumption must hold\nfor the results to be reliable.\ne) 95% confidence interval for variance\nn = 1 1 s = 6 . 3 3\n2\n/ 2 , − 1\n= 20\n.0 2 5 ,1 0\n= 2 0 . 4 8  \n n\nand 21\n− / 2 , − 1\n= 20\n.9 7 5 ,1 0\n= 3 . 2 5  \n n\n1 0 (\n2\n6\n0\n1\n.\n.\n9\n3\n4\n.\n3\n8\n5\n)\n6\n2\n5\n\n\n2\n2\n\n\n1\n1\n0\n2\n(\n3\n3\n6\n.\n.\n2\n.\n2\n3\n8\n5\n3\n9\n) 2\n\n"
+  },
+  {
+    "question_number": "8-112",
+    "raw": "a) The data appear to be normally distributed based on examination of the normal probability plot below.\n\nb) 99% upper confidence interval on mean energy (BMR)\nn = 1 0 x = 5 . 8 8 4 s = 0 . 5 6 4 5 t\n0 .0 0 5 , 9\n= 3 . 2 5 0\n5 . 8 8 4 − 3 .\n−\n2 5\n0\n0\n.0\n\n0 5\n0\n, 9\n.\n\n5 6\n1\n5\n4\n0\n. 3\n5\n0\n\n\n4\n\n\n\n\n\n\n5\n6\n.\n.\n+\n8\n4\n8\n6\n0\n4\n4\n.0 0\n+\n5 ,\n3\n9\n\n. 2 5 0\n\n\n0 . 5 6\n1\n4\n0\n5 \n\n\n\nx t\ns\nn\nx t\ns\nn\nMind Expanding Exercises"
+  },
+  {
+    "question_number": "8-113",
+    "raw": "a)    \n \nP ( 2\n1 −\n2\n,2 r\n 2 T\nr\n 2\n2\n,2 r\n) = 1 −\n= P\n\n2\n2\n1 −\nT\n2\n,2\nr\nr\n \n2\n2\n2\nT\n,2\nr\nr\n  \n \n\nThen a confidence interval for \n\n=\n1\nis\n\n2 T\n2\n2\nr\n,2 r\n,\n2 T\n2\n1 −\n2\nr\n,2 r\n\nProbability Plot of Energy\nNormal - 95% CI\n99\nMean 5.884\nStDev 0.5645\n95 N 10\nAD 0.928\n90\nP-Value 0.011\n80\n70\nt\nn 60\ne\nc 50\nr\ne 40\nP\n30\n20\n10\n5\n1\n4 5 6 7 8\nEnergy\n \n \nb) n = 20 , r = 10 , and the observed value of T is 199 + 10(29) = 489.\nr\n1  2(489) 2(489) \nA 95% confidence interval for is  ,  = (28.62,101.98)\n  34.17 9.59 \nz\n\n1 −x 2 1 1 −x 2"
+  },
+  {
+    "question_number": "8-114",
+    "raw": " =  e 2 dx =1−  e 2 dx\n1\n2 2\nz − \n1\nTherefore, 1− = (z ) .\n1 \n1\nTo minimize L we need to minimize −1(1− )+(1− ) subject to  + =.\n1 2 1 2\n\nTherefore, we need to minimize −1(1− )+(1−+ ).\n1 1\nz2\n 1\n−1(1− ) = − 2 e 2\n1\n\n1\nz2\n −1\n−1(1−+ ) = 2 e 2\n1\n\n1\nz2 z2\n−1 1\nUpon setting the sum of the two derivatives equal to zero, we obtain e 2 = e 2 . This is solved by\nz = z . Consequently,  =−, 2 = and  = = .\n1 −1 1 1 1 1 2 2"
+  },
+  {
+    "question_number": "8-115",
+    "raw": "a) n = ½ + (1.9/.1)(9.4877/4), then n = 46\nb) (10 - 0.5)/(9.4877/4) = (1 + p)/(1 - p)\np = 0.6004 between 10.19 and 10.41."
+  },
+  {
+    "question_number": "8-116",
+    "raw": "a)\nP\nP\nP\n(\n(\n(\nX\na\na\nl\nl\ni\nl\nl\nX\nX\n\ni\ni\n~\n\n\n)\n~\n~\n=\n)\n)\n1\n=\n=\n/ 2\n(\n(\n1\n1\n/\n/\n2\n2\n)\n)\nn\nn\n\n\n\nP\n=\n(\n\nA\n1\n2\n\n\nn\nB\n+\n)\n\n=\n1\n2\nP\n\n(\nn\nA\n=\n) +\n2\n\nP\n1\n2\n(\n\nB\nn\n)\n=\n−\n\nP\n1\n2\n( A\n\nn\n\n− 1\nB )\n1 − P ( A  B ) = P ( m i n ( X\ni\n) \n~\n m a x ( X\ni\n) ) = 1 −\n 1\n2\n\nn\n\nb)   P ( m i n ( X\ni\n) \n~\n m a x ( X\ni\n) ) = 1 −\nThe confidence interval is min(X), max(X)\ni i\nFrom the definition of a confidence interval we expect 950 of the confidence intervals to include the value\nof . Let X be the number of intervals that contain the true mean (). We can use the large sample\napproximation to determine the probability that P(930 < X < 970).\n950 930 970\nLet p = = 0.950 p = = 0.930 and p = = 0.970\n1 2\n1000 1000 1000\nThe variance is estimated by\np ( 1 −\nn\np )\n=\n0 . 9 5\n1\n0\n0\n( 0\n0\n.\n0\n0 5 0 )\n\n   \n   \n (0.970−0.950)  (0.930−0.950)\nP(0.930  p  0.970) = P Z  − P Z \n   \n0.950(0.050) 0.950(0.050)\n   \n 1000   1000 \n 0.02   −0.02 \n= PZ  − PZ   = P(Z  2.90)− P(Z  −2.90) = 0.9963\n 0.006892  0.006892\n2"
+  },
+  {
+    "question_number": "8-118",
+    "raw": "~ p = = 0.0370 n = 50 z =1.96\n/2\n54\n0 . 0 3 7 0 − 1 . 9 6\n0\n~p\n. 0\n−\n3\nz\n7 0\n/\n(\n2\n1\n5\n−\n0\n~p\n0\n−\n(\n.\n1\n0\n0\n−\nn\n3\n.\n7\n0\n~p\n0\n1\n)\n)\n5\np\n\n\n\n\np\np\np\n0 .\n\n\n\n0 8\n~p\n0\n0\n9\n.\n.\n+\n0\n0\n3\n8\nz\n7\n9\n0\n/ 2\n+ 1\n~p\n. 9\n(\n6\n1 −\nn\n0\n~p\n. 0\n)\n3 7 0 ( 1\n5\n−\n0\n0 . 0 3 7 0 )\n "
+  },
+  {
+    "question_number": "8-119",
+    "raw": "a) ˆp =\n3\n2\n5\n= 0 . 0 5 7 1 n = 3 5\n/ 2\n= 1 . 9 6\n\nz\n0 . 0 5 7 1 − 1 . 9 6\nˆp\n0 .\n−\n0 5\nz\n7 1\n/ 2\n( 1\n3\n−\n5\nˆp\n0\n−\n(\n.\n1\n0\n0\n−\nn\n5\n.\n7\n0\nˆp\n1\n2\n)\n)\n0\np\n\n\n\n\np\np\np\n0 .\n\n\n\n1 3\nˆp\n0\n0\n4\n.\n.\n+\n0\n1\n5\n3\nz\n7\n4\n1\n/ 2\n+ 1 .\nˆp\n9\n(\n6\n1 −\nn\n0\nˆp\n. 0\n)\n5 7 1 ( 1\n3\n−\n5\n0 . 0 5 7 1 )\n \nb) ~p =\n3\n4\n9\n= 0 . 1 0 2 6 n = 3 5\n/ 2\n= 1 . 9 6\n\nz\n0 . 1 0 2 6 − 1 . 9 6\n0\n~p\n. 1\n−\n0\nz\n2 6\n/\n(\n2\n1\n3\n−\n5\n~p\n0\n(\n.\n1\n1\n0\n−\nn\n0\n.\n2\n0\n~p\n6\n0\n)\n)\n2\n\n\n\np\np\np\n\n\n\n~p\n0\n0\n.\n.\n+\n1\n2\n0\n0\nz\n2\n3\n6\n/ 2\n+ 1\n~p\n. 9\n( 1\n6\n−\nn\n0\n~p\n.\n)\n1 0 2 6 ( 1\n3\n−\n5\n0 . 1 0 2 6 )\n \nThis confidence interval is much wider than the interval in part (a). Because of the small sample size and\nsmall estimated proportion, the interval in part (a) can be overly optimistic and the modified interval in part\n(b) is probably a better choice."
+  }
+]

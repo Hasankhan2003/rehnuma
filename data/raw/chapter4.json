@@ -1,0 +1,830 @@
+[
+  {
+    "question_number": "4-1",
+    "raw": "a) P(1 X ) = e−xdx = (−e−x) = e−1 = 0.3679\n1\n1\n2.5\n2.5\nb) P(1 X  2.5) = e−xdx = (−e−x) = e−1 − e−2.5 = 0.2858\n1\n1\n3\nc) P(X = 3) = e−xdx = 0\n3\nd) P ( X  4 ) =\n4\n0 e − x d x = ( − e − x )\n4\n0\n= 1 − e − 4 = 0 . 9 8 1 7\ne) P ( 3  X ) =\n\n3 e − x d x = ( − e − x )\n\n3\n= e − 3 = 0 . 0 4 9 8\nf) P ( x  X ) =\n\nx e − x d x = ( − e − x )\n\nx\n= e − x = 0 . 1 0 .\nThen, x = −ln(0.10) = 2.3\ng) P ( X  x ) =\nx\n0 e − x d x = ( − e − x )\nx\n0\n= 1 − e − x = 0 . 1 0 .\nThen, x = −ln(0.9) = 0.1054"
+  },
+  {
+    "question_number": "4-2",
+    "raw": "a) P ( X  2 ) =\n2\n0\n3 ( 8 x\n2 5\n−\n6\nx 2 )\nd x = (\n3\n6\nx\n4\n2\n−\n2\nx\n5\n3\n6\n)\n2\n0\n= (\n1\n3\n6\n−\n3\n1\n2\n) − 0 = 0 . 1 5 6 3\nb) P ( X  9 ) =\n8\n0\n3 ( 8 x\n2 5\n−\n6\nx 2 )\nd x = (\n3\n6\nx\n4\n2\n−\n2\nx\n5\n3\n6\n)\n8\n0\n= ( 3 − 2 ) − 0 = 1\n4\n4 3(8x − x2) 3x2 x3 3 1 3 1\nc) P(2  X  4) =  dx = ( − ) = ( − ) − ( − ) = 0.3438\n256 64 256 4 4 16 32\n2 2\n8\n8 3(8x − x2) 3x2 x3 27 27\nd) P(X  6) =  dx = ( − ) = (3− 2) − ( − ) = 0.1563\n256 64 256 16 32\n6 6\nx\nx 3(8u − u2) 3u2 u3 3x2 x3\ne) P(X  x) =  du = ( − ) = ( − ) − 0 = 0.95\n256 64 256 64 256\n0 0\nThen, x3 - 12x2 + 243.2 = 0, and x = 6.9172\n\n0\n0"
+  },
+  {
+    "question_number": "4-3",
+    "raw": "a) P(X  0) = 0.5cos xdx = (0.5sin x) = 0 − (−0.5) = 0.5\n−/2\n−/2\n−/4\n−/4\nb) P(X  −/ 4) = 0.5cos xdx = (0.5sin x) = −0.3536 − (−0.5) = 0.1464\n−/2\n−/2\n/4\n/4\nc) P(−/ 4  X / 4) = 0.5cos xdx = (0.5sin x) = 0.3536 − (−0.3536) = 0.7072\n−/4\n−/4\nd) (  − / 4 ) =\n−\n\n/ 2\n/\n0\n4\n. 5 c o s = ( 0 . 5 s i n )\n−\n/ 2\n/ 4\n= 0 . 5 − ( − 0 . 3 5 3 6 ) = 0 . 8 5 3 6\n\n\n\n\n\nP X x d x x\nx\nx\ne) P(X  x) = 0.5cos xdx = (0.5sin x) = (0.5sin x) − (−0.5) = 0.95\n−/2\n−/2\nThen, sin x = 0.9, and x = 1.1198 radians"
+  },
+  {
+    "question_number": "4-4",
+    "raw": "a) P ( X  2 ) =\n2\n1\nx\n2\n3\nd x = (\n−\nx\n1\n2\n)\n2\n1\n= (\n−\n4\n1\n) − ( − 1 ) = 0 . 7 5\nb) P ( X  5 ) =\n\n5\nx\n2\n3\nd x = (\n−\nx\n1\n2\n)\n\n5\n= 0 − (\n−\n2\n1\n5\n) = 0 . 0 4\nc) P ( 4  X  8 ) =\n8\n4\nx\n2\n3\nd x = (\n−\nx\n1\n2\n)\n8\n4\n= (\n−\n6\n1\n4\n) − (\n−\n1 6\n1\n) = 0 . 0 4 6 9\nd) P ( X  4 o r X  8 ) = 1 − P ( 4  X  8 ) . From part (c), P ( 4  X  8 ) = 0.0469. Therefore,\nP ( X  4 o r X  8 ) = 1 – 0.0469 = 0.9531\ne) P ( X  x ) =\nx\n1\nx\n2\n3\nd x = (\n−\nx\n1\n2\n)\nx\n1\n= (\n−\nx\n1\n2\n) − ( − 1 ) = 0 . 9 5\nThen, x2 = 20, and x = 4.4721"
+  },
+  {
+    "question_number": "4-5",
+    "raw": "a) P ( X  4 ) =\n4\n3\nx\n8\nd x =\nx\n1\n2\n6\n4\n3\n=\n4 2\n1\n−\n6\n3 2\n= 0 . 4 3 7 5 , because f\nX\n( x ) = 0 for x < 3.\n5\n5 x x2 52 − 3.52\nb) , P(X  3.5) =  dx = = = 0.7969 because f (x) = 0 for x > 5.\nX\n8 16 16\n3.5 3.5\n5\n5 x x2 52 − 42\nc) P(4  X  5) =  dx = = = 0.5625\n8 16 16\n4 4\n4.5\n4.5 x x2 4.52 −32\nd) P(X  4.5) =  dx = = = 0.7031\n8 16 16\n3 3\n5 3.5\n5 x 3.5 x x2 x2 52 − 4.52 3.52 −32\ne) P(X  4.5) + P(X  3.5) =  dx +  dx = + = + = 0.5.\n8 8 16 16 16 16\n4.5 3 4.5 3\n\n\n"
+  },
+  {
+    "question_number": "4-6",
+    "raw": "a) P(1 X ) = e−(x−4)dx = −e−(x−4) =1, because f (x) = 0 for x < 4. This can also be\nX\n4\n4\nobtained from the fact that f (x) is a probability density function for 4 < x.\nX\n5\n5\nb) P(2  X  5) = e−(x−4)dx = − e−(x−4) =1− e−1 = 0.6321\n4\n4\nc) P(5  X) =1− P(X  5) . From part b., P(X  5) = 0.6321. Therefore,\nP(5  X) = 0.3679 .\n12\n12\nd) P(8 X 12) = e−(x−4)dx = − e−(x−4) = e−4 − e−8 = 0.0180\n8\n8\ne) P ( X  x ) =\nx\n4 e − ( x − 4 ) d x = − e − ( x − 4 )\nx\n4\n= 1 − e − ( x − 4 ) = 0 . 9 0 .\nThen, x = 4 − ln(0.10) = 6.303"
+  },
+  {
+    "question_number": "4-7",
+    "raw": "a) P ( 0  X ) = 0 . 5 , by symmetry.\nb) P ( 0 . 5  X ) =\n1\n 1\n0 .5\n. 5 x 2 d x = 0 . 5 x 3\n1\n0 .5\n= 0 . 5 − 0 . 0 6 2 5 = 0 . 4 3 7 5\nc) P ( − 0 . 5  X  0 . 5 ) =\n−\n0 .5\n 1\n0 .5\n. 5 x 2 d x = 0 . 5 x 3\n0\n−\n.5\n0 .5\n= 0 . 1 2 5\nd) P(X < −2) = 0\ne) P(X < 0 or X > −0.5) = 1\nf) P ( x  X ) =\n1\nx 1 . 5 x 2 d x = 0 . 5 x 3\n1\nx\n= 0 . 5 − 0 . 5 x 3 = 0 . 0 5\nThen, x = 0.9655"
+  },
+  {
+    "question_number": "4-8",
+    "raw": "a) P ( X  3 0 0 0 ) =\n3\n\n0\n0 0\n1\ne\n0\n1\n−\n0\n0\nx\n0 0\n0\nd x = − e 1\n−\n0\nx\n0 0\n\n3 0 0 0\n= e − 3 = 0 . 0 5\n−x\n2000 e1000\n−x\n2000\nb) P(1000  X  2000) =  dx = − e1000 = e−1 − e−2 = 0.233\n1000\n1000\n1000\n−x\n1000 e1000\n−x\n1000\nc) P(X 1000) =  dx = −e1000 =1−e−1 = 0.6321\n1000\n0\n0\n−x\nx e1000\n−x\nx\nd) P(X  x) =  dx = − e1000 =1− e−x/1000 = 0.10.\n1000\n0\n0\nThen, e −x/1000 =0.9, and x = −1000 ln 0.9 = 105.36.\n\n50.25\n50.25"
+  },
+  {
+    "question_number": "4-9",
+    "raw": "a) P(X  50) = 2.0dx = 2x = 0.5\n50\n50\n50.25\n50.25\nb) P(X  x) = 0.90 = 2.0dx = 2x =100.5− 2x\nx\nx\nThen, 2x = 99.6 and x = 49.8."
+  },
+  {
+    "question_number": "4-10",
+    "raw": "a) P ( X  7 4 . 8 ) =\n7\n7\n4\n4\n.8\n1\n.6\n. 2 5 d x = 1 . 2 5 x\n7\n7\n4\n4\n.8\n.6\n= 0 . 2 5\nb) P(X < 74.8 or X > 75.2) = P(X < 74.8) + P(X > 75.2) because the two events are mutually\nexclusive. The result is 0.25 + 0.25 = 0.50.\n75.3\n75.3\nc) P(74.7  X  75.3) = 1.25dx =1.25x =1.25(0.6) = 0.750\n74.7\n74.7"
+  },
+  {
+    "question_number": "4-11",
+    "raw": "a) P(X < 2.25 or X > 2.75) = P(X < 2.25) + P(X > 2.75) because the two events are\nmutually exclusive. Then, P(X < 2.25) = 0 and\nP(X > 2.75) =\n2 .8\n 2\n2 .7 5\nd x = 2 ( 0 . 0 5 ) = 0 . 1 0 .\nb) If the probability density function is centered at 2.55 meters, then f\nX\n( x ) = 2 for\n2.3 < x < 2.8 and all rods will meet specifications."
+  },
+  {
+    "question_number": "4-12",
+    "raw": "a) P ( X  9 0 ) = 0 because the pdf is not defined in the range ( −  , 9 0 ) .\nb)\nP\n=\n=\n( 1\n(\n0\n0\n− 5\n. 2\n0\n.\n7\n\n5\n8\n6\nX\n 1\n\n0 −\n2\n4\n0\n\n0\n2\n)\n0\n=\n0\n2 0\n\n1 0\n+\n0\n(\n0\n2\n−\n.\n5\n7\n.\n8\n5\n\n6\n1\n\n0\n1\n−\n0\n6\n−\n\n4\n2\n+\n0\n5\n0\n.\n2\n5\n)\n6\n−\n\n(\n1\n−\n0\n5\n−\n.\n6\n5\nx\n6\n) d\n\nx\n1 0\n=\n− 4\n( −\n\n5\n1\n.\n0\n5\n0\n6\n+\n 1\n2\n0\n. 7\n−\n8\n4 x\n\n+\n1 0\n2\n−\n.\n6\n7\n\n8\n1\n\n0\n1\n0\n0\n2\n−\n)\n6 x 2 )\n2\n1\n0\n0\n0\n0\nc)\n1000\n1000\nP(X  800) = (4.4410−3 − 4.4410−6x)dx = (4.4410−3x − 2.2210−6x2)\n800\n800\n= (4.4410−3 103 − 2.2210−6 106) − (4.4410−3 800 − 2.2210−6 8002)\n= 0.0888  0.09\nd) Find a such that P(X  a) = 0.1\n1000\n1000\nP(X  a) = (4.4410−3 − 4.4410−6x)dx = (4.4410−3x − 2.2210−6x2) = 0.1\na\na\n(4.4410−3 103 − 2.2210−6 106) − (4.4410−3  a − 2.2210−6  a2) = 0.1\n(2.22) − (4.4410−3  a − 2.2210−6  a2) = 0.1\n\nThen, a  787.76\n2\n2"
+  },
+  {
+    "question_number": "4-13",
+    "raw": "a) P(0.5  X) = 1− 0.5xdx = x − 0.25x2 = 0.562\n0.5\n0.5\n2\n2\nb) P(a  X) = 1− 0.5xdx = x − 0.25x2 =1− (a − 0.25a2) = 0.2  a =1.106\na\na\nc) P(X = 0.22) = 0\n40\n40"
+  },
+  {
+    "question_number": "4-14",
+    "raw": "a) P(X  40) = (0.0025x −0.075)dx = (0.00125x2 −0.075x)\n30\n30\n= (0.00125402 −0.07540)−(0.00125302 −0.07530) =0.125\nb) P ( 4 0  X  6 0 ) =\n5\n4\n0\n0\n( 0 . 0 0 2 5 x − 0 . 0 7 5 ) d x +\n6\n5\n0\n0\n( − 0 . 0 0 2 5 x + 0 . 1 7 5 ) d x\n=\n=\n(\n0\n0\n.\n.\n3\n0\n7\n0\n5\n1\n+\n2 5\n0\nx\n. 3\n2\n7\n−\n5\n0\n=\n. 0\n0\n7\n.\n5\n7\nx\n5\n)\n5\n4\n0\n0\n+ ( − 0 . 0 0 1 2 5 x 2 + 0 . 1 7 5 x )\n6\n5\n0\n0\nc) Find a such that P ( X  a ) = 0 . 9 9 (i.e. P ( X  a ) = 1 − 0 . 9 9 = 0 . 0 1\nP\n=\n(\n(\nX\n0 . 0\n\n0\na\n1\n)\n2\n=\n5 \na\n3\n0\na\n( 0\n2\n.\n−\n0 0\n0\n2\n. 0\n5\n7\nx\n5\n−\n\n0\na\n. 0\n)\n7\n−\n5\n(\n)\n0\nd\n. 0\nx\n0\n=\n1 2\n( 0\n5\n.\n\n0 0\n3\n1\n0\n2\n2\n5\n−\nx\n0\n2\n.\n−\n0 7\n0\n5\n. 0\n\n7\n3\n5\n0\nx\n)\n)\n=\na\n3 0\n0\n=\n. 0\n0\n1\n. 0 1\nThen, a = 3 2 . 8 2 8"
+  },
+  {
+    "question_number": "4-15",
+    "raw": "a) P ( X  0 . 5 ) =\n0 .5\n0 0 . 5 e x p ( − 0 . 5 x ) d x = − e x p ( − 0 . 5 x )\n0\n0\n.5\n= 0 . 2 2 1\nb) P ( X  2 ) =\n\n2 0 . 5 e x p ( − 0 . 5 x ) d x = − e x p ( − 0 . 5 x )\n\n2\n= 0 . 3 6 8\n\n\nc) P(X  a) = 0.5exp(−0.5x)dx = −exp(−0.5x) = exp(−0.5a) = 0.05  a = 5.991\na\na\nx\n2"
+  },
+  {
+    "question_number": "4-16",
+    "raw": "Because the integral  f(x)dx is not changed whether or not any of the endpoints x 1 and x 2 are\nx\n1\nincluded in the integral, all the probabilities listed are equal."
+  },
+  {
+    "question_number": "4-17",
+    "raw": "a) P(X<2.8) = P(X  2.8) because X is a continuous random variable.\nThen, P(X<2.8) =F(2.8)=0.2(2.8) = 0.56.\nb) P(X 1.5) =1− P(X 1.5) =1− 0.2(1.5) = 0.7\nc) P(X  −2) = F (−2) = 0\nX\nd) P(X  6) =1− F (6) = 0\nX"
+  },
+  {
+    "question_number": "4-18",
+    "raw": "a) P(X 1.8) = P(X 1.8) = F (1.8) because X is a continuous random variable. Then,\nX\nF (1.8) = 0.25(1.8) + 0.5= 0.95\nX\nb) P(X  −1.5) =1− P(X  −1.5) =1−.125 = 0.875\nc) P(X < -2) = 0\nd) P ( − 1  X  1 ) = P ( − 1  X  1 ) = F\nX\n( 1 ) − F\nX\n( − 1 ) = . 7 5 − . 2 5 = 0 . 5 0"
+  },
+  {
+    "question_number": "4-19",
+    "raw": "Now, f ( x ) = e − x for 0 < x and F\nX\n( x ) =\nx\n0 e − x d x = − e − x\nx\n0\n= 1 − e − x\nfor 0 < x. Then, F\nX\n( x ) =\n\n1 − e −\n0\nx\n,\n,\nx\nx\n\n\n0\n0"
+  },
+  {
+    "question_number": "4-20",
+    "raw": "Now, f ( x ) =\n3 ( 8 x\n2 5\n−\n6\nx 2 )\nfor 0 < x < 8 and\nF\nX\n( x ) =\nx\n0\n3 ( 8 u\n2 5\n−\n6\nu 2 )\nd u = (\n3\n6\nu\n4\n2\n−\n2\nu\n5\n3\n6\n)\nx\n0\n=\n3\n6\nx\n4\n2\n−\n2\nx\n5\n3\n6\nfor 0 < x.\nThen, F\nX\n( x ) =\n\n3\n6\nx\n4\n2\n−\n2\nx\n5\n3\n6\n1\n0\n, 0\n,\n, x\n\nx \n\nx\n8\n0\n 8"
+  },
+  {
+    "question_number": "4-21",
+    "raw": "Now, f (x) = 0.5cos xfor -/2 < x < /2 and\nF\nX\n( x ) =\n−\nx\n\n/\n0\n2\n. 5 c o s u d u = ( 0 . 5 s i n x )\nx\n− / 2\n= 0 . 5 s i n x + 0 . 5\n\n\n 0, x  −/ 2\n\nThen, F (x) =  0.5sin x + 0.5, −/ 2  x / 2\nX\n\n1, x / 2\n\n\n2"
+  },
+  {
+    "question_number": "4-22",
+    "raw": "Now, f (x) = for x > 1 and\nx3\nx x\n2 −1 −1\nF (x) =  du = ( ) = ( ) +1\nX u3 u2 x2\n1 1\n 0, x 1\n\nThen, F (x) =  1\nX\n1− , x 1\n\n x2"
+  },
+  {
+    "question_number": "4-23",
+    "raw": "Now, f ( x ) = x / 8\nx\nx u u2 x2 − 9\nfor 3 < x < 5 and F (x) =  du = =\nX\n8 16 16\n3 3\nfor 0 < x. Then,\nF\nX\n( x ) =\n\nx 2\n1\n−\n6\n0\n9\n1\n,\n,\n,\nx\n3\nx\n\n\n\n3\nx\n5\n 5\n4.24. Now, f ( x ) =\ne −\n1\nx\n0\n/ 1\n0\n0\n0\n0 0\nfor 0 < x and\nF\nX\n( x ) =\n1 0\n1\n0 0\nx\n0 e − x / 1 0 0 0 d y = − e − y / 1 0 0 0\nx\n0\n= 1 − e − x / 1 0 0 0\nfor 0 < x.\nThen, F\nX\n( x ) =\n\n1 − e − x / 1 0 0\n0\n0\n,\n,\nx\nx\n\n\n0\n0\nP(X>3000) = 1- P(X  3000) = 1- F(3000) = e-3000/1000 = 0.5"
+  },
+  {
+    "question_number": "4-25",
+    "raw": "Now, f(x) = 2 for 2.3 < x < 2.8 and F ( x ) =\nx\n2\n.3\n2 d y = 2 x − 4 . 6\nfor 2.3 < x < 2.8. Then,\n 0, x  2.3\n\nF(x) =\n\n2x −4.6, 2.3 x  2.8\n\n1, 2.8  x\n\nP(X  2.7) =1− P(X  2.7) =1− F(2.7) =1−0.8 = 0.2 because X is a continuous random\nvariable.\ne−x/10"
+  },
+  {
+    "question_number": "4-26",
+    "raw": "Now, f (x) = for 0 < x and\n10\nx\nx\nF (x) =1/10e−x/10dx = −e−x/10 =1− e−x/10\nX\n0\n0\n\nfor 0 < x.\n 0, x  0\nThen, F (x) = \nX 1−e−x/10, x  0\n\na) P(X<60) = F(60) =1 - e-6 = 1 - 0.002479 = 0.9975\n30\nb) 1/10 e−x/10dx = e-1.5 − e-3=0.173343\n15\nc) P(X >40)+ P(X <40 and X >40)= e-4+(1- e-4) e-4=0.0363\n1 1 2\nd) P(15<X<30) = F(30)-F(15) = e-1.5- e-3=0.173343"
+  },
+  {
+    "question_number": "4-27",
+    "raw": "F ( x ) =\nx\n0 0 . 5 x d x = 0 .52 x 2\nx\n0\n= 0 . 2 5 x 2 for 0 < x < 2. Then,\nF ( x ) =\n\n0\n0\n1 ,\n,\n. 2 5 x 2 , 0\n2\nx\n\n\n\nx\n0\nx\n 2"
+  },
+  {
+    "question_number": "4-28",
+    "raw": "f ( x ) = 2 e − 2 x , x  0\nf ( x ) =\n\n0\n0\n.\n.\n2\n0\n,\n4 ,\n0\n4\n\n\nx\nx\n\n\n4\n9\nf\nX\n( x ) =\n\n0\n0\n.\n.\n2\n5\n5\n,\n,\n1\n−\n\n2\nx\n\n\nx\n1 .\n\n5\n1\n0, x  0\n\nx\n\nf (x) =1− 0.5x,0  x  2  F(x) =\n\n1− 0.5xdx = x − 0.25x2,0  x  2\n\n0\n\n1, x  2\n"
+  },
+  {
+    "question_number": "4-32",
+    "raw": "For 30  x  50,\n\nx\nx\nP(X  x) = (0.0025x −0.075)dx = (0.00125x2 −0.075x)\n30\n30\n= (0.00125x2 −0.075x)−(0.00125302 −0.07530)\n= 0.00125x2 −0.075x −1.125\nFor 50  x  70,\nx\nP(X  x) = F(50)+ (−0.0025x +0.175)dx\n50\nx\n= 0.5+(−0.00125x2 +0.175x)\n50\n= 0.5+(−0.00125x2 +0.175x)−(−0.00125502 +0.17550)\n= 0.5−0.0125x2 +0.175x −5.625 = −0.0125x2 +0.175x −5.125\nF ( x ) =\n 0\n0\n−\n1 ,\n,\n.\nx\n0\n0\nx\n0\n.\n\n1\n0\n\n0\n3\n2\n1\n7\n0\n5\n2\n0\nx\n5\n2\nx\n−\n2\n0\n+\n. 0\n0\n7\n. 1\n5\n7\nx\n5\n−\nx\n1\n−\n. 1\n5\n2\n. 1\n5 ,\n2\n3\n5\n0\n, 5\n\n0\nx\n\n\nx\n5\n\n0\n7 0\nP ( X  5 5 ) = F ( 5 5 ) = − 0 . 0 0 1 2 5  5 5 2 + 0 . 1 7 5  5 5 − 5 . 1 2 5 = 0 . 7 1 9"
+  },
+  {
+    "question_number": "4-33",
+    "raw": "f ( x ) = 0 . 5 e x p ( − 0 . 5 x )  F ( x ) =\n 0\nx\n0\n,\n0\nx\n. 5\n\ne\n0\nx p ( − 0 . 5 x ) d x = 1 − e x p ( − 0 . 5 x ) , x  0\nP ( 4 0  X  6 0 ) = F ( 6 0 ) − F ( 4 0 ) = 2 . 0 6  1 0 − 9"
+  },
+  {
+    "question_number": "4-34",
+    "raw": "For 1 0 0  x  5 0 0 ,\nF\n=\n(\n(\nx\n−\n)\n5\n=\n. 5\n1\n6\nx\n0\n0\n\n( −\n1\n5\n0\n.\n−\n5\n4\n6\nx\n\n+\n1\n2\n0\n.\n−\n7\n4\n8\n+\n\n5\n1\n.\n0\n5 6\n− 6\n\nx\n1\n2\n0\n)\n−\n−\n6\n(\nx\n−\n)\n5\nd\n.\nx\n5\n=\n6 \n( −\n1\n5\n0\n.\n−\n5\n4\n6\n\n\n1\n1\n0\n0\n0\n−\n+\n4 x\n2\n+\n. 7\n2\n8\n.\n\n7 8\n1 0\n\n−\n1\n6\n0\n\n−\n1\n6\n0\nx\n0\n2 )\n2\nx\n1\n)\n0 0\nFor 500  x 1000,\nx\nF(x) = F(500) + (4.4410−3 − 4.4410−6x)dx\n500\nx\n= 0.445 + (4.4410−3x − 2.2210−6x2)\n500\n= 0.445 + (4.4410−3x − 2.2210−6x2) − (4.4410−3 500 − 2.2210−6 5002)\n= 0.445 + (4.4410−3x − 2.2210−6x2) −1.665\n\n0,x 100\n\n2.7810−6x2 − 5.5610−4x + 2.7810−2,100  x  500\nF(x) =\n\n− 2.2210−6x2 + 4.4410−3x −1.22,500  x 1000\n\n\n1,x 1000\n"
+  },
+  {
+    "question_number": "4-35",
+    "raw": "E ( X ) =\n4\n0 0 . 2 5 x d x = 0 . 2 5\nx\n2\n2\n4\n0\n= 2\nV ( X ) =\n4\n0 0 . 2 5 ( x − 2 ) 2 d x = 0 . 2 5\n( x −\n3\n2 ) 3\n4\n0\n=\n2\n3\n+\n2\n3\n=\n4\n3"
+  },
+  {
+    "question_number": "4-36",
+    "raw": "E ( X ) =\n4\n0 0 . 1 2 5 x 2 d x = 0 . 1 2 5\nx\n3\n3\n4\n0\n= 2 . 6 6 6 7\nV ( X ) =\n=\n4\n0\n0\n0\n. 1\n. 1\n2\n2\n5\n5\n(\nx\n4 x4\n(\n−\nx −\n1 63\n83\nx3\n)\n3\n2\n+\nd x\n69 4\n=\n 12\n0 .\nx\n1\n2\n2\n)\n5\n4\n0\n4\n0\n=\n( x\n0\n3\n. 8\n−\n8\n1\n8\n63\n8\nx\n9\n2 + 69 4 x ) d x"
+  },
+  {
+    "question_number": "4-37",
+    "raw": "E ( X ) =\n1\n−\n1\n1 . 5 x 3 d x = 1 . 5\nx\n4\n4\n1\n− 1\n= 0\nV ( X ) =\n=\n1\n−\n1\n1\n1\n. 5\n. 5\nx\n5\nx\n5\n3 ( x\n1\n− 1\n−\n=\n0 )\n0\n2\n. 6\nd x = 1 . 5\n1\n−\n1\nx 4 d x"
+  },
+  {
+    "question_number": "4-38",
+    "raw": "E ( X ) =\n5\n3 x\nx\n8\nd x =\nx\n2\n3\n4\n5\n3\n=\n5 3\n2\n−\n4\n3 3\n= 4 . 0 8 3\n5 x 5  x3 8.166x2 16.6709x \nV(X ) = (x − 4.083)2 dx =  − + dx\n \n8 8 8 8\n \n3 3\n5\n1 x4 8.166x3 16.6709x2 \n=  − +  = 0.3264\n \n8 4 3 2\n \n3\n8\n8 3(8x − x2) x3 3x4"
+  },
+  {
+    "question_number": "4-39",
+    "raw": "E(X ) =  x dx = ( − ) =(16 −12) − 0 = 4\n256 32 1024\n0 0\n\n8 3(8x − x2) 8  −3x4 3x3 15x2 3x \nV(X) = (x − 4)2 dx =  + − + dx\n \n256 256 16 16 2\n \n0 0\n8\n −3x5 3x4 5x3 3x2  −384\nV(X)=  + − +  =( +192 −160 + 48) = 3.2\n \n1280 64 16 4 5\n \n0\n"
+  },
+  {
+    "question_number": "4-40",
+    "raw": "E(X ) =  xe−xdx. Use integration by parts to obtain\n1\n\n\nE(X) =  xe−xdx = −e−x(x +1) = 0 −(−1) =1\n0\n0\n\nV(X) = (x −1)2e−xdx Use double integration by parts to obtain\n0\n( ) =\n\n0 ( − 1 ) 2 − = − ( − 1 ) 2 − − 2 ( − 1 ) − − 2 − )\n0\n= 1\n\nV X x e x d x x e x x e x e x\nE ( X ) =\n2\n0 x ( 1 − 0 . 5 x ) d x =\nx\n2\n2\n−\nx\n6\n3\n2\n0\n= 2 − 2\n1\n3\n= −\n1\n3\nE ( X 2 ) =\n2\n0 x 2 ( 1 − 0 . 5 x ) d x =\nx\n3\n3\n−\nx\n8\n4\n2\n0\n=\n8\n3\n− 2 =\n2\n3\nV ( X ) = E ( X 2 ) − [ E ( X ) ] 2 =\n2\n3\n−\n1\n9\n=\n5\n9\nE ( X ) =\n5\n3\n0\n0\nx ( 0 . 0 0 2 5 x − 0 . 0 7 5 ) d x = 0 . 0 0 2 5\nx\n3\n3\n− 0 . 0 7 5\nx\n2\n2\n5\n3\n0\n0\n+\n7\n5\n0\n0\nx ( − 0 . 0 0 2 5 x + 0 . 1 7 5 ) d x = − 0 . 0 0 2 5\nx\n3\n3\n+ 0 . 1 7 5\nx\n2\n2\n7\n5\n0\n0\n= = 2 1\n2\n3\n+ 2 8\n1\n3\n= 5 0\n50\n50 x4 x3\nE(X 2) =  x2(0.0025x − 0.075)dx = 0.0025 − 0.075\n4 3\n30 30\n70\n70 x4 x3 2 2\n+  x2(−0.0025x + 0.175)dx = −0.0025 + 0.175 = 950+1616 = 2566\n4 3 3 3\n50 50\nV ( X ) = E ( X 2 ) − [ E ( X ) ] 2 = 2 5 6 6\n2\n3\n− 2 5 0 0 = 1 6 6\n1\n3"
+  },
+  {
+    "question_number": "4-43",
+    "raw": "Use integration by parts to obtain\n\n \nE(X) = 0.5xexp(−0.5x)dx = −xexp(−0.5x) |0.5 +exp(−0.5x)dx\n0\n0 0\n0.5\n= −xexp(−0.5x) − 2exp(−0.5x) = 2\n0\nUse integration by parts two times to obtain\n\nE(X 2) = 0.5x2 exp(−0.5x)dx = 8\n0\nV(X) = E(X 2) −[E(X)]2 = 8− 22 = 4\nProbability distribution from exercise 4-12 used.\nHere, a = 5.56E-6, b = -5.56E-4, c = -4.44E-6, d = 4.44E-3\nE ( X ) =\n5\n1\n0\n0\n0\n0\nx ( a x + b ) d x = a\nx\n3\n3\n+ b\nx\n2\n2\n5\n1\n0\n0\n0\n0\n+\n1 0 0\n\n5 0\n0\nx\n0\n( c x + d ) d x = c\nx\n3\n3\n+ d\nx\n2\n2\n1\n5\n0\n0\n0\n0\n0\n= 1 6 3 . 0 9 3 3 + 3 7 0 = 5 3 3 . 0 9 3 3\nE ( X 2 ) =\n5\n1\n0\n0\n0\n0\nx 2 ( a x + b ) d x = a\nx\n4\n4\n+ b\nx\n3\n3\n5\n1\n0\n0\n0\n0\n+\n1 0 0\n\n5 0\n0\nx\n0\n2 ( c x + d ) d x = d\nx\n4\n4\n+ d\nx\n3\n3\n7\n5\n0\n0\n= 6 3 7 5 4 . 6 7 + 2 5 4 3 7 5 = 3 1 8 1 2 9 . 7\nV ( X ) = E ( X 2 ) − [ E ( X ) ] 2 = 3 1 8 1 2 9 . 7 − 5 3 3 . 0 9 3 3 2 = 3 3 9 4 1 . 1 6"
+  },
+  {
+    "question_number": "4-45",
+    "raw": "E ( X ) =\n\n1 x 2 x − 3 d x = − 2 x − 1\n\n1\n= 2"
+  },
+  {
+    "question_number": "4-46",
+    "raw": "a)\n1210\n1210\nE(X ) =  x0.1dx = 0.05x2 =1205\n1200\n1200\n1210\n1210 (x −1205)3\nV(X) = (x −1205)20.1dx = 0.1 = 8.333\n3\n1200 1200\n = V(X) = 2.887\nx\nb) Clearly, centering the process at the center of the specifications results in the greatest\nproportion of cables within specifications.\n1205\n1205\nP(1195  X 1205) = P(1200  X 1205) = 0.1dx = 0.1x = 0.5\n1200\n1200\n\n120\n600\n120"
+  },
+  {
+    "question_number": "4-47",
+    "raw": "a) E(X) =  x dx = 600ln x =109.39\nx2 100\n100\n120 120\n600\nV(X) = (x −109.39)2 dx = 600 1− 2(109.39) + (109.39)2 dx\nx2 x x2\n100 100\n= 600(x − 218.78ln x −109.392 x−1) 120 = 33.19\n100\nb) Average cost per part = $0.50*109.39 = $54.70\n70 70 70\n70 70"
+  },
+  {
+    "question_number": "4-48",
+    "raw": "a) E(X ) =  xf (x)dx =  dx = ln x | = 4.3101\n1 1 69x 69 1\n70\n70 70\nE(X 2) =  x2 f (x)dx =  dx = 70\n1 1 69\nVar(X) = E ( X 2 ) − ( E X ) 2 = 7 0 − 1 8 . 5 7 7 0 = 5 1 . 4 2 3 0\nb) 2.5(4.3101) = 10.7753\nc) P ( X  5 0 ) = \n7 0\n5 0\nf ( x ) d x = 0 . 0 0 5 8"
+  },
+  {
+    "question_number": "4-49",
+    "raw": "a) E ( X ) =\n\n5 x 1 0 e − 1 0 ( x − 5 ) d x .\nUsing integration by parts with u = x and d v = 1 0 e − 1 0 ( x − 5 ) d x , we obtain\nE ( X ) = − x e − 1 0 ( x − 5 )\n\n5\n+\n\n5 e − 1 0 ( x − 5 ) d x = 5 −\ne − 1\n1\n0 (\n0\nx − 5 )\n\n5\n= 5 . 1\nNow, V ( X ) =\n\n5 ( x − 5 . 1 ) 2 1 0 e − 1 0 ( x − 5 ) d x . Using the integration by parts with u = ( x − 5 .1 ) 2 and\nd v = 1 0 e − 1 0 ( x − 5 ) , we obtain V ( X ) = − ( x − 5 . 1 ) 2 e − 1 0 ( x − 5 )\n\n5\n+ 2\n\n5 ( x − 5 . 1 ) e − 1 0 ( x − 5 ) d x .\nFrom the definition of E(X) the integral above is recognized to equal 0. Therefore,\nV ( X ) = ( 5 − 5 . 1 ) 2 = 0 . 0 1 .\n\n\nb) P(X  5.1) = 10e−10(x−5)dx = − e−10(x−5) = e−10(5.1−5) = 0.3679\n5.1\n5.1"
+  },
+  {
+    "question_number": "4-50",
+    "raw": "a) E(X) = (5.5 + 1.5)/2 = 3.5\n(5.5−1.5)2\nV(X) = =1.333, and  = 1.333 =1.155\nx\n12\n2.5\n2.5\nb) P(X  2.5) =  0.25dx = 0.25x = 0.25\n1.5\n1.5\n\n 0, x 1.5\n\nc) F(x) =  0.25x −0.375, 1.5  x  5.5\n\n1, 5.5  x\n"
+  },
+  {
+    "question_number": "4-51",
+    "raw": "a) E(X) = (-1+1)/2 = 0\n(1− (−1))2\nV(X) = = 1/3, and  = 0.577\nx\n12\nx\nx\nb) P(−x  X  x) =  1 dt = 0.5t = 0.5(2x) = x\n2\n−x\n−x\nTherefore, x should equal 0.90.\nc) F ( x ) =\n\n0 . 5 x +\n0\n0\n,\n. 5\n1 ,\n, −\nx\n1\n1\n\n\n\n−\nx\nx\n1\n 1\n4.52 a) f(x) = 2.0 for 49.75 < x < 50.25.\nE(X) = (50.25 + 49.75)/2 = 50.0\nV ( X ) =\n( 5 0 . 2 5 −\n1 2\n4 9 . 7 5 ) 2\n= 0 . 0 2 0 8 , a n d\nx\n= 0 . 1 4 4  .\nb) F ( x ) =\n4\nx\n9\n.7\n2\n5\n. 0 d y for 49.75 < x < 50.25. Therefore,\nF ( x ) =\n\n0\n2\n1 ,\n,\nx − 9 9 . 5 , 4\n5\nx\n9\n0\n.\n\n7\n. 2\n5\n4\n5\n9\n\n\n. 7\nx\nx\n5\n 5 0 . 2 5\nc) P ( X  5 0 . 1 ) = F ( 5 0 . 1 ) = 2 ( 5 0 . 1 ) − 9 9 . 5 = 0 . 7"
+  },
+  {
+    "question_number": "4-53",
+    "raw": "a) The distribution of X is f(x) = 10 for 0.95 < x < 1.05. Now,\n\n0, x  0.95\n\n\n\nF (x) = 10x − 9.5, 0.95  x 1.05\n\nX\n\n\n1, 1.05  x\n\n\nb) P(X 1.02) =1− P(X 1.02) =1− F (1.02) = 0.3\nX\nc) If P(X > x) = 0.90, then 1 − F(X) = 0.90 and F(X) = 0.10. Therefore, 10x - 9.5 = 0.10 and x =\n0.96.\n\n(1.05 − 0.95)2\nd) E(X) = (1.05 + 0.95)/2 = 1.00 and V(X) = = 0.00083\n12\n(1.5 + 2.2)"
+  },
+  {
+    "question_number": "4-54",
+    "raw": "E(X ) = =1.85min\n2\n(2.2 −1.5)2\nV(X) = = 0.0408min 2\n12\n2 2\n1\n2\nb) P(X  2) =  dx = (1/0.7)dx = (1/0.7)x = (1/0.7)(0.5) = 0.7143\n(2.2 −1.5) 1.5\n1.5 1.5\nx x\n1\nc.) F(X) =  dy = (1/0.7)dy = (1/0.7)y |x for 1.5 < x < 2.2. Therefore,\n1.5\n(2.2 −1.5)\n1.5 1.5\nF ( x ) =\n\n( 1 / 0 . 7 ) x − 2 . 1\n0\n4\n1\n,\n,\n,\n1\n2\n.\n.\nx\n5\n2\n\n\n\n1\nx\nx\n. 5\n 2 . 2"
+  },
+  {
+    "question_number": "4-55",
+    "raw": "a) The distribution of X is f(x) = 100 for 0.2050 < x < 0.2150. Therefore,\nF ( x ) =\n\n0\n1\n1\n,\n0\n,\n0 x − 2 0 . 5 0 , 0\nx\n. 2\n0\n0\n. 2\n\n5\n1\n0\n0\n5\n. 2\n\n0\n0\n\nx\n5 0\n\nx\n0 . 2 1 5 0\nb) P ( X  0 . 2 1 2 5 ) = 1 − F ( 0 . 2 1 2 5 ) = 1 − [ 1 0 0 ( 0 . 2 1 2 5 ) − 2 0 . 5 0 ] = 0 . 2 5\nc) If P(X > x) = 0.10, then 1 − F(X) = 0.10 and F(X) = 0.90.\nTherefore, 100x - 20.50 = 0.90 and x = 0.2140.\nd) E(X) = (0.2050 + 0.2150)/2 = 0.2100 m and\n(0.2150 − 0.2050)2\nV(X) = = 8.3310−6m2\n12"
+  },
+  {
+    "question_number": "4-56",
+    "raw": "Let X denote the changed weight.\nVar(X) = 42/12 and Stdev(X) = 1.1547"
+  },
+  {
+    "question_number": "4-57",
+    "raw": "a) Let X be the time (in minutes) between arrival and 8:30 am.\n1\nf (x) = , for 0  x  90\n90\nx\nTherefore, F(x) = , for 0  x  90\n90\nb) E(X) = 45 , Var(X) = 902/12 = 675\n\nc) The event is an arrival in the intervals 8:50-9:00 am or 9:20-9:30 am or 9:50-10:00 am so that\nthe probability = 30/90 = 1/3\nd) Similarly, the event is an arrival in the intervals 8:30-8:40 am or 9:00-9:10 am or 9:30-9:40 am\nso that the probability = 30/90 = 1/3"
+  },
+  {
+    "question_number": "4-58",
+    "raw": "a) E(X) = (380 + 374)/2 = 377\n(380 − 374)2\nV(X ) = = 3, and =1.7321\nx\n12\nb) Let X be the volume of a shampoo (milliliters)\n375 375\n1 1 1\nP(X  375) =  dx= x = (1) = 0.1667\n6 6 6\n374 374\nc) The distribution of X is f(x) = 1/6 for 3 7 4  x  3 8 0 .\nNow, F\nX\n( x ) =\n\n( x − 3 7 4\n0\n1\n,\n)\n,\n/ 6\n3\nx\n,\n8\n\n0\n3\n3\n7\n\n7\n4\nx\n4\n x  3 8 0\nP(X > x) = 0.95, then 1 – F(X) = 0.95 and F(X) = 0.05.\nTherefore, (x - 374)/6 = 0.05 and x = 374.3\nd) Since E(X) = 377, then the mean extra cost = (377-375) x $0.002 = $0.004 per container."
+  },
+  {
+    "question_number": "4-59",
+    "raw": "(a) Let X be the arrival time (in minutes) after 9:00 A.M.\nV ( X ) =\n( 1 2 0\n1\n−\n2\n0 ) 2\n= 1 2 0 0 a n d\nx\n= 3 4 . 6 4 \nb) We want to determine the probability the message arrives in any of the following intervals:\n9:05-9:15 A.M. or 9:35-9:45 A.M. or 10:05-10:15 A.M. or 10:35-10:45 A.M.. The probability of\nthis event is 40/120 = 1/3.\nc) We want to determine the probability the message arrives in any of the following intervals:\n9:15-9:30 A.M. or 9:45-10:00 A.M. or 10:15-10:30 A.M. or 10:45-11:00 A.M. The probability of\nthis event is 60/120 = 1/2."
+  },
+  {
+    "question_number": "4-60",
+    "raw": "a) Let X denote the measured voltage.\nTherefore, the probability mass function is P ( X = x ) =\n1\n6\n, f o r x = 2 4 7 , . . . , 2 5 3\nb) E(X)=250, Var(X)=\n(253−247+1)2−1\n= 4\n12"
+  },
+  {
+    "question_number": "4-61",
+    "raw": "a) Yes. Time is uniformly distributed on any interval from 8:00 A.M. to 9:00 A.M.\n0 +10\nb)= = 5\n2\n3− 0\nc) P(X  3) = = 0.3\n10 − 0"
+  },
+  {
+    "question_number": "4-62",
+    "raw": "Let X denote the kinetic energy of electron beams.\n3+ 7\na) = E(X ) = = 5\n2\n(7−3)2\nb) 2 =V(X) = 1.33\n12\nc) P(X = 3.2) = 0 because X has a continuous probability distribution.\n3+b\nd) = E(X ) = = 8. Therefore, b =13\n2\n(b−3)2\ne) 2 =V(X) =  0.75. Therefore, b = 6\n12"
+  },
+  {
+    "question_number": "4-63",
+    "raw": "a) P(Z<1.32) = 0.90658\nb) P(Z<3.0) = 0.99865\nc) P(Z>1.45) = 1 − 0.92647 = 0.07353\nd) P(Z > −2.15) = p(Z < 2.15) = 0.98422\ne) P(−2.34 < Z < 1.76) = P(Z<1.76) − P(Z > 2.34) = 0.95116"
+  },
+  {
+    "question_number": "4-64",
+    "raw": "a) P(−1 < Z < 1) = P(Z < 1) − P(Z > 1)\n= 0.84134 − (1 − 0.84134) = 0.68268\nb) P(−2 < Z < 2) = P(Z < 2) − [1 − P(Z < 2)] = 0.9545\nc) P(−3 < Z < 3) = P(Z < 3) − [1 − P(Z < 3)] = 0.9973\nd) P(Z > 3) = 1 − P(Z < 3) = 0.00135\ne) P(0 < Z < 1) = P(Z < 1) − P(Z < 0) = 0.84134 − 0.5 = 0.34134"
+  },
+  {
+    "question_number": "4-65",
+    "raw": "a) P(Z < 1.28) = 0.90\nb) P(Z < 0) = 0.5\nc) If P(Z > z) = 0.1, then P(Z < z) = 0.90 and z = 1.28\nd) If P(Z > z) = 0.9, then P(Z < z) = 0.10 and z = −1.28\ne) P(−1.24 < Z < z) = P(Z < z) − P(Z < −1.24) = P(Z < z) − 0.10749\nTherefore, P(Z < z) = 0.8 + 0.10749 = 0.90749 and z = 1.33"
+  },
+  {
+    "question_number": "4-66",
+    "raw": "a) Because of the symmetry of the normal distribution, the area in each tail of the distribution\nmust equal 0.025. Therefore the value in Table III that corresponds to 0.975 is 1.96. Thus, z =\n1.96.\nb) Find the value in Table III corresponding to 0.995. z = 2.58\nc) Find the value in Table III corresponding to 0.84. z = 1.0\nd) Find the value in Table III corresponding to 0.99865. z = 3.0"
+  },
+  {
+    "question_number": "4-67",
+    "raw": "a) P(X < 13) = P(Z < (13−10)/2) = P(Z < 1.5) = 0.93319\nb) P(X > 9) = 1 − P(X < 9) = 1 − P(Z < (9−10)/2) = 1 − P(Z < −0.5) = 0.69146\n6−10 14−10\nc) P(6 < X < 14) = P  Z   = P(−2 < Z < 2)\n 2 2 \n= P(Z < 2) −P(Z < − 2)]= 0.9545\n2−10 4−10\nd) P(2 < X < 4) = P  Z  \n 2 2 \n\n= P(−4 < Z < −3) = P(Z < −3) − P(Z < −4) = 0.00132\ne) P(−2 < X < 8) = P(X < 8) − P(X < −2)\n 8−10  −2−10\n= PZ   − PZ   = P(Z < −1) − P(Z < −6) = 0.15866\n 2   2 \n x −10  x−10"
+  },
+  {
+    "question_number": "4-68",
+    "raw": "a) P(X > x) = PZ  = 0.5. Therefore, = 0 and x = 10.\n2\n 2 \n x −10   x −10 \nb) P(X > x) = PZ  = 1 − PZ  = 0.95\n 2   2 \nTherefore, P\n\nZ \nx −\n2\n1 0 \n= 0.05 and\nx −\n2\n1 0\n= −1.64. Consequently, x = 6.72.\n x −10   x −10\nc) P(x < X < 10) = P  Z  0 = P(Z  0) − PZ  \n 2   2 \n= 0.5 − P\n\nZ \nx −\n2\n1 0 \n= 0.2.\nTherefore, P\n\nZ \nx −\n2\n1 0 \n= 0.3 and\nx −\n2\n1 0\n= −0.52. Consequently, x = 8.96.\nd) P(10 − x < X < 10 + x) = P(−x/2 < Z < x/2)= 0.95. Therefore, x/2 = 1.96 and x = 3.92\ne) P(10 − x < X < 10 + x) = P(−x/2 < Z < x/2) = 0.99. Therefore, x/2 = 2.58 and x = 5.16"
+  },
+  {
+    "question_number": "4-69",
+    "raw": "a) P(X < 11) = P\n\nZ \n1 1 −\n4\n5 \n= P(Z < 1.5) = 0.93319\nb) P(X > 0) = P\n\nZ \n0 −\n4\n5 \n= P(Z > −1.25) = 1 − P(Z < −1.25) = 0.89435\nc) P(3 < X < 7) = P\n 3 −\n4\n5\n Z \n7 −\n4\n5 \n= P(−0.5 < Z < 0.5)\n= P(Z < 0.5) − P(Z < −0.5) = 0.38292\nd) P(−2 < X < 9) = P\n − 2\n4\n− 5\n Z \n9 −\n4\n5 \n= P(−1.75 < Z < 1)\n= P(Z < 1) − P(Z < −1.75)] = 0.80128\n 2 − 5 8 − 5\ne) P(2 < X < 8) = P  Z  =P(−0.75 < Z < 0.75)\n 4 4 \n= P(Z < 0.75) − P(Z < −0.75) = 0.54674\n x − 5"
+  },
+  {
+    "question_number": "4-70",
+    "raw": "a) P(X > x) = PZ  = 0.5. Therefore, x = 5.\n 4 \n x − 5  x − 5\nb) P(X > x) = PZ   = 0.95. Therefore, PZ   = 0.05\n 4   4 \nx−5\nTherefore, = −1.64, and x = −1.56.\n4\n\n x − 5 \nc) P(x < X < 9) = P  Z 1 = 0.2.\n 4 \nx−5\nTherefore, P(Z < 1) − P(Z < )= 0.2 where P(Z < 1) = 0.84134.\n4\nx−5 x−5\nThus P(Z < ) = 0.64134. Consequently, = 0.36 and x = 6.44.\n4 4\n 3 − 5 x − 5\nd) P(3 < X < x) = P  Z   = 0.95.\n 4 4 \n x − 5  x − 5\nTherefore, PZ   − P(Z < −0.5) = 0.95 and PZ   − 0.30854 = 0.95\n 4   4 \nConsequently,\n x − 5\nPZ   = 1.25854.\n 4 \nBecause a probability cannot be greater than one, there is no solution for x. In fact, P(3 < X) =\nP(−0.5 < Z) = 0.69146. Therefore, even if x is set to infinity the probability requested cannot\nequal 0.95.\ne) P(− x < X − 5 < x) = P(5 − x < X < 5 + x) = P\n 5 − x\n4\n− 5\n Z \n5 + x\n4\n− 5 \n=\nP\n −\n4\nx\n Z \nx\n4\n\n= 0.99\nTherefore, x/4 = 2.58 and x = 10.32."
+  },
+  {
+    "question_number": "4-71",
+    "raw": "a) P(X < 6250) = P\n\nZ \n6 2 5 0\n1\n−\n0 0\n6 0 0 0 \n= P(Z < 2.5) = 0.99379\nb) P(5800 < X < 5900) = P\n 5 8 0 0\n1\n−\n0 0\n6 0 0 0\n Z \n5 9 0 0\n1\n−\n0 0\n6 0 0 0 \n= P(−2 < Z < −1) = P(Z <− 1) − P(Z < −2) = 0.13591\nc) P(X > x) = P\n\nZ \nx −\n1\n6\n0\n0\n0\n0 0 \n= 0.95. Therefore,\nx −\n1\n60 00 0 0\n= −1.65 and x = 5835."
+  },
+  {
+    "question_number": "4-72",
+    "raw": "a) Let X denote the time.\nX distributed N(260, 502)\n240− 260\nP(X  240) =1− P(X  240) =1−( ) =1−(−0.4) =1− 0.3446=0.6554\n50\nb) −1(0.25)50+ 260 = 226.2755\n−1(0.75)50+ 260 = 293.7245\nc ) −1(0.05)50+260 =177.7550"
+  },
+  {
+    "question_number": "4-73",
+    "raw": "a) 1−(2) = 0.0228\nb) Let X denote the time.\nX ~ N(129, 142)\n\n100 −129\nP(X 100) =   = (−2.0714) = 0.01916\n 14 \nc) −1(0.95)14+129 =152.0280\nHere 95% of the surgeries will be finished within 152.028 minutes.\nd) 199 >> 152.028 so the volume of such surgeries is very small (less than 5%)."
+  },
+  {
+    "question_number": "4-74",
+    "raw": "Let X denote the cholesterol level.\nX ~ N(159.2, σ2)\n200−159.2\na) P(X  200) = ( ) = 0.841\n\n200−159.2\n= −1(0.841)\n\n2 0 0\n1 ( 0\n1\n.\n5\n8\n9\n4\n.\n1\n2\n)\n4 0 . 8 5 8 2  =\n −\n−\n=\nb)  − 1 ( 0 . 2 5 )  4 0 . 8 5 2 8 + 1 5 9 . 2 = 1 3 1 . 6 4 5 2\n − 1 ( 0 . 7 5 )  4 0 . 8 5 2 8 + 1 5 9 . 2 = 1 8 6 . 7 5 4 8\nc)  − 1 ( 0 . 9 )  4 0 . 8 5 2 8 + 1 5 9 . 2 = 2 1 1 . 5 5 5 0\nd)  ( 2 ) −  ( 1 ) = 0 . 1 3 5 9\ne) 1 −  ( 2 ) = 0 . 0 2 2 8\nf) Φ(−1) = 0.1587"
+  },
+  {
+    "question_number": "4-75",
+    "raw": "a) P(X > 0.62) = P\n\nZ \n0 . 6 2\n0 .\n−\n0 5\n0 . 5 \n= P(Z > 2.4) = 1 − P(Z <2.4) = 0.0082\nb) P(0.47 < X < 0.63) = P\n 0 . 4\n0\n7\n.\n−\n0 5\n0 . 5\n Z \n0 . 6\n0\n3\n.\n−\n0 5\n0 . 5 \n= P(−0.6 < Z < 2.6) = P(Z < 2.6) − P(Z < −0.6) = 0.99534 − 0.27425 = 0.72109\nc) P(X < x) = P\n\nZ \nx\n0\n−\n. 0\n0\n5\n. 5 \n= 0.90\nTherefore,\nx\n0\n−\n.\n00 .5 5\n= 1.28 and x = 0.564.\n12−12.4"
+  },
+  {
+    "question_number": "4-76",
+    "raw": "a) P(X < 12) = P(Z < ) = P(Z < −4)  0\n0.1\n 12.1−12.4\nb) P(X < 12.1) = PZ   = P(Z < −3) = 0.00135\n 0.1 \nand\n 12.6−12.4\nP(X > 12.6) = PZ   = P(Z > 2) = 0.02275.\n 0.1 \nTherefore, the proportion of cans scrapped is 0.00135 + 0.02275 = 0.0241, or 2.41%\nc) P(12.4 − x < X < 12.4 + x) = 0.99.\n\n x x \nTherefore, P−  Z   = 0.99\n 0.1 0.1\n x \nConsequently, PZ  = 0.995 and x = 0.1(2.58) = 0.258.\n 0.1\nThe limits are (12.142, 12.658).\n 12−"
+  },
+  {
+    "question_number": "4-77",
+    "raw": "a) If P(X > 12) = 0.999, then PZ   = 0.999.\n 0.1 \n12−\nTherefore, = −3.09 and  = 12.309.\n0.1\n 12−\nb) If P(X > 12) = 0.999, then PZ   = 0.999.\n 0.05 \nTherefore,\n1 2\n0 .\n−\n0\n\n5\n= -3.09 and  = 12.1545."
+  },
+  {
+    "question_number": "4-78",
+    "raw": "a) P(X > 0.5) = P\n\nZ \n0 . 5\n0\n−\n. 0\n0\n5\n. 4 \n= P(Z > 2) = 1 − 0.97725 = 0.02275\nb) P(0.4 < X < 0.5) = P\n 0 . 4\n0\n−\n. 0\n0\n5\n. 4\n Z \n0 . 5\n0\n−\n. 0\n0\n5\n. 4 \n= P(0 < Z < 2) = P(Z < 2) − P(Z < 0) = 0.47725\nc) P(X > x) = 0.90, then P\n\nZ \nx\n0\n−\n. 0\n0\n5\n. 4 \n= 0.90.\nTherefore,\nx\n0\n−\n.\n00 .5 4\n= −1.28 and x = 0.336."
+  },
+  {
+    "question_number": "4-79",
+    "raw": "a) P(X > 70) = P\n\nZ \n7 0 −\n4\n6 0 \n= 1 − P ( Z  2 . 5 ) = 1 − 0 . 9 9 3 7 9 = 0 . 0 0 6 2 1\nb) P(X < 58) = P\n\nZ \n5 8 −\n4\n6 0 \n= P ( Z  − 0 . 5 ) = 0 . 3 0 8 5 3 8\nc) 1 , 0 0 0 , 0 0 0 b y t e s * 8 b i t s / b y t e = 8 , 0 0 0 , 0 0 0 b i t s\n8,000,000 bits\n=133.33 seconds\n60,000 bits/sec"
+  },
+  {
+    "question_number": "4-80",
+    "raw": "Let X denote the height.\nX ~ N(64, 22)\n70−64 58−64\na) P(58  X  70) = ( )−( ) = (3)−(−3) = 0.9973\n2 2\nb) −1(0.25)2+64 = 62.6510\n−1(0.75)2+64 = 65.3490\nc) −1(0.05)2+64 = 60.7103\n\n−1(0.95)2+64 = 67.2897\n68−64\nd)[1−( )]5 =[1−(2)]5 = 6.094210−9\n2"
+  },
+  {
+    "question_number": "4-81",
+    "raw": "Let X denote the height.\nX ~ N(1.41, 0.012)\n1.42−1.41\na) P(X 1.42) =1− P(X 1.42) =1−( ) =1−(1) = 0.1587\n0.01\nb)\n−1(0.05)0.01+1.41=1.3936\n1.43−1.41 1.39−1.41\nc) P(1.39  X 1.43) = ( ) −( ) = (2)−(−2) = 0.9545\n0.01 0.01"
+  },
+  {
+    "question_number": "4-82",
+    "raw": "Let X denote the demand for water daily.\nX ~ N(310, 452)\na) P ( X  3 5 0 ) = 1 − P ( X  3 5 0 ) = 1 −  (\n3 5 0\n4\n−\n5\n3 1 0\n) = 1 −  (\n4\n4\n0\n5\n) = 0 . 1 8 7 0\nb)  − 1 ( 0 . 9 9 )  4 5 + 3 1 0 = 4 1 4 . 6 8 5 7\nc)  − 1 ( 0 . 0 5 )  4 5 + 3 1 0 = 2 3 5 . 9 8 1 6\nd) 𝑋 ~𝑁(𝜇,452)\nP ( X 3 5 0 ) 1 P ( X 3 5 0 ) 1 (\n3 5 0\n4 5\n) 0 . 0 1\n\n = −  = − \n−\n=\n(\n3 5 0\n4 5\n) 0 . 9 9\n\n\n−\n=\n3 5 0 1 ( 0 . 9 9 ) 4 5 2 4 5 . 3 1 4 3  = −  −  = million gallons is the mean daily demand.\nThe mean daily demand per person = 245.3143/1.4 = 175.225 gallons."
+  },
+  {
+    "question_number": "4-83",
+    "raw": "a) P(X < 5000) = P\n\nZ \n5 0 0 0\n6\n−\n0 0\n7 0 0 0 \n= P(Z < −3.33) = 0.00043\nb) P(X > x) = 0.95. Therefore, P\n\nZ \nx −\n6\n7\n0\n0\n0\n0 0 \n= 0.95 and\nx −\n6\n70 00 0 0\n= −1.64\nConsequently, x = 6016\n 7000−7000\nc) P(X > 7000) = PZ   = P(Z  0) = 0.5\n 600 \nP(Three lasers operating after 7000 hours) = (1/2)3 =1/8"
+  },
+  {
+    "question_number": "4-84",
+    "raw": "a) P(X > 0.0026) = P\n\nZ \n0 . 0 0 2\n0\n6\n. 0\n−\n0 0\n0\n4\n. 0 0 2 \n= P(Z > 1.5) = 1-P(Z < 1.5) = 0.06681\n 0.0014−0.002 0.0026−0.002\nb) P(0.0014 < X < 0.0026) = P  Z  \n 0.0004 0.0004 \n= P(−1.5 < Z < 1.5) = 0.86638\n\n 0.0014 − 0.002 0.0026 − 0.002\nc) P(0.0014 < X < 0.0026) = P  Z  \n   \n − 0.0006 0.0006\n= P  Z  \n   \n 0.0006\nTherefore, PZ  = 0.9975. Therefore, 0.0006 = 2.81 and  = 0.000214.\n   \n 13 −12"
+  },
+  {
+    "question_number": "4-85",
+    "raw": "a) P(X > 13) = PZ   = P(Z > 2) = 0.02275\n 0.5 \n 13 −12\nb) If P(X < 13) = 0.999, then PZ   = 0.999\n  \nTherefore, 1/  = 3.09 and  = 1/3.09 = 0.324\nc) If P(X < 13) = 0.999, then\n\n\n1 3\n0\n−\n. 5\n \nP Z = 0.999\nTherefore,\n1 3\n0 .5\n −\n= 3.09 and  = 11.455"
+  },
+  {
+    "question_number": "4-86",
+    "raw": "a) Let X denote the measurement error, X ~ N(0, 0.52)\nP ( 1 6 6 . 5  1 6 5 . 5 + X  1 6 7 . 5 ) = P ( 1  X  2 )\nP ( 1  X  2 ) = \n\n0\n2\n. 5\n\n− \n\n0\n1\n. 5\n\n=  ( 4 ) −  ( 2 )  1 − 0 . 9 7 7 = 0 . 0 2 3\nb) P ( 1 6 6 . 5  1 6 5 . 5 + X ) = P ( 1  X )\nP ( 1  X ) = 1 −  ( 1 ) = 1 − 0 . 8 4 1 = 0 . 1 5 9\nFrom the shape of the normal curve, the probability is maximized for an interval symmetric about\nthe mean. Therefore a = 23.5 with probability = 0.1974. The standard deviation does not affect the\nchoice of interval."
+  },
+  {
+    "question_number": "4-88",
+    "raw": "a) P(X > 9) = P\n\nZ \n9 −\n1 .\n7\n5\n. 1 \n= P (Z > 1.2667) = 0.1026\n8 − 7.1 3− 7.1\nb) P(3  X  8) = P(X  8) − P(X  3) = P(Z  ) − P(Z  )\n1.5 1.5\n= 0.7257 – 0.0031 = 0.7226.\nc) P(X > x) = 0.05, then −1(0.95)1.5+ 7.1=1.64491.5+ 7.1= 9.5673\nd) P(X > 9) = 0.01, then P(X < 9) = 1- 0.01 = 0.99\n 9 − 9 −\nPZ   = 0.99. Therefore, = 2.33and µ = 5.51.\n 1.5  1.5\n 100 − 50.9"
+  },
+  {
+    "question_number": "4-89",
+    "raw": "a) P(X > 100) = PZ   = P (Z > 1.964) = 0.0248\n 25 \n\n 25 − 50.9\nb) P(X < 25) = PZ   = P (Z < -1.036) = 0.1501\n 25 \nc) P(X > x) = 0.05, then −1(0.95) 25+ 50.9 =1.644925+ 50.9 = 92.0213\n 10 − 4.6"
+  },
+  {
+    "question_number": "4-90",
+    "raw": "a) P(X > 10) = PZ   = P (Z > 1.8621) = 0.0313\n 2.9 \nb) P(X > x) = 0.25, then −1(0.75)2.9 + 4.6 = 0.67452.9 + 4.6 = 6.5560\n 0 − 4.6\nc) P(X < 0) = PZ   = P (Z < -1.5862) = 0.0563\n 2.9 \nThe normal distribution is defined for all real numbers. In cases where the distribution is truncated\n(because wait times cannot be negative), the normal distribution may not be a good fit to the data."
+  },
+  {
+    "question_number": "4-91",
+    "raw": "(  1 . 5 ) = ( \n1 . 5 −\n) = 0 . 0 5 \n1 . 5\n= 1 . 6 4 5  = 0 . 9 1 2\n\n\n \nP V P Z"
+  },
+  {
+    "question_number": "4-92",
+    "raw": "Let X denote the value of the signal.\na) P ( 1 . 4 5  X  1 . 5 5 ) = P\n 1 . 4\n0\n5\n.\n−\n0 2\n1 . 5\n Z \n1 . 5\n0\n5\n.\n−\n0 2\n1 . 5 \n= P ( − 2 . 5  Z  2 . 5 )  0 . 9 8 8\nb) P ( X  a ) = 0 . 9 5\nP\n\nZ \na\n0\n−\n. 0\n1\n2\n. 5 \n= 0 . 9 5 and P\n\nZ \na\n0\n−\n.\n1\n0\n.\n2\n5 \n= 1 − 0 . 9 5 = 0 . 0 5 .\nThen,\na\n0\n−\n.\n1\n0\n.\n2\n5\n= − 1 . 6 4 5 and a = 1 . 4 6 7 1 .\nc)\nP ( X  + 2 ) = P\n\nZ \n+ 2 − \n= P ( Z  2 ) = 1 − P ( Z  2 ) = 1 − 0 . 9 7 7 2 5 = 0 . 0 2 2 7 5\n  \n \n"
+  },
+  {
+    "question_number": "4-93",
+    "raw": "a) P ( Z  a ) = 0 . 9 5  a = − 1 . 6 4 5\nb) P ( Z  0 ) = 0 . 5\nc) P ( − 1  Z  1 ) = F ( 1 ) − F ( − 1 ) = 0 . 8 4 1 3 4 5 − 0 . 1 5 8 6 5 5 = 0 . 6 8 3\nLet X and X denote the right ventricle ejection fraction for PH subjects and control subjects,\n1 2\nrespectively.\na) Find a such that P(X  a) = 0.05.\n1\n a −36  a −36\nP(X  a) = PZ   = 0.05, then PZ   =1−0.05 = 0.95\n1\n 12   12 \na −36\nFrom the standard normal table, =1.645 and a = 55.74\n12\n 55.74−56\nb) P(X  55.74) = PZ   = P(Z  −0.0325) =1− P(Z  0.0325) = 0.487\n2 2 2 2\n 8 \n\nc) Higher EF values are more likely to belong to the control subjects."
+  },
+  {
+    "question_number": "4-95",
+    "raw": "a) E(X) = 200(0.4) = 80, V(X) = 200(0.4)(0.6) = 48 and  = 48\nX\n 70.5−80\nThen, P(X  70)  PZ   = P(Z  −1.37) = 0.0853\n \n 48 \nb)\n 70.5 −80 89.5 −80\nP(70  X  90)  P  Z   = P(−1.37  Z 1.37)\n \n 48 48 \n= 0.91466 -0.08534 = 0.8293\nc)\nP ( 7 9 . 5  X  8 0 . 5 )\n=\n\n0\nP\n. 0\n\n5\n7\n7\n9\n5\n. 5\n4\n−\n8\n8 0\n Z \n8 0 . 5\n4\n−\n8\n8 0 \n= P ( − 0 . 0 7 2 1 7  Z  0 . 0 7 2 1 7 )"
+  },
+  {
+    "question_number": "4-96",
+    "raw": "a)\nP ( X  4 ) =\ni\n3\n= 0\ne − 6\ni !\n6 i\n= 0 . 1 5 1 2\nb) X is approximately X ~ N ( 6 , 6 )\nThen, P ( X  4 )  P\n\nZ \n4 −\n6\n6 \n= P ( Z  − 0 . 8 2 ) = 0 . 2 0 6 1 0 8\nIf a continuity correction were used, the following result is obtained.\nP ( X  4 ) = P ( X  3 )  P\n\nZ \n3 + 0 . 5\n6\n− 6 \n= P ( Z  − 1 . 0 2 ) = 0 . 1 5 3 9\nc) P ( 8  X  1 2 )  P\n 8 −\n6\n6\n Z \n1 2 −\n6\n6 \n= P ( 0 . 8 2  Z  2 . 4 5 ) = 0 . 1 9 9 0\nIf a continuity correction were used, the following result is obtained.\n9 − 0.5 − 6 11+ 0.5 − 6\nP(8  X 12) = P(9  X 11)  P  Z  \n \n 6 6 \n P(1.02  Z  2.25) = 0.1416"
+  },
+  {
+    "question_number": "4-97",
+    "raw": "Z =\nX −\n6\n6\n4\n4\n=\nX −\n8\n6 4\nis approximately N(0,1).\n 72 − 64\na) P(X  72) =1− P(X  72) 1− PZ  \n 8 \n=1− P(Z 1) =1− 0.8413 = 0.1587\nIf a continuity correction were used, the following result is obtained.\n\n 73− 0.5 − 64\nP(X  72) = P(X  73)  PZ  \n 8 \n= P(Z 1.06) =1− 0.855428 = 0.1446\nb) 0.5\nIf a continuity correction were used, the following result is obtained.\n 63+ 0.5 − 64\nP(X  64) = P(X  63)  PZ   = P(Z  −0.06) = 0.4761\n 8 \nc)\n68−64 60−64\nP(60  X  68) = P(X  68)− P(X  60) = ( )−( )\n8 8\n= (0.5)−(−0.5) = 0.3829\nIf a continuity correction were used, the following result is obtained.\nP\n=\n(\nP\n6 0\n( −\n\n0 .\nX\n4 4\n\n\n6\nZ\n8 )\n\n=\n0\nP\n. 5\n(\n6\n6\n)\n1\n=\n\n0\nX\n. 3\n\n8 2\n6\n3\n8 )  P\n 6 1 − 0 .\n8\n5 − 6 4\n Z \n6 8 + 0 .\n8\n5 − 6 4 "
+  },
+  {
+    "question_number": "4-98",
+    "raw": "Let X denote the number of defective chips in the lot.\nThen, E(X) = 1000(0.02) = 20, V(X) = 1000(0.02)(0.98) = 19.6.\na) P ( X  2 5 )  P\n\nZ \n2 5 . 5\n1 9\n−\n. 6\n2 0 \n= P ( Z  1 . 2 4 ) = 1 − P ( Z  1 . 2 4 ) = 0 . 1 0 7\nb)\nP\n=\n(\n0\n2\n.\n0\n9 8\n\n4\nX\n2 −\n\n0\n3\n. 5\n0\n4\n)\n3\n\n8\nP\n=\n( 2\n0\n0\n. 4\n. 5\n4\n X  2 9 . 5 ) = P (\n1\n. 5\n9 . 6\n Z  9\n1\n.5\n9 .6\n) = P ( 0 . 1 1  Z  2 . 1 5 )"
+  },
+  {
+    "question_number": "4-99",
+    "raw": "Let X denote the number of people with a disability in the sample.\nX ~ Bin(1000, 0.193)\nZ =\nX\n1\n−\n9\n1\n3\n0\n(\n0\n1\n0\n−\n\n0\n0\n. 1\n. 1\n9\n9\n3\n3\n)\n=\n1\nX\n2\n−\n. 4\n1\n8\n9\n0\n3\n0\nis approximately N(0,1).\na)\nP ( X  2 0 0 ) = 1 − P ( X  2 0 0 ) = 1 − P ( X  2 0 0 + 0 . 5 ) = 1 −  (\n2 0 0\n1\n.\n2\n5\n.\n−\n4 8\n1 9 3\n) = 1 −  ( 0 . 6 ) = 0 . 2 7 4 3\n(b)\n 299.5 −193 180.5 −193\nP(180  X  300) = P(181 X  299) =   −  \n 12.48   12.48 \n= (8.53) − (−1.00) = 0.8413"
+  },
+  {
+    "question_number": "4-100",
+    "raw": "Let X denote the number of accounts in error in a month.\nX ~ Bin(362000, 0.001)\na) E(X) = 362, Stdev(X) =19.0168\n\nX −3620000.001 X −362\nb) Z = = is approximately N(0,1).\n362(1−0.001) 19.0168\n349.5−362\nP(X  350) = P(X  349+0.5) = ( ) = (−0.6573) = 0.2555\n19.0168\nc) P(X  v) = 0.95\nv =  − 1 ( 0 . 9 5 )  1 9 . 0 1 6 8 + 3 6 2 = 3 9 2 . 2 8\nd)\n400.5−362\nP(X  400) =1− P(X  400) =1− P(X  400+0.5) =1−( ) =1−(2.0245) = 0.0215\n19.0168\nThen the probability is 0 . 0 2 1 5 2 = 4 . 6 2 2 5  1 0 − 4 ."
+  },
+  {
+    "question_number": "4-101",
+    "raw": "Let X denote the number of original components that fail during the useful life of the product.\nThen, X is a binomial random variable with p = 0.001 and n = 5000. Also, E(X) = 5000 (0.001) =\n5 and V(X) = 5000(0.001)(0.999) = 4.995. With a continuity correction\nP ( X  1 0 )  P\n\nZ \n9 .\n4\n5\n. 9\n−\n9\n5\n5\n\n= P ( Z  2 . 0 1 ) = 1 − P ( Z  2 . 0 1 ) = 1 − 0 . 9 7 8 = 0 . 0 2 2"
+  },
+  {
+    "question_number": "4-102",
+    "raw": "Let X denote the number of errors on a web site.\nThen, X is a binomial random variable with p = 0.05 and n = 100. Also, E(X) = 100 (0.05) = 5\nand V(X) = 100(0.05)(0.95) = 4.75\nP ( X  1 )  P\n\nZ \n0 . 5\n4\n−\n. 7\n5\n5\n\n= P ( Z  − 2 . 0 6 ) = 1 − P ( Z  − 2 . 0 6 ) = 1 − 0 . 0 1 9 7 = 0 . 9 8 0 3"
+  },
+  {
+    "question_number": "4-103",
+    "raw": "Let X denote the number of particles in 10 c m 2 of dust. Then, X is a Poisson random variable with\nT = 1 0 ( 1 0 0 0 ) = 1 0 , 0 0 0  . Also, E(X) =  and V(X) = \nP ( X  1 0 0 0 0 ) = 1 − P ( X  1 0 0 0 0 )  1 − P\n\nZ \n1 0 0 0 0\n1 0\n−\n0\n1\n0\n0\n0\n0 0 0 \n 1 − P ( Z  0 )  0 . 5\nWith a continuity correction, the following result is obtained.\nP ( X  1 0 0 0 0 ) = P ( X  1 0 0 0 1 )  P\n\nZ \n1 0 0 0 1 −\n1\n0\n0\n. 5\n0 0\n−\n0\n1 0 0 0 0 \n P ( Z  0 )  0 . 5"
+  },
+  {
+    "question_number": "4-104",
+    "raw": "X is the number of minor errors on a test pattern of 1000 pages of text. Here X is a Poisson\nrandom variable with  = 0.4 per page\na) The numbers of errors per page are random variables. The assumption that the occurrence of an\nevent in a subinterval in a Poisson process is independent of events in other subintervals implies\nthat the numbers of events in disjoint intervals are independent. The pages are disjoint intervals\nand the consequently the error counts per page are independent.\ne−0.40.40\nb) P(X = 0) = = 0.670\n0!\nP(X 1) =1− P(X = 0) =1−0.670 = 0.330\nThe mean number of pages with one or more errors is 1000(0.330) = 330 pages\n\nc) Let Y be the number of pages with errors.\n 350.5−330 \nP(Y  350)  PZ   = P(Z 1.38) =1− P(Z 1.38)\n \n1000(0.330)(0.670)\n \n=1−0.9162 = 0.0838"
+  },
+  {
+    "question_number": "4-105",
+    "raw": "Let X denote the number of hits to a web site. Then, X is a Poisson random variable with a mean\nof 10,000 hits per day. Also, V(X) = 10,000.\na)\n 20,000 −10,000\nP(X  20,000) =1− P(X  20,000) 1− PZ  \n \n10,000\n \n=1− P(Z 100) 1−1= 0\nIf a continuity correction were used, the following result is obtained.\nP ( X  2 0 , 0 0 0 )\n=\n=\nP\nP\n( Z\n( X\n\n\n1 0\n2\n0\n0\n.\n,\n0\n0\n0\n0\n5\n1\n)\n)\n\n\n1\nP\n−\n\n1\nZ\n=\n\n0\n2 0 , 0 0 1 −\n1\n0\n0\n.\n,\n5\n0 0\n−\n0\n1 0 , 0 0 0 \nb) P ( X  9 , 9 0 0 ) = P ( X  9 , 8 9 9 )  P\n\nZ \n9 , 8 9 9\n1\n−\n0 ,\n1\n0\n0\n0\n,\n0\n0 0 0 \n= P ( Z  − 1 . 0 1 ) = 0 . 1 5 6 2\nIf a continuity correction were used, the following result is obtained.\nP ( X  9 , 9 0 0 ) = P ( X  9 , 8 9 9 )  P\n\nZ \n9 , 8 9 9 +\n1\n0\n0\n. 5\n, 0\n−\n0\n1\n0\n0 , 0 0 0 \n= P ( Z  − 1 . 0 1 ) = 0 . 1 5 6 2\nc) If P(X > x) = 0.01, then P\n\nZ \nx −\n1\n1\n0\n0\n, 0\n, 0\n0\n0\n0\n0 \n= 0.01.\nTherefore,\nx −\n1\n1\n0\n0\n, 0\n, 0\n0\n0\n0\n0\n= 2 . 3 3 and x = 1 0 , 2 3 3\nd) Let X denote the number of hits to a web site. Then, X is a Poisson random variable with a\nmean of 10,000 per day. Therefore, E(X) =10,000 and V(X) = 10,000\n 10,200−10,000\nP(X 10,200)  PZ   = P(Z  2) =1− P(Z  2)\n \n10,000\n \n=1−0.97725 = 0.02275\nIf a continuity correction were used, we obtain the following result\n 10,200.5−10,000\nP(X 10,200)  PZ   = P(Z  2.005) =1− P(Z  2.005)\n \n10,000\n \nand this approximately equals the result without the continuity correction.\n\nThe expected number of days with more than 10,200 hits is (0.02275)*365 = 8.30 days per\nyear.\ne) Let Y denote the number of days per year with over 10,200 hits to a web site.\nThen, Y is a binomial random variable with n = 365 and p = 0.02275.\nE(Y) = 8.30 and V(Y) = 365(0.02275)(0.97725) = 8.28\n 15.5 −8.30\nP(Y 15)  PZ   = P(Z  2.56) =1− P(Z  2.56)\n \n 8.28 \n=1− 0.9948 = 0.0052"
+  },
+  {
+    "question_number": "4-106",
+    "raw": "Let X denotes the number of random sets that is more dispersed than the opteron.\nAssume that X has a true mean = 0.5 x 1000 = 500 sets.\n \n750.5 −1000(0.5)  750.5 −500) \nP(X  750)  PZ  = Z  \n \n0.5(0.5)1000  250 \n \n= P\n(\nZ  1 5 . 8 4\n)\n= 1 − P\n(\nZ  1 5 . 8 4\n)\n 0"
+  },
+  {
+    "question_number": "4-107",
+    "raw": "With 10,500 asthma incidents in children in a 21-month period, then mean number of incidents per\nmonth is 10500/21 = 500. Let X denote a Poisson random variable with a mean of 500 per month.\nAlso, E(X) =  = 500 = V(X).\na) Using a continuity correction, the following result is obtained.\nP ( X  5 5 0 )  P\n\nZ \n5 5 0 + 0\n5\n. 5\n0 0\n− 5 0 0 \n= P ( Z  2 . 2 5 8 4 ) = 1 − 0 . 9 8 8 0 = 0 . 0 1 2\nWithout the continuity correction, the following result is obtained\nP ( X  5 5 0 )  P\n\nZ \n5 5 0\n5\n−\n0\n5\n0\n0 0 \n= P ( Z  2 . 2 3 6 1 )\n= 1 − P ( Z  2 . 2 3 6 1 ) = 1 − 0 . 9 8 7 3 = 0 . 0 1 2 7\nb) Using a continuity correction, the following result is obtained.\nP ( 4 5 0  X  5 5 0 ) = P ( 4 5 1  X  5 4 9 )  P\n 4 5 0 . 5\n5\n−\n0 0\n5 0 0\n Z \n5 4 9 . 5\n5\n−\n0 0\n5 0 0 \n= P ( Z  2 . 2 1 3 7 ) − P ( Z  − 2 . 2 1 3 7 ) = 0 . 9 8 6 6 − 0 . 0 1 3 4 = 0 . 9 7 3 2\nWithout the continuity correction, the following result is obtained\n 550 −500  450 −500\nP(450  X  550) = P(X  550) − P(X  450)  PZ   − PZ  \n 500   500 \n= P(Z  2.2361) − P(Z  −2.2361) = 0.9873− 0.0127 = 0.9746\nc) P(X  x) = 0.95\nx = −1(0.95) 500 + 500 = 536.78\nd) The Poisson distribution would not be appropriate because the rate of events should be\nconstant for a Poisson distribution."
+  },
+  {
+    "question_number": "4-108",
+    "raw": "Approximate with a normal distribution.\nnp = 2000.3 = 60\nnp(1− p) = 42\n80−0.5−60 \nP(80  X) = P(80−0.5  X)  P  Z \n 42 \n 80−0.5−60\n=1− PZ   = 0.00135\n 42 \nIf the medication has no effect, the probability that 80 or more patients experience relief of\nsymptoms is small. Because 80 patients experienced relief of symptoms, we can conclude that the\nmedication is most probably effective."
+  },
+  {
+    "question_number": "4-109",
+    "raw": "Approximate with a normal distribution.\nn p\nn\n=\np (\n1\n1\n5\n−\n0 0\np\n\n)\n0\n=\n.\n1\n7\n6\n5\n. 7\n=\n7\n1\n0\n1\n5\n2 5\na) P ( X  1 1 5 0 ) = P ( Z \n1 1 5 0\n1\n−\n6\n0\n. 7\n. 5\n7 0\n−\n5\n1 1 2 5\n) = 0 . 0 7 2\nb) P ( 1 0 7 5  X  1 1 7 5 ) = P (\n1 0 7 5\n1\n−\n6\n0\n. 7\n. 5\n7 0\n−\n5\n1 1 2 5\n Z \n1 1 7 5\n1\n+\n6\n0\n. 7\n. 5\n7 0\n−\n5\n1 1 2 5\n) = 0 . 9 9 7"
+  },
+  {
+    "question_number": "4-110",
+    "raw": "Let X denote the number of cabs that pass in a 10-hour day.\na) = E ( X ) = 5 ( 1 0 ) = 5 0  and = 5 ( 1 0 ) = 5 0 \nb)\n= 1\nP\n−\n( 6\nP\n5\n\n\nZ\nX\n\n)\n6\n=\n5 +\nP (\n0\n6\n.\n5\n5\n5\n0\n−\n+\n5\n0\n0\n. 5\n\n\n=\nX\n0 .\n)\n0\n\n1 4\nP\n 6 5 + 0 .\n5\n5\n0\n− 5 0\n Z\n\nc) P ( 5 0  X  6 5 ) = P ( 5 0  X ) − P ( 6 5  X )  P\n 5 0 − 0 .\n5\n5\n0\n− 5 0\n Z\n\n− 0 . 0 2\n= 1 − P\n\nZ \n5 0 − 0 .\n5\n5\n0\n− 5 0 \n− 0 . 0 2 = 1 − 0 . 4 7 − 0 . 0 2 = 0 . 5 1\nd) P(100  X ) = 0.95\n100−0.5−10   100−0.5−10\nP(100  X)  P  Z  =1− PZ   = 0.95.\n 10   10 \n100−0.5−10\nTherefore, = −1.645and 11.74.\n10"
+  },
+  {
+    "question_number": "4-111",
+    "raw": "a) = 2 . 5  1 0 0 0 = 2 5 0 0 , = 2 5 0 0 = 5 0  \n2599 + 0.5 − 2500\nb) P(X  2600) = P(X  2599) = P(Z  ) = 0.977\n50\n\n2401− 0.5 − 2500\nc) P(X  2400) = P(X  2401) = P(Z  ) = 0.977\n50\nd) Consider the mean number of inclusions per cubic centimeter first.\n500 + 0.5− 500 + 0.5−\nP(X  500) = P(Z  ) = 0.9  =1.28 = 472.67\n \nTherefore, the mean number of inclusions per cubic millimeter is 472.67/1000 = 0.473\n0"
+  },
+  {
+    "question_number": "4-112",
+    "raw": "a) P(X  0) = e−xdx = 0\n0\nb) P ( X  2 ) =\n\n2 2 e − 2 x d x = − e − 2 x\n\n2\n= e − 4 = 0 . 0 1 8 3\nc) P ( X  1 ) =\n1\n0 2 e − 2 x d x = − e − 2 x\n1\n0\n= 1 − e − 2 = 0 . 8 6 4 7\nd) P ( 1  X  2 ) =\n2\n1 2 e − 2 x d x = − e − 2 x\n2\n1\n= e − 2 − e − 4 = 0 . 1 1 7 0\ne) P ( X  x ) =\nx\n0 2 e − 2 t d t = − e − 2 t\nx\n0\n= 1 − e − 2 x = 0 . 0 5 and x = 0.0256"
+  },
+  {
+    "question_number": "4-113",
+    "raw": "If E(X) = 10, then  = 0 .1 .\na) P ( X  1 0 ) =\n\n1\n0\n0 . 1 e − 0 .1 x d x = − e − 0 .1 x\n\n1 0\n= e − 1 = 0 . 3 6 7 9\nb) P ( X  2 0 ) = − e − 0 .1 x\n\n2 0\n= e − 2 = 0 . 1 3 5 3\nc) P ( X  3 0 ) = − e − 0 .1 x\n3 0\n0\n= 1 − e − 3 = 0 . 9 5 0 2\nx\nx\nd) P(X  x) = 0.1e−0.1tdt = − e−0.1t =1− e−0.1x = 0.95 and x = 29.96.\n0\n0"
+  },
+  {
+    "question_number": "4-114",
+    "raw": "a) P(X  5) = 0.3935\nP(X 15, X 10) P(X 15)− P(X 10) 0.1447\nb) P(X 15| X 10) = = = = 0.3933\nP(X 10) 1− P(X 10) 0.3679\nc) They are the same."
+  },
+  {
+    "question_number": "4-115",
+    "raw": "Let X denote the time until the first count. Then, X is an exponential random variable with  = 2\ncounts per minute.\n\n\n\na) P(X  0.5) = 2e−2xdx = − e−2x = e−1 = 0.3679\n0.5\n0.5\n1/6\n1/6\nb) P(X  10) = 2e−2xdx = − e−2x =1− e−1/3 = 0.2835\n60\n0\n0\n2\nc) P(1 X  2) = − e−2x = e−2 − e−4 = 0.1170\n1"
+  },
+  {
+    "question_number": "4-116",
+    "raw": "a) E(X) = 1/ = 1/3 = 0.333 minutes\nb) V(X) = 1/2 = 1/32 = 0.111,  = 0.3333\nx\nx\nc) P(X  x) = 3e−3tdt = − e−3t =1− e−3x = 0.95, x = 0.9986\n0\n0"
+  },
+  {
+    "question_number": "4-117",
+    "raw": "Let X denote the time until the first call. Then, X is exponential and\n=\nE\n1(\nX )\n=\n1\n15 \ncalls/minute.\na) P ( X  3 0 ) =\n\n3\n0\n11\n5\ne\n− x1\n5 d x = − e\n− x1\n5\n\n3 0\n= e − 2 = 0 . 1 3 5 3\nb) The probability of at least one call in a 10-minute interval equals one minus the probability of\nzero calls in a 10-minute interval and that is P(X > 10).\nP ( X  1 0 ) = − e − x1 5 \n1 0\n= e − 2 / 3 = 0 . 5 1 3 4 .\nTherefore, the answer is 1- 0.5134 = 0.4866. Alternatively, the requested probability is equal to\nP(X < 10) = 0.4866.\nc) P ( 5  X  1 0 ) = − e − x1 5 1 0\n5\n= e − 1 / 3 − e − 2 / 3 = 0 . 2 0 3 1\nd) P(X < x) = 0.90 and P ( X  x ) = − e − t1 5 x\n0\n= 1 − e − x / 1 5 = 0 . 9 0 . Therefore, x = 34.54 minutes."
+  },
+  {
+    "question_number": "4-118",
+    "raw": "Let X be the life of regulator. Then, X is an exponential random variable with  = 1 / E ( X ) = 1 / 6\na) Because the Poisson process from which the exponential distribution is derived is memoryless,\nthis probability is\n6\n6\nP(X < 6) =  1 e−x/6dx = − e−x/6 = 1− e−1 = 0.6321\n6\n0\n0\nb) Because the failure times are memoryless, the mean time until the next failure is E(X) = 6 years."
+  },
+  {
+    "question_number": "4-119",
+    "raw": "Let X denote the time to failure (in hours) of fans in a personal computer. Then, X is an\nexponential random variable and =1/ E(X) = 0.0003.\n\n\na) P(X > 10,000) =  0.0003e−x0.0003dx = −e−x0.0003 = e−3 = 0.0498\n10,000 10,000\n\n7,000\n7,000\nb) P(X < 7,000) =  0.0003e−x0.0003dx = −e−x0.0003 =1−e−2.1 = 0.8775\n0 0"
+  },
+  {
+    "question_number": "4-120",
+    "raw": "Let X denote the time until a message is received. Then, X is an exponential random variable and\n=1/ E(X) =1/ 2\n\n\na) P(X > 2) =  1 e−x/2dx = − e−x/2 = e−1 = 0.3679\n2\n2\n2\nb) The same as part a).\nc) E(X) = 2 hours."
+  },
+  {
+    "question_number": "4-121",
+    "raw": "Let X denote the time until the arrival of a taxi. Then, X is an exponential random variable with\n=1/ E(X ) = 0.1 arrivals/ minute.\na) P(X > 60) =\n\n6\n0\n0 . 1 e − 0 .1 x d x = − e − 0 .1 x\n\n6 0\n= e − 6 = 0 . 0 0 2 5\nb) P(X < 10) =\n1 0\n0 0 . 1 e − 0 .1 x d x = − e − 0 .1 x\n1 0\n0\n= 1 − e − 1 = 0 . 6 3 2 1\nc) P(X > x) =\n\nx 0 . 1 e − 0 .1 t d t = − e − 0 .1 t\n\nx\n= e − 0 .1 x = 0 . 1 and x = 23.03 minutes.\nd) P(X < x) = 0.9 implies that P(X > x) = 0.1. Therefore, this answer is the same as part c).\ne) P(X < x) = − e − 0 .1 t\nx\n0\n= 1 − e − 0 .1 x = 0 . 5 and x = 6.93 minutes."
+  },
+  {
+    "question_number": "4-122",
+    "raw": "a) 1/2.3 = 0.4348 year\nb) E(X) = 2.3(0.25) = 0.575, P(X=0) = exp(-0.575) = 0.5627\nc) Let T denote the time between sightings.\nHere T has an exponential distribution with mean 0.4348.\nP ( X  0 . 5 ) = 1 − P ( X  0 . 5 ) = 0 . 3 1 6 7\nd) E(X) = 2.3(3) = 6.9, P(X = 0) = exp(-6.9) = 0.001\n4.123. Let X denote the number of insect fragments per gram. Then  = 14.4/225\na) 225/14.4 = 15.625\nb) P(X = 0) = exp[-14.4(28.55)/225] = 0.1629\nc) (0.1629)7 = 310−6"
+  },
+  {
+    "question_number": "4-124",
+    "raw": "Let X denote the distance between major cracks. Then, X is an exponential random variable with\n=1/ E(X) = 0.2 cracks/mile.\n\n\n\na) P(X > 10) = 0.2e−0.2xdx = − e−0.2x = e−2 = 0.1353\n10\n10\nb) Let Y denote the number of cracks in 10 miles of highway. Because the distance between cracks\nis exponential, Y is a Poisson random variable with E(Y) = 10(0.2) = 2 cracks per 10 miles.\ne−222\nP(Y = 2) = = 0.2707\n2!\nc)  =1/= 5 miles.\nX\n15\n15\nd) P(12  X  15) = 0.2e−0.2xdx = − e−0.2x = e−2.4 − e−3 = 0.0409\n12\n12\n\ne) P(X > 5) = − e−0.2x = e−1 = 0.3679.\n5\nBy independence of the intervals in a Poisson process, the answer is 0 . 3 6 7 9 2 = 0 .1 3 5 3 .\nAlternatively, the answer is P(X > 10) = e − 2 = 0 .1 3 5 3 . The probability does depend on whether or\nnot the lengths of highway are consecutive.\nf) By the memoryless property, this answer is P(X > 10) = 0.1353 from part e)."
+  },
+  {
+    "question_number": "4-125",
+    "raw": "Let X denote the lifetime of an assembly. Then, X is an exponential random variable with\n= 1 / E ( X ) = 1 / 4 0 0  failures per hour.\na) P(X < 100) =\n1 0\n0\n0\n4\n10\n0\ne − x / 4 0 0 d x = − e − x / 4 0 0\n1 0\n0\n0\n= 1 − e − 0 .2 5 = 0 . 2 2 1 2\nb) P(X > 500) = − e − x / 4 0 0\n5\n\n0 0\n= e − 5 / 4 = 0 . 2 8 6 5\nc) From the memoryless property of the exponential, this answer is the same as part a.,\nP(X < 100) = 0.2212.\nd) Let U denote the number of assemblies out of 10 that fail before 100 hours. By the memoryless\nproperty of a Poisson process, U has a binomial distribution with n = 10 and\np = 0.2212 from part a). Then,\nP ( U  1 ) = 1 − P ( U = 0 ) = 1 −\n(\n10 0\n)\n0 . 2 2 1 2 0 ( 1 − 0 . 2 2 1 2 ) 1 0 = 0 . 9 1 7 9\ne) Let V denote the number of assemblies out of 10 that fail before 800 hours. Then, V is a\nbinomial random variable with n = 10 and p = P(X < 800), where X denotes the lifetime of an\nassembly.\n800\n800\nNow, P(X < 800) =  1 e−x/400dx = −e−x/400 =1−e−2 = 0.8647.\n400\n0\n0\n( )\nTherefore, P(V = 10) = 10 0.864710(1− 0.8647)0 = 0.2337.\n10"
+  },
+  {
+    "question_number": "4-126",
+    "raw": "Let Y denote the number of arrivals in one hour. If the time between arrivals is exponential, then\nthe count of arrivals is a Poisson random variable and  =1 arrival per hour.\n\ne−110 e−111 e−112 e−113 \na) P(Y > 3) = 1− P(Y  3) =1− + + + = 0.01899\n \n 0! 1! 2! 3! \nb) From part a), P(Y > 3) = 0.01899. Let W denote the number of one-hour intervals out of 30\nthat contain more than 3 arrivals. By the memoryless property of a Poisson process, W is a\nbinomial random variable with n = 30 and p = 0.01899.\n( )\nP(W = 0) = 30 0.018990(1− 0.01899)30 = 0.5626\n0\nc) Let X denote the time between arrivals. Then, X is an exponential random variable with =1\narrivals per hour.\n\n\nP(X > x) = 0.1 and P(X  x) = 1e−1tdt =−e−1t = e−1x = 0.1. Therefore, x = 2.3 hours.\nx\nx"
+  },
+  {
+    "question_number": "4-127",
+    "raw": "Let X denote the number of calls in 30 minutes. Because the time between calls is an exponential\nrandom variable, X is a Poisson random variable with  = 1 / E ( X ) = 0 .1 calls per minute. Therefore,\nE(X) = 3 calls per 30 minutes.\na) P(X > 3) = 1 − P ( X  3 ) = 1 −\n\ne\n− 3\n0\n3! 0 +\ne\n− 3\n1 !\n3 1 +\ne\n− 3\n2\n3! 2 +\ne\n− 3 3\n3 !\n3\n\n= 0 . 3 5 2 8\nb) P(X = 0) =\ne\n− 3\n0\n3! 0 = 0 . 0 4 9 7 9\nc) Let Y denote the time between calls in minutes. Then, P ( Y  x ) = 0 . 0 1 and\nP ( Y  x ) =\n\nx 0 . 1 e − 0 .1 t d t = − e − 0 .1 t\n\nx\n= e − 0 .1 x . Therefore, e − 0 .1 x = 0 . 0 1 and x = 46.05 minutes.\n. d) P(Y > 120) =\n1\n\n2\n0\n0 . 1 e − 0 .1 y d y = − e − 0 .1 y\n1\n\n2 0\n= e − 1 2 = 6 . 1 4  1 0 − 6 .\ne) Because the calls are a Poisson process, the numbers of calls in disjoint intervals are\nindependent. The probability of no calls in one-half hour is e − 3 = 0 . 0 4 9 7 9 . Therefore, the answer\nis\n\ne − 3\n\n4\n= e − 1 2 = 6 . 1 4  1 0 − 6 .\nAlternatively, the answer is the probability of no calls in two hours. From part d) of this exercise,\nthis is e − 1 2 .\nf) Because a Poisson process is memoryless, probabilities do not depend on whether or not\nintervals are consecutive. Therefore, parts d) and e) have the same answer."
+  },
+  {
+    "question_number": "4-128",
+    "raw": "X is an exponential random variable with  = 0.2 flaws per meter.\na) E(X) = 1/ = 5 meters.\n\n\nb) P(X > 10) = 0.2e−0.2xdx = −e−0.2x = e−2 = 0.1353\n10\n10\nc) No\nx\nd) P(X < x) = 0.90. Then, P(X < x) = − e−0.2t = 1− e−0.2x .\n0\nTherefore, 1− e−0.2x = 0.9 and x = 11.51.\n\n\nP(X > 8) = 0.2e−0.2xdx = −e−8/5 = 0.2019\n8\nThe distance between successive flaws is either less than 8 meters or not. The distances are\nindependent and P(X > 8) = 0.2019.\nLet Y denote the number of flaws until the distance exceeds 8 meters. Then, Y is a geometric\nrandom variable with p = 0.2019.\ne) P(Y = 5) = (1− 0.2019)40.2019 = 0.0819\nf) E(Y) = 1/0.2019 = 4.95.\n\n"
+  },
+  {
+    "question_number": "4-129",
+    "raw": "a) P(X ) =  1e−x/dx = −e−x/ = e−1 = 0.3679\n\n\n\nb) P ( X  2 ) = − e − x /\n\n2\n= e − 2 = 0 . 1 3 5 3  \n\nc) P ( X  3 ) = − e − x /\n\n3\n= e − 3 = 0 . 0 4 9 8  \n\nd) The results do not depend on  ."
+  },
+  {
+    "question_number": "4-130",
+    "raw": "E ( X ) =\n\n0 x e − x d x .   Use integration by parts with u = x and dv = e x   − .\n\nThen,   \n\nE ( X ) = − x e − x\n\n0\n+\n\n0 e − x d x =\n− e − x \n0\n= 1 /\nV(X) =\n0\n( x 1 ) 2 e x d x .  \n\n\n − − Use integration by parts with u = ( x − 1 ) 2 and\ndv =  e −  x . Then,\nV ( X ) = − ( x − 1 ) 2 e − x\n\n0\n+ 2\n\n0 ( x − 1 ) e − x d x = ( 1 ) 2 + 2\n\n0 ( x − 1 ) e − x d x    \n    \nThe last integral is seen to be zero from the definition of E(X). Therefore, V(X) =\n(\n1\n) 2\n."
+  },
+  {
+    "question_number": "4-131",
+    "raw": "X is an exponential random variable with  = 3.5 days.\n2\n1\na) P(X < 2) =  e−x/3.5dx =1− e−2/3.5 = 0.435\n3.5\n0\n\n1\nb) P(X  7) =  e−x/3.5dx = e−7/3.5 = 0.135\n3.5\n7\nc) P(X  x) = 0.9 and P(X  x) = e−x/3.5 = 0.9\nTherefore, x = –3.5ln(0.9) = 0.369\nd) From the lack of memory property P(X < 10 | X > 3) = P(X < 7) and from part (b) this equals\n\n1 – 0.135 = 0.865\n1"
+  },
+  {
+    "question_number": "4-132",
+    "raw": "a)= E(X ) = = 4.6, then = 0.2174\n\n1\n= = 4.6\n\n\n1\nb) P(X 10) =  e−x/4.6dx = e−10/4.6 = 0.1137\n4.6\n10\n\n1\nc) P(X  x) =  e−u/4.6du = e−x/4.6 = 0.25\n4.6\nx\nThen, x = -4.6ln(0.25) = 6.38"
+  },
+  {
+    "question_number": "4-133",
+    "raw": "a) P ( X  2 ) =\n\n2 e x p ( − x ) = e x p ( −\n1 .\n2\n4 8\n) = 0 . 2 5 9  \nb) P ( X  1 ) = e x p ( −\n1\n1\n. 4 8\n) = 0 . 5 0 9\nc) P ( X  0 . 5 ) = e x p ( −\n1\n0\n.\n.\n4\n5\n8\n) = 0 . 7 1 3\na) Let X\n1\ndenote the time until the first request. Then X\n1\nis exponentially distributed with\n= 5 . 0 \nP ( X\n1\n 0 . 4 ) = 1 − e x p ( − 5  0 . 4 ) = 1 − e x p ( − 2 )  0 . 8 6 5\nb) Let X\n2\ndenote the time between the second and the third requests. Then X\n2\nis exponentially\ndistributed with = 5 . 0  .\nP ( X\n2\n 7 . 5 ) = e x p ( − 5  7 . 5 ) = e x p ( − 3 7 . 5 )  0\nc) (\n1\n 0 . 5 ) = e x p ( − 0 . 5 ) = 0 . 9  P X\n−0.5= ln(0.9), then = 0 . 2 1 \nd) In the long term, the queue of service requests is expected to continue to increase because the\nservice rate is less than the arrival rate of requests.\n5.5"
+  },
+  {
+    "question_number": "4-135",
+    "raw": "a) P(X  5.5) =1− exp(− ) = 0.544\n7\nb) P(X 10| X  7) = P(X  3) = exp(−3/7) = 0.651\n\nP(X  6) = 0.9 1− exp(−6) = 0.9 = 0.384\nc) 1\n= = 2.61\n0.38"
+  },
+  {
+    "question_number": "4-136",
+    "raw": "Let X denote the time between two consecutive arrivals.\n1 1\na) = E(X ) = = = 0.4time units\n 2.5\nb) P(X  0.3) = exp(−2.50.3) = exp(−0.75)  0.472\nc) P(X 1.0) = exp(−2.51.0) = exp(−2.5)  0.08\nd) P(X  0.3) = exp(−0.3) = 0.9\n−0.3= ln(0.9), then = 0.35"
+  },
+  {
+    "question_number": "4-137",
+    "raw": "a)  ( 6 ) = 5 ! = 1 2 0\nb)  ( 52 ) = 32  ( 32 ) = 32 12  ( 12 ) = 34 1 / 2 = 1 . 3 2 9 3 4 \nc)\n ( 92 ) = 72  ( 72 ) = 72 52 32 12  ( 12 ) = 11 06 5 1 / 2 = 1 1 . 6 3 1 7 "
+  },
+  {
+    "question_number": "4-138",
+    "raw": "X is a gamma random variable with the parameters 0 . 0 1  = and r = 3 .\nThe mean is E ( X ) r / 3 0 0  = = .\nThe variance is V a r ( X ) r / 2 3 0 0 0 0  = = ."
+  },
+  {
+    "question_number": "4-139",
+    "raw": "a) The time until the tenth call is an Erlang random variable with  = 5 calls per minute\nand r = 10.\nb) E(X) = 10/5 = 2 minutes. V(X) = 10/25 = 0.4 minutes.\nc) Because a Poisson process is memoryless, the mean time is 1/5 = 0.2 minutes or 12 seconds\nLet Y denote the number of calls in one minute. Then, Y is a Poisson random variable with 5 calls\nper minute.\nd) P(Y = 4) =\ne − 5\n4\n5\n!\n4\n= 0 . 1 7 5 5\ne−550 e−551 e−552\ne) P(Y > 2) = 1 - P(Y  2) = 1− − − = 0.8754\n0! 1! 2!\nLet W denote the number of one minute intervals out of 10 that contain more than 2 calls. Because\nthe calls are a Poisson process, W is a binomial random variable with n = 10 and p = 0.8754.\n( )\nTherefore, P(W = 10) = 10 0.875410(1− 0.8754)0 = 0.2643\n10"
+  },
+  {
+    "question_number": "4-140",
+    "raw": "Let X denote the pounds of material to obtain 15 particles. Then, X has an Erlang distribution with\nr = 15 and  = 0.01.\nr 15\na) E(X) = = = 1500 pounds.\n 0.01\n\n15\nb) V(X) = = 150,000 and  = 150,000 = 387.3 pounds.\n0.012 X"
+  },
+  {
+    "question_number": "4-141",
+    "raw": "Let X denote the time between failures of a laser. Here X is exponential with a mean of 25,000.\na) Expected time until the second failure E(X) = r /= 2/0.00004 = 50,000 hours\nb) N=no of failures in 50000 hours\n50000\nE(N) = = 2\n25000\n2 e−2(2)k\nP(N  2) =  = 0.6767\nk!\nk=0"
+  },
+  {
+    "question_number": "4-142",
+    "raw": "Let X denote the time until 5 messages arrive at a node. Then, X has an Erlang distribution with r\n= 5 and  = 30 messages per minute.\na) E(X) = 5/30 = 1/6 minute = 10 seconds.\nb)V(X) =\n3\n5\n0\n2\n= 1 / 1 8 0 minute\n2\n= 1/3 second and\nX\n= 0 . 0 7 4 5  minute = 4.472 seconds.\nc) Let Y denote the number of messages that arrive in 10 seconds. Then, Y is a Poisson random\nvariable with  = 3 0 messages per minute = 5 messages per 10 seconds.\nP ( Y  5 ) = 1\n=\n−\n0\nP\n. 5\n(\n5\nY\n9\n\n5\n4 ) = 1 −\n\ne\n− 5\n0\n5! 0 +\ne\n− 5\n1 !\n5 1 +\ne\n− 5\n2\n5! 2 +\ne\n− 5\n3\n5! 3 +\ne\n− 5\n4\n5! 4\n\nd) Let Y denote the number of messages that arrive in 5 seconds. Then, Y is a Poisson random\nvariable with E(Y) =2.5 messages per 5 seconds.\nP ( Y  5 ) = 1 − P ( Y  4 ) = 1 − 0 . 8 9 1 2 = 0 . 1 0 8 8"
+  },
+  {
+    "question_number": "4-143",
+    "raw": "Let X denote the number of bits until five errors occur. Then, X has an Erlang distribution with r =\n5 and = 1 0 − 5  error per bit.\na) E(X) = = 5  1 0 5\n\nr\nbits.\nb) V(X) =\n2\n= 5  1 0 1 0\n\nr\nand\nX\n= 5  1 0 1 0 = 2 2 3 6 0 7  bits.\nc) Let Y denote the number of errors in 105 bits. Then, Y is a Poisson random variable with\n= 1 / 1 0 5 = 1 0 − 5  error per bit = 1 error per 105 bits.\n \ne e e\nP(Y  3) =1− P(Y  2) =1−\n−110\n+\n−111\n+\n−112\n= 0.0803\n0! 1! 2!"
+  },
+  {
+    "question_number": "4-144",
+    "raw": "= 20 r =100\na) E(X) = r /=100/ 20 = 5 minutes\nb) 4 min - 2.5 min=1.5 min\nc) Let Y be the number of calls before 15 seconds. Here E(Y) = 0.25(20) = 5.\n \ne e e\nP(Y  3) =1− P(X  2) =1−\n−550\n+\n−551\n+\n−552\n=1−.1247 = 0.8753\n0! 1! 2!"
+  },
+  {
+    "question_number": "4-145",
+    "raw": "a) Let X denote the number of customers that arrive in 10 minutes. Then, X is a\nPoisson random variable with  = 0.2 arrivals per minute = 2 arrivals per 10 minutes.\n \ne e e e\nP(X  3) =1− P(X  3) =1− −220 + −221 + −222 + −223 = 0.1429\n0! 1! 2! 3!\n\nb) Let Y denote the number of customers that arrive in 15 minutes. Then, Y is a Poisson random\nvariable with E(Y) = 3 arrivals per 15 minutes.\ne e e e e\nP(Y  5) =1− P(Y  4) =1−  −3 3 0 + −3 3 1 + −3 3 2 + −3 3 3 + −3 3 4  = 0.1847\n \n0! 1! 2! 3! 4!\n"
+  },
+  {
+    "question_number": "4-146",
+    "raw": "(r) =  xr−1e−xdx. Use integration by parts with u = xr−1 and dv =e-x. Then,\n0\n\n\n(r) = −xr−1e−x + (r −1) xr−2e−xdx = (r −1)(r −1).\n0\n0\n  rxr−1e−x  yr−1e−y"
+  },
+  {
+    "question_number": "4-147",
+    "raw": " f (x;,r)dx = dx. Let y = x, then the integral is  dy . From the\n(r) (r) \n0 0 0\ndefinition of  ( r ) , this integral is recognized to equal 1."
+  },
+  {
+    "question_number": "4-148",
+    "raw": "If X is a chi-square random variable, then X is a special case of a gamma random variable. Now,\nE(X) = =\n(\n(\n7\n1\n/\n/\n2\n2\n)\n)\n= 7\n\nr\nand ( ) =\n2\n=\n(\n( 1\n7\n/\n/\n2\n2\n)\n)\n2\n= 1 4\n\nV X\nr"
+  },
+  {
+    "question_number": "4-149",
+    "raw": "Let X denote the number of patients arrive at the emergency department. Then, X has a Poisson\ndistribution with = 6 . 5  patients per hour.\na) ( ) = / = 1 0 / 6 . 5 =  E X r 1.539 hour.\nb) Let Y denote the number of patients that arrive in 20 minutes. Then, Y is a Poisson random\nvariable with E(Y) = 6.5/3 = 2.1667 arrivals per 20 minutes. The event that the third arrival\nexceeds 20 minutes is equivalent to the event that there are two or fewer arrivals in 20 minutes.\nTherefore,\nP ( Y  2 ) =\n\ne\n− 2 .1 6 6 7\n0\n2! . 1 6 6 7 0 +\ne\n− 2 .1 6 6 7\n1\n2! . 1 6 6 7 1 +\ne\n− 2 .1 6 6 7\n2\n2! . 1 6 6 7 2\n\n= 0 . 6 3 1 7\nThe solution may also be obtained from the result that the time until the third arrival follows a\ngamma distribution with r = 3 and  = 6.5 arrivals per hour. The probability is obtained by\nintegrating the probability density function from 20 minutes to infinity."
+  },
+  {
+    "question_number": "4-150",
+    "raw": "a) E(X ) = r /= 18, then r =18\nVar(X) = r /2 =18/= 36, then = 0.5\nTherefore, the parameters are= 0.5and r =18=18(0.5) = 9\nb) The distribution of each step is exponential with  = 0.5 and 9 steps produce this gamma\ndistribution."
+  },
+  {
+    "question_number": "4-151",
+    "raw": "a) Mean of 1.74 particles per 200 nanoseconds.\nTherefore, the mean of 1.74/200 = 0.0087 particles per nanosecond. Here r = 100.\n\n100\n= =11494.253\n\n100\n2 = =1321178.491\n2\nb) X denotes the time until fifth particle arrives\nN denotes the number of particles in 1 nanosecond\nN has a Poisson distribution with  = 0.0087 particles per nanosecond\nn\nP(X 1 nanosecond ) = P(N  4) =\n4\ne−\nn=0 n!\n= 0.991338 + 0.008625 + 3.75E -05 +1.09E -07 + 2.37E -10 =1"
+  },
+  {
+    "question_number": "4-152",
+    "raw": "Let X denote the time delay.\na) = ( ) = = 4 ( 0 . 2 5 ) = 1 \n\nE X\nr\n2 = V ( X ) = \n2\n= 4 ( 0 . 2 5 ) 2 = 0 . 2 5\n\nr\nb) Because r = 4 is an integer, we may use the Erlang distribution.\nP ( X  0 . 5 ) =\nrk −\n=\n1\n0\ne − 0 .5 (\nk\n0\n!\n. 5 ) k\n= k\n3\n= 0\ne − 2\nk\n2\n!\nk\n= 0 . 8 5 7\n \nc) P ( 0 . 5  X  1 . 0 ) = P ( X  1 . 0 ) − P ( X  0 . 5 ) = ( 1 − P ( X  1 . 0 ) ) − ( 1 − P ( X  0 . 5 ) )\n=\n\n1 − k\n3\n= 0\ne − 4\nk\n4\n!\nk \n− ( 1 − 0 . 8 5 7 ) = ( 1 − 0 . 4 3 3 ) − 0 . 1 4 3 = 0 . 4 2 4\n=0.2 and =100 hours\nE(X) =100(1+ 1 ) =1005!=12,000\n0.2\nV(X) =1002(1+ 2 ) −1002[(1+ 1 )]2 = 3.611010\n0.2 0.2"
+  },
+  {
+    "question_number": "4-154",
+    "raw": "a) P(X 10000) = F (10000) =1−e−1000.2 =1−e−2.512 = 0.9189\nX\nb) P(X  5000) =1− F (5000) =\ne−500.2\n= 0.1123\nX"
+  },
+  {
+    "question_number": "4-155",
+    "raw": "If X is a Weibull random variable with  =1and =1000, the distribution of X is the exponential\ndistribution with  =0.001.\n1\n0  x \n 1  x  − \nf (x) =    e 1000 for x  0\n10001000\n= 0.001e−0.001x for x  0\n\nThe mean of X is E(X) = 1/ = 1000."
+  },
+  {
+    "question_number": "4-156",
+    "raw": "Let X denote lifetime of a bearing. =2 and =10000 hours\n2\n 8000 \n− \na) P(X  8000) =1− F (8000) = e 10000 = e−0.82 = 0.5273\nX\nb)\nE(X ) =10000(1+ 1) =10000(1.5)\n2\n=10000(0.5)(0.5) = 5000  = 8862.3\nc) Let Y denote the number of bearings out of 10 that last at least 8000 hours. Then, Y is a\nbinomial random variable with n = 10 and p = 0.5273.\nP ( Y = 1 0 ) =\n(\n11 00\n)\n0 . 5 2 7 3 1 0 ( 1 − 0 . 5 2 7 3 ) 0 = 0 . 0 0 1 6 6 ."
+  },
+  {
+    "question_number": "4-157",
+    "raw": "a) ( ) =  ( 1 + 1 ) = 9 0 0  ( 1 + 1 / 3 ) = 9 0 0  ( 4 / 3 ) = 9 0 0 ( 0 . 8 9 2 9 8 ) . = 8 0 3 . 6 8 \n\nE X hours\nb)\nV ( X ) 2\n9 0\n(\n0\n1\n2 ( 0\n2\n. 9\n)\n0 2 7\n2\n4 ) - 9\n(\n0\n1\n0 2 (\n2\n0\n)\n. 8\n2\n9 2 9\n9\n8\n0\n)\n0\n2\n2\n8\n( 1\n5 3 1\n23\n9\n)\n. 6 4\n9 0\nh\n0\no\n2\nu\n\nr s\n(\n2\n1 13 )  2  \n \n=\n=\n + −   +  =\n=\n + −  +\nc) P ( X  5 0 0 ) = F\nX\n( 5 0 0 ) = 1 − e\n−\n 5\n9\n0\n0\n0\n0\n\n3\n= 0 . 1 5 7 6"
+  },
+  {
+    "question_number": "4-158",
+    "raw": "Let X denote the lifetime.\na) ( ) =  ( 1 +\n0\n1.5 ) =  ( 3 ) = 2 = 6 0 0 .    E X Then = 3 0 0  . Now,\nP(X > 500) =\ne\n− ( 53 00 00 ) 0 .5\n= 0 . 2 7 5 0\nb) P(X < 400) =\n1 − e\n− ( 43 00 00 ) 0 .5\n= 0 . 6 8 4 8"
+  },
+  {
+    "question_number": "4-159",
+    "raw": "a)  = 2,  = 500\nE(X) = 500(1+ 1) = 500(1.5)\n2\n= 500(0.5)(0.5) = 250  = 443.11\nb) V(X) = 5002(1+ 1)−5002[(1+ 1)]2\n2\n= 5002(2)−5002[(1.5)]2 = 53650.5\n−(250)2\nc) P(X < 250) = F(250) =1− e 500 =1− 0.7788 = 0.2212\n\n1"
+  },
+  {
+    "question_number": "4-160",
+    "raw": "E(X ) =(1+ ) = 2.5\n2\n2.5 5\nSo = =\n1\n\n(1+ )\n2\n25\nVar(X ) =2(2)−(EX)2 = −2.52 =1.7077\n\nStdev(X)= 1.3068\n2"
+  },
+  {
+    "question_number": "4-161",
+    "raw": "2(1+ ) =Var(X)+(EX)2 =10.3+ 4.92 = 34.31\n\n( 1\n1\n) E ( X ) 1 0 . 3 \n\n + = =\nRequires a numerical solution to these two equations."
+  },
+  {
+    "question_number": "4-162",
+    "raw": "a) P ( X  1 0 ) = F\nX\n( 1 0 ) = 1 − e − ( 1 0 / 8 .6 ) 2 = 1 − e − 1 .3 5 2 1 = 0 . 7 4 1 3\nb) P ( X  9 ) = 1 − F\nX\n( 9 ) = e − ( 9 / 8 .6 ) 2 = 0 . 3 3 4 5\nc)\nP ( 8  X  1 1 ) = F\nX\n( 1 1 ) − F\nX\n( 8 ) = ( 1 − e − ( 1 1 / 8 .6 ) 2 ) − ( 1 − e − ( 8 / 8 .6 ) 2 ) = 0 . 8 0 5 2 − 0 . 5 7 9 1 = 0 . 2 2 6 1\nd) P ( X  x ) = 1 − F\nX\n( x ) = e − ( x / 8 .6 ) 2 = 0 . 9\nTherefore, − ( x / 8 . 6 ) 2 = l n ( 0 . 9 ) = − 0 . 1 0 5 4 , and x = 2.7920"
+  },
+  {
+    "question_number": "4-163",
+    "raw": "a) P ( X  3 0 0 0 ) = 1 − F\nX\n( 3 0 0 0 ) = e − ( 3 0 0 0 / 4 0 0 0 ) 2 = 0 . 5 6 9 8\nb) P ( X  6 0 0 0 | X  3 0 0 0 ) =\nP ( X \nP\n6\n( X\n0 0 0\n\n,\n3\nX\n0 0\n\n0\n3\n)\n0 0 0 )\n=\nP\nP\n(\n(\nX\nX\n\n\n6\n3\n0\n0\n0\n0\n0\n0\n)\n)\n=\n1\n1\n−\n−\nF\nF\nX\nX\n(\n(\n6\n3\n0\n0\n0\n0\n0\n0\n)\n)\n=\ne\ne\n−\n−\n(\n(\n6\n3\n0\n0\n0\n0\n0\n0\n/\n/\n4\n4\n0\n0\n0\n0\n0\n0\n)\n)\n2\n2\n=\n0\n0\n.\n.\n1\n5\n0\n6\n5\n9\n4\n8\n= 0 . 1 8 5 0\nc) If it is an exponential distribution, then  = 1 and\n1− F (6000) e−(6000/4000) 0.2231\n= X = = = 0.4724\n1− F (3000) e−(3000/4000) 0.4724\nX\nFor the Weibull distribution (with  = 2) there is no lack of memory property so that the answers\nto parts (a) and (b) differ whereas they would be the same if an exponential distribution were\nassumed. From part (b), the probability of survival beyond 6000 hours, given the device has\nalready survived 3000 hours, is lower than the probability of survival beyond 3000 hours from the\nstart time."
+  },
+  {
+    "question_number": "4-164",
+    "raw": "a) P(X  3500) =1− F (3500) =\ne−(3500/4000)0.5\n= 0.4206\nX\nP(X  6000, X  3000) P(X  6000)\nb) P(X  6000 | X  3000) = =\nP(X  3000) P(X  3000)\n1− F (6000)\ne−(6000/4000)0.5\n0.2938\n= X = = = 0.6986\n1− F (3000) e−(3000/4000)0.5 0.4206\nX\nP(X  6000, X  3000) P(X  6000)\nc) P(X  6000 | X  3000) = =\nP(X  3000) P(X  3000)\nIf it is an exponential distribution, then  = 1\n1− F (6000) e−(6000/4000) 0.2231\n= X = = = 0.4724\n1− F (3000) e−(3000/4000) 0.4724\nX\nFor the Weibull distribution (with  = 0.5) there is no lack of memory property so that the\nanswers to parts (a) and (b) differ whereas they would be the same if an exponential distribution\nwere assumed. From part (b), the probability of survival beyond 6000 hours, given the device has\nalready survived 3000 hours, is greater than the probability of survival beyond 3000 hours from\nthe start time.\nd) The failure rate can be increased or decreased relative to the exponential distribution with the\nshape parameter  in the Weibull distribution."
+  },
+  {
+    "question_number": "4-165",
+    "raw": "a) P ( X  3 5 0 0 ) = 1 − F\nX\n( 3 5 0 0 ) = e − ( 3 5 0 0 / 2 0 0 0 ) 2 = 0 . 0 4 6 8\nb) The mean of this Weibull distribution is (2000)  0 . 5 = 1772.45\nIf it is an exponential distribution with this mean then\nP ( X  3 5 0 0 ) = 1 − F\nX\n( 3 5 0 0 ) = e − ( 3 5 0 0 / 1 7 7 2 .4 5 ) = 0 . 1 3 8 8\nc) The probability that the lifetime exceeds 3500 hours is greater under the exponential distribution\nthan under this Weibull distribution model."
+  },
+  {
+    "question_number": "4-166",
+    "raw": "a) = ( ) = \n\n1 +\n1 \n= 1 6 . 0 1  \n\nE X\n2\n 2    1 \n2 =V(X) =21+ −2 1+  =11.662\n    \n \n    \n2 \n\n1 +\n2 \n= 1 1 . 6 6 2 + 2\n\n\n\n1 +\n1  \n2\n= 1 1 . 6 6 2 + 1 6 . 0 1 2 = 3 9 2 . 2 7 5 7  \n \n2\n  1 \n2 1+  =16.012 = 256.3201\n  \n\n  \n\n 2  2  2   2 \n21+    2 \n     \n    392.2757\n     \n= = = , then  1.39 .\n2 2 2 2 256.3201\n  1   1    1   1   1 \n2 1+         \n           \n    \n           \n 1 \n=1+  =16.01, then 17.55.\n 1.39\nWe have used the property of the gamma function (r) = (r −1)(r −1) in this solution.\nb) Let X denote the survival time.\nP ( X  4 8 ) = 1 − P ( X  4 8 ) = 1 − F ( 4 8 ) = 1 −\n\n1 − e x p\n\n−\n\n1 7\n4\n.\n8\n5 5\n\n1 .3 9  \n= 0 . 0 1 7\nc) Find a such that P ( X  a ) = 0 . 9 0 .\nP ( X  a ) = 1 − P ( X  a ) = 1 − F ( a ) = 1 −\n\n1 − e x p\n\n−\n\n1 7\na\n. 5 5\n\n1 .3 9  \n= 0 . 9 0\nThen, a = 3 . 4 7 7\na)\n=\n2 =\n3 0\n9\n0\n0 0 0 0  = 3 0 0\n\n \nb) (  2 4 0 ) = e x p ( −\n 2 4 0 \n) = 0 . 4 4 9\n\n\nP X\nc) P ( X  a ) = e x p ( −\n\n3\na\n0 0\n\n1\n) = 0 . 2 5  a = 4 1 5 . 8 8"
+  },
+  {
+    "question_number": "4-168",
+    "raw": "Let X denote the average annual losses (in billions of dollars)\n  0.8472\n 2 \n \na) P(X  2) =1− P(X  2) =1− F(2) =1− 1−exp −   = 0.357\n \n\n1.9317\n\n  \nb)\n  0.8472\n 4 \n \nP(2  X  4) = P(X  4)− P(X  2) = 1−exp −   −(1−0.357) = 0.200\n \n\n1.9317\n\n  \nc) Find a such that P(X  a) = 0.05\n 0.8472\n a \n \nP(X  a) =1− P(X  a) =1− F(a) = exp −  = 0.05\n \n1.9317 \n \nThen, a = 7.053\n\n 1   1 \nd) = E(X) =1+  = (1.9317)1+  = 2.106\n \n    0.8472\n2\n 2    1 \n= V(X ) = 21+  −2 1+ \n    \n \n    \n2\n 2    1 \n= (1.9317)21+  −(1.9317)2 1+  = 2.497\n \n 0.8472   0.8472\nP(X  26) = 0.01\n\nP(X  31.6) = 0.07\n1\n1\n−\n−\ne\ne\nx\nx\np\np\n(\n(\n−\n−\n(\n(\n2\n3\n6\n1\n)\n. 6\n)\n) =\n)\n0\n=\n. 0\n0\n1\n. 0\n\n7 \n 2\n\n6\n3\n\n1 . 6\n=\n\n− l n\n=\n(\n−\n0 . 9\nl n (\n9\n0\n)\n.\n\n9 3 ) \nl n\n 2\nl n\n6\n\n\n3\n=\n1\nl n\n. 6\n(\n\n−\n=\nl n\nl\n(\nn\n0\n(\n.\n−\n9 9\nl n\n)\n(\n)\n0 . 9 3 ) )\n\n \n  \n\n \n  \n=\n=\n4\n1\n0\n0\n.\n.\n9\n1\n3\n3\n\n\n"
+  },
+  {
+    "question_number": "4-170",
+    "raw": "X is a lognormal distribution with =5 and 2=9\na)\nP ( X  1 3 3 0 0 ) =\n=\nP (\n\ne W\n( 1 .\n\n5 0\n1\n)\n3 3\n=\n0\n0\n0\n.\n)\n9 3\n=\n3\nP\n2\n( W  l n ( 1 3 3 0 0 ) ) = \n l n ( 1 3 3 3\n3\n0 ) − 5 \nb) Find the value for which P(Xx)=0.95\nP ( X  x ) = P ( e W  x ) = P ( W  l n ( x ) ) = \n l n ( x\n3\n) − 5 \n= 0 . 9 5\nln( x) −5\n=1.65\n3\nx = e 1 .6 5 ( 3 ) + 5 = 2 0 9 5 2 . 2\nc)= E(X) = e+2 /2 = e5+9/2 = e9.5 =13359.7\nV(X) = e2+2 (e2 −1) = e10+9(e9 −1) = e19(e9 −1) =1.45x1012"
+  },
+  {
+    "question_number": "4-171",
+    "raw": "a) X is a lognormal distribution with =-2 and 2=9\nP(500  X 1000) = P(500  eW 1000) = P(ln(500) W  ln(1000))\n ln(1000) + 2  ln(500) + 2\n=   −   = (2.97) − (2.74) = 0.0016\n 3   3 \n\n ln( x) + 2\nb) P(X  x) = P(eW  x) = P(W  ln( x)) =   = 0.1\n 3 \nln( x) + 2\n= −1.28 x = e−1.28(3)−2 = 0.0029\n3\n= E(X) = e+2/2 = e−2+9/2 = e2.5 =12.1825\nc)\nV(X) = e2+2 (e2 −1) = e−4+9(e9 −1) = e5(e9 −1) =1,202,455.87"
+  },
+  {
+    "question_number": "4-172",
+    "raw": "a) X is a lognormal distribution with =2 and 2=4\n ln(500) − 2\nP(X  500) = P(eW  500) = P(W  ln(500)) =  \n 2 \n= (2.11) = 0.9826\nb)\nP ( X  1 5 0 0 0 |\n=\n=\nX\n\n\n\n\n1\n\n( 2\n(\n0\n1\n0\nl n\n. 6\n−\n(\n0\n6\n1\n\n)\n5\n\n)\n=\n0\n2\n1 −\n−\n( 2\n0\n\nP\n.\n)\n\n4\n( 1\n−\n\n( 2\n5 )\n0 0\nP\n2\nl n\n. 4\n)\n(\n\n(\n5\n0\nX\n−\n1\n)\n\n0\n\n\n0\n2\n=\nX\n1\n\n0\n0\n0\nl\n)\n.\n\n0\nn (\n−\n9 9\n(\n1\n1\n0\n1\n2\n6\n−\n5\n)\n0\n0 0\n0 0\n2\n \n\n \n1 −\n0 . 9\n)\n)\n0\n9\n−\n.\n2\n9\n2\n9\n9\n\n2)\n\n9\n= 0 . 0 0 3 2 / 0 . 0 0 7 = 0 . 4 5\nc) The product has degraded over the first 1000 hours, so the probability of it lasting another 500\nhours is very low."
+  },
+  {
+    "question_number": "4-173",
+    "raw": "X is a lognormal distribution with =0.5 and 2=1\na)\n ln(10) −0.5\nP(X 10) = P(eW 10) = P(W  ln(10)) =1− \n 1 \n=1−(1.80) =1−0.96407 = 0.03593\n ln( x)−0.5\nb) P(X  x) = P(eW  x) = P(W  ln( x)) =   = 0.50\n 1 \nln( x)−0.5\n= 0 x = e0(1)+0.5 = 1.65 seconds\n1\n= E(X) = e+2 /2 = e0.5+1/2 = e1 = 2.7183\nc)\nV(X) = e2+2 (e2 −1) = e1+1(e1 −1) = e2(e1 −1) =12.6965"
+  },
+  {
+    "question_number": "4-174",
+    "raw": "Find the values of  and 2 given that E(X) = 100 and V(X) = 85,000\n100 = e+2 /2 85000 = e2+2 (e2 −1)\nLet x = eand y =\ne2\nthen\n100 = x y and 85000 = x2 y(y−1) = x2y2 − x2y\nSquare the first equation to obtain 10000 = x2 y and substitute into the second equation\n85000 = 10000(y −1)\ny = 9.5\nSubstitute y into the first equation and solve for x to obtain\n100\nx = = 32.444\n9.5\n= l n ( 3 2 . 4 4 4 ) = 3 . 4 8  and 2 = l n ( 9 . 5 ) = 2 . 2 5 "
+  },
+  {
+    "question_number": "4-175",
+    "raw": "a) Find the values of  and 2 given that E(X) = 10000 and  = 20,000\n1 0 0 0 0 2 / 2   = e + 2 0 0 0 0 2 = 2 + 2 ( 2 − 1 )    e e\n Let x = e and 2  y = e then\n1 0 0 0 0 = x y and 2 0 0 0 0 2 = x 2 y ( y − 1 ) = x 2 y 2 − x 2 y\nSquare the first equation 1 0 0 0 0 2 = x 2 y and substitute into the second equation\n2\ny\n0\n=\n0 0\n5\n0 2 = 1 0 0 0 0 2 ( y − 1 )\nSubstitute y into the first equation and solve for x to obtain x =\n1 0 0 0\n5\n0\n= 4 4 7 2 . 1 3 6 0\n= l n ( 4 4 7 2 . 1 3 6 0 ) = 8 . 4 0 5 6  and 2 = l n ( 5 ) = 1 . 6 0 9 4 \nb)\n ln(10000) −8.4056\nP(X 10000) = P(eW 10000) = P(W  ln(10000)) =1−  \n 1.2686 \n=1− (0.63) =1− 0.7357 = 0.2643\n ln( x) −8.4056\nc) P(X  x) = P(eW  x) = P(W  ln( x)) =   = 0.1\n 1.2686 \nln( x)−8.4056\n= −1.28 x = e−1.280(1.2686)+8.4056 = 881.65hours\n1.2686"
+  },
+  {
+    "question_number": "4-176",
+    "raw": "E(X) = exp(+2 /2) =120.87\n\nexp(2) −1 = 0.09\nSo\n= ln1.0081 = 0.0898 and\n= ln120.87 −2 / 2 = 4.791"
+  },
+  {
+    "question_number": "4-177",
+    "raw": "Let X ~ N(, 2), then Y = eX follows a lognormal distribution with mean  and variance 2. By\n log y −\ndefinition, F Y (y) = P(Y  y) = P(eX < y) = P(X < log y) = F X (log y) =   .\n  \n1\nBecause Y = eX and X ~ N(, 2), we can show that f (Y) = f (logy)\nY X\ny\n2\nlogy−\nF (y) F (log y) 1 1 1 − \nFinally, f (y) = Y = X = f (log y) =  e  2  .\nY\nX\ny y y y  2"
+  },
+  {
+    "question_number": "4-178",
+    "raw": "X has a lognormal distribution with  = 10 and 2 = 16\na) P ( X  2 0 0 0 ) = P ( e W  2 0 0 0 ) = P ( W  l n ( 2 0 0 0 ) ) = \n l n ( 2 0 0\n4\n0 ) − 1 0 \n=  ( − 0 . 5 9 9 8 ) = 0 . 2 7 4 3\nb)\nP ( X  1 5 0 0 ) = 1 − P ( e W  1 5 0 0 ) = 1 − P ( W  l n ( 1 5 0 0 ) ) = \n l n ( 1 5 0\n4\n0 ) − 1 0 \n= 1 −  ( − 0 . 6 7 1 7 ) = 1 − 0 . 2 5 0 9 = 0 . 7 4 9 1\nc)\nP ( X  x ) = P ( e W  x ) = P ( W  l n ( x ) ) = 1 − \n l n ( x )\n4\n− 1 0 \n= 0 . 7\n− 0 . 5 2 4 4 =\nl n ( x )\n4\n− 1 0\nTherefore, x = 2703.76"
+  },
+  {
+    "question_number": "4-179",
+    "raw": "X has a lognormal distribution with  = 1.5 and  = 0.4\na) = E(X) = e+2/2 = e1.5+0.16/2 = e1.58 = 4.8550\nV(X) = e2+2 (e2 −1) = e3+0.16(e0.16 −1) = 4.0898\n ln(8) −1.5\nb) P(X  8) = P(eW  8) = P(W  ln(8)) =   = (1.4486) = 0.9263\n 0.4 \nc) P(X  0) = 0 for the lognormal distribution. If the distribution is normal, then\n0 − 4.855\nP(X  0) = P(Z  ) = 0.008\n4.0898\nBecause waiting times cannot be negative, the normal distribution generates some modeling error."
+  },
+  {
+    "question_number": "4-180",
+    "raw": "Let X denote the particle-size distribution (in centimeters).\n ln(0.02)−  ln(0.02)−(−3.8)\n \na) P(X  0.02) = P Z  = P Z  =  −0.16 = 0.436\n   \n    0.7 \nb) Find x such that P(X  x) = 0.95\n ln( x)−(−3.8)\nP(X  x) = P Z  = 0.95\n \n 0.7 \nln( x) −(−3.8)\n=1.645, then x  0.071\n0.7\nc) = ( ) = e x p\n(\n+ 2 / 2\n)\n= 0 . 0 2 8 6    E X\n( )( ( ) )\n2 =V(X) = exp 2+2 exp 2 −1 = 0.0005"
+  },
+  {
+    "question_number": "4-181",
+    "raw": "a) P ( X  5 ) = 1 − P ( W  l n ( 5 ) ) = 1 −  (\nl n ( 5\n1\n) − 1\n) = 0 . 2 7 1\nb)\nP\n[ \n( X\n( l n\n\n( 8\n1\n8\n)\n−\n|\n−\nX\n1\n\n)\n\n]\n( l\n−\nn\n5\n(\n)\n[ \n5 )\n=\n(\n−\nl\nP\nn\n1\n(\n)\n(\nP\n5\n5\n(\n)\n\nX\n−\nX\n1\n\n) ]\n\n5\n=\n)\n8 )\n0\n=\n. 8\n1\n6\n−\nP\n−\n0\n(\n.\nX\n0\n7\n.\n3\n7\n\nP\n3\n8\n(\n=\n)\nX\n−\n0\nP\n\n. 4 8\n(\n5\nX\n)\n3\n 5 )\n=\nc)\n=\n2 =\ne x\ne\np\nx\n(\np\n1\n(\n+\n3 )\n0\n( e\n. 5\nx\n)\np\n=\n( 1 )\n4 .\n−\n4\n1\n8\n) = 3 4 . 5 1 7\n\n"
+  },
+  {
+    "question_number": "4-182",
+    "raw": "Let X denote the levels of 2,3,7,8-TCDD in human adipose tissue.\n= ( ) = e x p\n(\n+ 2 / 2\n)\n= 8    E X\n2 = ( ) = e x p\n(\n2 + 2\n) (\ne x p\n(\n2\n)\n− 1\n)\n= 2 1     V X\n2 =\n\ne x p\n(\n+ 2 / 2\n)  2 (\ne x p\n(\n2\n)\n− 1\n)\n= 2\n(\ne x p\n(\n2\n)\n− 1\n)\n= 2 1      \n( ) 21\nThen, exp 2 −1 = and = 0.5327\n64\n( )\nexp+0.53272 /2 = 8, then =1.9376\na) P(2000  X  2500) = P(X  2500)− P(X  2000)\n ln(2500)−  ln(2000) −\n   \n= P Z  − P Z  =  11.05 − 10.63 = 0\n   \n     \nb) Find a such that P(X  a) = 0.10\n\n ln(a) −1.9376\nP(X  a) =1− P Z  = 0.10\n \n 0.5327 \nln( a) −1.9376\n=1.282, then a =13.736.\n0.5327\n( )\nc) = E(X) = exp+2 /2 = 8\n2 = ( ) = e x p\n(\n2 + 2\n) (\ne x p\n(\n2\n)\n− 1\n)\n= 2 1     V X\na) P ( X  1 0 0 0 ) =  (\nl n ( 1 0 0\n1\n0\n. 5\n) − 1 0\n) = 0 . 0 1 9 6\nb)\nP\n=\n(\n\nX\n(\n\nl n\n1\n( 1\n1 ,\n1\n0\n,\n0\n0\n1\n1\n0\n0 0\n. 5\n−\n|\n)\n\nX\n−\n(\n1\nl\n\nn\n0\n(\n1\n)\n1\n0\n−\n0\n,\n,\n0\n\n0\n1\n0\n0\n.\n0\n(\n0\n5\n)\nl n\n)\n=\n(\n−\n1\n1\nP\n0 ,\n0\n( 1\n0\n1\n)\n0\n.\n0\n5\nP\n0\n0\n)\n0\n(\n0\nX\n− 1\n\n\n0\nX\n1\n)\n0\n=\n\n0\n0\n0\n1\n.\n1\n0\n0\n0\n)\n3\n0\n2\n0 )"
+  },
+  {
+    "question_number": "4-184",
+    "raw": "The probability density is symmetric."
+  },
+  {
+    "question_number": "4-185",
+    "raw": "a) (  0 . 2 5 ) =\n0 .2\n0\n5\n\n\n(\n(\n)\n+\n (\n)\n)\n) − 1 ( 1 − ) − 1\n \n \n \nP X x x\n=\n0 .2\n0\n5\n (\n\n2\n(\n.\n3\n5\n.\n)\n5\n\n)\n( 1 )\n) x 1 .5 =\n( 2 . 5\n( 1\n) (\n. 5\n1\n)\n.\n(\n5\n0\n) (\n. 5\n0\n)\n. 5 ) x\n2\n2\n.\n.5\n5\n0\n0\n.2 5\n= 0 . 2 5 2 .5 = 0 . 0 3 1 3\n\n\nb) ( 0 . 2 5   0 . 7 5 ) =\n0\n0\n.7\n.2\n5\n5\n\n\n(\n(\n)\n+\n (\n)\n)\n) − 1 ( 1 − ) − 1\n \n \n \nP X x x\n0.75\n0.75 (3.5) (2.5)(1.5)(0.5)  x2.5\n=  )x1.5 = = 0.752.5 − 0.252.5 = 0.4559\n(2.5)(1) (1.5)(0.5)  2.5\n0.25 0.25\n 2.5\nc) = E(X ) = = = 0.7143\n+ 2.5+1\n 2.5\n2 =V(X ) = = = 0.0454\n(+)2(++1) (3.5)2(4.5)\n0.25\n(+)"
+  },
+  {
+    "question_number": "4-186",
+    "raw": "a) P(X  0.25) =  )x−1(1− x)−1\n()()\n0\n\n0.25\n0.25 (5.2) (4.2)(3.2)(2.2)(1.2)(1.2) (−1)(1− x)4.2\n=  )(1−x)3.2 = = −(0.75)4.2 +1 = 0.7013\n(1)(4.2) (3.2)(2.2)(1.2)(1.2) 4.2\n0 0\n1\n(+)\nb) P(0.5  X) =  )x−1(1− x)−1\n()()\n0.5\n1\n1 (5.2) (4.2)(3.2)(2.2)(1.2)(1.2) (−1)(1− x)4.2\n=  )(1−x)3.2 = = 0 + (0.5)4.2 = 0.0544\n(1)(4.2) (3.2)(2.2)(1.2)(1.2) 4.2\n0.5 0.5\n 1\nc) = E(X ) = = = 0.1923\n+ 1+ 4.2\n2 = ( ) =\n( + ) 2 ( + + 1 )\n=\n( 5 . 2\n4\n)\n.\n2\n2\n( 6 . 2 )\n= 0 . 0 2 5 1\n\n\n   \nV X"
+  },
+  {
+    "question_number": "4-187",
+    "raw": "a) Mode =\n+\n− 1\n− 2\n=\n3 + 1\n2\n. 4 − 2\n= 0 . 8 3 3 3\n\n \n= ( ) =\n+\n=\n3 +\n3\n1 . 4\n= 0 . 6 8 1 8\n\n\n \nE X\n2 = ( ) =\n( + ) 2 ( + + 1 )\n=\n( 4 . 4\n4\n)\n.\n2\n2\n( 5 . 4 )\n= 0 . 0 4 0 2\n\n\n   \nV X\nb) Mode =\n+\n− 1\n− 2\n=\n1 0 + 6\n9\n. 2 5 − 2\n= 0 . 6 3 1 6\n\n \n= ( ) =\n+\n=\n1 0\n1\n+\n0\n6 . 2 5\n= 0 . 6 1 5 4\n\n\n \nE X\n2 = ( ) =\n( + ) 2 ( + + 1 )\n=\n( 1 6 . 2 5\n6\n)\n2\n2\n. 5\n( 1 7 . 2 5 )\n= 0 . 0 1 3 7\n\n\n   \nV X\nc) Both the mean and variance from part a) are greater than for part b)."
+  },
+  {
+    "question_number": "4-188",
+    "raw": "a) (  0 . 9 ) =\n1\n0\n.9\n\n\n(\n(\n)\n+\n (\n)\n)\n) − 1 ( 1 − ) − 1\n \n \n \nP X x x\n1\n1 (11) (10)(9)(9) x10\n=  )x9 = =1− (0.910) = 0.6513\n(10)(1) (9)(9) 10\n0.9 0.9\nb) (  0 . 5 ) =\n0 .5\n0\n\n\n(\n(\n)\n+\n (\n)\n)\n) − 1 ( 1 − ) − 1\n \n \n \nP X x x\n0.5\n0.5 (11) (10)(9)(9) x10\n=  )x9 = = 0.510 = 0.0010\n(10)(1) (9)(9) 10\n0 0\n 10\nc)= E(X ) = = = 0.9091\n+ 10 +1\n\n 10\n2 =V(X ) = = = 0.0069\n(+)2(+ +1) (11)2(12)"
+  },
+  {
+    "question_number": "4-189",
+    "raw": "Let X denote the completion proportion of the maximum time.\nThe exercise considers the proportion 2/2.5 = 0.8\n1\n(+)\nP(X  0.8) =  )x−1(1− x)−1\n()()\n0.8\n1\n1 (5) (4)(3)(3) x2 2x3 x4\n=  )x(1− x)2 = ( − + ) =12(0.0833− 0.0811) = 0.0272\n(2)(3) (2)(3) 2 3 4\n0.8 0.8\n"
+  },
+  {
+    "question_number": "4-190",
+    "raw": "= E(X) = = 0.3, then  \n+\n= 2 . 3 3\n2 = ( ) =\n(\n+\n) 2 (\n+ + 1\n)\n= 0 . 1 7 2\n\n\n   \nV X\n2 = ( ) =\n(\n+ 2 . 3 3\n(\n)\n2\n2\n.\n(\n3 3\n+\n)\n2 . 3 3 + 1\n)\n= 0 . 1 7 2\n \n\n   \nV X , then = 1 . 9  and = 4 . 4 2 7 \na)\n=\n=\n(\n(\n(\nb\n−\nm\n−\n−\na\n−\na\n) ( 2\n)\nm\n) (\n=\nb\n−\n2\n−\na\n(\n1\n2\na\n.\n−\n3\n)\n−\n3\nb\n1\n3\n)\n. 3\n−\n=\n3\n1\n3\n( 1\n)\n. 3\n=\n(\n3\n1\n4\n3\n. 2\n−\n5\n1\n−\n) (\n1\n2\n.\n(\n3\n1\n3\n. 2\n3\n5\n) (\n)\n2\n−\n−\n1\n1\n−\n)\n2 )\n= 2\n\n\n\n \n\n\nb) 2 =\n( + ) 2 ( + + 1 )\n=\n2\n6\n(\n2\n4\n7\n)\n= 0 . 0 3 2  = 0 . 0 3 2 = 0 . 1 7 8\n\n \n   \nSupplemental Exercises"
+  },
+  {
+    "question_number": "4-192",
+    "raw": "f ( x ) = 0 . 0 4 for 50< x <75\n75\n75\na) P(X  70) =  0.04dx = 0.2x = 0.2\n70\n70\n60\n60\nb) P(X  60) = 0.04dx = 0.04x = 0.4\n50\n50\n75 + 50\nc) E(X ) = = 62.5 seconds\n2\n(75−50)2\nV(X) = = 52.0833 seconds2\n12\n\n 40 − 35"
+  },
+  {
+    "question_number": "4-193",
+    "raw": "a) P(X < 40) = PZ  = P(Z < 2.5) = 0.99379\n 2 \n 30 − 35\nb) P(X < 30) = PZ   = P(Z < −2.5) = 0.00621\n 2 \nHere 0.621% are scrapped\n 45 − 60"
+  },
+  {
+    "question_number": "4-194",
+    "raw": "a) P(X <45) = PZ   = P(Z < -3) = 0.00135\n 5 \n 65−60 \nb) P(X > 65) = PZ  = P(Z >1) = 1- P(Z < 1)\n 5 \n= 1 - 0.841345= 0.158655\nc) P(X < x) = P\n\nZ \nx −\n5\n6 0 \n= 0.99\nTherefore,\nx −\n5\n6 0\n= 2.33 and x = 72"
+  },
+  {
+    "question_number": "4-195",
+    "raw": "a) P(X > 90.3) + P(X < 89.7)\n= P\n\nZ \n9 0 . 3\n0\n−\n. 1\n9 0 . 2 \n+ P\n\nZ \n8 9 . 7\n0\n−\n. 1\n9 0 . 2 \n= P(Z > 1) + P(Z < −5)\n= 1 − P(Z < 1) + P(Z < −5) =1 − 0.84134 +0 = 0.15866\nb) The process mean should be set at the center of the specifications; that is, at 90.0.\nc) P(89.7 < X < 90.3) = P\n 8 9 . 7\n0 .\n−\n1\n9 0\n Z \n9 0 . 3\n0 .\n−\n1\n9 0 \n= P(−3 < Z < 3) = 0.9973.\nThe yield is 100(0.9973) = 99.73%\nd) P(89.7 < X < 90.3) = P\n 8 9 . 7\n0 .\n−\n1\n9 0\n Z \n9 0 . 3\n0 .\n−\n1\n9 0 \n= P(−3 < Z < 3) = 0.9973\nP(X=10) = (0.9973)10 = 0.9733\ne) Let Y represent the number of cases out of the sample of 10 that are between 89.7 and 90.3 ml.\nThen Y follows a binomial distribution with n=10 and p=0.9973. Thus, E(Y)= 9.973.\n50 −100 80 −100"
+  },
+  {
+    "question_number": "4-196",
+    "raw": "a) P(50 < X < 80) = P  Z   = P(−2.5 < Z < -1)\n 20 20 \n= P(Z < −1) − P(Z < −2.5) = 0.15245.\n x −100  x−100\nb) P(X > x) = 0.10. Therefore, PZ   = 0.10 and = 1.28\n20\n 20 \nTherefore, x = 125.6 hours"
+  },
+  {
+    "question_number": "4-197",
+    "raw": "E(X) = 1000(0.2) = 200 and V(X) = 1000(0.2)(0.8) = 160\na)\nP(X  225) = P(X  226) 1− P(Z  225.5−200) =1− P(Z  2.02) =1−0.9783= 0.0217\n160\nb)\nP(175  X  225)  P(174.5−200  Z  225.5−200) = P(−2.02  Z  2.02)\n160 160\n= 0.9783− 0.0217 = .9566\n x −200\nc) If P(X > x) = 0.01, then PZ   = 0.01.\n \n 160 \nTherefore, x−200 = 2.33 and x = 229.5\n160"
+  },
+  {
+    "question_number": "4-198",
+    "raw": "The time to failure (in hours) for a laser in a cytometry machine is modeled by an exponential\ndistribution with 0.00004.\na) P ( X  2 0 , 0 0 0 ) =\n2 0\n\n0\n0\n0\n0\n. 0 0 0 0 4 e − .0 .0 0 0 0 4 x d x = − e − 0 .0 0 0 0 4 x\n2 0\n\n0 0 0\n= e − 0 .8 = 0 . 4 4 9 3\nb) P ( X  3 0 , 0 0 0 ) =\n3 0\n\n0\n0\n0\n0\n. 0 0 0 0 4 e − .0 .0 0 0 0 4 x d x = − e − 0 .0 0 0 0 4 x\n3 0 0\n0\n0 0\n= 1 − e − 1 .2 = 0 . 6 9 8 8\nc)\nP ( 2 0 , 0 0 0  X  3 0 , 0 0 0 )\n=\n=\n−\n3 0\n2 0\ne\n0\n0\n−\n0 0\n0 . 0\n0 0\n0 .0 0 0\n0\n0 4\n0\nx\n0\n3\n2\n4\n0\n0\ne\n0\n0\n0\n0\n−\n0\n0\n.0\n=\n.0 0\ne\n0 0\n−\n4\n0\nx\n.8\nd\n−\nx\ne − 1 .2 = 0 . 1 4 8 1"
+  },
+  {
+    "question_number": "4-199",
+    "raw": "Let X denote the number of calls in 3 hours. Because the time between calls is an exponential\nrandom variable, the number of calls in 3 hours is a Poisson random variable. Now, the mean time\nbetween calls is 0.5 hours and  = 1 / 0 . 5 = 2 calls per hour. Therefore, E(X) = 6 calls in 3 hours.\nP ( X  4 ) = 1 − P ( X  3 ) = 1 −\n e − 6\n0\n6! 0\n+\ne − 6\n1 !\n6 1\n+\ne − 6\n2\n6! 2\n+\ne − 6\n3\n6! 3 \n= 0 . 8 4 8 8"
+  },
+  {
+    "question_number": "4-200",
+    "raw": "Let X denote the time in days until the fourth problem. Then, X has an Erlang distribution with r =\n4 and  =1/30 problem per day.\n4\na) E(X) = = 120 days.\n−1\n30\nb) Let Y denote the number of problems in 120 days. Then, Y is a Poisson random variable with\nE(Y) = 4 problems per 120 days.\n \ne e e e\nP(Y  4) =\n−440\n+\n−441\n+\n−442\n+\n−443\n= 0.4335\n0! 1! 2! 3!"
+  },
+  {
+    "question_number": "4-201",
+    "raw": "Let X denote the lifetime\na) E(X) = 700(1+ 1) = 620.4\n2\nb)\n\nV(X) = 7002(2) − 7002[(1.5)]2\n= 7002(1) − 7002(0.25) =105,154.9\n( )2\n− 620.4\nc) P(X > 620.4) = e 700 = 0.4559"
+  },
+  {
+    "question_number": "4-202",
+    "raw": "a) E(X) = exp(+2 /2) = 0.001\nexp(2) −1 = 2\nSo\n= ln5 =1.2686\nAnd\n= ln0.001−2 / 2 = −7.7124\nb)\nP\n=\n(\n1\nX\n−\n\n\n0\n\n.\nl\n0\nn\n0\n0\n5\n.\n)\n0\n1\n=\n0\n.\n5\n2\n1\n+\n6\n−\n8\n7\nP\n6\n.\n(\n7\ne\n1\nx\n2\np\n4\n( W\n\n=\n) \n0 .\n0\n0\n.\n2\n0\n8\n0\n5\n5 ) = 1 − P ( W  l n 0 . 0 0 5 )"
+  },
+  {
+    "question_number": "4-203",
+    "raw": "a) P ( X  2 . 5 ) =\n2 .5\n2 ( 0 . 5 x − 1 ) d x =\n\n0 . 5\nx\n2\n2\n− x\n\n2\n2\n.5\n= 0 . 0 6 2 5\nb) P ( X  3 ) =\n4\n3 ( 0 . 5 x − 1 ) d x = 0 . 5 x2 2 − x\n4\n3\n= 0 . 7 5\nc) P ( 2 . 5  X  3 . 5 ) =\n3 .5\n2\n.5\n( 0 . 5 x − 1 ) d x = 0 . 5 x2 2 − x\n3\n2\n.5\n.5\n= 0 . 5\nd) F ( x ) =\nx\n2 ( 0 . 5 t − 1 ) d t = 0 . 5 2 t2 − t\nx\n2\n= x4 2 − x + 1 . Then,\n\n0, x  2\n\n\n\nF(x) =\nx2\n− x +1, 2  x  4\n\n4\n\n\n1, 4  x\n\n\ne) E ( X ) =\n4\n2 x ( 0 . 5 x − 1 ) d x = 0 . 5 x3 3 − x2 2\n4\n2\n= 3 23 − 8 − ( 43 − 2 ) = 1 03\n\n4 4\nV(X ) = (x − 10)2(0.5x −1)dx = (x2 − 20 x + 100)(0.5x −1)dx\n3 3 9\n2 2\n4\n4\n= (0.5x3 − 13 x2 + 110 x − 100)dx = x4 − 13 x3 + 55 x2 − 100 x\n3 9 9 8 9 9 9\n2\n2\n= 0.2222"
+  },
+  {
+    "question_number": "4-204",
+    "raw": "Let X denote the time between calls. Then, =1/ E(X ) = 0.1 calls per minute.\n5\n5\na) P(X  5) = 0.1e−0.1xdx = −e−0.1x = 1− e−0.5 = 0.3935\n0\n0\nb) P ( 5  X  1 5 ) = − e − 0 .1 x\n1 5\n5\n= e − 0 .5 − e − 1 .5 = 0 . 3 8 3 4\nc) P(X < x) = 0.9. Then, P ( X  x ) =\nx\n0 0 . 1 e − 0 .1 t d t = 1 − e − 0 .1 x = 0 . 9 . Now, x = 23.03 minutes.\nd) This answer is the same as part a).\nP ( X  5 ) =\n5\n0 0 . 1 e − 0 .1 x d x = − e − 0 .1 x\n5\n0\n= 1 − e − 0 .5 = 0 . 3 9 3 5\ne) This is the probability that there are no calls over a period of 5 minutes. Because a Poisson\nprocess is memoryless, it does not matter whether or not the intervals are consecutive.\nP ( X  5 ) =\n\n5 0 . 1 e − 0 .1 x d x = − e − 0 .1 x\n\n5\n= e − 0 .5 = 0 . 6 0 6 5\nf) Let Y denote the number of calls in 30 minutes.\nThen, Y is a Poisson random variable with E(Y) = 3.\nP ( Y  2 ) =\ne − 3\n0\n3\n!\n0\n+\ne − 3\n1 !\n3 1\n+\ne − 3\n2\n3\n!\n2\n= 0 . 4 2 3 .\ng) Let W denote the time until the fifth call. Then, W has an Erlang distribution with  = 0.1 and r\n= 5. E(W) = 5/0.1 = 50 minutes."
+  },
+  {
+    "question_number": "4-205",
+    "raw": "Let X denote the lifetime. Then = 1 / E ( X ) = 1 / 6  .\n3\n3\na) P(X  3) =  1 e−x/6dx = −e−x/6 = 1− e−0.5 = 0.3935.\n6\n0\n0\nb) Let W denote the number of CPUs that fail within the next three years. Then, W is a binomial\nrandom variable with n = 10 and p = 0.3935. Then,\n( )\nP(W  1) = 1− P(W = 0) = 1− 10 0.39350(1− 0.3935)10 = 0.9933.\n0"
+  },
+  {
+    "question_number": "4-206",
+    "raw": "X is a lognormal distribution with =0 and 2=4\na)\n\nP(10  X  50) = P(10  eW  50) = P(ln(10) W  ln(50))\n ln(50) −0  ln(10) −0\n=  − \n 2   2 \n= (1.96) −(1.15) = 0.975002−0.874928 = 0.10007\n ln( x) −0\nb) P(X  x) = P(eW  x) = P(W  ln( x)) =   = 0.05\n 2 \nln( x) −0\n= −1.64 x = e−1.64(2) = 0.0376\n2\nc)\n= E ( X ) = e + 2 / 2 = e 0 + 4 / 2 = e 2 = 7 . 3 8 9   \nV ( X ) = e 2 + 2 ( e 2 − 1 ) = e 0 + 4 ( e 4 − 1 ) = e 4 ( e 4 − 1 ) = 2 9 2 6 . 4 0   "
+  },
+  {
+    "question_number": "4-207",
+    "raw": "a) Find the values of  and 2 given that E(X) = 50 and V(X) = 4000\n5 0 2 / 2   = e + 4 0 0 0 = 2 + 2 ( 2 − 1 )    e e\nLet  x = e and 2  y = e then\n5 0 = x y and 4 0 0 0 = x 2 y ( y − 1 ) = x 2 y 2 − x 2 y\nSquare the first equation x =\n5 0\ny\nand substitute into the second equation\n4\ny\n0 0\n=\n0\n2\n=\n. 6\n\n5 0\ny\n\n2\ny 2 −\n\n5 0\ny\n\n2\ny = 2 5 0 0 ( y − 1 )\nSubstitute y back into the first equation and solve for x to obtain x =\n5\n2\n0\n. 6\n= 3 1\n= l n ( 3 1 ) = 3 . 4 3  and 2 = l n ( 2 . 6 ) = 0 . 9 6 \nb)\n ln(150) −3.43\nP(X 150) = P(eW 150) = P(W  ln(150)) =  \n 0.98 \n= (1.61) = 0.946301"
+  },
+  {
+    "question_number": "4-208",
+    "raw": "Let X denote the number of fibers visible in a grid cell. Then, X has a Poisson distribution and\n =100 fibers per cm2. Therefore, E(X) = 80,000 fibers per sample = 0.5 fibers per grid cell.\ne−0.50.50\na) P(X 1) =1− P(X = 0) =1− = 0.3935.\n0!\nb) Let W denote the number of grid cells examined until 10 contain fibers. If the number of fibers\nhas a Poisson distribution, then the numbers of fibers in each grid cell are independent. Therefore,\n\nW has a negative binomial distribution with p = 0.3935. Consequently, E(W) = 10/0.3935 = 25.41\ncells.\n10(1− 0.3935)\nc) V(W) = . Therefore,  = 6.25 cells.\n0.39352 W"
+  },
+  {
+    "question_number": "4-209",
+    "raw": "Let X denote the height of a plant.\n 2.25− 2.5\na) P(X>2.25) = PZ   = P(Z > -0.5) = 1 - P(Z  -0.5) = 0.6915\n 0.5 \n 2.0 − 2.5 3.0 − 2.5\nb) P(2.0 < X < 3.0) = P  Z   =P(-1 < Z < 1) = 0.683\n 0.5 0.5 \n x − 2.5 x − 2.5\nc.)P(X > x) = 0.90 = PZ   = 0.90 and = -1.28.\n 0.5  0.5\nTherefore, x = 1.86."
+  },
+  {
+    "question_number": "4-210",
+    "raw": "a) P ( X  3 . 5 ) =\n4\n3\n.5\n( 0 . 5 x − 1 ) d x = 0 . 5 x2 2 − x\n3\n4\n.5\n= 0 . 4 3 7 5\nb) Yes, because the probability of a plant growing to a height of 3.5 centimeters or more without\nirrigation is small."
+  },
+  {
+    "question_number": "4-211",
+    "raw": "Let X denote the thickness.\na) P(X > 5.5) = P\n\nZ \n5 . 5\n0 .\n−\n2\n5 \n= P(Z > 2.5) = 0. 0062\nb) P(4.5 < X < 5.5) = P\n 4 . 5\n0 .\n−\n2\n5\n Z \n5 . 5\n0 .\n−\n2\n5 \n= P (-2.5 < Z < 2.5) = 0.9876\nTherefore, the proportion that do not meet specifications is 1 − P(4.5 < X < 5.5) = 0.012.\nc) If P(X < x) = 0.95, then P\n\nZ \nx\n0\n−\n. 2\n5 \n= 0.95. Therefore,\nx\n0\n−\n. 2\n5\n= 1.65 and x = 5.33."
+  },
+  {
+    "question_number": "4-212",
+    "raw": "Let t X denote the dot diameter. If P(0.0014 < X < 0.0026) = 0.9973, then\n( 0 . 0 0 1 4 − 0 . 0 0 2   0 . 0 0 2 6 − 0 . 0 0 2 ) = ( − 0 . 0 0 0 6   0 . 0 0 0 6 ) = 0 . 9 9 7 3\n   \nP Z P Z\n.\n0.0006 Therefore, = 3 and\n\n= 0 . 0 0 0 2  ."
+  },
+  {
+    "question_number": "4-213",
+    "raw": "If P(0.002-x < X < 0.002+x), then P(-x/0.0004 < Z < x/0.0004) = 0.9973. Therefore, x/0.0004 = 3\nand x = 0.0012. The specifications are from 0.0008 to 0.0032."
+  },
+  {
+    "question_number": "4-214",
+    "raw": "Let X denote the life.\na) P(X 5800) = P(Z  5800−7000) = P(Z  −2) =1− P(Z  2) = 0.023\n600\nx−7000 x−7000\nb) If P(X > x) = 0.9, then P(Z < ) = -1.28. Consequently, = -1.28 and x =\n600 600\n6232 hours.\n\n10,000− 10,000−\nc) If P(X > 10,000) = 0.99, then P(Z > ) = 0.99. Therefore, = -2.33 and\n600 600\n=11,398\nd) The probability a product lasts more than 10000 hours is [P(X 10000)]3 , by independence.\nIf [P(X 10000)]3 = 0.99, then P(X > 10000) = 0.9967.\n10000−\nThen, P(X > 10000) = P(Z  ) = 0.9967.\n600\n10000−\nTherefore, = -2.72 and\n600\n= 1 1 , 6 3 2  hours."
+  },
+  {
+    "question_number": "4-215",
+    "raw": "X is an exponential distribution with E(X) = 7000 hours\na) P ( X  5 8 0 0 ) =\n5 8\n0\n0 0\n7 0\n1\n0 0\ne\n−\n7\nx\n0 0 0 d x = 1 − e\n−\n 5\n7\n8\n0\n0\n0\n0\n0\n\n= 0 . 5 6 3 3\nb) P ( X  x ) =\n\nx\n7 0\n1\n0 0\ne\n−\n7\nx\n0 0 0 d x = 0 . 9\nTherefore, e\n−\n7\nx\n0 0 0 = 0 . 9 and x = − 7 0 0 0 l n ( 0 . 9 ) = 7 3 7 . 5 hours"
+  },
+  {
+    "question_number": "4-216",
+    "raw": "Find the values of and 2 given that E(X) = 7000 and = 600\n7 0 0 0 2 / 2   = e + 6 0 0 2 = 2 + 2 ( 2 − 1 )    e e\nLet  x = e and 2  y = e then\n7 0 0 0 = x y and 6 0 0 2 = x 2 y ( y − 1 ) = x 2 y 2 − x 2 y\nSquare the first equation 7 0 0 0 2 = x 2 y and substitute into the second equation\n6\ny\n0\n=\n0 2\n1 .\n=\n0 0\n7\n7\n0\n3\n0 0 2 ( y − 1 )\nSubstitute y into the first equation and solve for x to obtain x =\n7\n1\n0\n. 0\n0\n0\n0\n7 3\n= 6 9 7 4 . 6\n= l n ( 6 9 7 4 . 6 ) = 8 . 8 5 0  and 2 = l n ( 1 . 0 0 7 3 ) = 0 . 0 0 7 3 \na)\n ln(5800) −8.85\nP(X  5800) = P(eW  5800) = P(W  ln(5800)) =  \n 0.0854 \n= (−2.16) = 0.015\n ln(x) −8.85\nb)\nP(X  x) = P(eW  x) = P(W  ln(x)) =1− = 0.9\n \n 0.0854 \nln( x) −8.85\n= −1.28 x = e−1.28(0.0854)+8.85 = 6252.20 hours\n0.0854\n\na) Using the normal approximation to the binomial with n = 50(36)(36) = 64,800and p = 0.0001\nwe have E(X) = 64800(0.0001) = 6.48\n \nX − np 0.5− 6.48\nP(X 1)  P  \n \nnp(1− p) 64800(0.0001)(0.9999)\n \n= P(Z  − 2.35) = 1− 0.0094 = 0.9906\n X − np 3.5 − 6.48 \nP(X  4)  P  \n \nb) np(1− p) 64800(0.0001)(0.9999)\n \n= P(Z  −1.17) = 1− 0.1210 = 0.8790\nUsing the normal approximation to the binomial with X being the number of people who will be\nseated. Then X ~Bin(200, 0.9).\na) P(X  185) = P\n\nn\nX\np (\n−\n1\nn\n−\np\np )\n\n1\n2\n8\n0\n5\n0\n.\n(\n5\n0\n−\n. 9\n1\n) (\n8\n0\n0\n. 1 )\n\n= P ( Z  1 . 3 0 ) = 0 . 9 0 3 2\nb)\nP\n\n(\nP\nX\n( X\n 1\n\n8\n1\n5 )\n8 4 . 5 ) = P\n\nn\nX\np (\n−\n1\nn\n−\np\np )\n\n1\n2\n8\n0\n4\n0\n.\n(\n5\n0\n−\n. 9\n1\n) (\n8\n0\n0\n. 1 )\n\n= P ( Z  1 . 0 6 ) = 0 . 8 5 5 4\nc) P(X  185)  0.95,\nSuccessively try various values of n. The number of reservations taken could be reduced to 198.\nn Z Probability P(Z < Z )\no 0\n190 3.51 0.999776\n195 2.39 0.9915758\n198 1.73 0.9581849\n 1\n= = = 0.167\n+ 6\na)\n 5\n2 = = = 0.0198\n(+)2(++1) 627\n1\n(6) 1\nb) P(X  0.5) =  (1− x)4dx = −(1− x)5 |1 = = 0.03125\n(1)(5) 0.5 25\n0.5\nP(X  a) = 0.9  −(1− x)5 |1 = (1− a)5 = 0.9  a = 0.021\nc)\na\n\nLet X denote the amplitude. We know E(X) = 24 and V(X) = 4.12 . Determine and as\nfollows.\n( )\n= E(X) = exp+2 /2 = 24\n( )( ( ) )\n2 =V(X) = exp 2+2 exp 2 −1 = (4.1)2\n ( ) 2( ( ) ) ( ( ) )\n2 = exp+2 /2 exp 2 −1 =2 exp 2 −1 =16.81\n( ) 16.81\nThen, exp 2 −1= and =0.1696\n576\n( )\nexp+0.16962 /2 = 24, then =3.16367\na)\nP ( X  2 0 ) = 1 − P ( X  2 0 ) = 1 − P\n(\ne x p ( W )  2 0\n)\n= 1 − P\n(\nW  l n ( 2 0 )\n)\n= 1 − \n l n ( 2 0\n0\n)\n.\n−\n1 6\n3\n9\n. 1\n6\n6 3 6 7 \n= 1 − 0 . 1 6 1 0 9 = 0 . 8 3 8 9 1\nb) Find a such that P ( X  a ) = 0 . 0 5\nP ( X  a ) = 1 − P ( X  a ) = 1 − P\n(\nW  l n ( a )\n)\n= 1 − \n l n ( a )\n0\n−\n. 1\n3\n6\n.\n9\n1\n6\n6 3 6 7 \n= 0 . 0 5\nl n ( a )\n0\n−\n. 1\n3\n6\n.\n9\n1\n6\n6 3 6 7\n= 1 . 6 4 5 , then a  3 . 4 4 3\n4.221.\na)\nP\n\n( X\na\n\n−\n8\n5\na\n6\n) =\n=\n0\n−\n.\n2\n9\n.\n9\n3\n\n2 6 0\nP\n\n( Z\na\n\n=\na\n3\n−\n7\n8\n5\n. 3\n6\n9\n) = 0 . 9 9  P ( Z \na −\n8\n5 6\n) = 0 . 0 1\nb)\n(  3 7 . 3 9 ) = ( \n3 7 . 3\n1\n9\n2\n−\n) = 0 . 0 1 \n3 7 . 3\n1\n9\n2\n−\n= 2 . 3 2 6  = 3 7 . 3 9 − 1 2 ( 2 . 3 2 6 ) = 9 . 4 8\n \n P X P Z\nc) The subjects can be distinguished well because the means are quite different relative to the\nstandard deviations.\na)= = 0.5 1\nThe function is symmetric and there are two peaks at x = 0 and x =1.\n\nb) = = 1  \nThe function is symmetric and there are no peaks. Actually this probability density function is the\nsame as the standard uniform distribution.\nc) = = 2  1  \nThe function is symmetric and there is one peak at x = 0.5.\n\nn p\nn\n=\np (\n2\n1\n5\n−\n0 0\np ) = 4 3 . 3\na) P ( X  2 6 0 0 ) = = P ( X  2 6 0 1 ) = P ( Z \n2 6 0 1 −\n4\n0\n3\n. 5\n. 3\n− 2 5 0 0\n) = P ( Z  2 . 3 2 1 ) = 0 . 0 1\nb) P ( 2 4 0 0  X  2 6 0 0 ) = P (\n2 4 0 0 −\n4\n0\n3\n. 5\n. 3\n− 2 5 0 0\n Z \n2 6 0 0 +\n4\n0\n3\n. 5\n. 3\n− 2 5 0 0\n) = 0 . 9 8 0\nc)\nP\n\n( X\n\n\n(\na\na\n+\n)\n1\n=\n−\nP\n0\n4\n(\n.\n3\nX\n5\n. 3\n−\n\n2\na\n5\n+\n0 0\n1 )\n)\n=\n=\nP\n0 .\n(\n9\nZ\n5\n\n\na\n1\n+\n. 6\n1\n4\n−\n5\n0\n4\n=\n.\n3\n5\n.\na\n3\n−\n+\n2\n1\n5\n−\n0\n0\n4\n0\n.\n3\n)\n5\n. 3\n=\n−\n0\n2\n.\n5\n0\n0\n5\n0\n a = 2 5 7 0 . 7 3"
+  },
+  {
+    "question_number": "4-224",
+    "raw": "Let X denote the time interval between filopodium formation.\na) P ( X  9 ) = e x p ( − ( 1 / 6 )  9 ) = 0 . 2 2 3\nb)\nP ( 6  X  7 ) = P ( X  7 ) − P ( X  6 ) =\n(\n1 − e x p ( − ( 1 / 6 )  7\n)\n−\n(\n1 − e x p ( − ( 1 / 6 )  6\n)\n= 0 . 0 5 6\nc) Find a such that P(X  a) = 0.9.\na\nP(X  a) = exp(−(1/6)a) = 0.9, then − = ln(0.9) and a = 0.632\n6\n\n 3.2\n= = = 5.333\n+ 6\n 3.2(2.8)\n2 = = = 0.0356\n(+)2(++1) 627\nE(110X − 60) =110E(X ) − 60 = −1.333\nV(110X − 60) =1102V(X ) = 430.22"
+  },
+  {
+    "question_number": "4-226",
+    "raw": "Let X denote the survival time of AMI patients.\na) = 0.25(scale parameter); =1.16 (shape parameter)\n 1 \n= E(X) =1+  = 0.237\n \n\n \n2 = ( ) = 2 \n\n1 +\n2 \n− 2\n\n\n\n1 +\n1  \n2\n= 0 . 0 4 2   \n \nV X\nb) P ( X  1 ) = 1 − P ( X  1 ) = 1 − F ( 1 ) = 1 −\n\n1 − e x p\n\n−\n\n0\n1\n. 2 5\n\n1 .1 6  \n= 0 . 0 0 6 8\nc) Find a such that P ( X  a ) = 0 . 9 0\nP ( X  a ) = 1 − P ( X  a ) = 1 − F ( a ) = 1 −\n\n1 − e x p\n\n−\n\n0\na\n. 2 5\n\n1 .1 6  \n= 0 . 9 0\nThen, a = 0 . 0 3 6 .\nMind-Expanding Exercises"
+  },
+  {
+    "question_number": "4-227",
+    "raw": "a) P(X > x) implies that there are r - 1 or less counts in an interval of length x. Let Y denote the\nnumber of counts in an interval of length x. Then, Y is a Poisson random variable with mena E(Y)\n=  x . Then, P ( X  x ) = P ( Y  r − 1 ) =\nri −\n=\n1\n0\ne − x ( x\ni !\n) i   .\nb) P ( X  x ) = 1 −\nri −\n=\n1\n0\ne − x ( x\ni !\n) i  \nr−1\n(\nx\n)i\nr−1\n(\nx\n)i (\nx\n)r−1\nc) f (x) = d F (x) =e−x − e−xi =e−x\nX dx X\ni! i! (r −1)!\ni=0 i=0"
+  },
+  {
+    "question_number": "4-228",
+    "raw": "Let X denote the diameter of the maximum diameter bearing.\nThen, P(X > 1.6) = 1 - P ( X  1 . 6 ) .\nAlso, X 1.6 if and only if all the diameters are less than 1.6. Let Y denote the diameter of a\nbearing. Then, by independence\nP(X 1.6) =[P(Y 1.6)]10 =\n\nP(Z  1.6−1.5)\n10\n= 0.99996710 = 0.99967\n0.025\nThen, P(X > 1.6) = 0.0033."
+  },
+  {
+    "question_number": "4-229",
+    "raw": "a) Quality loss = Ek(X − m)2 = kE(X − m)2 = k2 , by the definition of the variance.\nb)\nQuality loss = Ek(X − m)2 = kE(X − + − m)2\n= kE[(X − )2 + (− m)2 + 2(− m)(X − )]\n= kE(X − )2 + k(− m)2 + 2k(− m)E(X − ).\nThe last term equals zero by the definition of the mean.\nTherefore, quality loss = k2 + k(− m)2 .\nLet X denote the event that an amplifier fails before 60,000 hours. Let A denote the event that an\namplifier mean is 20,000 hours. Then A' is the event that the mean of an amplifier is 50,000 hours.\nNow, P(E) = P(E|A)P(A) + P(E|A')P(A') and\nP ( E | A ) =\n6 0 , 0\n0\n0 0\n2 0\n1,\n0 0 0\ne − x / 2 0 , 0 0 0 d x = − e − x / 2 0 , 0 0 0\n6 0 , 0\n0\n0 0\n= 1 − e − 3 = 0 . 9 5 0 2\nP ( E | A ' ) = − e − x / 5 0 , 0 0 0\n6 0 , 0\n0\n0 0\n= 1 − e − 6 / 5 = 0 . 6 9 8 8 .\nTherefore, P(E) = 0.9502(0.10) + 0.6988(0.90) = 0.7239"
+  },
+  {
+    "question_number": "4-231",
+    "raw": "P ( X  t\n1\n+ t\n2\nX  t\n1\n) =\nP ( t1P \n(\nX\nX\n\n\nt1t1 +\n)\nt\n2\n)\nfrom the definition of conditional probability.\nNow,\nP\nP\n(\n(\nt\n1\nX\nX\nt\n1\n)\nt\n1\ne\nt\n2\n)\nx\nt1\nt1\nt1\ne\nt\n2\ne\nt1\nx d x e x\nt1\nt1\nt\n2\ne t1 e ( t1 t 2 )     \n \n\n\n\n= −\n+\n−\n=\n\n=\n+\n\n−\n− = − −\n+\n= − − − +\nTherefore, P ( X  t\n1\n+ t\n2\nX  t\n1\n) =\ne − t1 ( 1\ne −\n− e\nt1\n− t 2 )\n= 1 − e − t 2 = P ( X  t\n2\n)\n \n\n\n1\n0\n\n\n(\n(\n)\n+\n (\n)\n)\n− 1 ( 1 − ) − 1 = 1\n \n \n \nx x , then\n1\n0\n1 ( 1 ) 1\n(\n(\n) (\n)\n)  \n \n \n x − − x − =\n\n\n\n+\n1 1\n(+) (+)\n= E(X) =  x x−1(1− x)−1 =  x(1− x)−1\n()() ()()\n0 0\nSuppose  =+1, then\n         \n\n           \n=\n\n\n(\n(\n)\n+\n (\n)\n)\n\n\n(\n(\n )\n\n\n+\n(\n)\n)\n=\n\n\n(\n(\n)\n+\n (\n)\n) ( +\n (\n) \n) \n(\n(\n+\n)\n)\n=\n+\n2 =V(X ) = E(X 2) −\n\nE(X )\n2\n1 1\n(+) (+)\nE(X 2) =  x2 x−1(1− x)−1 =  x+1(1− x)−1\n()() ()()\n0 0\n\nSuppose  =+2, then\n(+) ()() (+) (+1)()() (+1)\nE(X 2) = = =\n()() (+) ()() (+)(++1)(+) (+)(++1)\n2\n(+1)    (+1)(+)−2(++1) \n2 = −  = =\n \n(+)(++1) + (+)2(++1) (+)2(++1)\n \nWe have used the property of the gamma function (r) = (r −1)(r −1) in this solution."
+  },
+  {
+    "question_number": "4-233",
+    "raw": "f (x) = exp(−(x −)),0  x,0  \na)    \n\n\n=\n\n x e x p ( − ( x − ) ) d x = +\n1\n2 2 e x p ( ( ) ) (\n1\n) 2 2\n2 2\n2\n(\n1\n) 2\n1\n2\n\n      \n    \n\n=\n\n x − x − d x − + = + + − + =\nb) (  +\n1\n) =\n+\n\n1\ne x p ( − ( − ) ) = − e x p ( ( − ) )\n+\n1\n= 1 − e x p ( − 1 )\n\n\n\n     \n \n\nP X x d x x = 0.632"
+  },
+  {
+    "question_number": "4-234",
+    "raw": "a) 1 − P (\n0\n− 6  X \n0\n+ 6 ) = 1 − P ( − 6  Z  6 ) = 1 . 9 7  1 0 − 9 = 0 . 0 0 1 9 7 p p m    \nb) 1 − P (\n0\n− 6  X \n0\n+ 6 ) = 1 − P ( − 7 . 5  X − ( 0 + 1 .5 )  4 . 5 ) = 3 . 4  1 0 − 6 = 3 . 4 p p m      \n\nc) 1 − P (\n0\n− 3  X \n0\n+ 3 ) = 1 − P ( − 3  Z  3 ) = . 0 0 2 7 = 2 , 7 0 0 p p m    \nd)\n1\n=\n−\n0\nP\n. 0\n(\n6 6\n0\n8\n−\n1\n3\n0 6 =\n\n6\nX\n6 , 8\n\n1 0\n0\n. 6\n+\np\n3\np m\n) = 1 − P ( − 4 . 5  X − ( 0 + 1 .5 )  1 . 5 )      \n\ne) If the process is centered six standard deviations away from the specification limits and\nthe process mean shifts even one or two standard deviations there would be minimal\nproduct produced outside of specifications. If the process is centered only three standard\ndeviations away from the specifications and the process shifts, there could be a substantial\namount of product outside of the specifications."
+  }
+]

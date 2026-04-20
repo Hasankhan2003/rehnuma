@@ -1,0 +1,352 @@
+[
+  {
+    "id": "discrete_rv_range_basic_ex_3_1",
+    "topic": "Chapter 3 - Discrete Random Variables",
+    "problem": "Digital bits are transmitted over a communication channel in packets of 1000 bits. Let X denote the number of bits in error in a transmitted packet. What is the range of X?",
+    "theory/description": "A discrete random variable X is a function that assigns a numerical value to each outcome in a sample space. The range of X (also called support or space) is the set of all possible values that X can assume. For counting problems, the range typically consists of non-negative integers from a minimum to a maximum value.",
+    "solution/explanation": "Given: Packet contains 1000 bits total.\n\nSince X represents the number of bits in error:\n- Minimum value: X = 0 (no bits in error - perfect transmission)\n- Maximum value: X = 1000 (all bits in error - complete corruption)\n\nThe range of X is the set of all non-negative integers from 0 to 1000:\nRange of X = {0, 1, 2, 3, ..., 999, 1000}\n\nThis can also be expressed as:\nRange of X = {x : x ∈ ℕ and 0 ≤ x ≤ 1000}\n\nInterpretation: X can take any integer value from 0 (best case) to 1000 (worst case), representing all possible numbers of bit errors in the packet.",
+    "animation_hint/metadata": {
+      "visual_focus": "Display a horizontal number line from 0 to 1000, with tick marks at key values (0, 250, 500, 750, 1000). Show a packet of 1000 bits as a grid, with individual bits highlighted to show error possibilities.",
+      "objects_to_animate": "NumberLine with range [0, 1000], grid of 1000 small squares representing bits, color changes showing errors (red for error, green for correct), text labels for min/max values",
+      "animation_style": "Create NumberLine and Grid objects. Animate random bits turning red with FadeToColor to illustrate errors. Use Indicate to highlight the range endpoints. Display MathTex showing the range notation.",
+      "color_coding": "Correct bits in GREEN, error bits in RED, number line in BLUE, range endpoints marked with YELLOW circles, explanatory text in WHITE",
+      "narration_summary": "The range of a discrete random variable represents all possible values it can take. For 1000 transmitted bits, the number of errors can range from 0 (perfect transmission) to 1000 (complete failure), giving us 1001 possible values."
+    }
+  },
+  {
+    "id": "pmf_calculations_basic_ex_3_16",
+    "topic": "Chapter 3 - Probability Mass Function",
+    "problem": "The probability mass function of a discrete random variable X is given by: P(X=0)=1/6+1/6=1/3, P(X=1.5)=1/3, P(X=2)=1/6, P(X=3)=1/6. Calculate: (a) P(X=1.5), (b) P(0.5<X<2.7), (c) P(X>3), (d) P(0≤X≤2), (e) P(X=0 or X=2).",
+    "theory/description": "The probability mass function (PMF) f(x) of a discrete random variable X specifies the probability that X takes each value in its range. For any valid PMF: (1) f(x) ≥ 0 for all x, and (2) Σf(x) = 1 over all possible values. Probabilities of events are calculated by summing the PMF over the relevant values.",
+    "solution/explanation": "Given PMF:\nf(0) = 1/3 = 0.3333\nf(1.5) = 1/3 = 0.3333\nf(2) = 1/6 = 0.1667\nf(3) = 1/6 = 0.1667\n\nVerification: Sum = 1/3 + 1/3 + 1/6 + 1/6 = 2/6 + 2/6 + 1/6 + 1/6 = 6/6 = 1 ✓\n\n(a) P(X = 1.5) = f(1.5) = 1/3 = 0.3333 or 33.33%\n\n(b) P(0.5 < X < 2.7)\n   Values in range (0.5, 2.7): X = 1.5 and X = 2\n   P(0.5 < X < 2.7) = P(X=1.5) + P(X=2)\n   = 1/3 + 1/6\n   = 2/6 + 1/6\n   = 3/6 = 1/2 = 0.5 or 50%\n\n(c) P(X > 3)\n   No values in the range satisfy X > 3\n   P(X > 3) = 0\n\n(d) P(0 ≤ X ≤ 2)\n   Values in range [0, 2]: X = 0, X = 1.5, X = 2\n   P(0 ≤ X ≤ 2) = P(X=0) + P(X=1.5) + P(X=2)\n   = 1/3 + 1/3 + 1/6\n   = 2/6 + 2/6 + 1/6\n   = 5/6 = 0.8333 or 83.33%\n\n(e) P(X = 0 or X = 2)\n   These are mutually exclusive events\n   P(X = 0 or X = 2) = P(X=0) + P(X=2)\n   = 1/3 + 1/6\n   = 2/6 + 1/6\n   = 3/6 = 1/2 = 0.5 or 50%",
+    "animation_hint/metadata": {
+      "visual_focus": "Create a bar chart showing the PMF with bars at x=0, 1.5, 2, 3. For each part, highlight the relevant bars and show the summation process.",
+      "objects_to_animate": "BarChart with 4 bars at heights 1/3, 1/3, 1/6, 1/6. Highlight bars change color for each calculation. Running sum display showing addition of probabilities. Formula boxes with MathTex.",
+      "animation_style": "Use BarChart with Create animation. For each part, use Indicate to highlight relevant bars, then Transform to show them combining. Display calculations with MathTex using Write animation. Use brackets to show interval ranges.",
+      "color_coding": "All bars initially BLUE, highlighted bars turn YELLOW during calculation, summed regions shaded GREEN with transparency, probability values in WHITE bold text, interval markers in RED",
+      "narration_summary": "Probability mass functions assign probabilities to individual values. To find P(a < X < b), we sum the probabilities of all values X takes within that interval. The PMF must satisfy two properties: all probabilities are non-negative, and they sum to exactly 1."
+    }
+  },
+  {
+    "id": "pmf_validation_symmetric_ex_3_17",
+    "topic": "Chapter 3 - Probability Mass Function",
+    "problem": "Verify that the following is a valid PMF: f(-2)=1/8, f(-1)=2/8, f(0)=2/8, f(1)=2/8, f(2)=1/8. Then calculate: (a) P(X≤2), (b) P(X>-2), (c) P(-1≤X≤1), (d) P(X≤-1 or X=2).",
+    "theory/description": "A function f(x) is a valid probability mass function if and only if: (1) f(x) ≥ 0 for all x in the range of X, and (2) Σf(x) = 1 summed over all possible values. These conditions ensure that probabilities are non-negative and represent a complete probability model. The distribution shown is symmetric around zero, which has important statistical implications.",
+    "solution/explanation": "Verification of validity:\n\nCondition 1: Check f(x) ≥ 0 for all x\nf(-2) = 1/8 = 0.125 ≥ 0 ✓\nf(-1) = 2/8 = 0.25 ≥ 0 ✓\nf(0) = 2/8 = 0.25 ≥ 0 ✓\nf(1) = 2/8 = 0.25 ≥ 0 ✓\nf(2) = 1/8 = 0.125 ≥ 0 ✓\n\nCondition 2: Check Σf(x) = 1\nΣf(x) = f(-2) + f(-1) + f(0) + f(1) + f(2)\n     = 1/8 + 2/8 + 2/8 + 2/8 + 1/8\n     = (1+2+2+2+1)/8\n     = 8/8 = 1 ✓\n\nBoth conditions satisfied → This IS a valid PMF.\n\nObservation: Distribution is symmetric around 0 (f(-x) = f(x)).\n\n(a) P(X ≤ 2) = f(-2) + f(-1) + f(0) + f(1) + f(2)\n             = 1/8 + 2/8 + 2/8 + 2/8 + 1/8\n             = 8/8 = 1 or 100%\n   (This must be 1 since X=2 is the maximum value)\n\n(b) P(X > -2) = f(-1) + f(0) + f(1) + f(2)\n              = 2/8 + 2/8 + 2/8 + 1/8\n              = 7/8 = 0.875 or 87.5%\n   Alternatively: P(X > -2) = 1 - P(X = -2) = 1 - 1/8 = 7/8\n\n(c) P(-1 ≤ X ≤ 1) = f(-1) + f(0) + f(1)\n                  = 2/8 + 2/8 + 2/8\n                  = 6/8 = 3/4 = 0.75 or 75%\n\n(d) P(X ≤ -1 or X = 2)\n   These events are mutually exclusive (disjoint)\n   P(X ≤ -1) = f(-2) + f(-1) = 1/8 + 2/8 = 3/8\n   P(X = 2) = f(2) = 1/8\n   P(X ≤ -1 or X = 2) = 3/8 + 1/8 = 4/8 = 1/2 = 0.5 or 50%",
+    "animation_hint/metadata": {
+      "visual_focus": "Start by displaying the two PMF validity conditions prominently. Show symmetric bar chart centered at zero with mirror-image heights. Highlight different regions for each probability calculation.",
+      "objects_to_animate": "Text boxes for validity conditions with checkmarks, symmetric BarChart with 5 bars, shaded regions for probability calculations, mathematical formulas showing summations, symmetry axis at x=0",
+      "animation_style": "Display conditions with MathTex. Create symmetric BarChart with bars appearing in pairs (from center outward). Use Polygon shading for probability regions. Animate checkmarks with Write. Show symmetry with DashedLine at x=0 and reflection animations.",
+      "color_coding": "PMF bars in BLUE with symmetric pattern, checkmarks in GREEN, shaded regions: P(X>-2) in LIGHT_RED, P(-1≤X≤1) in LIGHT_YELLOW, P(X≤-1 or X=2) split in LIGHT_PURPLE and LIGHT_ORANGE, symmetry axis in WHITE",
+      "narration_summary": "A valid PMF must have non-negative probabilities that sum to one. This particular distribution is perfectly symmetric around zero, meaning P(X=-k) = P(X=k) for all k. Such symmetry implies E(X)=0 and simplifies many calculations. The central region from -1 to 1 captures 75% of the probability mass."
+    }
+  },
+  {
+    "id": "binomial_distribution_basic_calculation_ex_3_94",
+    "topic": "Chapter 3 - Binomial Distribution",
+    "problem": "A binomial experiment consists of 10 trials with success probability p=0.5. Calculate: (a) P(X=5), (b) P(X≤2), (c) P(X≥9), (d) P(3≤X≤5).",
+    "theory/description": "The binomial distribution models the number of successes X in n independent trials, where each trial has exactly two outcomes (success/failure) with constant probability p of success. The probability mass function is P(X=x) = C(n,x)·p^x·(1-p)^(n-x) where C(n,x) = n!/(x!(n-x)!) is the binomial coefficient representing the number of ways to choose x successes from n trials. Key parameters: mean μ = np, variance σ² = np(1-p).",
+    "solution/explanation": "Given: n = 10 trials, p = 0.5 (success probability), q = 1-p = 0.5 (failure probability)\n\n(a) P(X = 5) = C(10,5)·(0.5)^5·(0.5)^5\n   \n   Calculate binomial coefficient:\n   C(10,5) = 10!/(5!·5!) = (10×9×8×7×6)/(5×4×3×2×1) = 30,240/120 = 252\n   \n   P(X=5) = 252·(0.5)^10\n          = 252·(1/1024)\n          = 252/1024\n          = 0.2461 or 24.61%\n\n(b) P(X ≤ 2) = P(X=0) + P(X=1) + P(X=2)\n   \n   P(X=0) = C(10,0)·(0.5)^0·(0.5)^10 = 1·1·(1/1024) = 1/1024\n   P(X=1) = C(10,1)·(0.5)^1·(0.5)^9 = 10·(0.5)^10 = 10/1024\n   P(X=2) = C(10,2)·(0.5)^2·(0.5)^8 = 45·(0.5)^10 = 45/1024\n   \n   P(X≤2) = (1 + 10 + 45)/1024 = 56/1024 = 0.0547 or 5.47%\n\n(c) P(X ≥ 9) = P(X=9) + P(X=10)\n   \n   P(X=9) = C(10,9)·(0.5)^9·(0.5)^1 = 10·(0.5)^10 = 10/1024\n   P(X=10) = C(10,10)·(0.5)^10·(0.5)^0 = 1·(0.5)^10 = 1/1024\n   \n   P(X≥9) = (10 + 1)/1024 = 11/1024 = 0.0107 or 1.07%\n\n(d) P(3 ≤ X ≤ 5) = P(X=3) + P(X=4) + P(X=5)\n   \n   C(10,3) = 10!/(3!·7!) = 120\n   C(10,4) = 10!/(4!·6!) = 210\n   C(10,5) = 252 (from part a)\n   \n   P(3≤X≤5) = (120 + 210 + 252)·(0.5)^10\n             = 582/1024\n             = 0.5684 or 56.84%\n\nNote: With n=10 and p=0.5, the distribution is perfectly symmetric around the mean μ=np=5.",
+    "animation_hint/metadata": {
+      "visual_focus": "Begin with Pascal's triangle showing binomial coefficients up to row 10. Display the bell-shaped binomial distribution as a bar chart for x=0 to 10. Highlight specific bars for point probabilities, and use cumulative shading for range probabilities.",
+      "objects_to_animate": "Pascal's triangle (animated row by row), BarChart showing full PMF P(X=x) for x=0...10, highlighted individual bars for exact probabilities, shaded regions for cumulative probabilities, formula display with binomial coefficient expansion, vertical line at mean μ=5",
+      "animation_style": "Use TriangularArray for Pascal's triangle with Create animation. Generate BarChart with bell shape. Use Indicate to highlight bars for specific x values. Use Polygon with transparency for cumulative regions. Display formulas with MathTex showing step-by-step coefficient calculation. Use Transform to show probability additions.",
+      "color_coding": "All PMF bars initially in BLUE, P(X=5) bar in YELLOW (peak), P(X≤2) region shaded LIGHT_RED (left tail), P(X≥9) region shaded LIGHT_GREEN (right tail), P(3≤X≤5) region shaded LIGHT_PURPLE (center), mean line at x=5 in RED dashed",
+      "narration_summary": "The binomial distribution with n=10 and p=0.5 is perfectly symmetric around the mean at 5 successes. The most likely outcome is exactly 5 successes with 24.61% probability. Extreme outcomes (0-2 or 9-10 successes) are rare, each occurring only about 5-6% of the time. The central region from 3 to 5 successes captures over half the probability mass at 56.84%."
+    }
+  },
+  {
+    "id": "mean_variance_discrete_uniform_ex_3_57",
+    "topic": "Chapter 3 - Mean and Variance",
+    "problem": "A discrete random variable X has the following PMF: f(0)=0.2, f(1)=0.2, f(2)=0.2, f(3)=0.2, f(4)=0.2. Calculate the mean E(X) and variance V(X).",
+    "theory/description": "For a discrete random variable with PMF f(x), the mean (expected value) is μ = E(X) = Σ[x·f(x)] summed over all possible values. This represents the long-run average value. The variance measures spread: V(X) = E(X²) - [E(X)]² = Σ[x²·f(x)] - μ². The standard deviation σ = √V(X) measures typical deviation from the mean. This particular distribution is the discrete uniform distribution on {0,1,2,3,4}.",
+    "solution/explanation": "Given PMF (discrete uniform distribution):\nf(0) = f(1) = f(2) = f(3) = f(4) = 0.2 = 1/5\n\nStep 1: Calculate mean E(X) = Σ[x·f(x)]\n\nE(X) = 0·f(0) + 1·f(1) + 2·f(2) + 3·f(3) + 4·f(4)\n     = 0(0.2) + 1(0.2) + 2(0.2) + 3(0.2) + 4(0.2)\n     = 0 + 0.2 + 0.4 + 0.6 + 0.8\n     = 2.0\n\nAlternatively, for uniform distribution on {0,1,2,3,4}:\nE(X) = (0+1+2+3+4)/5 = 10/5 = 2.0 ✓\n\nStep 2: Calculate E(X²) = Σ[x²·f(x)]\n\nE(X²) = 0²·f(0) + 1²·f(1) + 2²·f(2) + 3²·f(3) + 4²·f(4)\n      = 0²(0.2) + 1²(0.2) + 2²(0.2) + 3²(0.2) + 4²(0.2)\n      = 0 + 0.2 + 0.8 + 1.8 + 3.2\n      = 6.0\n\nStep 3: Calculate variance V(X) = E(X²) - [E(X)]²\n\nV(X) = 6.0 - (2.0)²\n     = 6.0 - 4.0\n     = 2.0\n\nStep 4: Standard deviation\n\nσ = √V(X) = √2.0 ≈ 1.414\n\nInterpretation:\n- Mean μ = 2.0: The balance point of the distribution, right at the center of {0,1,2,3,4}\n- Variance σ² = 2.0: Measures the spread around the mean\n- Standard deviation σ ≈ 1.414: Typical deviation from mean is about 1.4 units\n\nFor discrete uniform on {a, a+1, ..., b}:\n- Mean formula: E(X) = (a+b)/2 = (0+4)/2 = 2 ✓\n- Variance formula: V(X) = [(b-a+1)² - 1]/12 = [(4-0+1)² - 1]/12 = 24/12 = 2 ✓",
+    "animation_hint/metadata": {
+      "visual_focus": "Start with uniform-height bar chart showing equal probabilities (0.2) for x=0,1,2,3,4. Show the mean as a fulcrum/balance point at x=2. Illustrate variance by showing squared deviations from the mean for each value.",
+      "objects_to_animate": "BarChart with 5 equal bars at height 0.2, vertical dashed line at mean μ=2, horizontal arrows from each bar to mean showing deviations (x-μ), rectangles with areas proportional to (x-μ)²·f(x) for variance visualization, calculation boxes with running sums",
+      "animation_style": "Create uniform BarChart with all bars same height using Create. Add DashedLine at x=2 for mean. Animate GrowArrow for deviation arrows bidirectionally. Use Rectangle objects with areas showing variance contributions, Transform to accumulate them. Display MathTex formulas with step-by-step Write animation.",
+      "color_coding": "All 5 bars uniform TEAL to emphasize equality, mean line in RED, deviation arrows: left of mean in BLUE, right of mean in ORANGE, variance contribution rectangles in gradient PURPLE (darker = larger contribution), formula text in WHITE with results highlighted in YELLOW",
+      "narration_summary": "The discrete uniform distribution assigns equal probability to each value, creating perfect symmetry. The mean sits exactly at the center (2.0), equidistant from the extremes 0 and 4. The variance of 2.0 reflects how the values spread symmetrically around this center, with values 0 and 4 contributing most to the spread. This distribution maximizes uncertainty among its five equally-likely outcomes."
+    }
+  },
+  {
+    "id": "geometric_distribution_manufacturing_ex_3_118",
+    "topic": "Chapter 3 - Geometric Distribution",
+    "problem": "A manufacturing process produces conforming parts with probability p=0.2. What is the probability that the first conforming part appears on the fourth trial? What is the expected number of trials until the first success?",
+    "theory/description": "The geometric distribution models the number of trials X needed to obtain the first success in a sequence of independent Bernoulli trials with constant success probability p. The PMF is P(X=x) = (1-p)^(x-1)·p for x=1,2,3,... The mean is E(X) = 1/p and variance is V(X) = (1-p)/p². The geometric distribution has the memoryless property: P(X>m+n | X>m) = P(X>n), meaning past failures don't affect future probabilities.",
+    "solution/explanation": "Given: Success probability p = 0.2, failure probability (1-p) = 0.8\n\n(a) Probability first success occurs on 4th trial:\n\n   P(X=4) means: Fail on trials 1, 2, 3, then succeed on trial 4\n   \n   P(X=4) = (1-p)^(4-1)·p\n          = (0.8)^3·(0.2)\n          = 0.512·0.2\n          = 0.1024 or 10.24%\n   \n   Interpretation: About 10.24% chance that exactly 4 trials are needed.\n\n(b) Expected number of trials:\n\n   E(X) = 1/p\n        = 1/0.2\n        = 5 trials\n   \n   On average, we expect to test 5 parts before finding the first conforming one.\n\n(c) Variance (additional calculation):\n\n   V(X) = (1-p)/p²\n        = 0.8/(0.2)²\n        = 0.8/0.04\n        = 20\n   \n   Standard deviation: σ = √20 ≈ 4.47 trials\n\n(d) Probability that at most 3 trials are needed:\n\n   P(X≤3) = P(X=1) + P(X=2) + P(X=3)\n   \n   P(X=1) = (0.8)^0·0.2 = 0.2\n   P(X=2) = (0.8)^1·0.2 = 0.16\n   P(X=3) = (0.8)^2·0.2 = 0.128\n   \n   P(X≤3) = 0.2 + 0.16 + 0.128 = 0.488 or 48.8%\n   \n   Alternatively using complement:\n   P(X≤3) = 1 - P(X>3) = 1 - (1-p)^3 = 1 - (0.8)^3 = 1 - 0.512 = 0.488 ✓\n\nMemoryless Property Example:\nIf 3 trials have already failed, the probability of success on the next trial is still p=0.2, not affected by previous failures.",
+    "animation_hint/metadata": {
+      "visual_focus": "Show a sequence of trial outcomes (Success/Failure) building horizontally. Display the geometric decay pattern in the PMF as an exponentially decreasing bar chart. Emphasize how probability decreases as x increases.",
+      "objects_to_animate": "Sequential boxes showing trial outcomes (F F F S for X=4), exponentially decaying BarChart for PMF showing P(X=x) for x=1 to 15, horizontal line at E(X)=5 marking the mean, formula display showing geometric PMF structure, decay curve overlay on bar chart",
+      "animation_style": "Create boxes with Text labels (F for Failure in RED, S for Success in GREEN) appearing sequentially with Write animation. Generate BarChart with exponentially decreasing heights using Create. Add DashedLine for mean. Use MathTex to display P(X=x)=(0.8)^(x-1)·0.2 formula. Animate Transform showing decay pattern approaching zero.",
+      "color_coding": "Failed trials in RED boxes, successful trial in GREEN box, PMF bars in BLUE with gradient (darker for higher probabilities), mean line at x=5 in ORANGE, probability values in WHITE, decay curve overlay in YELLOW dashed line",
+      "narration_summary": "The geometric distribution models waiting time until first success. With 20% success rate, we expect to wait 5 trials on average. The probability decays exponentially - the first trial has 20% success chance, but waiting until the 10th trial has only about 2.68% probability. The memoryless property means each trial is independent, with the same 20% success probability regardless of past failures."
+    }
+  },
+  {
+    "id": "poisson_distribution_calls_ex_3_92",
+    "topic": "Chapter 3 - Poisson Distribution",
+    "problem": "Calls arrive at a customer service center at an average rate of λ=10 calls per hour. Assuming a Poisson process, find: (a) P(X=5) in one hour, (b) P(X≤3) in one hour, (c) P(X=15) in two hours.",
+    "theory/description": "The Poisson distribution models the number of rare events X occurring in a fixed interval when events occur independently at a constant average rate λ. The PMF is P(X=x) = (e^(-λ)·λ^x)/x! for x=0,1,2,... The mean equals the variance: E(X) = V(X) = λ. For an interval of length t with rate λ per unit time, use parameter λt. The Poisson distribution approximates the binomial when n is large and p is small (np≈λ constant).",
+    "solution/explanation": "Given: Average rate λ = 10 calls per hour\n\n(a) Probability of exactly 5 calls in one hour (λ=10):\n\n   P(X=5) = (e^(-10)·10^5)/5!\n   \n   Calculate components:\n   e^(-10) ≈ 0.0000454 (very small because λ is large)\n   10^5 = 100,000\n   5! = 5×4×3×2×1 = 120\n   \n   P(X=5) = (0.0000454 × 100,000)/120\n          = 4.54/120\n          = 0.0378 or 3.78%\n   \n   Only 3.78% chance of exactly 5 calls when average is 10.\n\n(b) Probability of at most 3 calls in one hour:\n\n   P(X≤3) = P(X=0) + P(X=1) + P(X=2) + P(X=3)\n   \n   Using P(X=x) = (e^(-10)·10^x)/x!:\n   \n   P(X=0) = e^(-10)·10^0/0! = e^(-10)·1/1 = 0.0000454\n   P(X=1) = e^(-10)·10^1/1! = e^(-10)·10/1 = 0.000454\n   P(X=2) = e^(-10)·10^2/2! = e^(-10)·100/2 = 0.00227\n   P(X=3) = e^(-10)·10^3/6 = e^(-10)·1000/6 = 0.00757\n   \n   P(X≤3) = e^(-10)[1 + 10 + 50 + 166.67]\n          = e^(-10)·227.67\n          = 0.0000454 × 227.67\n          = 0.0103 or 1.03%\n   \n   Very unlikely to have 3 or fewer calls when average is 10.\n\n(c) Probability of exactly 15 calls in TWO hours:\n\n   For 2-hour interval: λ_new = 10 calls/hour × 2 hours = 20 calls\n   \n   P(X=15) with λ=20:\n   \n   P(X=15) = (e^(-20)·20^15)/15!\n   \n   Calculate:\n   e^(-20) ≈ 2.06 × 10^(-9)\n   20^15 ≈ 3.28 × 10^19\n   15! = 1,307,674,368,000\n   \n   P(X=15) = (2.06×10^(-9) × 3.28×10^19)/1,307,674,368,000\n           ≈ 0.0516 or 5.16%\n   \n   Note: 15 is closer to the new mean of 20, so probability is higher than in part (a).\n\nKey Insight: Mean = Variance = λ\nFor λ=10: E(X) = V(X) = 10, so σ = √10 ≈ 3.16 calls\nFor λ=20: E(X) = V(X) = 20, so σ = √20 ≈ 4.47 calls",
+    "animation_hint/metadata": {
+      "visual_focus": "Display a timeline showing random call arrivals as dots. Show the Poisson PMF as a bar chart that approximates a bell curve for large λ. Illustrate how the distribution shifts and spreads when λ changes from 10 to 20.",
+      "objects_to_animate": "NumberLine timeline (0 to 60 minutes) with random dots for arrivals, BarChart for Poisson PMF (x=0 to 25), bell-curve overlay showing normal approximation, side-by-side comparison of λ=10 vs λ=20 distributions, formula box showing PMF calculation steps, highlighted bars for specific probabilities",
+      "animation_style": "Create NumberLine with staggered dot arrivals using FadeIn. Generate BarChart with Poisson shape (right-skewed for λ=10, more symmetric for λ=20). Use Create for bars, Indicate for highlighted probabilities. Display MathTex formulas with color-coded terms. Transform distribution from λ=10 to λ=20 showing shift and spread.",
+      "color_coding": "Call arrival dots in YELLOW, PMF bars in PURPLE with gradient (peak in darkest purple), bell curve overlay in CYAN dashed line, highlighted bars (X=5, X=15) in GREEN, mean lines (λ=10, λ=20) in RED vertical dashed, formula terms: e^(-λ) in RED, λ^x in BLUE, x! in ORANGE",
+      "narration_summary": "The Poisson distribution models random rare events over time. With an average of 10 calls per hour, getting exactly 5 calls is relatively rare at 3.78%, while getting 3 or fewer is very unusual at 1.03% (well below the mean). When we double the time window to 2 hours, the mean doubles to 20 calls, and getting 15 calls becomes more likely at 5.16% since it's closer to the new expected value. The Poisson property that mean equals variance means the distribution spreads more as λ increases."
+    }
+  },
+  {
+    "id": "exponential_distribution_basic_ex_4_1",
+    "topic": "Chapter 4 - Exponential Distribution",
+    "problem": "Let X be an exponential random variable with f(x) = e^(-x) for x≥0. Calculate: (a) P(X≥1), (b) P(1≤X≤2.5), (c) P(X=3), (d) P(X≤4).",
+    "theory/description": "The exponential distribution models waiting times between events in a Poisson process. The PDF is f(x) = λe^(-λx) for x≥0, where λ is the rate parameter. The CDF is F(x) = 1 - e^(-λx). Mean: E(X) = 1/λ, Variance: V(X) = 1/λ². The exponential distribution has the memoryless property: P(X>s+t | X>s) = P(X>t). In this problem, λ=1.",
+    "solution/explanation": "Given: f(x) = e^(-x) for x ≥ 0 (exponential with λ=1)\n\n(a) P(X ≥ 1) = ∫[1 to ∞] e^(-x) dx\n   \n   Evaluate integral:\n   ∫ e^(-x) dx = -e^(-x) + C\n   \n   P(X≥1) = [-e^(-x)]₁^∞\n          = lim[x→∞](-e^(-x)) - (-e^(-1))\n          = 0 - (-e^(-1))\n          = e^(-1)\n          = 1/e\n          ≈ 0.3679 or 36.79%\n\n(b) P(1 ≤ X ≤ 2.5) = ∫[1 to 2.5] e^(-x) dx\n   \n   P(1≤X≤2.5) = [-e^(-x)]₁^2.5\n              = -e^(-2.5) - (-e^(-1))\n              = e^(-1) - e^(-2.5)\n              ≈ 0.3679 - 0.0821\n              = 0.2858 or 28.58%\n\n(c) P(X = 3) for continuous random variable:\n   \n   For ANY continuous distribution:\n   P(X = c) = ∫[c to c] f(x) dx = 0\n   \n   P(X=3) = 0\n   \n   The probability of any single point is zero for continuous RVs.\n\n(d) P(X ≤ 4) = ∫[0 to 4] e^(-x) dx\n   \n   P(X≤4) = [-e^(-x)]₀^4\n          = -e^(-4) - (-e^0)\n          = -e^(-4) + 1\n          = 1 - e^(-4)\n          ≈ 1 - 0.0183\n          = 0.9817 or 98.17%\n   \n   Using CDF: F(4) = 1 - e^(-4) = 0.9817 ✓\n\nAdditional Properties:\n- Mean: E(X) = 1/λ = 1/1 = 1\n- Variance: V(X) = 1/λ² = 1/1² = 1\n- Median: Solve F(m) = 0.5 → m = -ln(0.5) = ln(2) ≈ 0.693\n- Memoryless: P(X>3 | X>1) = P(X>2) = e^(-2)",
+    "animation_hint/metadata": {
+      "visual_focus": "Display the exponential decay curve f(x)=e^(-x) from x=0 extending rightward. Show shaded regions under the curve for each probability calculation. Emphasize the rapid decay for large x values.",
+      "objects_to_animate": "Axes with exponential decay curve, shaded regions (Polygon) under curve for different intervals, vertical lines at x=1, 2.5, 4, horizontal asymptote at y=0, formula boxes showing integral setup and evaluation, decay rate visualization",
+      "animation_style": "Create Axes and plot exponential function with Create. Use FillBetween or Polygon with transparency for probability regions. Animate vertical lines with GrowFromEdge. Display integrals with MathTex using Write, then Transform to show evaluated results. Use Indicate to highlight interval bounds.",
+      "color_coding": "Exponential curve in BLUE, shaded region for P(X≥1) in LIGHT_RED, P(1≤X≤2.5) in LIGHT_GREEN, P(X≤4) in LIGHT_YELLOW with high transparency, vertical markers in RED, asymptote in WHITE dashed, integral notation in WHITE with limits in ORANGE",
+      "narration_summary": "The exponential distribution models waiting times with a characteristic decay pattern. About 36.79% of values exceed 1, but almost 98.17% are less than 4, showing the long right tail. For continuous distributions, point probabilities P(X=c) are always zero - only intervals have positive probability. The exponential's memoryless property means past waiting doesn't affect future expectations, making it ideal for modeling random arrivals."
+    }
+  },
+  {
+    "id": "uniform_distribution_basic_ex_4_50",
+    "topic": "Chapter 4 - Continuous Uniform Distribution",
+    "problem": "X is uniformly distributed on the interval [1.5, 5.5]. Calculate: (a) E(X) and V(X), (b) P(X≤2.5), (c) the cumulative distribution function F(x).",
+    "theory/description": "The continuous uniform distribution represents complete uncertainty over an interval [a,b]. The PDF is f(x) = 1/(b-a) for a≤x≤b and 0 elsewhere. All intervals of equal length have equal probability. Mean: E(X) = (a+b)/2, Variance: V(X) = (b-a)²/12. The CDF increases linearly from 0 to 1 over [a,b].",
+    "solution/explanation": "Given: X ~ Uniform[1.5, 5.5]\nParameters: a = 1.5, b = 5.5, interval length = b - a = 4\nPDF: f(x) = 1/4 = 0.25 for 1.5 ≤ x ≤ 5.5\n\n(a) Mean and Variance:\n\n   Mean (expected value):\n   E(X) = (a + b)/2\n        = (1.5 + 5.5)/2\n        = 7/2\n        = 3.5\n   \n   The mean is exactly at the center of the interval, by symmetry.\n   \n   Variance:\n   V(X) = (b - a)²/12\n        = (5.5 - 1.5)²/12\n        = 4²/12\n        = 16/12\n        = 4/3\n        ≈ 1.333\n   \n   Standard deviation:\n   σ = √(4/3) = 2/√3 ≈ 1.155\n\n(b) P(X ≤ 2.5):\n\n   For uniform distribution:\n   P(X ≤ 2.5) = ∫[1.5 to 2.5] (1/4) dx\n              = (1/4)·x |₁.₅^2.5\n              = (1/4)·(2.5 - 1.5)\n              = (1/4)·1\n              = 1/4\n              = 0.25 or 25%\n   \n   Alternatively: (2.5 - 1.5)/(5.5 - 1.5) = 1/4 ✓\n\n(c) Cumulative Distribution Function F(x):\n\n   For x < 1.5:  F(x) = 0\n   \n   For 1.5 ≤ x ≤ 5.5:\n   F(x) = ∫[1.5 to x] (1/4) dt\n        = (1/4)·t |₁.₅^x\n        = (1/4)·(x - 1.5)\n        = 0.25x - 0.375\n   \n   For x > 5.5:  F(x) = 1\n   \n   Complete CDF:\n   \n          ⎧ 0                 , x < 1.5\n   F(x) = ⎨ 0.25x - 0.375     , 1.5 ≤ x ≤ 5.5\n          ⎩ 1                 , x > 5.5\n   \n   Verification:\n   F(1.5) = 0.25(1.5) - 0.375 = 0.375 - 0.375 = 0 ✓\n   F(5.5) = 0.25(5.5) - 0.375 = 1.375 - 0.375 = 1 ✓\n   F(3.5) = 0.25(3.5) - 0.375 = 0.875 - 0.375 = 0.5 ✓ (median at center)",
+    "animation_hint/metadata": {
+      "visual_focus": "Display the uniform PDF as a flat horizontal line at height 1/4 from x=1.5 to x=5.5. Show the CDF as a linear ramp from 0 to 1. Emphasize the perfect symmetry around the center at x=3.5.",
+      "objects_to_animate": "Two panels: (1) PDF showing flat line with shaded probability regions, (2) CDF showing linear increase. Vertical lines at a=1.5, center=3.5, b=5.5. Mean marker at x=3.5. Formula boxes for E(X) and V(X) calculations.",
+      "animation_style": "Create split screen with Axes for PDF (top) and CDF (bottom). Draw PDF as horizontal Line at y=0.25 with Create. Draw CDF as diagonal Line with Create showing linear growth. Use Rectangle for shaded probability region. Add vertical DashedLine at mean. Display formulas with MathTex, highlighting symmetry.",
+      "color_coding": "PDF flat line in BLUE, shaded P(X≤2.5) region in LIGHT_GREEN, CDF ramp in RED, vertical lines at boundaries in ORANGE, mean marker at x=3.5 in YELLOW with star, formula results in WHITE bold, symmetry axis in WHITE dashed",
+      "narration_summary": "The uniform distribution represents complete uncertainty - all intervals of equal length have equal probability. The PDF is a flat horizontal line, and the CDF increases linearly from 0 to 1. The mean of 3.5 sits exactly at the center, and the variance of 1.333 measures the spread over the 4-unit interval. Any quarter of the interval (like 1.5 to 2.5) contains exactly 25% of the probability, demonstrating perfect proportionality."
+    }
+  },
+  {
+    "id": "discrete_rv_range_bits_ex_3_1",
+    "topic": "Chapter 3 - Discrete Random Variables: Range",
+    "problem": "Digital bits are transmitted over a communication channel in packets of 1000 bits. Let X denote the number of bits in error. What is the range of X?",
+    "theory/description": "The range (or support) of a discrete random variable is the set of all possible values it can assume. For counting variables, this is typically a finite or countably infinite set of non-negative integers.",
+    "solution/explanation": "Given: 1000-bit packet\n\nX = number of bits in error\n\nMinimum: X = 0 (no errors, perfect transmission)\nMaximum: X = 1000 (all bits corrupted)\n\nRange of X = {0, 1, 2, 3, ..., 1000}\n\nAlternatively:\nR_X = {x : x ∈ ℕ₀ and 0 ≤ x ≤ 1000}\n\nInterpretation: Every non-negative integer from 0 to 1000 is a possible error count.",
+    "animation_hint/metadata": {
+      "visual_focus": "Number line from 0 to 1000 with marked intervals",
+      "objects_to_animate": "NumberLine, dots at key values (0, 250, 500, 750, 1000), packet visualization as grid of 1000 bits",
+      "animation_style": "Create NumberLine with range markers. Show bit grid with random errors appearing. Use Indicate for endpoints.",
+      "color_coding": "Correct bits GREEN, error bits RED, number line BLUE, range bounds YELLOW circles",
+      "narration_summary": "For 1000 transmitted bits, errors can range from 0 (perfect) to 1000 (complete failure), giving 1001 possible values."
+    }
+  },
+  {
+    "id": "discrete_rv_range_defects_ex_3_4",
+    "topic": "Chapter 3 - Discrete Random Variables: Range",
+    "problem": "A box contains 5 manufactured parts, each either conforming or defective. Let X denote the number of defective parts. What is the range of X?",
+    "theory/description": "For discrete RVs counting defects or successes in a fixed finite population, the range extends from 0 (none defective) to n (all defective), where n is the total count.",
+    "solution/explanation": "Given: 5 parts total\n\nX = number of defective parts\n\nMinimum: X = 0 (all conforming)\nMaximum: X = 5 (all defective)\n\nRange of X = {0, 1, 2, 3, 4, 5}\n\n|R_X| = 6 distinct values\n\nNote: Even though there are only 5 parts, the range has 6 elements (including 0).\n\nInterpretation: Any count from 0 to 5 defective parts is physically possible.",
+    "animation_hint/metadata": {
+      "visual_focus": "Five boxes representing parts, each toggleable between conforming/defective states",
+      "objects_to_animate": "5 Rectangle objects, checkmark/X symbols, counter display, all possible configurations",
+      "animation_style": "Create row of 5 boxes. Transform symbols between ✓ and ✗. Use Counter to track defects. Indicate each value 0-5.",
+      "color_coding": "Conforming parts GREEN ✓, defective parts RED ✗, counter YELLOW, range display BLUE",
+      "narration_summary": "With 5 parts, defect count ranges from 0 to 5, yielding 6 possible values. Both endpoints represent extreme cases."
+    }
+  },
+  {
+    "id": "discrete_rv_range_sampling_ex_3_5",
+    "topic": "Chapter 3 - Discrete Random Variables: Range",
+    "problem": "A lot has 490 conforming and 10 nonconforming parts. Parts are selected randomly without replacement until a nonconforming part is found. Let X = number selected. What is the range of X?",
+    "theory/description": "For geometric-type problems with finite population (sampling without replacement), the range extends from 1 (immediate success) to n+1 where n is the number of non-target items, since after removing all non-target items, a target must be next.",
+    "solution/explanation": "Given:\n- 490 conforming parts\n- 10 nonconforming parts\n- Total: 500 parts\n- Sampling WITHOUT replacement\n- X = selections until first nonconforming (inclusive)\n\nMinimum: X = 1\n(First part selected is nonconforming)\n\nMaximum: X = 491\nWorst case: Draw all 490 conforming parts first, then must draw a nonconforming part on the 491st selection\n\nRange of X = {1, 2, 3, ..., 491}\n\nKey insight: Cannot exceed 491 because:\n- After 490 conforming parts removed, only 10 nonconforming remain\n- Next draw (491st) must be nonconforming\n- Process stops at first nonconforming part\n\nDifference from with-replacement: Finite range (not infinite).",
+    "animation_hint/metadata": {
+      "visual_focus": "Large collection of 500 items (490 green, 10 red), sequential selection process",
+      "objects_to_animate": "Grid of 500 circles, selection pointer, running counter, min/max scenario displays",
+      "animation_style": "Create 500 Circle objects. Animate sequential selection with FadeOut. Show parallel scenarios: lucky (X=1) and worst (X=491). NumberLine with Indicate.",
+      "color_coding": "Conforming GREEN circles, nonconforming RED circles, selected items fade to GRAY, counter YELLOW, endpoints ORANGE",
+      "narration_summary": "Sampling without replacement creates finite range. Minimum is 1 (lucky first draw). Maximum is 491 (all 490 conforming must be removed first)."
+    }
+  },
+  {
+    "id": "pmf_calculations_four_values_ex_3_16",
+    "topic": "Chapter 3 - Probability Mass Function",
+    "problem": "X has PMF with f(0)=1/3, f(1.5)=1/3, f(2)=1/6, f(3)=1/6. Calculate: (a) P(X≤1), (b) P(0.5<X<2.5), (c) P(X>3), (d) P(0≤X<2).",
+    "theory/description": "A PMF f(x) assigns probabilities to each value in a discrete RV's range. Key properties: (1) f(x)≥0 for all x, (2) Σf(x)=1. Probabilities of events are found by summing f(x) over relevant values.",
+    "solution/explanation": "Given PMF:\nf(0) = 1/3\nf(1.5) = 1/3\nf(2) = 1/6\nf(3) = 1/6\n\nVerify valid: Σf(x) = 1/3 + 1/3 + 1/6 + 1/6 = 2/6 + 2/6 + 1/6 + 1/6 = 6/6 = 1 ✓\n\n(a) P(X ≤ 1) = P(X = 0)\n   Only value ≤ 1 in range is 0\n   = f(0) = 1/3 ≈ 0.3333\n\n(b) P(0.5 < X < 2.5)\n   Values in open interval (0.5, 2.5): {1.5, 2}\n   = f(1.5) + f(2)\n   = 1/3 + 1/6\n   = 2/6 + 1/6 = 3/6 = 1/2 = 0.5\n\n(c) P(X > 3) = 0\n   No values in range exceed 3\n   Range max is 3, strict inequality excludes it\n\n(d) P(0 ≤ X < 2)\n   Values in [0, 2): {0, 1.5}\n   = f(0) + f(1.5)\n   = 1/3 + 1/3 = 2/3 ≈ 0.6667",
+    "animation_hint/metadata": {
+      "visual_focus": "Bar chart with 4 bars at x=0, 1.5, 2, 3 showing PMF values",
+      "objects_to_animate": "BarChart with heights 1/3, 1/3, 1/6, 1/6, interval shading for each part",
+      "animation_style": "Create BarChart. Use colored Polygon regions to show intervals for each calculation. Indicate relevant bars with pulses.",
+      "color_coding": "Bars BLUE, (a) region LIGHT_RED, (b) region LIGHT_GREEN, (d) region LIGHT_PURPLE, calculations WHITE text",
+      "narration_summary": "This PMF assigns equal probability (1/3) to 0 and 1.5, then smaller probabilities (1/6) to 2 and 3. Interval probabilities are sums of included point probabilities."
+    }
+  },
+  {
+    "id": "pmf_symmetric_validation_ex_3_17",
+    "topic": "Chapter 3 - Probability Mass Function",
+    "problem": "A PMF has f(0)=0.1, f(1)=0.2, f(2)=0.3, f(3)=0.2, f(4)=0.1, f(5)=0.1. Is this valid? Calculate P(1<X<4).",
+    "theory/description": "PMF validation requires checking: (1) Non-negativity: f(x)≥0 for all x, (2) Normalization: Σf(x)=1. Symmetric PMFs have equal probabilities at equidistant points from center.",
+    "solution/explanation": "Given:\nf(0) = 0.1\nf(1) = 0.2\nf(2) = 0.3\nf(3) = 0.2\nf(4) = 0.1\nf(5) = 0.1\n\nValidation:\n\nCondition 1: Non-negativity\nAll values ≥ 0 ✓\n\nCondition 2: Sum to 1\nΣf(x) = 0.1 + 0.2 + 0.3 + 0.2 + 0.1 + 0.1\n      = 1.0 ✓\n\nValid PMF confirmed.\n\nNote: Nearly symmetric pattern:\nf(0)=0.1, f(4)=0.1 (equal)\nf(1)=0.2, f(3)=0.2 (equal)\nf(2)=0.3 (center peak)\nf(5)=0.1 (breaks perfect symmetry)\n\nCalculate P(1 < X < 4):\nValues in open interval (1, 4): {2, 3}\nP(1 < X < 4) = f(2) + f(3)\n             = 0.3 + 0.2\n             = 0.5\n\nInterpretation: 50% probability mass lies strictly between 1 and 4.",
+    "animation_hint/metadata": {
+      "visual_focus": "Bar chart showing nearly-symmetric distribution with peak at center",
+      "objects_to_animate": "BarChart with 6 bars, symmetry lines, validation checkmarks, interval highlighting",
+      "animation_style": "Create BarChart. Draw DashedLine at center (x=2.5). Use Indicate to highlight symmetric pairs. Shade interval (1,4).",
+      "color_coding": "Bars BLUE gradient, center bar YELLOW, symmetric pairs same color, interval (1,4) LIGHT_GREEN shade, checkmarks GREEN",
+      "narration_summary": "This nearly-symmetric PMF peaks at x=2 with 30% probability. The symmetric pairs (0,4) and (1,3) each have equal probabilities."
+    }
+  },
+  {
+    "id": "pmf_increasing_linear_ex_3_19",
+    "topic": "Chapter 3 - Probability Mass Function",
+    "problem": "X has PMF: f(0)=1/25, f(1)=3/25, f(2)=5/25, f(3)=7/25, f(4)=9/25. Calculate: (a) P(X=4), (b) P(X≤1), (c) P(2≤X<4), (d) P(X>-10).",
+    "theory/description": "Some PMFs follow patterns like arithmetic progressions where probabilities increase/decrease linearly. Recognition of patterns can simplify calculations and provide distribution insights.",
+    "solution/explanation": "Given PMF (note arithmetic progression):\nf(0) = 1/25 = 0.04\nf(1) = 3/25 = 0.12\nf(2) = 5/25 = 0.20\nf(3) = 7/25 = 0.28\nf(4) = 9/25 = 0.36\n\nPattern: f(x) = (2x+1)/25 for x ∈ {0,1,2,3,4}\nIncrement: Δf = 2/25 = 0.08 between consecutive values\n\nVerify valid:\nΣf(x) = (1+3+5+7+9)/25 = 25/25 = 1 ✓\n\n(a) P(X = 4) = f(4) = 9/25 = 0.36 or 36%\n   Highest probability (mode at x=4)\n\n(b) P(X ≤ 1) = P(X=0) + P(X=1)\n             = 1/25 + 3/25\n             = 4/25 = 0.16 or 16%\n\n(c) P(2 ≤ X < 4)\n   Values in [2, 4): {2, 3}\n   = f(2) + f(3)\n   = 5/25 + 7/25\n   = 12/25 = 0.48 or 48%\n\n(d) P(X > -10)\n   All values in range exceed -10\n   = f(0) + f(1) + f(2) + f(3) + f(4)\n   = 1.0 or 100%\n   \nKey insight: Distribution skewed right (higher probabilities for larger values).",
+    "animation_hint/metadata": {
+      "visual_focus": "Increasing bar chart showing linear growth, with arrows indicating constant increments",
+      "objects_to_animate": "BarChart with linearly increasing heights, arrows showing Δ=2/25 between bars, formula display",
+      "animation_style": "Create BarChart. Animate GrowArrow showing increments. Display MathTex: f(x)=(2x+1)/25. Use Indicate for specific calculations.",
+      "color_coding": "Bars BLUE (intensity increases with height), increment arrows GREEN, mode (x=4) YELLOW highlight, formula WHITE on BLACK",
+      "narration_summary": "This PMF exhibits perfect linear growth - each probability is 0.08 higher than previous. Mode at x=4 (36%). Distribution right-skewed."
+    }
+  },
+  {
+    "id": "pmf_discrete_probabilities_ex_3_18",
+    "topic": "Chapter 3 - Probability Mass Function",
+    "problem": "X has f(1)=0.5714, f(2)=0.2857, f(3)=0.1429. Calculate: (a) P(X≤1), (b) P(X>1), (c) P(2<X<6), (d) P(X≤1 or X>1).",
+    "theory/description": "For discrete RVs, events partition the sample space. Complementary events satisfy P(A) + P(Aᶜ) = 1. Union of exhaustive disjoint events equals 1.",
+    "solution/explanation": "Given (note: 0.5714≈4/7, 0.2857≈2/7, 0.1429≈1/7):\nf(1) = 0.5714\nf(2) = 0.2857\nf(3) = 0.1429\n\nVerify: 0.5714 + 0.2857 + 0.1429 = 1.0000 ✓\n\n(a) P(X ≤ 1)\n   = P(X = 1)  [since min value is 1]\n   = 0.5714\n   ≈ 57.14%\n\n(b) P(X > 1)\n   = P(X=2) + P(X=3)\n   = 0.2857 + 0.1429\n   = 0.4286\n   ≈ 42.86%\n   \n   Alternative (complement):\n   P(X > 1) = 1 - P(X ≤ 1)\n            = 1 - 0.5714\n            = 0.4286 ✓\n\n(c) P(2 < X < 6)\n   Values in (2, 6): only X = 3\n   = f(3) = 0.1429\n   ≈ 14.29%\n\n(d) P(X ≤ 1 or X > 1)\n   These events partition entire space\n   Every outcome is either ≤1 or >1\n   = P(X=1) + P(X=2) + P(X=3)\n   = 1.0 or 100%\n   \n   Must equal 1 by total probability theorem.",
+    "animation_hint/metadata": {
+      "visual_focus": "Bar chart with 3 decreasing bars, partition diagram showing X≤1 and X>1",
+      "objects_to_animate": "BarChart (3 bars), partition visualization with colored regions, Venn-like diagram for part (d)",
+      "animation_style": "Create BarChart. Show partition with Rectangle regions. Use different colors for {X≤1} and {X>1}. Indicate union for part (d).",
+      "color_coding": "Bars BLUE, P(X≤1) region LIGHT_RED, P(X>1) region LIGHT_GREEN, partition boundary DASHED WHITE, union regions combined",
+      "narration_summary": "Over half the probability (57%) concentrates at X=1. The events {X≤1} and {X>1} partition the sample space, so their probabilities sum to 1."
+    }
+  },
+  {
+    "id": "pmf_nonnegative_support_ex_3_20",
+    "topic": "Chapter 3 - Probability Mass Function",
+    "problem": "For X with range {2,3,4} and f(2)=0.3, f(3)=0.5, f(4)=0.2, find: (a) P(X<3.5), (b) P(X≥3), (c) P(2<X≤4).",
+    "theory/description": "PMF probabilities are point masses at discrete values. For inequalities, identify which discrete points satisfy the condition, then sum their probabilities.",
+    "solution/explanation": "Given:\nRange: {2, 3, 4}\nf(2) = 0.3\nf(3) = 0.5\nf(4) = 0.2\n\nVerify: 0.3 + 0.5 + 0.2 = 1.0 ✓\n\n(a) P(X < 3.5)\n   Values less than 3.5: {2, 3}\n   = f(2) + f(3)\n   = 0.3 + 0.5\n   = 0.8 or 80%\n\n(b) P(X ≥ 3)\n   Values ≥ 3: {3, 4}\n   = f(3) + f(4)\n   = 0.5 + 0.2\n   = 0.7 or 70%\n   \n   Alternative:\n   P(X ≥ 3) = 1 - P(X < 3)\n            = 1 - f(2)\n            = 1 - 0.3 = 0.7 ✓\n\n(c) P(2 < X ≤ 4)\n   Values in (2, 4]: {3, 4}\n   (Note: 2 excluded by strict inequality)\n   = f(3) + f(4)\n   = 0.5 + 0.2\n   = 0.7 or 70%\n   \n   Observation: Same as part (b) since range starts at 2\n\nMode: X = 3 with highest probability 0.5 (50%).",
+    "animation_hint/metadata": {
+      "visual_focus": "3-bar chart showing PMF, interval markers for each calculation",
+      "objects_to_animate": "BarChart with 3 bars at x=2,3,4, interval indicators, comparison displays",
+      "animation_style": "Create BarChart. Use bracket/arrow notation to show intervals. Indicate bars included in each calculation. Show mode with star.",
+      "color_coding": "Bars BLUE, (a) interval LIGHT_RED, (b) interval LIGHT_GREEN, (c) interval LIGHT_PURPLE, mode (X=3) with YELLOW star",
+      "narration_summary": "Modal value is X=3 with 50% probability. Most mass (80%) lies below 3.5. Parts (b) and (c) yield same answer due to range structure."
+    }
+  },
+  {
+    "id": "cdf_construction_stepfunction_ex_3_38",
+    "topic": "Chapter 3 - Cumulative Distribution Function",
+    "problem": "Given PMF f(0)=1/3, f(1.5)=1/3, f(2)=1/6, f(3)=1/6, construct the CDF F(x) = P(X≤x).",
+    "theory/description": "The CDF F(x) = P(X≤x) is a right-continuous step function for discrete RVs. It jumps at each value in the range by amount f(x), remains constant between jumps. Properties: F(-∞)=0, F(∞)=1, F non-decreasing.",
+    "solution/explanation": "Given PMF:\nf(0) = 1/3\nf(1.5) = 1/3\nf(2) = 1/6\nf(3) = 1/6\n\nConstruct F(x) by cumulative summation:\n\nFor x < 0:\n  F(x) = 0\n  (No probability mass below 0)\n\nFor 0 ≤ x < 1.5:\n  F(x) = P(X ≤ x) = P(X = 0)\n       = f(0) = 1/3\n       = 0.3333\n\nFor 1.5 ≤ x < 2:\n  F(x) = P(X=0) + P(X=1.5)\n       = 1/3 + 1/3\n       = 2/3 = 0.6667\n\nFor 2 ≤ x < 3:\n  F(x) = P(X=0) + P(X=1.5) + P(X=2)\n       = 1/3 + 1/3 + 1/6\n       = 2/6 + 2/6 + 1/6\n       = 5/6 ≈ 0.8333\n\nFor x ≥ 3:\n  F(x) = 1\n  (All probability mass accumulated)\n\nComplete CDF (piecewise):\n       ⎧ 0    , x < 0\n       ⎪ 1/3  , 0 ≤ x < 1.5\nF(x) = ⎨ 2/3  , 1.5 ≤ x < 2\n       ⎪ 5/6  , 2 ≤ x < 3\n       ⎩ 1    , x ≥ 3\n\nJump points: 0, 1.5, 2, 3\nJump sizes: 1/3, 1/3, 1/6, 1/6 (match PMF values)\nPlateaus: Flat between jumps (constant CDF)",
+    "animation_hint/metadata": {
+      "visual_focus": "Dual panel: PMF bar chart above, CDF step function below, with connecting arrows",
+      "objects_to_animate": "Upper: BarChart for PMF, Lower: step function lines with jumps, connecting arrows, value labels",
+      "animation_style": "Create two Axes vertically. Draw PMF bars with Create. Build CDF step-by-step using Line segments. Arrow from each bar to corresponding jump.",
+      "color_coding": "PMF bars BLUE, CDF steps RED, jump discontinuities marked with open/closed circles, connecting arrows GREEN, plateau regions light shading",
+      "narration_summary": "CDF builds staircase from 0 to 1, jumping at PMF mass points. Jump height equals PMF value. Right-continuous: includes right endpoint of each step."
+    }
+  },
+  {
+    "id": "cdf_calculations_from_definition_ex_3_40",
+    "topic": "Chapter 3 - Cumulative Distribution Function",
+    "problem": "For CDF F(x) = 0 (x<0), = x²/16 (0≤x<4), = 1 (x≥4), find: (a) P(X≤1), (b) P(X>2), (c) P(1≤X≤3).",
+    "theory/description": "Given a CDF, probabilities are computed using: P(X≤a)=F(a), P(X>a)=1-F(a), P(a<X≤b)=F(b)-F(a). The CDF completely characterizes the distribution.",
+    "solution/explanation": "Given piecewise CDF:\n       ⎧ 0      , x < 0\nF(x) = ⎨ x²/16  , 0 ≤ x < 4\n       ⎩ 1      , x ≥ 4\n\n(a) P(X ≤ 1)\n   = F(1)\n   Since 0 ≤ 1 < 4, use F(x) = x²/16\n   = 1²/16\n   = 1/16\n   = 0.0625 or 6.25%\n\n(b) P(X > 2)\n   = 1 - P(X ≤ 2)\n   = 1 - F(2)\n   Since 0 ≤ 2 < 4, use F(x) = x²/16\n   = 1 - 2²/16\n   = 1 - 4/16\n   = 1 - 1/4\n   = 3/4 = 0.75 or 75%\n\n(c) P(1 ≤ X ≤ 3)\n   = P(X ≤ 3) - P(X < 1)\n   = F(3) - F(1⁻)  [for continuous, F(1⁻)=F(1)]\n   = F(3) - F(1)\n   = 3²/16 - 1²/16\n   = 9/16 - 1/16\n   = 8/16\n   = 1/2 = 0.5 or 50%\n\nNote: This is actually a continuous distribution (smooth CDF, no jumps), not discrete. But calculations follow same rules.",
+    "animation_hint/metadata": {
+      "visual_focus": "Smooth CDF curve showing quadratic growth from 0 to 1 over [0,4]",
+      "objects_to_animate": "Axes with curve F(x)=x²/16, shaded regions for probabilities, evaluation points marked",
+      "animation_style": "Plot smooth curve. Use Indicate at x=1,2,3. Shade areas under curve representing probabilities. Show vertical lines at evaluation points.",
+      "color_coding": "CDF curve BLUE, (a) point at x=1 RED, (b) point at x=2 GREEN, (c) interval [1,3] PURPLE shading, axes WHITE",
+      "narration_summary": "This quadratic CDF represents continuous distribution. Probability between two points equals CDF difference: F(b) - F(a)."
+    }
+  },
+  {
+    "id": "cdf_discrete_properties_ex_3_42",
+    "topic": "Chapter 3 - Cumulative Distribution Function",
+    "problem": "Discrete RV X has CDF: F(1)=0.25, F(2)=0.50, F(3)=0.75, F(4)=1.0. Find the PMF and P(1<X≤3).",
+    "theory/description": "For discrete RVs, PMF can be recovered from CDF using: f(x) = F(x) - F(x⁻) where x⁻ is the largest value less than x in the range. Jump size at x equals f(x).",
+    "solution/explanation": "Given CDF values:\nF(1) = 0.25\nF(2) = 0.50\nF(3) = 0.75\nF(4) = 1.00\n\nRange: {1, 2, 3, 4} (assuming these are only mass points)\n\nRecover PMF using f(x) = F(x) - F(x⁻):\n\nf(1) = F(1) - F(1⁻)\n     = F(1) - 0  [no mass below 1]\n     = 0.25\n\nf(2) = F(2) - F(1)\n     = 0.50 - 0.25\n     = 0.25\n\nf(3) = F(3) - F(2)\n     = 0.75 - 0.50\n     = 0.25\n\nf(4) = F(4) - F(3)\n     = 1.00 - 0.75\n     = 0.25\n\nPMF (uniform on {1,2,3,4}):\nf(x) = 0.25 for x ∈ {1, 2, 3, 4}\n\nVerify: Σf(x) = 4(0.25) = 1.0 ✓\n\nCalculate P(1 < X ≤ 3):\n= P(X ≤ 3) - P(X ≤ 1)\n= F(3) - F(1)\n= 0.75 - 0.25\n= 0.50 or 50%\n\nAlternatively:\nValues in (1, 3]: {2, 3}\nP(1 < X ≤ 3) = f(2) + f(3)\n             = 0.25 + 0.25\n             = 0.50 ✓",
+    "animation_hint/metadata": {
+      "visual_focus": "Step function CDF with equal jumps of 0.25 at x=1,2,3,4",
+      "objects_to_animate": "Step function plot, jump arrows showing Δ=0.25, recovered PMF bar chart",
+      "animation_style": "Draw CDF steps. Animate arrows showing jump sizes. Transform to PMF BarChart below. Indicate interval (1,3].",
+      "color_coding": "CDF steps RED, jumps with GREEN arrows, PMF bars BLUE (equal heights), interval (1,3] YELLOW highlight",
+      "narration_summary": "Uniform jumps of 0.25 reveal uniform PMF. Each value equally likely (25%). CDF recovers PMF through jump sizes."
+    }
+  },
+  {
+    "id": "cdf_probability_calculations_ex_3_44",
+    "topic": "Chapter 3 - Cumulative Distribution Function",
+    "problem": "X has CDF: F(-1)=0.2, F(0)=0.4, F(1)=0.75, F(2)=1.0. Calculate: (a) P(X=0), (b) P(X≤0), (c) P(-1<X≤1), (d) PMF.",
+    "theory/description": "For discrete CDF, P(X=x) equals the jump at x. For intervals, P(a<X≤b) = F(b) - F(a). PMF values are jump sizes.",
+    "solution/explanation": "Given CDF:\nF(-1) = 0.2\nF(0) = 0.4\nF(1) = 0.75\nF(2) = 1.0\n\n(a) P(X = 0)\n   = F(0) - F(0⁻)\n   = F(0) - F(-1)\n   = 0.4 - 0.2\n   = 0.2 or 20%\n\n(b) P(X ≤ 0)\n   = F(0)\n   = 0.4 or 40%\n\n(c) P(-1 < X ≤ 1)\n   = P(X ≤ 1) - P(X ≤ -1)\n   = F(1) - F(-1)\n   = 0.75 - 0.2\n   = 0.55 or 55%\n\n(d) Complete PMF:\n   \n   f(-1) = F(-1) - F(-1⁻)\n         = 0.2 - 0 = 0.2\n   \n   f(0) = F(0) - F(-1)\n        = 0.4 - 0.2 = 0.2\n   \n   f(1) = F(1) - F(0)\n        = 0.75 - 0.4 = 0.35\n   \n   f(2) = F(2) - F(1)\n        = 1.0 - 0.75 = 0.25\n   \n   PMF summary:\n   f(-1) = 0.20\n   f(0) = 0.20\n   f(1) = 0.35  [mode - highest probability]\n   f(2) = 0.25\n   \n   Verify: 0.20 + 0.20 + 0.35 + 0.25 = 1.00 ✓",
+    "animation_hint/metadata": {
+      "visual_focus": "CDF step function with varying jump sizes, derived PMF bar chart",
+      "objects_to_animate": "CDF plot with marked jumps, PMF BarChart with unequal heights, calculation displays",
+      "animation_style": "Plot CDF steps. Annotate jumps with values. Generate BarChart below showing PMF. Indicate mode at x=1.",
+      "color_coding": "CDF RED, jumps GREEN arrows with sizes, PMF bars BLUE (mode YELLOW), calculations WHITE text",
+      "narration_summary": "Unequal CDF jumps yield non-uniform PMF. Mode at X=1 (35% probability). Jump sizes directly give PMF values."
+    }
+  },
+  {
+    "id": "mean_variance_discrete_uniform_5values_ex_3_57",
+    "topic": "Chapter 3 - Mean and Variance",
+    "problem": "X is uniform on {0,1,2,3,4}. Calculate E(X), V(X), and σ.",
+    "theory/description": "For discrete uniform on {a,a+1,...,b}, mean E(X)=(a+b)/2 (midpoint), variance V(X)=[(b-a+1)²-1]/12. These formulas exploit symmetry.",
+    "solution/explanation": "Given: X uniform on {0, 1, 2, 3, 4}\nn = 5 values\nf(x) = 1/5 for each x\n\n**Mean (by direct calculation):**\nE(X) = Σ x·f(x)\n     = 0(1/5) + 1(1/5) + 2(1/5) + 3(1/5) + 4(1/5)\n     = (0+1+2+3+4)/5\n     = 10/5\n     = 2\n\nAlternatively (formula):\nE(X) = (a+b)/2 = (0+4)/2 = 2 ✓\n\n**Variance:**\nFirst find E(X²):\nE(X²) = Σ x²·f(x)\n      = 0²(1/5) + 1²(1/5) + 2²(1/5) + 3²(1/5) + 4²(1/5)\n      = (0+1+4+9+16)/5\n      = 30/5\n      = 6\n\nV(X) = E(X²) - [E(X)]²\n     = 6 - 2²\n     = 6 - 4\n     = 2\n\nAlternatively (formula):\nV(X) = [(b-a+1)²-1]/12\n     = [(4-0+1)²-1]/12\n     = [25-1]/12\n     = 24/12\n     = 2 ✓\n\n**Standard deviation:**\nσ = √V(X)\n  = √2\n  ≈ 1.414\n\nInterpretation:\n- Mean at 2 is exact center\n- Spread measured by σ ≈ 1.414\n- Symmetric distribution",
+    "animation_hint/metadata": {
+      "visual_focus": "5 equal-height bars at x=0,1,2,3,4, mean line at x=2, deviation arrows",
+      "objects_to_animate": "BarChart (5 equal bars), vertical DashedLine at μ=2, arrows showing deviations from mean, variance boxes",
+      "animation_style": "Create uniform BarChart. Add DashedLine at center. Animate deviation arrows (x-μ) for each value. Show (x-μ)² as area.",
+      "color_coding": "Bars uniform TEAL, mean line RED, deviation arrows BLUE, variance contributions PURPLE boxes, formulas WHITE",
+      "narration_summary": "Perfect symmetry: mean at center (2), equal spacing. Variance of 2 reflects moderate spread across 5 values."
+    }
+  },
+  {
+    "id": "mean_variance_asymmetric_increasing_ex_3_61",
+    "topic": "Chapter 3 - Mean and Variance",
+    "problem": "X has PMF: f(0)=0.04, f(1)=0.12, f(2)=0.20, f(3)=0.28, f(4)=0.36. Find E(X), V(X), σ.",
+    "theory/description": "For skewed distributions, mean shifts toward heavier tail. E(X) = Σx·f(x) is probability-weighted average. V(X) = E(X²) - μ² measures dispersion. Larger probabilities at higher x → right-skewed.",
+    "solution/explanation": "Given (increasing probabilities):\nf(0) = 0.04\nf(1) = 0.12\nf(2) = 0.20\nf(3) = 0.28\nf(4) = 0.36\n\nPattern: Arithmetic progression, f(x) = 0.04 + 0.08x\n\n**Mean:**\nE(X) = Σ x·f(x)\n     = 0(0.04) + 1(0.12) + 2(0.20) + 3(0.28) + 4(0.36)\n     = 0 + 0.12 + 0.40 + 0.84 + 1.44\n     = 2.80\n\nNote: Mean = 2.80 > 2 (geometric center)\nSkewed right because higher values have more probability\n\n**E(X²):**\nE(X²) = Σ x²·f(x)\n      = 0²(0.04) + 1²(0.12) + 2²(0.20) + 3²(0.28) + 4²(0.36)\n      = 0 + 0.12 + 0.80 + 2.52 + 5.76\n      = 9.20\n\n**Variance:**\nV(X) = E(X²) - [E(X)]²\n     = 9.20 - (2.80)²\n     = 9.20 - 7.84\n     = 1.36\n\n**Standard deviation:**\nσ = √V(X)\n  = √1.36\n  ≈ 1.166\n\nSummary:\n- μ = 2.80 (pulled right by skewness)\n- σ² = 1.36\n- σ ≈ 1.166 (typical deviation ~1.2 units)\n- Distribution: right-skewed (probabilities increase with x)",
+    "animation_hint/metadata": {
+      "visual_focus": "Increasing bar chart (right-skewed), mean at 2.80 (right of center), weighted contributions",
+      "objects_to_animate": "BarChart with gradient heights, DashedLine at μ=2.80, reference line at geometric center 2, x·f(x) and x²·f(x) displays",
+      "animation_style": "Create increasing BarChart. Add lines at μ=2.80 and center=2. Animate weighted contributions as stacked bars. Show skewness arrow.",
+      "color_coding": "Bars BLUE gradient (darkest at x=4), mean line RED, center reference GRAY dashed, contributions GREEN, skewness indicator YELLOW",
+      "narration_summary": "Right-skewed PMF: probabilities increase linearly. Mean 2.80 exceeds geometric center 2 due to heavier right tail."
+    }
+  },
+  {
+    "id": "mean_variance_symmetric_ex_3_63",
+    "topic": "Chapter 3 - Mean and Variance",
+    "problem": "For symmetric PMF: f(-2)=0.1, f(-1)=0.2, f(0)=0.4, f(1)=0.2, f(2)=0.1, verify E(X)=0 and find V(X).",
+    "theory/description": "Symmetric distributions about zero have E(X)=0 (symmetry cancels). Variance simplifies: V(X)=E(X²) when μ=0. Even function property: f(x)=f(-x).",
+    "solution/explanation": "Given symmetric PMF:\nf(-2) = 0.1 = f(2)\nf(-1) = 0.2 = f(1)\nf(0) = 0.4\n\nSymmetry: f(x) = f(-x) for all x\nCenter: x = 0\n\n**Verify E(X) = 0:**\nE(X) = Σ x·f(x)\n     = (-2)(0.1) + (-1)(0.2) + 0(0.4) + 1(0.2) + 2(0.1)\n     = -0.2 - 0.2 + 0 + 0.2 + 0.2\n     = 0 ✓\n\nSymmetry explanation:\nContributions: {(-2)(0.1)} + {(2)(0.1)} = -0.2 + 0.2 = 0\n              {(-1)(0.2)} + {(1)(0.2)} = -0.2 + 0.2 = 0\n              {0(0.4)} = 0\nAll pairs cancel!\n\n**Variance (μ=0 simplifies to V(X)=E(X²)):**\nE(X²) = Σ x²·f(x)\n      = (-2)²(0.1) + (-1)²(0.2) + 0²(0.4) + 1²(0.2) + 2²(0.1)\n      = 4(0.1) + 1(0.2) + 0 + 1(0.2) + 4(0.1)\n      = 0.4 + 0.2 + 0 + 0.2 + 0.4\n      = 1.2\n\nV(X) = E(X²) - [E(X)]²\n     = 1.2 - 0²\n     = 1.2\n\n**Standard deviation:**\nσ = √1.2\n  ≈ 1.095\n\nKey insights:\n- Symmetry → E(X) = 0\n- x² always positive → E(X²) = V(X) when μ=0\n- f(x)=f(-x) means paired contributions",
+    "animation_hint/metadata": {
+      "visual_focus": "Symmetric bar chart mirrored about x=0, paired contributions canceling",
+      "objects_to_animate": "BarChart symmetric about y-axis, DashedLine at x=0, paired arrows showing cancellation, x² contributions",
+      "animation_style": "Create symmetric BarChart. Mirror animation showing f(-x)=f(x). Arrows connecting paired values. Indicate cancellation for E(X), accumulation for E(X²).",
+      "color_coding": "Negative x bars LIGHT_RED, positive x bars LIGHT_GREEN, center bar BLUE, mean line at 0 YELLOW, paired arrows PURPLE",
+      "narration_summary": "Perfect symmetry about zero: mirrored probabilities cause mean to vanish. Variance measures spread regardless of sign."
+    }
+  },
+  {
+    "id": "mean_variance_from_formula_ex_3_65",
+    "topic": "Chapter 3 - Mean and Variance",
+    "problem": "X has PMF f(x) = x/10 for x ∈ {1,2,3,4}. Calculate E(X) and V(X).",
+    "theory/description": "When PMF given as formula, compute moments by substitution: E(X)=Σx·f(x), E(X²)=Σx²·f(x). Verify Σf(x)=1 first.",
+    "solution/explanation": "Given: f(x) = x/10 for x ∈ {1, 2, 3, 4}\n\n**Verify valid PMF:**\nΣf(x) = f(1) + f(2) + f(3) + f(4)\n      = 1/10 + 2/10 + 3/10 + 4/10\n      = (1+2+3+4)/10\n      = 10/10\n      = 1 ✓\n\nPMF values:\nf(1) = 1/10 = 0.1\nf(2) = 2/10 = 0.2\nf(3) = 3/10 = 0.3\nf(4) = 4/10 = 0.4\n\n**Mean:**\nE(X) = Σ x·f(x)\n     = 1(1/10) + 2(2/10) + 3(3/10) + 4(4/10)\n     = 1/10 + 4/10 + 9/10 + 16/10\n     = (1+4+9+16)/10\n     = 30/10\n     = 3.0\n\n**E(X²):**\nE(X²) = Σ x²·f(x)\n      = 1²(1/10) + 2²(2/10) + 3²(3/10) + 4²(4/10)\n      = 1(1/10) + 4(2/10) + 9(3/10) + 16(4/10)\n      = 1/10 + 8/10 + 27/10 + 64/10\n      = (1+8+27+64)/10\n      = 100/10\n      = 10.0\n\n**Variance:**\nV(X) = E(X²) - [E(X)]²\n     = 10.0 - (3.0)²\n     = 10.0 - 9.0\n     = 1.0\n\n**Standard deviation:**\nσ = √V(X) = √1.0 = 1.0\n\nSummary:\n- μ = 3.0 (exactly at x=3)\n- σ² = 1.0\n- σ = 1.0 (unit deviation)\n- Right-skewed: f(x) increases linearly with x",
+    "animation_hint/metadata": {
+      "visual_focus": "Linearly increasing bars representing f(x)=x/10, mean at 3, unit variance visualization",
+      "objects_to_animate": "BarChart with heights 0.1, 0.2, 0.3, 0.4, DashedLine at μ=3, unit deviation intervals",
+      "animation_style": "Create BarChart showing linear pattern. Add mean line. Animate σ intervals [μ-σ, μ+σ]=[2,4]. Display formula f(x)=x/10.",
+      "color_coding": "Bars BLUE (increasing saturation), mean line RED, σ intervals GREEN brackets, formula WHITE on BLACK",
+      "narration_summary": "Linear PMF formula f(x)=x/10 creates right-skewed distribution. Mean at 3, convenient unit variance simplifies interpretation."
+    }
+  }
+]

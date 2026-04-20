@@ -1,0 +1,282 @@
+[
+  {
+    "id": "ch3_mean_variance_discrete_rv",
+    "topic": "Discrete Random Variables",
+    "problem": "Given a discrete random variable X with probability mass function where P(X=0)=0.2, P(X=1)=0.2, P(X=2)=0.2, P(X=3)=0.2, P(X=4)=0.2, determine the mean and variance of X.",
+    "theory/description": "For a discrete random variable X with probability mass function f(x), the mean (expected value) is μ = E(X) = Σ[x·f(x)]. The variance is V(X) = E(X²) - [E(X)]² = Σ[x²·f(x)] - μ². Standard deviation σ = √V(X).",
+    "solution/explanation": "Step 1: Calculate mean μ = E(X) = 0(0.2) + 1(0.2) + 2(0.2) + 3(0.2) + 4(0.2) = 2.\n\nStep 2: Calculate E(X²) = 0²(0.2) + 1²(0.2) + 2²(0.2) + 3²(0.2) + 4²(0.2) = 0 + 0.2 + 0.8 + 1.8 + 3.2 = 6.\n\nStep 3: Calculate variance V(X) = E(X²) - μ² = 6 - 4 = 2.\n\nPython: import numpy as np; x = np.array([0,1,2,3,4]); p = np.array([0.2]*5); mean = np.sum(x*p); var = np.sum(x**2*p) - mean**2",
+    "animation_hint/metadata": {
+      "visual_focus": "Bar chart showing uniform PMF at height 0.2 for x=0,1,2,3,4. Vertical line at mean μ=2. Show variance as spread around mean.",
+      "objects_to_animate": "BarChart for PMF, DashedLine at mean, arrows showing deviations (x-μ), shaded regions for variance contributions",
+      "animation_style": "Use Axes, BarChart, MathTex. Animate summation terms appearing sequentially. Transform contributions into final sum.",
+      "color_coding": "PMF bars BLUE, mean line RED, variance contributions LIGHT_GRAY, formulas WHITE",
+      "narration_summary": "The mean at x=2 is the balance point of this symmetric distribution. Variance of 2 quantifies the spread around this center."
+    }
+  },
+  {
+    "id": "ch3_pmf_validity_check",
+    "topic": "Probability Mass Functions",
+    "problem": "Verify whether f(x) = x/15 for x = 1,2,3,4,5 is a valid probability mass function. If valid, calculate P(X≤3) and P(2≤X≤4).",
+    "theory/description": "A function f(x) is a valid PMF if: (1) f(x) ≥ 0 for all x, and (2) Σf(x) = 1 over all x in the range. These conditions ensure non-negative probabilities that sum to unity.",
+    "solution/explanation": "Check condition 1: f(1)=1/15, f(2)=2/15, f(3)=3/15, f(4)=4/15, f(5)=5/15. All ≥ 0 ✓\n\nCheck condition 2: Σf(x) = (1+2+3+4+5)/15 = 15/15 = 1 ✓\n\nValid PMF!\n\nP(X≤3) = f(1)+f(2)+f(3) = (1+2+3)/15 = 6/15 = 0.4\n\nP(2≤X≤4) = f(2)+f(3)+f(4) = (2+3+4)/15 = 9/15 = 0.6\n\nPython: x = [1,2,3,4,5]; f = [i/15 for i in x]; print(f'Valid: {all(p>=0 for p in f) and sum(f)==1}')",
+    "animation_hint/metadata": {
+      "visual_focus": "Display PMF conditions prominently. Show increasing bar heights from x=1 to x=5. Highlight and shade regions for probability calculations.",
+      "objects_to_animate": "Condition checkmarks, ascending bar chart, shaded regions for cumulative probabilities, formula displays",
+      "animation_style": "MathTex for conditions, BarChart with increasing heights, Polygon shading with transparency, checkmark animations",
+      "color_coding": "PMF bars BLUE gradient (increasing), checkmarks GREEN, P(X≤3) shading LIGHT_RED, P(2≤X≤4) shading LIGHT_YELLOW",
+      "narration_summary": "This linearly increasing PMF is valid since probabilities are non-negative and sum to 1. The probability increases with higher x values."
+    }
+  },
+  {
+    "id": "ch3_binomial_basic_calculation",
+    "topic": "Binomial Distribution",
+    "problem": "A binomial experiment has n=10 trials with success probability p=0.5. Calculate P(X=5), P(X≤2), P(X≥9), and P(3≤X≤5).",
+    "theory/description": "Binomial distribution: P(X=x) = C(n,x)·p^x·(1-p)^(n-x) for x=0,1,...,n. Mean μ=np, variance σ²=np(1-p). Models number of successes in n independent trials.",
+    "solution/explanation": "n=10, p=0.5, q=0.5.\n\nP(X=5) = C(10,5)·(0.5)^10 = 252/1024 = 0.2461\n\nP(X≤2) = P(X=0)+P(X=1)+P(X=2) = [1+10+45]·(0.5)^10 = 56/1024 = 0.0547\n\nP(X≥9) = P(X=9)+P(X=10) = [10+1]·(0.5)^10 = 11/1024 = 0.0107\n\nP(3≤X≤5) = [C(10,3)+C(10,4)+C(10,5)]·(0.5)^10 = [120+210+252]/1024 = 0.5684\n\nPython: from scipy.stats import binom; binom.pmf(5,10,0.5), binom.cdf(2,10,0.5)",
+    "animation_hint/metadata": {
+      "visual_focus": "Bell-shaped binomial distribution as bar chart. Highlight specific bars and cumulative regions for each calculation.",
+      "objects_to_animate": "BarChart for PMF, highlighted bars for specific probabilities, cumulative shading, Pascal's triangle reference",
+      "animation_style": "BarChart, MathTex for formulas, Indicate for highlights, Transform for cumulative sums",
+      "color_coding": "All bars BLUE, highlighted bars YELLOW, cumulative regions GREEN with transparency, mean line RED at x=5",
+      "narration_summary": "Symmetric binomial with p=0.5 peaks at mean 5. Probability of exactly 5 successes is highest at 24.61%, while extremes like 9+ successes are rare at 1.07%."
+    }
+  },
+  {
+    "id": "ch3_binomial_quality_control",
+    "topic": "Binomial Distribution Applications",
+    "problem": "A manufacturing process produces 1% defective items. If 100 items are randomly selected, find the probability of finding exactly 0, 1, or 2 defective items. What is the expected number of defectives?",
+    "theory/description": "For rare events (small p) with large n, binomial distribution applies. Can be approximated by Poisson when n≥20 and np≤5. E(X)=np gives expected count.",
+    "solution/explanation": "n=100, p=0.01, np=1 (Poisson approximation valid).\n\nP(X=0) = C(100,0)·(0.01)^0·(0.99)^100 = (0.99)^100 = 0.366\n\nP(X=1) = C(100,1)·(0.01)·(0.99)^99 = 100·0.01·0.370 = 0.370\n\nP(X=2) = C(100,2)·(0.01)²·(0.99)^98 = 4950·0.0001·0.373 = 0.185\n\nE(X) = np = 100·0.01 = 1 defective item expected\n\nV(X) = np(1-p) = 100·0.01·0.99 = 0.99\n\nPython: from scipy.stats import binom; n,p=100,0.01; [binom.pmf(i,n,p) for i in [0,1,2]]",
+    "animation_hint/metadata": {
+      "visual_focus": "Right-skewed binomial distribution with peak at x=1. Show first few bars prominently (x=0,1,2) as these contain most probability mass.",
+      "objects_to_animate": "Skewed BarChart, highlighted first 3 bars, mean line at μ=1, formula showing np calculation",
+      "animation_style": "BarChart with exponentially decreasing heights, Indicate for x=0,1,2, Arrow pointing to mean",
+      "color_coding": "x=0,1,2 bars in distinct colors (RED, ORANGE, YELLOW), remaining bars fading BLUE, mean line GREEN",
+      "narration_summary": "With 1% defect rate in 100 items, we expect 1 defective. Most likely outcomes are 0 (36.6%) or 1 (37.0%) defectives. Getting 2 is less likely at 18.5%."
+    }
+  },
+  {
+    "id": "ch3_geometric_first_success",
+    "topic": "Geometric Distribution",
+    "problem": "A process has 20% success rate. Find the probability that the first success occurs on trial 4, within the first 3 trials, and the expected number of trials until first success.",
+    "theory/description": "Geometric distribution: P(X=x) = (1-p)^(x-1)·p for x=1,2,3,... Models trials until first success. E(X)=1/p, V(X)=(1-p)/p². Has memoryless property.",
+    "solution/explanation": "p=0.2, q=0.8.\n\nP(X=4) = (0.8)^3·(0.2) = 0.512·0.2 = 0.1024\n\nP(X≤3) = P(X=1)+P(X=2)+P(X=3) = 0.2 + 0.16 + 0.128 = 0.488\nAlternatively: 1-(0.8)^3 = 0.488\n\nE(X) = 1/p = 1/0.2 = 5 trials expected\n\nV(X) = (1-p)/p² = 0.8/0.04 = 20\nσ = √20 = 4.47\n\nMemoryless: P(X>n+k|X>n) = P(X>k)\n\nPython: from scipy.stats import geom; p=0.2; geom.pmf(4,p), geom.cdf(3,p), geom.mean(p)",
+    "animation_hint/metadata": {
+      "visual_focus": "Exponentially decaying bar chart. Sequential trial outcomes (S/F) building left to right. Emphasize memoryless property reset.",
+      "objects_to_animate": "Decaying BarChart, sequential circles for trials (RED=fail, GREEN=success), mean line at x=5, formula evolution",
+      "animation_style": "Circles with FadeIn, BarChart with decreasing heights, Transform for formula, Arrow to mean",
+      "color_coding": "Failed trials RED circles, success GREEN circle, PMF bars BLUE with fading opacity, mean line ORANGE",
+      "narration_summary": "Geometric distribution shows exponential decay. With 20% success rate, expect 5 trials for first success, though 49% chance it happens within 3 trials."
+    }
+  },
+  {
+    "id": "ch3_poisson_rare_events",
+    "topic": "Poisson Distribution",
+    "problem": "Calls arrive at rate λ=10 per hour. Find P(X=5) in 1 hour, P(X≤3) in 1 hour, and P(X=15) in 2 hours.",
+    "theory/description": "Poisson distribution: P(X=x) = e^(-λ)·λ^x/x! for x=0,1,2,... Models rare events in fixed interval. E(X)=V(X)=λ. For interval t with rate λ, use parameter λt.",
+    "solution/explanation": "λ=10 calls/hour.\n\nPart (a) λ=10:\nP(X=5) = e^(-10)·10^5/5! = 0.0000454·100000/120 = 0.0378\n\nPart (b) λ=10:\nP(X≤3) = e^(-10)[1 + 10 + 50 + 166.67] = e^(-10)·227.67 = 0.0103\n\nPart (c) 2 hours, λ=20:\nP(X=15) = e^(-20)·20^15/15! = 0.0516\n\nNote: 15 calls in 2 hours (mean 20) more likely than 5 in 1 hour (mean 10) since 15 closer to mean 20.\n\nPython: from scipy.stats import poisson; poisson.pmf(5,10), poisson.cdf(3,10), poisson.pmf(15,20)",
+    "animation_hint/metadata": {
+      "visual_focus": "Timeline with random call arrivals as dots. Poisson distribution curve over bars. Show distribution shift from λ=10 to λ=20.",
+      "objects_to_animate": "NumberLine timeline, dots for arrivals, BarChart for PMF, Gaussian-like envelope, comparative λ=10 vs λ=20",
+      "animation_style": "NumberLine, dots with staggered FadeIn, BarChart, Transform to morph λ=10→λ=20, MathTex formulas",
+      "color_coding": "Arrival dots YELLOW, PMF bars PURPLE, envelope curve CYAN, highlighted bars GREEN, formula terms color-coded",
+      "narration_summary": "Poisson models random arrivals. With λ=10/hour, getting 5 calls is rare (3.78%), ≤3 even rarer (1.03%). Doubling interval to 2 hours shifts mean to 20, making 15 calls more likely at 5.16%."
+    }
+  },
+  {
+    "id": "ch3_hypergeometric_sampling",
+    "topic": "Hypergeometric Distribution",
+    "problem": "A batch of 100 chips has 20 defective. A sample of 4 is selected without replacement. Find P(X=1), P(X=4), and E(X).",
+    "theory/description": "Hypergeometric: P(X=x) = [C(K,x)·C(N-K,n-x)]/C(N,n). Models sampling without replacement from finite population. E(X)=n·K/N, V(X)=n·p·(1-p)·(N-n)/(N-1) where p=K/N.",
+    "solution/explanation": "N=100, K=20 defective, n=4, N-K=80 good.\n\nP(X=1) = [C(20,1)·C(80,3)]/C(100,4) = [20·82160]/3921225 = 0.4191\n\nP(X=4) = [C(20,4)·C(80,0)]/C(100,4) = 4845/3921225 = 0.001236\n\nE(X) = n·K/N = 4·20/100 = 0.8\n\nV(X) = 4·0.2·0.8·(96/99) = 0.6206\n\nFinite population correction: (N-n)/(N-1) = 96/99 = 0.9697\n\nPython: from scipy.stats import hypergeom; N,K,n=100,20,4; hypergeom.pmf(1,N,K,n), hypergeom.mean(N,K,n)",
+    "animation_hint/metadata": {
+      "visual_focus": "10×10 grid of chips (20 red defective, 80 blue good). Show sampling process highlighting 4 selected. Display calculation as favorable/total.",
+      "objects_to_animate": "Grid of circles, color-coded selection animation, combination tree, formula with numerator/denominator highlighted",
+      "animation_style": "Grid of Circles (20 RED, 80 BLUE), Indicate for selection, MathTex formulas, branching tree diagram",
+      "color_coding": "Defective RED, good BLUE, selected outlined YELLOW, numerator GREEN, denominator PURPLE, final probability WHITE bold",
+      "narration_summary": "Hypergeometric accounts for sampling without replacement. With 20% defectives, expect 0.8 in sample of 4. Most likely is 1 defective (42%), while all 4 defective extremely rare (0.12%)."
+    }
+  },
+  {
+    "id": "ch3_negative_binomial_distribution",
+    "topic": "Negative Binomial Distribution",
+    "problem": "Testing parts until 2 defectives found. If p=0.1 probability of defective, find P(X=10) and E(X).",
+    "theory/description": "Negative binomial: P(X=x) = C(x-1,r-1)·p^r·(1-p)^(x-r) for x=r,r+1,... Models trials needed for r successes. E(X)=r/p, V(X)=r(1-p)/p². Reduces to geometric when r=1.",
+    "solution/explanation": "r=2 defectives to find, p=0.1.\n\nP(X=10) = C(9,1)·(0.1)²·(0.9)^8 = 9·0.01·0.4305 = 0.0387\n\nE(X) = r/p = 2/0.1 = 20 parts expected\n\nV(X) = r(1-p)/p² = 2·0.9/0.01 = 180\nσ = √180 = 13.42\n\nInterpretation: On average, test 20 parts to find 2 defectives.\n\nPython: from scipy.stats import nbinom; r,p=2,0.1; nbinom.pmf(8,r,p) # scipy uses failures before r successes",
+    "animation_hint/metadata": {
+      "visual_focus": "Sequence of test outcomes (D=defective, G=good) building horizontally. Stop at 2nd defective. Right-skewed bar chart from x=2 onwards.",
+      "objects_to_animate": "Sequential boxes with D/G letters, stop marker at 2nd D, right-skewed BarChart, mean line at x=20, formula display",
+      "animation_style": "Rectangle boxes with Text (D in RED, G in GREEN) appearing sequentially, BarChart right-skewed, DashedLine for mean",
+      "color_coding": "Defective RED, good GREEN, bars before mean BLUE gradient, after mean PURPLE gradient, mean ORANGE, 2nd defective YELLOW star",
+      "narration_summary": "Negative binomial extends geometric to multiple successes. With 10% defect rate, expect 20 tests for 2 defectives. Distribution right-skewed; high σ=13.42 shows substantial variability."
+    }
+  },
+  {
+    "id": "ch3_discrete_uniform_distribution",
+    "topic": "Discrete Uniform Distribution",
+    "problem": "X is uniformly distributed on {3,4,5,6,7}. Calculate P(X=5), E(X), V(X), and σ.",
+    "theory/description": "Discrete uniform: f(x)=1/(b-a+1) for x=a,a+1,...,b. E(X)=(a+b)/2, V(X)=[(b-a+1)²-1]/12. Represents complete uncertainty among equally likely outcomes.",
+    "solution/explanation": "a=3, b=7, n=5.\n\nP(X=5) = 1/5 = 0.2 (each value equally likely)\n\nE(X) = (a+b)/2 = (3+7)/2 = 5\nAlternatively: (3+4+5+6+7)/5 = 5\n\nV(X) = [(b-a+1)²-1]/12 = [25-1]/12 = 2\nAlternatively: E(X²)=[9+16+25+36+49]/5=27, V(X)=27-25=2\n\nσ = √2 ≈ 1.414\n\nPython: import numpy as np; x=np.arange(3,8); mean=x.mean(); var=x.var(ddof=0)",
+    "animation_hint/metadata": {
+      "visual_focus": "5 equal-height bars at x=3,4,5,6,7 each 0.2 high. Perfect symmetry. Mean line at x=5 exactly in middle. Equal deviations.",
+      "objects_to_animate": "Uniform BarChart, vertical line at mean μ=5, arrows showing deviations (x-μ), formula boxes",
+      "animation_style": "BarChart all bars height 0.2, DashedLine at mean, GrowArrow for deviations, MathTex formulas highlighting symmetry",
+      "color_coding": "All bars uniform TEAL emphasizing equality, mean line RED, deviation arrows BLUE/ORANGE by direction, variance formula GREEN",
+      "narration_summary": "Discrete uniform represents maximum uncertainty - each outcome equally likely at 20%. Mean perfectly centered at 5, variance of 2 captures symmetric spread. Discrete analog of fair die."
+    }
+  },
+  {
+    "id": "ch3_cdf_discrete_random_variable",
+    "topic": "Cumulative Distribution Functions",
+    "problem": "X has PMF f(0)=1/3, f(1.5)=1/3, f(2)=1/6, f(3)=1/6. Construct F(x) and find P(X≤2), P(X>1), P(0.5<X≤2.5).",
+    "theory/description": "CDF F(x)=P(X≤x) is step function for discrete RV. Jumps at each x value by f(x). Properties: non-decreasing, right-continuous, lim(x→-∞)F(x)=0, lim(x→∞)F(x)=1.",
+    "solution/explanation": "F(x) piecewise:\nx<0: F(x)=0\n0≤x<1.5: F(x)=1/3\n1.5≤x<2: F(x)=2/3\n2≤x<3: F(x)=5/6\nx≥3: F(x)=1\n\nP(X≤2) = F(2) = 5/6 ≈ 0.833\n\nP(X>1) = 1-F(1) = 1-1/3 = 2/3 ≈ 0.667\n\nP(0.5<X≤2.5) = F(2.5)-F(0.5) = 5/6-1/3 = 3/6 = 1/2 = 0.5\nVerify: f(1.5)+f(2) = 1/3+1/6 = 1/2 ✓\n\nPython: def F(x): return 0 if x<0 else 1/3 if x<1.5 else 2/3 if x<2 else 5/6 if x<3 else 1",
+    "animation_hint/metadata": {
+      "visual_focus": "PMF as bar chart below, CDF as step function above. Each jump corresponds to PMF bar. Show interval calculations using CDF horizontal distance.",
+      "objects_to_animate": "BarChart for PMF, step function for CDF, vertical dashed lines at jumps, arrows showing F(b)-F(a), shaded PMF regions",
+      "animation_style": "BarChart, custom Line segments for steps, Create animation for CDF building step-by-step, Arrow for calculations, MathTex",
+      "color_coding": "PMF bars BLUE, CDF steps RED, jump points ORANGE circles, calculation arrows GREEN, shaded regions LIGHT_PURPLE transparent",
+      "narration_summary": "CDF accumulates probability left to right, forming staircase from 0 to 1. Each step upward matches PMF point. Interval probabilities via subtraction: P(0.5<X≤2.5) = F(2.5)-F(0.5) = 1/2."
+    }
+  },
+  {
+    "id": "ch3_expected_value_function_of_rv",
+    "topic": "Expected Value of Functions",
+    "problem": "X has PMF f(1)=0.3, f(2)=0.5, f(3)=0.2. Find E(X), E(X²), E(2X+3), and V(X).",
+    "theory/description": "For function g(X): E[g(X)] = Σg(x)·f(x). Linearity: E(aX+b) = aE(X)+b. V(aX+b) = a²V(X). V(X) = E(X²)-[E(X)]².",
+    "solution/explanation": "E(X) = 1(0.3) + 2(0.5) + 3(0.2) = 0.3 + 1.0 + 0.6 = 1.9\n\nE(X²) = 1²(0.3) + 2²(0.5) + 3²(0.2) = 0.3 + 2.0 + 1.8 = 4.1\n\nE(2X+3) = 2E(X)+3 = 2(1.9)+3 = 3.8+3 = 6.8\nVerify: (2·1+3)(0.3)+(2·2+3)(0.5)+(2·3+3)(0.2) = 5(0.3)+7(0.5)+9(0.2) = 6.8 ✓\n\nV(X) = E(X²)-[E(X)]² = 4.1-1.9² = 4.1-3.61 = 0.49\nσ = √0.49 = 0.7\n\nV(2X+3) = 2²V(X) = 4(0.49) = 1.96\n\nPython: import numpy as np; x=[1,2,3]; p=[0.3,0.5,0.2]; EX=np.dot(x,p); EX2=np.dot([i**2 for i in x],p); VX=EX2-EX**2",
+    "animation_hint/metadata": {
+      "visual_focus": "Show PMF bars at x=1,2,3 with heights 0.3,0.5,0.2. Display each calculation step: E(X) as weighted average, E(X²) with squared values, transformation E(2X+3).",
+      "objects_to_animate": "BarChart for PMF, weighted average visualization with balance point, transformation diagram showing 2X+3 shift and scale, formula derivations",
+      "animation_style": "BarChart, MathTex for step-by-step calculations, Transform showing linear transformation, Arrow indicating mean shift, scale visualization",
+      "color_coding": "PMF bars BLUE varying opacity by probability, mean marker RED, E(X²) calculations ORANGE, transformation GREEN, variance PURPLE",
+      "narration_summary": "Expected value is probability-weighted average: E(X)=1.9. Linear transformations: E(2X+3)=2E(X)+3=6.8. Variance measures spread: V(X)=0.49, unaffected by constant shifts but scales by coefficient squared."
+    }
+  },
+  {
+    "id": "ch3_binomial_mean_variance_properties",
+    "topic": "Binomial Distribution Properties",
+    "problem": "For binomial X with n=50, p=0.3, verify E(X)=np and V(X)=np(1-p). Find P(X is within 2σ of mean).",
+    "theory/description": "Binomial properties: E(X)=np, V(X)=np(1-p), σ=√[np(1-p)]. For large n, approximately normal by CLT. Empirical rule: ~95% within μ±2σ for normal.",
+    "solution/explanation": "n=50, p=0.3, q=0.7.\n\nE(X) = np = 50(0.3) = 15\n\nV(X) = np(1-p) = 50(0.3)(0.7) = 10.5\n\nσ = √10.5 = 3.24\n\nμ±2σ: 15±2(3.24) = 15±6.48 = [8.52, 21.48]\n\nP(8.52≤X≤21.48) = P(9≤X≤21) since X discrete\n= P(X≤21) - P(X≤8)\n= 0.9823 - 0.0220 = 0.9603 ≈ 96%\n\nClose to empirical rule 95% for normal!\n\nPython: from scipy.stats import binom; n,p=50,0.3; mu=n*p; sig=(n*p*(1-p))**0.5; binom.cdf(21,n,p)-binom.cdf(8,n,p)",
+    "animation_hint/metadata": {
+      "visual_focus": "Bell-shaped binomial distribution n=50, p=0.3. Mark mean at 15, shade region μ±2σ = [9,21]. Show ~96% of probability mass within this region.",
+      "objects_to_animate": "BarChart resembling normal curve, vertical line at mean μ=15, shaded region between μ-2σ and μ+2σ, percentage label",
+      "animation_style": "BarChart for binomial, DashedLine at mean, shaded Polygon for ±2σ region, MathTex for calculations, percentage annotation",
+      "color_coding": "Bars BLUE, mean line RED, ±1σ region LIGHT_GREEN, ±2σ region YELLOW transparency, outside region faded GRAY",
+      "narration_summary": "Binomial with n=50, p=0.3 has mean 15 and standard deviation 3.24. About 96% of probability falls within 2 standard deviations of mean, matching empirical rule as n grows large."
+    }
+  },
+  {
+    "id": "ch3_poisson_approximation_to_binomial",
+    "topic": "Poisson Approximation",
+    "problem": "Binomial with n=100, p=0.02. Compare P(X=3) using binomial vs Poisson approximation with λ=np=2.",
+    "theory/description": "When n large, p small, np moderate: Poisson(λ=np) approximates Binomial(n,p). Rule of thumb: n≥20, p≤0.05, np≤10. Simplifies calculations.",
+    "solution/explanation": "n=100, p=0.02, λ=np=2.\n\nBinomial exact:\nP(X=3) = C(100,3)·(0.02)³·(0.98)^97\n= 161700·0.000008·0.1340 = 0.1733\n\nPoisson approximation:\nP(X=3) = e^(-2)·2³/3! = 0.1353·8/6 = 0.1804\n\nAbsolute error: |0.1733-0.1804| = 0.0071\nRelative error: 0.0071/0.1733 = 4.1%\n\nGood approximation! Conditions met: n=100≥20, p=0.02≤0.05, np=2≤10 ✓\n\nPython: from scipy.stats import binom,poisson; n,p=100,0.02; lam=n*p; binom.pmf(3,n,p), poisson.pmf(3,lam)",
+    "animation_hint/metadata": {
+      "visual_focus": "Side-by-side comparison of binomial (n=100,p=0.02) and Poisson (λ=2) distributions. Overlay the two PMFs showing near-perfect match for small x values.",
+      "objects_to_animate": "Dual BarCharts overlaid with transparency, difference visualization, condition checklist, error calculation display",
+      "animation_style": "Overlaid BarCharts (binomial BLUE, Poisson RED with transparency), MathTex formulas side-by-side, checkmarks for conditions, error metrics",
+      "color_coding": "Binomial bars BLUE, Poisson bars RED transparent overlay, matched regions PURPLE, conditions GREEN checkmarks, error ORANGE",
+      "narration_summary": "For rare events (p=0.02) with large n=100, Poisson(λ=2) approximates binomial well. At X=3, binomial gives 17.33%, Poisson gives 18.04%, only 4% relative error. Poisson simpler to calculate."
+    }
+  },
+  {
+    "id": "ch3_geometric_memoryless_property",
+    "topic": "Geometric Distribution - Memoryless Property",
+    "problem": "System failures occur geometrically with p=0.1. If no failure in first 5 trials, what's probability of failure on trial 8? Demonstrate memoryless property.",
+    "theory/description": "Memoryless property: P(X>n+k|X>n) = P(X>k). Past doesn't affect future in geometric distribution. Unique among discrete distributions with this property.",
+    "solution/explanation": "p=0.1, q=0.9.\n\nDirect calculation:\nP(X=8|X>5) = P(X=8 and X>5)/P(X>5) = P(X=8)/P(X>5)\n= (0.9)^7(0.1) / (0.9)^5\n= (0.9)^7(0.1) / (0.9)^5\n= (0.9)^2(0.1) = 0.081\n\nMemoryless property:\nP(X=8|X>5) = P(X=3) since \"restart\" after 5\n= (0.9)^2(0.1) = 0.081 ✓\n\nAlternatively:\nP(X>7|X>5) = P(X>2) = (0.9)^2 = 0.81\nP(X=8|X>5) = P(X>7|X>5) - P(X>8|X>5) = (0.9)^2 - (0.9)^3 = 0.081 ✓\n\nPython: from scipy.stats import geom; p=0.1; geom.pmf(3,p)",
+    "animation_hint/metadata": {
+      "visual_focus": "Timeline showing trials 1-8. At trial 5, show 'reset' or 'restart' concept. Highlight that remaining trials behave as if starting fresh from trial 1.",
+      "objects_to_animate": "Timeline with trial markers, restart animation at trial 5, comparison showing P(X=8|X>5) = P(X=3), formula derivations",
+      "animation_style": "NumberLine for timeline, FadeOut of trials 1-5 to show reset, Transform equation showing equivalence, annotated arrows",
+      "color_coding": "Trials 1-5 faded GRAY (past), trial 8 highlighted YELLOW, equivalent trial 3 GREEN, formulas WHITE with highlights",
+      "narration_summary": "Memoryless property means past trials don't affect future. Given no failure in first 5 trials, probability of failure on trial 8 equals probability of failure on trial 3 from fresh start. Both equal 8.1%."
+    }
+  },
+  {
+    "id": "ch3_binomial_normal_approximation",
+    "topic": "Normal Approximation to Binomial",
+    "problem": "Binomial n=100, p=0.5. Use normal approximation with continuity correction to find P(45≤X≤55).",
+    "theory/description": "When np≥5 and n(1-p)≥5, Normal(μ=np, σ²=np(1-p)) approximates Binomial. Continuity correction: P(X=k)≈P(k-0.5<Y<k+0.5) for discrete X, continuous Y.",
+    "solution/explanation": "n=100, p=0.5.\nμ = np = 50\nσ² = np(1-p) = 25\nσ = 5\n\nConditions: np=50≥5 ✓, n(1-p)=50≥5 ✓\n\nWith continuity correction:\nP(45≤X≤55) ≈ P(44.5<Y<55.5) where Y~N(50,25)\n\nStandardize:\nZ₁ = (44.5-50)/5 = -1.1\nZ₂ = (55.5-50)/5 = 1.1\n\nP(-1.1<Z<1.1) = Φ(1.1) - Φ(-1.1) = 0.8643 - 0.1357 = 0.7286\n\nExact binomial:\nP(45≤X≤55) = 0.7287 (nearly identical!)\n\nPython: from scipy.stats import binom,norm; n,p=100,0.5; norm.cdf(55.5,50,5)-norm.cdf(44.5,50,5)",
+    "animation_hint/metadata": {
+      "visual_focus": "Overlay discrete binomial bars with smooth normal curve. Show continuity correction by extending intervals by ±0.5. Shade region from 44.5 to 55.5 under normal curve.",
+      "objects_to_animate": "BarChart for binomial, smooth curve overlay for normal, shaded region with continuity correction boundaries, standardization steps",
+      "animation_style": "BarChart with normal curve overlay, shaded Polygon between 44.5 and 55.5, MathTex showing Z-score calculation, comparison table",
+      "color_coding": "Binomial bars BLUE, normal curve RED, shaded region YELLOW transparency, continuity correction lines GREEN dashed, exact vs approx comparison table",
+      "narration_summary": "For large n, binomial approaches normal. With n=100, p=0.5, normal approximation with continuity correction gives 72.86%, nearly matching exact binomial 72.87%. Continuity correction accounts for discrete-continuous difference."
+    }
+  },
+  {
+    "id": "ch3_multinomial_distribution",
+    "topic": "Multinomial Distribution",
+    "problem": "Manufacturing produces parts: 60% type A, 30% type B, 10% type C. In sample of 10, find probability of 6A, 3B, 1C.",
+    "theory/description": "Multinomial extends binomial to k>2 categories. P(X₁=x₁,...,Xₖ=xₖ) = (n!)/(x₁!···xₖ!)·p₁^x₁···pₖ^xₖ where Σxᵢ=n, Σpᵢ=1. E(Xᵢ)=npᵢ, V(Xᵢ)=npᵢ(1-pᵢ).",
+    "solution/explanation": "n=10, pₐ=0.6, p_B=0.3, p_C=0.1.\nWant P(Xₐ=6, X_B=3, X_C=1).\n\nP = [10!/(6!·3!·1!)]·(0.6)⁶·(0.3)³·(0.1)¹\n\nCombinatorial term:\n10!/(6!·3!·1!) = 3628800/(720·6·1) = 840\n\nProbability term:\n(0.6)⁶·(0.3)³·(0.1)¹ = 0.046656·0.027·0.1 = 0.000126\n\nP = 840·0.000126 = 0.1058 ≈ 10.58%\n\nExpected counts:\nE(Xₐ) = 10(0.6) = 6\nE(X_B) = 10(0.3) = 3\nE(X_C) = 10(0.1) = 1\n\nObserved matches expected exactly!\n\nPython: from scipy.stats import multinomial; multinomial.pmf([6,3,1], n=10, p=[0.6,0.3,0.1])",
+    "animation_hint/metadata": {
+      "visual_focus": "3-category pie chart showing proportions 60%-30%-10%. Show 10 items being categorized. Display multinomial coefficient calculation as arrangement problem.",
+      "objects_to_animate": "Pie chart for probabilities, 10 items with color-coded categories, tree diagram for arrangements, formula breakdown showing factorial computation",
+      "animation_style": "Pie chart, colored items (A BLUE, B GREEN, C RED), MathTex for multinomial formula, tree diagram with branches",
+      "color_coding": "Type A BLUE (60%), Type B GREEN (30%), Type C RED (10%), formula terms color-matched, arrangement tree with colored branches",
+      "narration_summary": "Multinomial generalizes binomial to multiple categories. With 60%-30%-10% split, probability of getting exactly 6-3-1 in sample of 10 is 10.58%. This outcome matches expected counts E(Xₐ)=6, E(X_B)=3, E(X_C)=1."
+    }
+  },
+  {
+    "id": "ch3_moment_generating_functions",
+    "topic": "Moment Generating Functions",
+    "problem": "For Poisson(λ), derive MGF M_X(t)=e^(λ(e^t-1)). Use it to find E(X) and V(X).",
+    "theory/description": "MGF M_X(t) = E(e^(tX)). Properties: M_X^(k)(0) = E(X^k). For Poisson: MGF determines distribution uniquely. E(X)=M'(0), V(X)=M''(0)-[M'(0)]².",
+    "solution/explanation": "Poisson PMF: P(X=x) = e^(-λ)λ^x/x!\n\nM_X(t) = E(e^(tX)) = Σ e^(tx)·e^(-λ)λ^x/x!\n= e^(-λ) Σ (λe^t)^x/x!\n= e^(-λ)·e^(λe^t) [recognizing Σ a^x/x! = e^a]\n= e^(λe^t - λ)\n= e^(λ(e^t - 1)) ✓\n\nFirst derivative:\nM'_X(t) = e^(λ(e^t-1))·λe^t\nE(X) = M'_X(0) = e^0·λe^0 = λ ✓\n\nSecond derivative:\nM''_X(t) = λe^t·e^(λ(e^t-1))·λe^t + e^(λ(e^t-1))·λe^t\nM''_X(0) = λ² + λ\n\nV(X) = M''(0) - [M'(0)]² = λ² + λ - λ² = λ ✓\n\nPython: import sympy as sp; t,lam=sp.symbols('t lambda', real=True, positive=True); MGF=sp.exp(lam*(sp.exp(t)-1))",
+    "animation_hint/metadata": {
+      "visual_focus": "Start with Poisson PMF. Show MGF derivation step-by-step. Highlight exponential series recognition. Display differentiation and evaluation at t=0.",
+      "objects_to_animate": "Formula sequence showing derivation steps, series recognition highlighting, derivative calculations, final results E(X)=λ, V(X)=λ",
+      "animation_style": "MathTex for each derivation step with Transform between steps, highlighting key algebraic manipulations, color-coded terms",
+      "color_coding": "Original sum BLUE, recognized series GREEN, MGF final form RED, derivatives ORANGE, E(X) and V(X) results PURPLE bold",
+      "narration_summary": "MGF for Poisson is e^(λ(e^t-1)), derived by recognizing exponential series. First derivative at t=0 gives mean λ, second derivative yields E(X²)=λ²+λ, confirming variance V(X)=λ."
+    }
+  },
+  {
+    "id": "ch3_joint_pmf_discrete",
+    "topic": "Joint Probability Mass Functions",
+    "problem": "Joint PMF of (X,Y): P(X=0,Y=0)=0.1, P(0,1)=0.2, P(1,0)=0.3, P(1,1)=0.4. Find marginal PMFs, E(X), E(Y), and check independence.",
+    "theory/description": "Joint PMF: P(X=x,Y=y) for discrete pair. Marginal: f_X(x)=Σ_y f(x,y). Independent if f(x,y)=f_X(x)·f_Y(y) for all x,y. E(X)=ΣΣ x·f(x,y).",
+    "solution/explanation": "Joint PMF table:\n    Y=0   Y=1\nX=0  0.1   0.2   | 0.3\nX=1  0.3   0.4   | 0.7\n     0.4   0.6     1.0\n\nMarginal of X:\nf_X(0) = 0.1+0.2 = 0.3\nf_X(1) = 0.3+0.4 = 0.7\n\nMarginal of Y:\nf_Y(0) = 0.1+0.3 = 0.4\nf_Y(1) = 0.2+0.4 = 0.6\n\nE(X) = 0(0.3) + 1(0.7) = 0.7\nE(Y) = 0(0.4) + 1(0.6) = 0.6\n\nIndependence check:\nf_X(0)·f_Y(0) = 0.3·0.4 = 0.12 ≠ 0.1 = f(0,0)\nNOT independent!\n\nPython: import numpy as np; joint=np.array([[0.1,0.2],[0.3,0.4]]); margX=joint.sum(axis=1); margY=joint.sum(axis=0)",
+    "animation_hint/metadata": {
+      "visual_focus": "2×2 table showing joint PMF. Show row sums yielding marginal of X, column sums yielding marginal of Y. Visual independence check comparing products vs joint.",
+      "objects_to_animate": "Table with cells colored by probability, row/column sum animations, marginal distributions as separate bar charts, independence comparison",
+      "animation_style": "Table with color-coded cells, arrows showing summation for marginals, side-by-side BarCharts for marginals, comparison calculation display",
+      "color_coding": "Joint cells colored by probability intensity (darker=higher), marginal sums RED, independence check terms (product GREEN, actual BLUE), mismatch highlighted",
+      "narration_summary": "Joint PMF describes probability of (X,Y) pairs. Marginals obtained by summing: f_X(0)=0.3, f_X(1)=0.7, f_Y(0)=0.4, f_Y(1)=0.6. Variables not independent since f(0,0)=0.1 ≠ 0.12=f_X(0)·f_Y(0)."
+    }
+  },
+  {
+    "id": "ch3_covariance_correlation_discrete",
+    "topic": "Covariance and Correlation",
+    "problem": "For joint distribution in previous problem, calculate Cov(X,Y), ρ_{X,Y}, and interpret.",
+    "theory/description": "Covariance: Cov(X,Y)=E(XY)-E(X)E(Y). Correlation: ρ=Cov(X,Y)/(σ_X·σ_Y). Range: -1≤ρ≤1. ρ=0 for independent RVs. Measures linear association.",
+    "solution/explanation": "From previous: E(X)=0.7, E(Y)=0.6.\nJoint: (0,0)→0.1, (0,1)→0.2, (1,0)→0.3, (1,1)→0.4\n\nE(XY) = Σ Σ xy·f(x,y)\n= 0·0·0.1 + 0·1·0.2 + 1·0·0.3 + 1·1·0.4 = 0.4\n\nCov(X,Y) = E(XY) - E(X)E(Y) = 0.4 - 0.7·0.6 = 0.4 - 0.42 = -0.02\n\nVariances:\nE(X²) = 0²(0.3) + 1²(0.7) = 0.7\nV(X) = 0.7 - 0.7² = 0.21, σ_X = √0.21 = 0.458\n\nE(Y²) = 0²(0.4) + 1²(0.6) = 0.6\nV(Y) = 0.6 - 0.6² = 0.24, σ_Y = √0.24 = 0.490\n\nρ = -0.02/(0.458·0.490) = -0.02/0.224 = -0.089\n\nInterpretation: Very weak negative correlation.\n\nPython: import numpy as np; cov=-0.02; sx=0.458; sy=0.490; rho=cov/(sx*sy)",
+    "animation_hint/metadata": {
+      "visual_focus": "Scatter plot of 4 points weighted by probability. Show deviation vectors from (E(X),E(Y))=(0.7,0.6). Display covariance as signed area, correlation normalizing by spreads.",
+      "objects_to_animate": "Weighted scatter plot, mean point (E(X),E(Y)), deviation vectors, covariance calculation visualization, correlation scale -1 to 1 with marker",
+      "animation_style": "Scatter plot with sized circles (by probability), Arrow vectors for deviations, MathTex for calculations, scale bar for correlation",
+      "color_coding": "Points colored by quadrant relative to mean (Q1 BLUE, Q2 GREEN, Q3 ORANGE, Q4 RED), mean point PURPLE cross, covariance RED if negative",
+      "narration_summary": "Covariance measures joint variability: Cov(X,Y)=-0.02 indicates slight negative association. Correlation ρ=-0.089 is weak, close to 0. Not independent but nearly uncorrelated - linear association very weak."
+    }
+  },
+  {
+    "id": "ch3_conditional_distributions_discrete",
+    "topic": "Conditional Distributions",
+    "problem": "Using joint PMF from previous problems, find P(Y=1|X=1) and conditional distribution of Y given X=1.",
+    "theory/description": "Conditional PMF: P(Y=y|X=x) = P(X=x,Y=y)/P(X=x) = f(x,y)/f_X(x). Conditional expectation: E(Y|X=x) = Σ y·P(Y=y|X=x).",
+    "solution/explanation": "Joint: f(1,0)=0.3, f(1,1)=0.4\nMarginal: f_X(1)=0.7\n\nConditional distribution of Y|X=1:\nP(Y=0|X=1) = f(1,0)/f_X(1) = 0.3/0.7 = 3/7 ≈ 0.429\nP(Y=1|X=1) = f(1,1)/f_X(1) = 0.4/0.7 = 4/7 ≈ 0.571\n\nVerify: 3/7 + 4/7 = 1 ✓\n\nConditional expectation:\nE(Y|X=1) = 0·(3/7) + 1·(4/7) = 4/7 ≈ 0.571\n\nCompare to unconditional: E(Y)=0.6\nKnowing X=1 slightly decreases expected Y.\n\nConditional variance:\nE(Y²|X=1) = 0²·(3/7) + 1²·(4/7) = 4/7\nV(Y|X=1) = 4/7 - (4/7)² = 4/7 - 16/49 = 28/49 - 16/49 = 12/49 ≈ 0.245\n\nPython: conditional_y_given_x1 = [0.3/0.7, 0.4/0.7]; EY_cond = 1*conditional_y_given_x1[1]",
+    "animation_hint/metadata": {
+      "visual_focus": "Original joint PMF table, then highlight row for X=1. Show renormalization to get conditional distribution. Compare conditional vs marginal distributions side-by-side.",
+      "objects_to_animate": "Joint table with row highlighting, renormalization animation showing division by marginal, side-by-side bar charts comparing marginal Y vs conditional Y|X=1",
+      "animation_style": "Table with row highlighting, Transform showing division operation, dual BarCharts with comparison, MathTex for calculations",
+      "color_coding": "Highlighted row YELLOW background, conditional probabilities GREEN bars, marginal probabilities BLUE bars for comparison, formulas WHITE",
+      "narration_summary": "Conditional distribution P(Y|X=1) found by restricting to X=1 row and renormalizing: P(Y=0|X=1)=3/7, P(Y=1|X=1)=4/7. Conditional mean E(Y|X=1)=0.571 differs from marginal E(Y)=0.6, showing dependence."
+    }
+  }
+]

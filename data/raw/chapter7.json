@@ -1,0 +1,274 @@
+[
+  {
+    "question_number": "7-1",
+    "raw": "The proportion of arrivals for chest pain is 8 among 103 total arrivals. The proportion = 8/103."
+  },
+  {
+    "question_number": "7-2",
+    "raw": "The proportion is 10/80 =1/8.\n( )"
+  },
+  {
+    "question_number": "7-3",
+    "raw": "P(1.009  X 1.012) = P 1.009−1.01  X−  1.012−1.01\n0.003/ 9 / n 0.003/ 9\n= P(−1 Z  2) = P(Z  2)− P(Z  −1) = 0.9772−0.1586 = 0.8186"
+  },
+  {
+    "question_number": "7-4",
+    "raw": "X ~ N(100,102) n = 25\ni\n 10\n =100  = = = 2\nX X\nn 25\nP\n=\n[ (\nP\n1\n(\n0\n−\n0\n1\n−\n. 8\n1\n\n. 8 (\nZ\n2 )\n\n)\n1\n\n)\nX\n= P\n\n(\n(\nZ\n1 0\n\n0\n1\n+\n) −\n2 )\nP\n]\n(\n=\nZ\nP\n\n( 9\n−\n6\n1\n. 4\n. 8\n\n) =\nX\n0\n\n. 8\n1\n4\n0\n1\n2\n3\n)\n−\n=\n0\nP\n. 0\n(\n3\n9 6\n5\n.4\n9\n−2 1\n=\n0 0\n0\n\n. 8\nX\n0\n−\n/\n5\nn\n4\n 1 0 2 −2 1 0 0\n)\n\n\nX\n= 7 5 . 5 p s i \nX\n=\nn\n=\n3 . 5\n6\n= 1 . 4 2 9\n\n\nP ( X  7 5 . 7 5 ) = P\n(\n=\n=\nX −\n/\nP\n1\nn\n−\n(\n\nZ\n0 .\n7\n\n5\n5 .71\n0\n6\n5 −\n.4 2\n. 1\n9 4\n79 5\n7\n5\n.5\n5\n)\n)\n=\n=\n0 .\n1\n4\n−\n3 0\nP\n5\n(\n5\nZ  0 . 1 7 5 )\n\n\nn = 6 n = 49\nX\n=\nn\n=\n3 . 5\n6\n= 1 . 4 2 9\n\n\nX\n=\nn\n=\n3 .\n4\n5\n9\n= 0 . 5\n\n\nX\n is reduced by 0.929 psi"
+  },
+  {
+    "question_number": "7-7",
+    "raw": "Assuming a normal distribution,\nX\n= 2 5 0 0\nX\n=\nn\n=\n5 0\n5\n= 2 2 . 3 6 1\n\n \n( )\nP(2499  X  2510) = P 2499−2500  X−  2510−2500\n22.361 / n 22.361\n= P(−0.045  Z  0.45) = P(Z  0.45) − P(Z  −0.045)\n= 0.6736 − 0.482 = 0.191\n 50\nX"
+  },
+  {
+    "question_number": "7-8",
+    "raw": " = = = 22.361psi = standard error of\nX\nn 5"
+  },
+  {
+    "question_number": "7-9",
+    "raw": "2 =25\n\n\n =\nX\nn\n2 2\n    5 \nn =   =   =11.11~12\n\n\n\n1.5\nX"
+  },
+  {
+    "question_number": "7-10",
+    "raw": "Let Y = X −6\na+b (0+1)\n = = = 1\nX 2 2 2\n =\nX X\n(b−a)2\n2 = = 1\nX 12 12\n2\nX\nX\nY\n2Y\n=\n=\n=\n=\nn\n1\n1 2\n12\n1\n1 4\n−\n4\n2\n6\n=\n=\n1\n1\n12\n2\n− 5\n=\n12\n1\n1\n4 4\n\n\n\n\n\nY = X − 6 ~ N ( − 5 12 ,\n1\n14\n4\n)\n, approximately, using the central limit theorem."
+  },
+  {
+    "question_number": "7-11",
+    "raw": "n = 36\nX\nX\n=\n=\na +\n2\n1 2\nb\n+\n=\n0\n3\n2\n( 3\n+\n+\n2\n1 2\n1 )\n=\n= 2\n23\n\n\nX\n= 2 ,\nX\n=\n2\n3\n/\n6\n3\n=\n2\n6\n/ 3\n \nz\nX\n/ n\n\n\n=\n−\nUsing the central limit theorem:\nP\n=\n(\nP\n2 .\n(\n1\nZ\n\n\nX\n3 .\n\n6 7\n2\n4\n. 5\n2\n)\n)\n=\n−\nP\nP\n\n( Z\n2 .1 −\n2 /\n6\n\n23\n0\n\n. 7\nZ\n3 4\n\n8\n2\n)\n.5 −\n2 /\n6\n=\n23\n1\n\n−\n=\n0\nP\n. 7\n(\n6\n0\n8\n. 7\n8\n3\n=\n4 8\n0 .\n\n2 3\nZ\n1 2\n 3 . 6 7 4 2 )\n = 8.2 minutes n = 49\nX\n =1.5 minutes  1.5\nX\n = X = = 0.2143\nX\nn 49\n =  = 8.2 mins\nX X\nX\nUsing the central limit theorem, is approximately normally distributed.\n10−8.2\na) P(X 10) = P(Z  ) = P(Z 8.4) =1\n0.2143\n\nb) P(5 X 10) = P( 5−8.2 Z  10−8.2 )\n\n0.2143 0.2143\n= P(Z 8.4)−P(Z  −14.932) =1−0 =1\n6−8.2\nc) P(X  6) = P(Z  ) = P(Z  −10.27) = 0\n0.2143\nn\n1\n=16 n\n2\n= 9 2 2\n =75  = 70\nX − X ~ N( − ,2 +2 ) ~ N( −, 1 + 2 )\n1 2 1 2 X 1 X 2 X1 X2 1 2 n n\n =8  =12 1 2\n1 2\n82 122\n~ N(75− 70, + ) ~ N(5,20)\n16 9\na) P(X − X  4)\n1 2\nP ( Z  4 −\n2\n5\n0\n) = P\n=\n(\n1\nZ\n−\n\n0 .\n−\n4\n0\n1\n.\n1\n2\n5\n2 3\n=\n6\n0\n)\n. 5\n=\n8\n1\n8\n−\n5\nP ( Z  − 0 . 2 2 3 6 )\nb) P ( 3 . 5  X\n1\n− X\n2\n 5 . 5 )\nP ( 3 .5 −\n2 0\n5  Z  5\n=\n.5 −\n2 0\n0\n5\n.\n)\n5\n=\n4 4\nP\n5\n(\n−\nZ\n0\n\n. 3\n0\n6\n.\n8\n1\n7\n1 1\n=\n8\n0\n)\n.\n−\n1 7\nP\n5\n(\n9\nZ  − 0 . 3 3 5 4 )"
+  },
+  {
+    "question_number": "7-14",
+    "raw": "If\nB A\n  = , then X\nB\n− X\nA\nis approximately normal with mean 0 and variance\n2\n2B\n5\n+\n2\n2A\n5\n= 2 0 . 4 8\n \n.\nThen, P ( X\nB\n− X\nA\n 3 . 5 ) = P ( Z  3 .5\n2 0\n− 0\n.4 8\n) = P ( Z  0 . 7 7 3 ) = 0 . 2 1 9 6\nThe probability that X\nB\nexceeds X\nA\nby 3.5 or more is not that unusual when\nB\na n d\nA\n  are\nequal. Therefore, there is not strong evidence that\nB\n is greater than\nA\n ."
+  },
+  {
+    "question_number": "7-15",
+    "raw": "Assume approximate normal distributions.\nP\n( X\n( X\nh ig h\nh ig h\n−\n−\nX\nX\nlo w\nlo\n)\nw\n~\n~\n\nN\nN\n2 )\n(\n(\n6\n5\n=\n0\n, 2\nP\n−\n)\n(\n5\nZ\n5 ,\n\n41 2\n6\n2\n+\n− 5\n2\n)\n2 41\n6\n=\n)\n1 − P ( Z  − 2 . 1 2 ) = 1 − 0 . 0 1 7 0 = 0 . 9 8 3\n𝜎 1.60"
+  },
+  {
+    "question_number": "7-16",
+    "raw": "a) 𝑆𝐸 = 𝑋 = = 0.51\n𝑋̅\n√𝑛 √10\nb) Here 𝑋̅~𝑁(7.48,0.51) and the standard normal distribution is used.\n𝑃(6.49 < 𝑋̅ < 8.47)\n6.49 − 7.48 𝑋̅ − 7.48 8.47 − 7.48\n= 𝑃 ( < < )\n0.51 0.51 0.51\n= 𝑃(−1.96 < 𝑍 < 1.96) = 0.975 − 0.025 = 0.95\nc) We assume that 𝑋̅ is normal distributed, or the sample size is sufficiently large that the central\nlimit theorem applies.\nNumber of samples pH<5 26"
+  },
+  {
+    "question_number": "7-17",
+    "raw": "The proportion of samples with pH below 5.0 . Proportion = = = 0.67\nNumber of total samples 39"
+  },
+  {
+    "question_number": "7-18",
+    "raw": "a) 𝑋̅ = 19.86,𝑆 = 23.65, When 𝑛 = 8, 𝑆𝐸 = 𝑠 𝑋 = 23.65 = 8.36\n𝑋 𝑋̅\n√𝑛 √8\nb) Using the central limit theorem, 𝑋̅~𝑁(19.86,8.36)\n𝑃((19.86 − 8.36) < 𝑋̅ < (19.86 + 8.36)) = 𝑃(−1 < 𝑍 < 1) = 0.841 − 0.159 = 0.68\nwhere Z is a standard normal random variable.\nc) The central limit theorem applies when the sample size n is large. Here n = 8 may be too small\nbecause the distribution of the counts of maple trees is quite skewed."
+  },
+  {
+    "question_number": "7-19",
+    "raw": "a) Point estimate of the mean proton flux is X̅ = 4958\nb) Point estimate of the standard deviation is S = 3420\nX\nS 3420\nc) Estimate of the standard error is S = X = = 684\nX̅\n√25 5\nd) Point estimate of the median is 3360\ne) Point estimate of the proportion of readings below 5000 is 16/25"
+  },
+  {
+    "question_number": "7-20",
+    "raw": "a) Let X̅ denotes the mean miles and E(X̅) = μ, we further let Y denotes the additional miles\nE(X̅ + Y) = E(X̅)+ E(Y) = μ + 5 ∙ P(head) + (−5) ∙ P(tail)\n= μ + 5 × 0.5 − 5 × 0.5 = μ + 0 = μ\nb) Let Y denote the additional miles. The variance of Y is\nσ2 = E(Y2) − (EY)2 = 52 ∙ P(head)+ (−5)2 ∙ P(tail) = 25 + 25 = 25\nY\n2 2\nσ 2 = σ 2 + σ2 = σ 2 + 25. The standard deviation of Wayne’s estimator is\nX̅+Y X̅ Y X̅\n√σ2 + 25 > σ and this is greater than the standard deviation of the sample mean.\nX̅ X̅\nc) Although Wayne’s estimate is unbiased, it does not make good sense because it has a larger\nvariance."
+  },
+  {
+    "question_number": "7-21",
+    "raw": "Consider 1000 random numbers from a Weibull distribution (shape = 1.5, scale = 2)\n90\n80\n70\n60\n50\n40\n30\n20\n10\n0\n0 1 2 3 4 5 6 7\nx\nNormal probability plot\nycneuqerF\nHistogram of 1000 random number from Weibull (shape=1.5, scale=2.0)\n\n99.99\n99\n95\n80\n50\n20\n5\n1\n0.01\n-4 -2 0 2 4 6 8\nx\nThe data do not appear normally distributed. This Weibull distribution is skewed and has a long\nupper tail. Construct a table similar to Table 7-1\nObs 1 2 3 4 5 6 7 8 9 10\n1 0.59 2.29 0.73 0.52 0.58 0.52 2.09 1.15 3.13 0.44\n2 1.62 2.59 1.63 0.14 2.53 0.16 0.95 4.06 1.91 0.06\n3 1.15 3.67 1.71 1.99 0.52 2.40 1.53 1.72 0.27 1.17\n4 0.54 3.23 2.03 1.18 0.71 0.59 1.04 1.64 1.09 1.19\n5 1.24 3.94 0.51 0.47 0.24 1.22 0.11 1.09 0.87 0.60\n6 1.09 1.39 3.13 0.82 1.79 3.32 0.76 1.87 2.39 1.98\n7 3.63 0.34 2.33 4.20 4.03 1.57 0.60 1.00 1.70 1.71\n8 1.12 2.81 0.43 0.30 0.15 2.88 0.22 1.03 1.70 0.86\n9 1.11 0.62 2.70 1.56 1.90 2.84 4.11 1.44 0.74 3.68\n10 2.88 2.09 1.47 1.85 0.39 1.57 2.91 1.75 1.46 0.60\nmean 1.50 2.30 1.67 1.30 1.28 1.71 1.43 1.68 1.53 1.23\nObs 11 12 13 14 15 16 17 18 19 20\n1 3.19 1.27 2.03 0.97 1.92 3.28 1.68 1.75 3.08 0.10\n2 0.82 1.12 0.39 3.78 3.69 1.22 1.45 1.39 3.97 0.80\n3 3.55 0.78 0.79 2.05 3.89 1.51 0.34 3.57 2.03 0.66\n4 3.36 0.06 1.80 0.62 1.18 0.73 0.67 0.42 1.99 3.04\n5 0.47 4.51 3.61 2.02 1.71 0.71 4.08 3.76 2.77 0.12\n6 0.27 1.23 0.94 3.68 3.08 0.70 0.09 1.78 2.53 2.72\n7 1.85 1.89 1.77 0.38 3.05 2.35 1.00 2.27 1.34 0.48\n8 0.70 1.93 1.16 0.40 3.07 1.24 3.86 0.78 3.04 0.71\n9 4.16 2.10 0.20 2.98 0.48 1.66 2.44 1.51 0.57 0.69\n10 0.89 1.73 1.01 0.36 2.57 1.15 1.64 1.91 2.71 1.54\nmean 1.93 1.66 1.37 1.72 2.46 1.45 1.73 1.91 2.40 1.09\nThe normal probability plot of sample mean from each sample is much more normally distributed\nthan the raw data.\ntnecreP\nNormal Probability Plot of 1000 random number from Weibull distribution\nNormal - 95% CI\nMean 1.808\nStDev 1.202\nN 1000\nAD 16.795\nP-Value <0.005"
+  },
+  {
+    "question_number": "7-22",
+    "raw": "a) SE Mean = 𝜎 = 𝑆 = 1.816 = 0.406 , Variance = 𝜎2 = 1.8162 = 3.298\n𝑋̅\n√𝑛 √20\nb) Estimate of mean of population = sample mean = 50.184\n𝑆 10.25"
+  },
+  {
+    "question_number": "7-23",
+    "raw": "a) = SE Mean → = 2.05 → 𝑁 = 25\n√𝑁 √𝑁\nMean = 3761.70 = 150.468, Variance = 𝑆2 = 10.252 = 105.0625\n25\nSum of Squares 𝑆𝑆\nVariance = → 105.0625 = → 𝑆𝑆 = 2521.5\n𝑛−1 25−1\nb) Estimate of population mean = sample mean = 150.468"
+  },
+  {
+    "question_number": "7-24",
+    "raw": "a) 𝐸(Θ̂ ) = E( X 1 +X 2) = 1 [E(X ) + E(X )] = 1 [μ + μ] = μ\n1 1 2\n2 2 2\nTherefore, Θ̂ is an unbiased estimator of μ\n1\n𝐸(Θ̂ ) = E( X 1 +3X 2) = 1 [E(X ) + 3E(X )] = 1 [μ + 3μ] = μ\n2 1 2\n4 4 4\nTherefore Θ̂ is an unbiased estimator of μ\n2\nb) 𝑉(Θ̂ ) = V( X 1 +X 2) = 1 [V(X ) + V(X )] = 1 [σ2 + σ2] = σ2\n1 1 2\n2 4 4 2\nX + 3X 1 1 5σ2\n𝑉(Θ̂ ) = V( 1 2 ) = [V(X ) + 32V(X )] = [σ2 + 9σ2] =\n2 1 2\n4 16 16 8"
+  },
+  {
+    "question_number": "7-25",
+    "raw": "𝐸(Θ̂ ) = 𝐸(∑𝑛 (𝑋 − 𝑋̅) 2 /𝑐) = (𝑛 − 1)𝜎2/𝑐\n𝑖=1 𝑖\n(𝑛 − 1)𝜎2 𝑛 − 1\nBias = 𝐸(Θ̂ ) − 𝜃 = − 𝜎2 = 𝜎2( − 1)\n𝑐 𝑐\n 2n \n  X \ni 1  2n  1"
+  },
+  {
+    "question_number": "7-26",
+    "raw": "E ( X ) = E  i=1  = E  X  = ( 2n ) = \n1   i\n2n 2n 2n\n \ni=1\n \n \n\n n \n  X \ni 1  n  1\nE ( X ) = E  i=1  = E  X  = ( n ) = \n2   i\nn n n\n \ni=1\n \n \nX and X are unbiased estimators of .\n1 2\n2 2\n( ) ( )\nThe variances are V X = and V X = ; compare the MSE (variance in this case),\n1 2\n2n n\nˆ\nMSE( ) 2 / 2n n 1\n1 = = =\nMSE( ˆ ) 2 / n 2n 2\n2\nBecause both estimators are unbiased, one concludes that X is the “better” estimator with the\n1\nsmaller variance."
+  },
+  {
+    "question_number": "7-27",
+    "raw": "E\n( )\n \n  \nˆ\n1\n=\n1\n7\nE ( X\n1\n) + E ( X\n2\n) +  + E ( X\n7\n) =\n1\n7\n( 7 E ( X ) ) =\n1\n7\n( 7 ) =\nE\n( )\n \n    \nˆ\n2\n=\n1\n2\nE ( 2 X\n1\n) + E ( X\n6\n) + E ( X\n7\n) =\n1\n2\n[ 2 − + ] =\na) Both ˆ\n1\n and ˆ\n2\n are unbiased estimates of  because the expected values of these statistics are\nequivalent to the true mean, .\nb)\n(\n4\nˆ\n1\n9\n1\n)\n( 7 2 )\n1\n1\n7\n2\n2\n7\n. . .\n7\n7\n1\n2\n(\n(\n1\n) (\n2\n) (\n7\n)\n)\n \nV\n=\n = V\n X\n=\n+ X + + X \n= V X + V X +  + V X\n(\nˆ\n1\n)\n7\n2 \nV  =\nV\n=\n(\n\n1\n4\nˆ\n2\n( 4\n)\nV\n= V\n( X\n\n1\n2\n)\nX\n+\n1\nV\n−\n( X\nX\n2\n6\n6\n)\n+\n+\nX\nV\n4\n(\n\nX\n=\n4\n)\n2\n)\n1\n2\n(\nV ( 2 X\n1\n) + V ( X\n6\n) + V ( X\n4\n)\n)\n1 ( ) 1\n=\n42 +2 +2\n=\n(62)\n4 4\n32\nˆ\nV( ) =\n2\n2\nBecause both estimators are unbiased, the variances can be compared to select the better\nestimator. Because the variance of  ˆ is smaller than that of  ˆ , ˆ is the better estimator.\n1 2 1"
+  },
+  {
+    "question_number": "7-28",
+    "raw": "Because both  ˆ and  ˆ are unbiased, the variances of the estimators can compared to select the\n1 2\nbetter estimator. Because the variance of   is smaller than that of  ˆ ,   is the better estimator.\n2 1 2\n\n\nˆ\nMSE() V() 10\nRelative Efficiency = 1 = 1 = = 2.5\nMSE( ˆ ) V( ˆ ) 4\n2 2"
+  },
+  {
+    "question_number": "7-29",
+    "raw": "E( ˆ ) = E( ˆ ) =/2\n1 2\nBias = E(\nˆ\n)−\n2\n \n= − = −\n2 2\nV( ˆ )= 10 V( ˆ ) = 4\n1 2\nFor unbiasedness, use  ˆ because it is the only unbiased estimator.\n1\nAs for minimum variance and efficiency we have\n(V( ˆ )+ Bias2)\nRelative Efficiency = 1 1 where bias for  is 0.\n(V( ˆ )+ Bias2) 1\n2 2\nThus,\nRelative Efficiency =\n\n4\n( 1\n+\n0\n\n+\n−\n2\n0\n\n)\n 2 \n=\n(\n1 6\n4\n+\n0\n 2\n)\nIf the relative efficiency is less than or equal to 1, ˆ\n1\n is the better estimator.\nUse ˆ\n1\n , when\n( 1 6\n4\n+\n0\n\n2\n)\n 1\n4 0  ( 1 6 + \n2\n)\n2 4  \n2\n  − 4 .8 9 9 or   4 .8 9 9\nIf − 4 .8 9 9    4 .8 9 9 then use ˆ\n2\n .\nFor unbiasedness, use ˆ\n1\n . For efficiency, use ˆ\n1\n when   − 4 .8 9 9 or   4 .8 9 9 and use ˆ\n2\n when\n− 4 .8 9 9    4 .8 9 9 ."
+  },
+  {
+    "question_number": "7-30",
+    "raw": "  E ( ˆ\n1\n) = No bias ( ˆ\n1\n) 1 2 ( ˆ\n1\n)   V = = M S E\n  E ( ˆ\n2\n) = No bias ( ˆ\n2\n) 1 0 ( ˆ\n2\n)   V = = M S E\n  E ( ˆ\n3\n)  Bias ( ˆ\n3\n) = 6  M S E [note that this includes (bias2)]\nTo compare the three estimators, calculate the relative efficiencies:\n(\n(\nˆ\nˆ\n1\n2\n)\n)\n=\n1\n1\n2\n0\n= 1 . 2\n\n\nM\nM\nS\nS\nE\nE\n, because rel. eff. > 1 use ˆ\n2\n as the estimator for \nˆ\nMSE() 12\n1 = =2 , because rel. eff. > 1 use\nMSE( ˆ ) 6\n3\nˆ\n3\n as the estimator for \nˆ\nMSE( ) 10\n2 = =1.8 , because rel. eff. > 1 use  ˆ as the estimator for \nMSE( ˆ ) 6 3\n3\nConclusion:  ˆ is the most efficient estimator, but it is biased.  ˆ is the best “unbiased”\n3 2\nestimator."
+  },
+  {
+    "question_number": "7-31",
+    "raw": "n = 20, n = 10, n = 8\n1 2 3\nShow that S2 is unbiased.\n\n( )\n20S2 +10S2 +8S2 \nE S2 = E 1 2 3 \n \n38\n \n1 ( ( ) ( ) ( ))\n= E 20S2 + E 10S2 + E 8S2\n38 1 2 3\n1 ( ) 1 ( )\n= 202 +102 +82 = 382 =2\n38 1 2 3 38\nTherefore, S2 is an unbiased estimator of 2 .\n2\nn ( )\n X − X\ni"
+  },
+  {
+    "question_number": "7-32",
+    "raw": "Show that i=1 is a biased estimator of 2\nn\na)\nE\n1\nn\n1\nn\nn\ni\nE\n(\n1\nn\n( X\nn\ni\n2\ni\nn\n1\n( X\nn\nX\ni\n)\n2\n2\nn X\nn\n) 2\n2\n1\nn\n2\n)\ni\nn\n1\nE\n1\nn\n(\n(\nX\n( n\n2i )\n1 )\nn E\n2\n(\n)\nX 2 )\n2\n1\nn\nn\n2\ni\nn\n1\n( 2 2 ) n 2\nn\n2    \n\n     \n=\n=\n\n\n=\n \n=\n+\n−\n−\n\n−\n =\n−\n \n=\n= −\n−\n=\n =\n−\n \n=\n+ −  +  \nTherefore\n\n(\nX\ni\nn\n− X\n) 2\nis a biased estimator of 2\nb) Bias = E\n( X 2i\nn\nn X ) 2\n2 2\nn\n2\n2\nn\n2  \n  \n  − \n− = − − = −\nc) Bias decreases as n increases."
+  },
+  {
+    "question_number": "7-33",
+    "raw": "a) Show that X 2 is a biased estimator of 2. Using E ( X 2 ) = V ( X ) +  E ( X )  2\n2  2 \nE ( X 2 ) = 1 E   n X   = 1  V   n X  +  E   n X    \n \nn2\n\ni\n\nn2 \n\ni\n  \ni\n\n\ni=1  i=1 i=1 \n 2 \n1  n  1 ( )\n=  n2 +  = n2 + ( n )2\nn2 \n \n n2\n i=1 \n1 ( ) ( ) 2\n= n2 + n22 E X 2 = +2\nn2 n\nTherefore, X 2 is a biased estimator of .2\nb) Bias = E\n(\nX 2\n)\n2\nn\n2\n2 2\nn\n2  \n   − = + − =\nc) Bias decreases as n increases."
+  },
+  {
+    "question_number": "7-34",
+    "raw": "a) The average of the 26 observations provided can be used as an estimator of the mean pull force\nbecause we know it is unbiased. This value is 75.615 pounds.\nb) The median of the sample can be used as an estimate of the point that divides the population\ninto a “weak” and “strong” half. This estimate is 75.2 pounds.\n\nc) Our estimate of the population variance is the sample variance or 2.738 square pounds.\nSimilarly, our estimate of the population standard deviation is the sample standard deviation or\n1.655 pounds.\nd) The estimated standard error of the mean pull force is 1.655/261/2 = 0.325. This value is the\nstandard deviation, not of the pull force, but of the mean pull force of the sample.\ne) Only one connector in the sample has a pull force measurement under 73 pounds. Our point\nestimate for the proportion requested is then 1/26 = 0.0385"
+  },
+  {
+    "question_number": "7-35",
+    "raw": "Descriptive Statistics\nVariable N Mean Median TrMean StDev SE Mean\nOxide Thickness 24 423.33 424.00 423.36 9.08 1.85\na) The mean oxide thickness, as estimated by Minitab from the sample, is 423.33 Angstroms.\nb) The standard deviation for the population can be estimated by the sample standard deviation, or 9.08\nAngstroms.\nc) The standard error of the mean is 1.85 Angstroms.\nd) Our estimate for the median is 424 Angstroms.\ne) Seven of the measurements exceed 430 Angstroms, so our estimate of the proportion requested is 7/24\n= 0.2917"
+  },
+  {
+    "question_number": "7-36",
+    "raw": "a)\nE ( ˆp ) = E ( X n ) =\n1\nn\nE ( X ) =\n1\nn\nn p = p\nb) The variance of\nˆp\nis\np ( 1 −\nn\np )\nso its standard error must be\np ( 1 −\nn\np )\n. To estimate this parameter\nwe substitute our estimate of p into it."
+  },
+  {
+    "question_number": "7-37",
+    "raw": "a)\n(\n1 2\n) (\n1\n) (\n2\n)\n1 2\n  E X − X = E X − E X = −\nb) s . e . V ( X\n1\nX\n2\n) V ( X\n1\n) V ( X\n2\n) 2 C O V ( X\n1\n, X\n2\n)\nn\n1\n1\n2\nn\n2\n2\n2\n \n= − = + + = +\nThis standard error can be estimated by using the estimates for the standard deviations\nof populations 1 and 2.\nc)\n (n −1)S 2 +(n −1)S 2  1  \nE(S 2 ) = E  1 1 2 2  = (n −1)E(S 2 ) +(n −1)E(S 2 ) =\np   1 1 2 2\nn + n − 2 n + n − 2\n 1 2  1 2\n1   n + n −2\n= (n −1) 2 +(n −1) 2 ) = 1 2  2 = 2\n1 1 2 2\nn + n −2 n + n −2\n1 2 1 2\nE(ˆ) = E(X +(1−)X ) =E(X ) +(1−)E(X ) =+(1−)= "
+  },
+  {
+    "question_number": "7-38",
+    "raw": "a)\n1 2 1 2\nb)\n\nan\nc) The value of alpha that minimizes the standard error is= 1\nn +an\n2 1\nd) With a = 4 and n =2n , the value of  to choose is 8/9. The arbitrary value of  = 0.5 is too\n1 2\nsmall and results in a larger standard error. With  = 8/9, the standard error is\n(8/9)2n +(1/9)28n 0.667\ns.e.(ˆ)= 2 2 = 1\n1 2n 2 n\n2 2\nIf  = 0.5 the standard error is\ns .e .( ˆ )\n1\n( 0 .5 ) 2 n\n2\n2 n\n(\n2\n0\n2\n.5 ) 2 8 n\n2\n1 .0 6 0\nn\n7\n2\n1\n\n  =\n+\n=\na) E (\nX\nn\n1\n1\n−\nX\nn\n2\n2\n) =\n1\nn\n1\nE ( X\n1\n) −\nn\n1\n2\nE ( X\n2\n) =\n1\nn\n1\nn\n1\np\n1\n−\nn\n1\n2\nn\n2\np\n2\n= p\n1\n− p\n2\n= E ( p\n1\n− p\n2\n)\nb)\np\n1\n( 1\nn\n−\n1\np\n1\n)\n+\np\n2\n( 1\nn\n−\n2\np\n2\n)\nc) An estimate of the standard error could be obtained substituting\nX\nn\n1\n1\nfor p\n1\nand\nX\nn\n2\n2\nfor p\n2\ns.e.(ˆ) = V(X +(1−)X ) = 2V(X )+(1−)2V(X )\n1 2 1 2\n 2  2  2  2\n= 2 1 +(1−)2 2 = 2 1 +(1−)2a 1\nn n n n\n1 2 1 2\n2n +(1−)2an\n= 2 1\n1\nn n\n1 2\nin the equation\nshown in (b).\nd) Our estimate of the difference in proportions is 0.01\ne) The estimated standard error is 0.0413"
+  },
+  {
+    "question_number": "7-40",
+    "raw": "𝑋~𝑙𝑜𝑔𝑛𝑜𝑟𝑚𝑎𝑙(1.5,0.82), 𝑛 = 15,𝑛 = 200, The original samples (n = 15):\n𝐵\n# 1 2 3 4 5\nValue 15.76 1.47 4.94 2.16 8.88\n# 6 7 8 9 10\nValue 1.32 13.40 4.14 4.10 4.19\n# 11 12 13 14 15\nValue 1.97 0.69 2.87 2.01 5.52\nHere 200 bootstrap samples are generated and the sample median is computed for each. The\nstandard error is estimated as the standard deviation of these sample medians, and in this case we\nobtain 1.04.\nR code:\n#generate the first 15 samples from the target distribution\nn=15;\nsample0=rlnorm(n, meanlog = 1.5, sdlog = 0.8);\n#generate bootstrap samples and medians\nnb=200\ndata=matrix(0, nb,n);\nmed=matrix(0, nb,1);\n\nfor (i in c(1: nb))\n{\ndata[i,]=sample(sample0, n, replace = TRUE, prob = NULL)\nmed[i]=median(data[i,])\n}\n#calculate the standard error of the sample median “se”\nse = sd(med)"
+  },
+  {
+    "question_number": "7-41",
+    "raw": "𝑋~𝑒𝑥𝑝(𝜆 = 0.1), 𝑛 = 8,𝑛 = 100, the original sample (n = 8):\n𝐵\n# 1 2 3 4 5 6 7 8\nValue 1.88 4.27 18.15 8.37 26.25 5.76 0.74 7.45\nHere 100 bootstrap samples are generated and the sample median is computed for each. The\nstandard error is estimated as the standard deviation of these sample medians, and in this case we\nobtain 2.85.\nR code:\n#generate the first 8 samples from the target distribution\nn=8\nsample0=rexp(n, rate = 0.1)\n#generate bootstrap samples and medians\nnb=100\ndata=matrix(0,nb,n)\nmed=matrix(0,nb,1);\nfor (i in c(1:nb))\n{\ndata[i,]=sample(sample0, n, replace = TRUE, prob = NULL)\nmed[i]=median(data[i,])\n}\n#calculate the standard error of the sample median “se”\nse=sd(med)"
+  },
+  {
+    "question_number": "7-42",
+    "raw": "𝑋~𝑛𝑜𝑟𝑚(𝜇 = 10, 𝜎2 = 42), 𝑛 = 16, 𝑛 = 200, the original sample (n = 16):\n𝐵\n# 1 2 3 4 5 6 7 8\nValue 4.26 6.59 12.36 7.47 10.84 1.17 17.02 14.10\n# 9 10 11 12 13 14 15 16\nValue 12.30 6.73 16.75 11.87 12.25 7.52 7.10 9.80\nHere 200 bootstrap samples are generated and the sample mean is computed for each. The\nstandard error is estimated as the standard deviation of these sample medians, and in this case we\nobtain 0.96. The bootstrap result is near 1, the true standard error.\nR code\n#generate the first 8 samples from the target distribution\nn=16\nnb=200\nsample0=rnorm(n, mean = 10, sd=4)\n#generate bootstrap samples and means\ndata=matrix(0,nb,n)\nave=matrix(0,nb,1);\nfor (i in c(1:nb))\n{\n\ndata[i,]=sample(sample0, n, replace = TRUE, prob = NULL)\nave[i]=mean(data[i,])\n}\n#calculate the standard error of the sample mean\nse=sd(ave)"
+  },
+  {
+    "question_number": "7-43",
+    "raw": "Suppose that two independent random samples (of size n and n ) from two normal distributions\n1 2\nare available. Explain how you would estimate the standard error of the difference in sample\nmeans 𝑋̅ − 𝑋̅ with the bootstrap method.\n1 2\nOne case use the fact that 𝑉(𝑋̅ − 𝑋̅ ) = 𝑉(𝑋̅ ) + 𝑉(𝑋̅ ) (because the samples are independent)\n1 2 1 2\nso that the standard error of 𝑋̅ − 𝑋̅ is √𝑉(𝑋̅ ) + 𝑉(𝑋̅ ). Then the bootstrap method can be used\n1 2 1 2\nas in the previous exercise to estimate 𝑉(𝑋̅ ) and 𝑉(𝑋̅ ).\n1 2\nf ( x ) = p ( 1 − p ) x − 1\nL ( p ) = \ni\nn\n= 1\np ( 1 − p ) x i − 1 = p n ( 1 − p )\nni=\n1\nx\ni\n− n\nl n\nl n\nL\nL\np\n(\n(\np\np\n)\n)\n0\n0\nˆp\n=\n=\n=\n=\n=\nn\nn\np\n( 1\nn\nn\n\ni =\nl n\n−\n−\n−\nn\n1\nx\np\n\np\np\ni\n+\nn\ni = 1\n1\n)\nn\n\ni =\nn\n1\n\nx\n−\np\nn\n\ni =\n−\ni\np\n−\n( 1\nx\ni\n1\np\n−\nx\nn\n\ni\n\nn\n\ni =\np\n−\n1\n)\nn\n0\nx\ni\n\n−\nl n (\nn\n1\n\n−\n=\np\nn\n)\n− n p −\np ( 1\np \n−\ni\nn\n= 1\np\nx\n)\ni\n+ p n\n\n\nn\ne−x n e−x\ni\ne−n\ni\n\n=1\nx i"
+  },
+  {
+    "question_number": "7-45",
+    "raw": "f (x) = L() =  =\nx! x ! n\ni=1 i  x !\ni\ni=1\n\nd\nln\nln\nd\nL\nL\ni\nn\n=\n(\n(\n1\nx\n)\n)\ni\nˆ\n=\n=\n=\n=\n=\n−\n−\n−\nn\ni\nn\nn\nn\nn\n= 1\nn\n+\n+\nx\nln\n1\ni\ni\nn\n=\ne\ni\n1\n+\nn\n=\nx\n1\ni\nn\ni\n= 1\nx\ni\n=\nx\n\n0\ni\n0\nln − i\nn\n= 1\nln x\ni\n!   \n\n \n\n\n"
+  },
+  {
+    "question_number": "7-46",
+    "raw": "  f ( x ) = ( + 1 ) x\n         L ( ) = \ni\nn\n= 1\n( + 1 ) x\ni\n= ( + 1 ) x\n1\n ( + 1 ) x\n2\n . . . = ( + 1 ) n \ni\nn\n= 1\nx\ni\nl n\nl n\nL\nL\n(\n(\nn\n+\n)\n)\n1\nˆ\n=\n=\n=\n=\nn\n−\n−\nl n\nn\n+\nn\n\ni =\n\ni\n(\n1\nn\n=\n1\n1\nn\n+\n+\nl n\nl\n\nn\n1\nn\ni =\nx\n)\n1\nx\ni\n+\ni\nl\n−\nn\n1\nl n\nx\ni\nx\n=\n1\n+\n0\nl n x\n2\n+ . . . = n l n ( + 1 ) + \ni\nn\n= 1\nl n x\ni\n     \n \n \n\n"
+  },
+  {
+    "question_number": "7-47",
+    "raw": "( ) ( )    f x = e − x − for  x \nL ( ) = \ni\nn\n= 1\ne − ( x − ) = n e\n− i\nn\n= 1\n( x − )\n= n e\n−\n\ni\nn\n= 1\nx − n\n\n   \n     \nn\nln L(,) = nln−x +n\ni\ni=1\ndln L(,) n n\n= −x +n 0\ni\nd \ni=1\nn n\n= x −n\ni\n\ni=1\n n \n ˆ = n/x −n\ni\n \ni=1\n1\nˆ\n=\nx −\n\nThe other parameter cannot be estimated by setting the derivative of the log likelihood with\nrespect to  to zero because the log likelihood is a linear function of . The range of the likelihood\nis important.\nThe joint density function and therefore the likelihood is zero for  < Min(X ,X ,,X ) . The term\n1 2 n\nin the log likelihood -n is maximized for  as small as possible within the range of nonzero\nlikelihood. Therefore, the log likelihood is maximized for estimated with\nMin(X ,X ,,X )\nso\n1 2 n\nthat  ˆ = x\nmin\nb) Example: Consider traffic flow and let the time that has elapsed between one car passing a fixed\npoint and the instant that the next car begins to pass that point be considered time headway. This\nheadway can be modeled by the shifted exponential distribution.\nExample in Reliability: Consider a process where failures are of interest. Suppose that a unit is\nput into operation at x = 0, but no failures will occur until  time units of operation. Failures will\noccur only after the time .\n\n\n= \n=\n=\n−\n −\n=  −  −\n\n  \n\n\n\n \n\nL (\nl n\n)\nL (\ni\nn\n)\n1\nx\ni\ne\n1\n2\nx\n2\ni\nx\ni\nl\n2\nn\nn\nL ( ) l n ( x\ni\n)\nx\ni\n2 n l n\nSetting the last equation equal to zero and solving for theta yields\nˆ\n=\ni\nn\n=\n2\n1\nn\nx\ni\n"
+  },
+  {
+    "question_number": "7-49",
+    "raw": "E ( X ) =\na −\n2\n0\n=\n1\nn\ni\nn\n= 1\nX\ni\n= X , therefore: ˆa = 2 X\nThe expected value of this estimate is the true parameter, so it is unbiased. This estimate is\nreasonable in one sense because it is unbiased. However, there are obvious problems. Consider the\nsample x =1, x = 2 and x =10. Now x = 4.37 and\n1 2 3\nˆa = 2 x = 8 . 6 6 7 . This is an unreasonable\nestimate of a, because clearly a  10.\n1\n1 2\nx"
+  },
+  {
+    "question_number": "7-50",
+    "raw": "a)  c(1+x)dx = 1 = (cx + c ) = 2c\n2\n−1 −1\nso that the constant c should equal 0.5\n1 n  1 n\nb) E(X ) =  X =  ˆ = 3  X\ni i\nn 3 n\ni=1 i=1\n\n 1 n  \nˆ\nc) E() = E3  X  = E(3X) = 3E(X) = 3 =\n i \nn 3\n i=1 \nd)\nn n\n1 1\nL() =  (1+X ) ln L() = nln( ) + ln(1+X )\ni i\n2 2\ni=1 i=1\nn\nln L() X\ni\n= \n (1+X )\ni=1 i\nBy inspection, the value of  that maximizes the likelihood is max (X)\ni"
+  },
+  {
+    "question_number": "7-51",
+    "raw": "a)\nE ( X\n2\n) = 2 =\n1\nn\ni\nn\n= 1\nX i\n2\n so ˆ =\n2\n1\nn\ni\nn\n= 1\nX\ni\n2 \nb)\n\n\n= \n=\n=\n−\n −\n=  −  −\n\n  \n \n\n \n\nL (\nl n\n)\nL (\ni\nn\n)\n1\nx e\ni\n2\n1\nx\n2\ni\n2 2\nx\ni\n2\nl n\nn\nL ( ) l n ( x\ni\n)\nx\n2\ni\n2\nn l n\nSetting the last equation equal to zero, the maximum likelihood estimate is\nˆ =\n2\n1\nn\ni\nn\n= 1\nX\ni\n2 \nand this is the same result obtained in part (a)\nc)\n0\n( )\n2 l\n0\nn (\n. 5\n0 . 5 )\n1\n2\n2 / 2\nl n ( 2 )\n\n \na\n\na\nf\n=\nx\n−\nd x = = −\n=\ne − a\nWe can estimate the median (a) by substituting our estimate for  into the equation for a."
+  },
+  {
+    "question_number": "7-52",
+    "raw": "a) aˆ cannot be unbiased since it will always be less than a.\nna a(n +1) a\nb) bias = − = − → 0.\nn +1 n +1 n +1 n→\nc)2X\nn\n y \nd) P(Yy)=P(X , …,X  y)=[P(X y)]n=  . Thus, f(y) is as given. Thus,\n1 n 1\n a \nan a\nbias = E(Y) – a = − a = − .\nn +1 n +1\n\ne) For any n >1, n(n+2) > 3n so the variance of aˆ is less than that of aˆ . It is in this sense that the second\n2 1\nestimator is better than the first."
+  },
+  {
+    "question_number": "7-53",
+    "raw": "a)\nn  x  −1 −   x i    − n   x i    n  x  −1\nL(,) =   i  e  = e i=1    i \n \ni=1 i=1\n= \n=\n\n( )\n−\n\n− \n \n= + − \n( )\n− \n( )\n\n \n   \n    \n\nl n L ( , )\ni\nn\n1\nl n x i\n1\nx\ni n l n ( ) ( 1 ) l n x i x i\nb)\nl\nl\nn\nn\n(\n(\n,\n,\n)\n)\n=\n= −\n+\n−\n\n(\nl n\n−\n(\n1\n)\n)\n− \n+\nl n\n(\n\n) (\n+ 1\n)  \n\n    \n  \n \n   \nL\nL\nn\nn\nx i\nn\nx i\nx\nx i\ni\n \nUpon setting\n\nl n L ( , )\nequal to zero, we obtain\n\n\n   n =  x\ni\na n d =\n  x\nn\ni\n\n1 /\n \nUpon setting\n\nl n L ( , )\nequal to zero and substituting for , we obtain\nn\n+ \nn\n+\nx\n\ni\n−\nn\nx\ni\n−\n\nn\n x\nn\ni\n\n=\n=\n\nn\nx\n\ni\nx\n\ni\nx\ni\nx\ni\n−\nx\ni\n−\n\nn\nx\ni\n x\ni\n\n x\nn\ni\n\n  \n \n \n \n    \nl n\nl n\nl n\nl n\n1\n( l n\nl n\nl n )\n1 l n\nand\n1\n=\n  x\n\ni\nx\nl n\ni\nx\ni +\n l n\nn\nx\ni\n \n \nc) Numerical iteration is required."
+  },
+  {
+    "question_number": "7-54",
+    "raw": "a) Using the results from the example, we obtain that the estimate of the mean is 423.33 and the estimate of\nthe variance is 82.4464\nb)\n0\n-200000\n-400000\nlo g L\n-600000\n435\n430\nS t 7 d . 8 D e 9 v . 10 1 1 12 1 3 1 4 15 41 0 41 5\n42 0\n425\nMe a n\nThe function has an approximate ridge and its curvature is not too pronounced. The maximum value for\nstandard deviation is at 9.08, although it is difficult to see on the graph.\n\nc) When n is increased to 40, the graph looks the same although the curvature is more pronounced. As n\nincreases, it is easier to determine the maximum value for the standard deviation is on the graph.\n(2 / n) +2x"
+  },
+  {
+    "question_number": "7-55",
+    "raw": "From the example, the posterior distribution for  is normal with mean 0 0 and\n2 2 / n\n+\n0\n2 /(2 / n)\nvariance 0 . The Bayes estimator for  goes to the MLE as n increases. This\n2 2 / n\n+\n0\n2x\nfollows because 2 / n goes to 0, and the estimator approaches 0 (the 2 ’s cancel). Thus,\n0\n2\n0\nin the limit ˆ = x .\n2\n1 − (x−) 1"
+  },
+  {
+    "question_number": "7-56",
+    "raw": "a) Because f (x |) = e 2 2 and f () = for a   b , the joint\n2 b − a\ndistribution is\n( , )\n(\n1\n) 2\n(\n2\n)\n2\n2\n\n \n\nf x =\nb − a\ne\n−\nx −\nfor - < x <  and a    b .\n\nThen,  \n\nf ( x ) =\nb\n1\n− a\nb\na\n2\n1\ne\n−\n( x −\n2\n)\n2\n2\nd\nand this integral is recognized as a normal probability. Therefore,\n ( ) ( ) \n \nf ( x ) =\nb\n1\n− a\n b − x −  a − x\nwhere (x) is the standard normal cumulative distribution function. Then\n ( ) ( ) \n\n \n\n\n \nf ( | x ) =\nf (\nf\nx\n(\n,\nx )\n)\n=\n2 \ne\n−\nb\n( x −\n2\n− x\n)\n2\n2\n−  a − x\nb) The Bayes estimator is\n=\nb\na\n\ne\n\n−\n(\nx\nb\n−\n− x\n)\nd\n− \n(\na − x\n) \n\n  \n\n\n \n~\n2\n(\n2\n)\n2\n2\n.\nLet v = (x - ). Then, dv = - d and\n2 2\n~ x−a (x − v)e − 2 v  2dv x   ( x−a ) −  ( x−b ) x−a ve − 2 v  2dv\n=  =   − \n ( ) ( )  ( ) ( )  ( ) ( )\n2 b−x −  a−x  b−x −  a−x 2 b−x −  a−x\nx−b     x−b  \nv2\nLet w = . Then, dw =[ 2v ]dv =[ v ]dv and\n22 22 2\n(x−a)2  −(x−a)2 −(x−b)2 \n~ 22 e−wdw  e 22 −e 22 \n= x−  = x+\n2   ( b−x ) − ( a−x ) 2   ( b−x ) − ( a−x )\n(x−b)2      \n \n22\nm+1 −(m+1) \ne−x \nm +1\n me 0"
+  },
+  {
+    "question_number": "7-57",
+    "raw": "a) f (x) = for x = 0, 1, 2, and f () =   for  > 0.\nx!    (m +1)\n0\nThen,\n\n( m +1 )m+1 m+xe −−(m+1)   0\nf (x,) = .\nm+1(m +1)x!\n0\nThis last density is recognized to be a gamma density as a function of . Therefore, the posterior\nm +1\ndistribution of  is a gamma distribution with parameters m + x + 1 and 1 + .\n\n0\nb) The mean of the posterior distribution can be obtained from the results for the gamma\ndistribution to be\nm + x +1  m + x +1 \n  = \n \nm+1 0 m + +1\n1+  \n0\n\n0\n9 (4) +1(4.85)\n~\n7-58 a) From the example, the Bayes estimate is = 25 = 4.625\n9 +1\n25\nb.)\nˆ = x = 4 . 8 5  The Bayes estimate appears to underestimate the mean."
+  },
+  {
+    "question_number": "7-59",
+    "raw": "a) From the example,\n~\n=\n( 0 . 0 1 ) ( 5 .\n0\n0\n.\n3\n0\n)\n1\n+\n+\n(\n12\n12\n5\n5\n) ( 5 . 0 5 )\n= 5 . 0 4 6 \nb) ˆ = x = 5 . 0 5  The Bayes estimate is very close to the MLE of the mean."
+  },
+  {
+    "question_number": "7-60",
+    "raw": "a) f ( x | ) = e − x , x  0    and   f ( ) = 0 . 0 1 e − 0 .0 1 . Then,\nf ( x\n1\n, x\n2\n, ) = 2 e − ( x 1 + x 2 ) 0 . 0 1 e − 0 .0 1 = 0 . 0 1 2 e − ( x 1 + x 2 + 0 .0 1 )       .\nAs a function of , this is recognized as a gamma density with parameters 3 and x\n1\n+ x\n2\n+ 0 . 0 1 .\nTherefore, the posterior mean for  is\n~\n=\nx\n1\n+ x\n3\n2\n+ 0 . 0 1\n=\n2 x +\n3\n0 . 0 1\n= 0 . 0 0 1 3 3  .\nb) Using the Bayes estimate for , P(X<1000)=\n1 0 0\n0\n0\n0 . 0 0 1 3 3 e − .0 0 1 3 3 x d x = 0.736\nSupplemental Exercises\nn"
+  },
+  {
+    "question_number": "7-61",
+    "raw": "f (x , x ,...,x ) = e−x i for x  0, x  0,...,x  0\n1 2 n 1 2 n\ni=1\n5\n 1   5 (x −)2 "
+  },
+  {
+    "question_number": "7-62",
+    "raw": "f (x , x , x , x , x ) =   exp−  i \n \n1 2 3 4 5  2  i=1 22 "
+  },
+  {
+    "question_number": "7-63",
+    "raw": "f (x ,x ,x ,x ) =1 for 0  x 1,0  x 1,0  x 1,0  x 1\n1 2 3 4 1 2 3 4\n1.52 22\nX − X ~ N(100−105, + )\n1 2\n25 30\n~ N(−5,0.2233)"
+  },
+  {
+    "question_number": "7-65",
+    "raw": "X ~ N(50,144)\n( )\nP(47  X  53) = P 47−50  Z  53−50 = P(−1.5  Z 1.5)\n12/ 36 12/ 36\n= P(Z 1.5) − P(Z  −1.5) = 0.9332−0.0668 = 0.8664\nX\nNo, because Central Limit Theorem states that with large samples (n  30), is approximately\nnormally distributed."
+  },
+  {
+    "question_number": "7-66",
+    "raw": "Assume\nX is approximately normally distributed.\nP ( X  4 9 8 5 ) = 1\n=\n−\n1 −\nP (\nP\nX\n( Z\n\n\n4 9\n−\n8\n1\n5\n5\n)\n. 4\n=\n5\n1\n)\n−\n=\nP\n1 −\n( Z\n0\n\n= 1\n4 9\n1\n8\n0\n5\n0\n−\n/\n5 5 0\n9\n0 )\nz =\nX\ns /\n−\nn\n=\n5 2\n2\n−\n/\n5\n1\n0\n6\n= 5 . 6 5 6 9\n\nP(Z > z) ≈ 0. The results are very unusual."
+  },
+  {
+    "question_number": "7-68",
+    "raw": "P ( X  3 7 ) = P ( Z  − 5 . 3 6 )  0"
+  },
+  {
+    "question_number": "7-69",
+    "raw": "Binomial with p equal to the proportion of defective chips and n = 100.\n  \nE ( a X\n1\n+ ( 1 − a ) X\n2\n= a + ( 1 − a ) =\nV(X) =V[aX +(1−a)X ]\n1 2\n= a2V(X )+(1−a)2V(X ) = a2(2)+(1−2a+a2)(2)\n1 2 n n\n1 2\na22 2 2a2 a22 2\n= + − + = (n a2 +n −2n a+n a2)( )\nn n n n 2 1 1 1 n n\n1 2 2 2 1 2\nV(X) 2\n= ( )(2n a−2n +2n a)  0\na n n 2 1 1\n1 2\n0 = 2n a−2n +2n a\n2 1 1\n2a(n +n ) = 2n\n2 1 1\na(n +n ) = n\n2 1 1\nn\na = 1\nn +n\n2 1\n\n−x\nn n\n 1   i n\n2\nL() =   ei=1  x\n  i\n3\n 2 \ni=1\n 1  n n x\ni\nln L() = nln  + 2ln x − \n  i\n 2 3  \ni=1 i=1\nln L() −3n n x\ni\n= + \n   2\ni=1\nMaking the last equation equal to zero and solving for , we obtain\nn\nx\ni\n ˆ = i=1 as the maximum likelihood estimate.\n3n\nL\nln\n\n(\nL\nln\n\n)\n(\nL\n=\n(\n) =\n)\nn\ni\nn\n=\nn\n= 1\nln\nn\nx\ni\n+\n− 1\n+ (\nni\n= 1\nln\n−\n(\n1\nx\n)\ni\nni\n=\n)\n1\nln ( x\ni\n)\n\n \n  \n\n \nmaking the last equation equal to zero and solving for theta, we obtain the maximum likelihood estimate\nˆ\n=\ni\nn\n= 1\n−\nl n\nn\n( x\ni\n)\n\nL\nln\n\n(\nL\nln\n\n)\n(\nL\n=\n)\n(\n1\n=\n)\nn\n−\n=\n\nn\ni=\nn\n−\n1\nln\nx\nn\ni\n1\n−\n−\n+\n1\n1\n2\n−\nn\ni=\n1\nn\ni=\n1\nln (\nln\nx\ni\n(\n)\nx\ni\n)\n\n\n\n\n\n \n\n\n  \nUpon setting the last equation equal to zero and solving for the parameter of interest, we obtain the\nmaximum likelihood estimate\n1 n\nˆ\n= − ln(x )\ni\nn\ni=1\n 1 n  1  n  1 n\nE( ˆ ) = E − ln( x ) = E − ln( x ) = − E[ln( x )]\n   \ni i i\nn n n\n   \ni=1 i=1 i=1\n1 n n\n= = =\nn n\ni=1\n\n1−\n1 1−\nE(ln( X )) = (ln x)x  dx let u = ln x and dv = x  dx\ni\n0\n1 1−\nthen, E(ln( X)) = − x  dx = −\n0"
+  },
+  {
+    "question_number": "7-74",
+    "raw": "a) Let 𝐸𝑋̅2 = 𝜃. Then 𝑉(𝑋̅) = 𝐸(𝑋̅2) − (𝐸𝑋̅)2 . Therefore 𝜎2/𝑛 = 𝜃−𝜇2 and 𝜃 = 𝜎2/𝑛 + 𝜇2\nTherefore, 𝑋̅2 is a biased estimator of the area of the square.\nb) 𝐸(𝑋̅2 − 𝑆2/𝑛) = 𝜎2/𝑛 + 𝜇2 − 𝐸(𝑆2)/𝑛 = 𝜇2\n23.1+15.6+17.4+⋯+28.7"
+  },
+  {
+    "question_number": "7-75",
+    "raw": "𝜇̂ = 𝑥̅ = = 21.86\n10\nDemand for all 5000 houses is  = 5000\n𝜃̂ = 5000𝜇̂ = 5000(21.86) = 109,300\n7\nThe proportion estimate is 𝑝̂ = = 0.7\n10\nMind-Expanding Exercises\nP ( X\n1\n= 0 , X\n2\n= 0 ) =\nM\nN\n(\n(\nM\nN\n−\n−\n1\n1\n)\n)\nP ( X\n1\n= 0 , X\n2\n= 1 ) =\nM\nN\n( N\n( N\n−\n−\nM\n1 )\n)\nP\nP\n(\n(\nX\nX\n1\n1\n=\n=\n1\n1\n,\n,\nX\nX\n2\n2\n=\n=\n0\n1\n)\n)\n=\n=\n(\n(\nN\nN\nN\n−\n(\n−\nN\nM\nM\nN\n−\n) M\n1 )\n) ( N\n( N −\n−\n1\nM\n)\n− 1 )\nP\nP\nP\nP\n(\n(\n(\n(\nX\nX\nX\nX\n1\n1\n2\n2\n=\n=\n=\n=\n0 )\n1 )\n0 )\n1 )\n=\n=\n=\n=\nM\nN\nP\n=\nP\n=\n/\n−N\n( X\nM\nN\n( X\nN\nN\nN\nM\n=\n2\n− 1\n− 1\n= 1\n2\n− M\n− 1\n0\n\n|\nM\nN\n| X\n\nX\n1\nM\nN\n1\n+\n=\n=\n+\nN\n0\n0\nM\n)\nN\n) P\n−\nP\n(\n1\n( X\n−\nN\nX\n\n1\nM\n−\n1\nN\n=\n1\n=\n−\n−\nN\n0\n1\n0 )\nM\n) +\n\n+\nN\nP\nP\n=\n(\n−\nN\n(\nX\nX\nM\nN\nM\n2\n2\n=\n=\n=\n1\n0\n|\nN\n|\nX\nX\n1\n−\nN\n1\n=\nM\n=\n1\n1\n)\n)\nP\nP\n(\n(\nX\nX\n1\n1\n=\n=\n1\n1\n)\n)\nM\nM−1\nBecause P(X = 0| X = 0) = is not equal to P(X = 0) = , X and X are not\n2 1 N−1 2 N 1 2\nindependent."
+  },
+  {
+    "question_number": "7-77",
+    "raw": "a)\n[(n −1)/2]\nc =\nn\n(n/2) 2/(n −1)\nb) When n = 10, c = 1.0281. When n = 25, c = 1.0105. Therefore S is a reasonably good estimator for the\nn n\nstandard deviation even when relatively small sample sizes are used.\n\na) The likelihood is\n𝑛\n1 −(𝑥 −𝜇 )2 1 −(𝑦 −𝜇 )2\n𝑖 𝑖 𝑖 𝑖\n𝐿 = ∏ 𝑒 2𝜎2 ⋅ 𝑒 2𝜎2\n√2𝜋𝜎2 √2𝜋𝜎2\n𝑖=1\nThe log likelihood function is\n𝑛\n(𝑥 − 𝜇 )2 (𝑦 − 𝜇 )2\n𝑖 𝑖 𝑖 𝑖\n−2ln(𝐿) = ∑ [ + + 4ln(√2𝜋𝜎2)]\n𝜎2 𝜎2\n𝑖=1\n𝑛\n1\n= ∑[(𝑥 − 𝜇 )2 + (𝑦 − 𝜇 )2]+ 4𝑛ln(√2𝜋𝜎2)\n𝜎2 𝑖 𝑖 𝑖 𝑖\n𝑖=1\n𝑛\n1\n= ∑[𝑥2 + 𝑦2 − 2𝜇 (𝑥 + 𝑦 ) + 2𝜇 2]+4𝑛ln(√2𝜋) + 2𝑛ln (𝜎2)\n𝜎2 𝑖 𝑖 𝑖 𝑖 𝑖 𝑖\n𝑖=1\nTake the derivative of each 𝜇 and set it to zero\n𝑖\n∂(−2ln(𝐿)) −2(𝑥 + 𝑦 ) + 4𝜇\n𝑖 𝑖 𝑖\n= = 0\n∂𝜇 𝜎2\n𝑖\nto obtain\n𝑥 + 𝑦\n𝑖 𝑖\n𝜇̂ =\n𝑖\n2\nTo find the maximum likelihood estimator of 𝜎2, substitute the estimate for 𝜇 and take the\n𝑖\nderivative with respect to 𝜎2\n𝑛\n∂(−2ln(𝐿)) 1 2𝑛\n= − ∑[(𝑥 − 𝜇̂ )2 + (𝑦 − 𝜇̂ )2] +\n∂𝜎2 𝜎4 𝑖 𝑖 𝑖 𝑖 𝜎2\n𝑖=1\n𝑛\n∂(−2ln(𝐿)) 1 2(𝑥 − 𝑦 )2 2𝑛\n𝑖 𝑖\n= − ∑ +\n∂𝜎2 𝜎4 4 𝜎2\n𝑖=1\n∑𝑛 (𝑥 − 𝑦 )2 2𝑛\n𝑖=1 𝑖 𝑖\n= − +\n2𝜎4 𝜎2\nSet the derivative to zero and solve\n∑𝑛 (𝑥 − 𝑦 )2\n𝜎̂2 = 𝑖=1 𝑖 𝑖\n4𝑛\nb)\n𝑛 𝑛\n1 1\n𝐸(𝜎̂2) = ∑𝐸(𝑦 − 𝑥 )2 = ∑𝐸(𝑦2 + 𝑥2 − 2𝑥 𝑦 )\n𝑖 𝑖 𝑖 𝑖 𝑖 𝑖\n4𝑛 4𝑛\n𝑖=1 𝑖=1\n𝑛 𝑛\n1 1 𝜎2\n= ∑[𝐸(𝑦2) + 𝐸(𝑥2) − 𝐸(2𝑥 𝑦 )] = ∑[𝜎2 + 𝜎2 + 0] =\n𝑖 𝑖 𝑖 𝑖\n4𝑛 4𝑛 2\n𝑖=1 𝑖=1\n\nTherefore, the estimator is biased. The bias is independent of n.\nc) An unbiased estimator of\n2\nis given by\n2ˆ2\n1 1"
+  },
+  {
+    "question_number": "7-79",
+    "raw": "P\n\n| X −|\nc\n  from Chebyshev's inequality. Then, P\n\n| X −|\nc\n 1− . Given an , n\n n  c2  n  c2\nand c can be chosen sufficiently large that the last probability is near 1 and c is equal to .\nn\n( ) ( )"
+  },
+  {
+    "question_number": "7-80",
+    "raw": "a) P X  t = P X  t for i =1,...,n =[F ( t ) ]n\n(n) i\n( ) ( )\nP X  t = P X  t for i =1,...,n =[1− F ( t ) ]n\n(1) i\n( )\nThen, P X  t =1−[1− F ( t ) ]n\n(1)\nb)\nf\nf\nX\nX\n(1\n( n\n)\n)\n(\n(\nt\nt\n)\n)\n=\n=\nt\nt\nF\nF\nX\nX\n(1 )\n( n )\n( t\n( t\n)\n)\n=\n=\nn\nn\n[ 1\n[ F\n−\n(\nF\nt )\n(\n]\nt\nn\n)\n−\n]\n1\nn\nf\n−\n(\n1\nt\nf\n)\n( t )\n\n\n\n\nc) P\n(\nX\n( 1 )\n= 0\n)\n= F\nX\n(1 )\n( 0 ) = 1 − [ 1 − F ( 0 ) ] n = 1 − p n because F(0) = 1 - p.\nP\n(\nX\n( n )\n= 1\n)\n= 1 − F\nX\n( n )\n( 0 ) = 1 − [ F ( 0 ) ] n = 1 − ( 1 − p ) n\nd)\n( ) ( )\n \n\n\nP X  t = F t =  t −\n. From a previous exercise,\n(1\n(\n)\n)\n(\n(\n)\n)\n 1\n \n\n\n\n1\n1\n2\n1\n2\n1\n( 2 ) 2\n(\n2\n2 ) 2\n2\n  \n\n\n  \n\n\nf\nf\nX\nX\nn\nt\nt\n=\n=\nn\nn \n− \nt −\nt −\nn −\nn −\ne −\ne\nt −\n− t −\ne) P ( X t ) e t   = 1 − −\nFrom a previous exercise,\nF\nX\n( t ) e n t \n(1 )\n= 1 − − f\nX\n( t ) n e n t  \n(1 )\n= −\nF\nX\n( n )\n( t ) [ 1 e t ] n  = − − f\nX\nn\n( t ) n e t n e t   \n( )\n= [ 1 − − ] − 1 −\n( ( ) ) ( )"
+  },
+  {
+    "question_number": "7-81",
+    "raw": "P F X  t = P X  F−1( t ) = tn for 0t1 from a previous exercise.\n(n) (n)\nIf Y = F(X ), then f (y) = nyn−1,0  y 1 .\n(n) Y\n1\nn\nE(Y) = nyndy =\nThen,\nn +1\n0\n( ( ) ) ( )\nP F X  t = P X  F−1( t ) =1−(1−t)n 0  t 1from a previous exercise.\n(1) (1)\nIf Y = F(X ) , then f (y) = n(1−t)n−1,0  y 1 .\n(1) Y\n\n1\n1\nThen, E(Y) =  yn(1− y)n−1dy = where integration by parts is used. Therefore,\nn +1\n0\nn 1\nE[F(X )] = and E[F(X )] =\n(n) (1)\nn +1 n +1\nn−1"
+  },
+  {
+    "question_number": "7-82",
+    "raw": "E(V) = k [E(X 2 ) + E(X 2) − 2E(X X )]\ni+1 i i i+1\ni=1\nn−1\n= k (2 +2 +2 +2 − 22) = k(n −1)22\ni=1\nTherefore, k = 1\n2(n−1)"
+  },
+  {
+    "question_number": "7-83",
+    "raw": "a) The traditional estimate of the standard deviation, S, is 3.26. The mean of the sample is 13.43 so the\nvalues of\nX\ni\n− X corresponding to the given observations are 3.43, 1.43, 4.43, 0.57, 4.57, 1.57 and 2.57.\nThe median of these new quantities is 2.57 so the new estimate of the standard deviation is 3.81 and this\nvalue is slightly larger than the value obtained from the traditional estimator.\nb) Making the first observation in the original sample equal to 50 produces the following results. The\ntraditional estimator, S, is equal to 13.91. The new estimator remains unchanged."
+  },
+  {
+    "question_number": "7-84",
+    "raw": "a)\nT\nr\n= X\nX\nX\n. .\nX\n( n\n.\n1\n1\n1\n+\n1\n−\n+\n+\n+\n+\nr\nX\nX\nX\n) (\n2\n2\n2\nX\n−\n−\n−\n1\n+\nX\nX\nX\n1\n1\n1\nX\n+\n+\n+\n2\nX\nX\n−\n3\n3\nX\n−\n−\n1\n+\nX\nX\n2\n2\nX\n+\n+\n3\n.\n−\n. . +\nX\n2\nX\n+\nr\n.\n−\n. . +\nX\nr\nX\n− 1\nr\n+\n− X\nr − 1\n)\n1\nBecause X is the minimum lifetime of n items, E(X ) = .\n1 1\nn\nThen, X − X is the minimum lifetime of (n-1) items from the memoryless property of the\n2 1\n1\nexponential and E(X − X ) = .\n2 1\n(n −1)\n1\nSimilarly, E(X − X ) = . Then,\nk k−1\n(n − k +1)\nn n −1 n − r +1 r T  1\nE(T ) = + +...+ = and E r  = = \nr\nn (n −1) (n − r +1)   r  \nV(T /r) =1/(2r)\nb) is related to the variance of the Erlang distribution\nr\n\nV(X) = r /2 . They are related by the value (1/r2). The censored variance is (1/r2) times the\nuncensored variance."
+  }
+]
