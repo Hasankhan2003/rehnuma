@@ -799,6 +799,7 @@ This project is part of an academic Final Year Project. Please contact the autho
 ## 👥 Authors
 
 - **Faseeh Iqbal** — [GitHub](https://github.com/fasih-iqbal)
+- **Faseeh Iqbal** — [GitHub](https://github.com/Hasankhan2003)
 
 ---
 
